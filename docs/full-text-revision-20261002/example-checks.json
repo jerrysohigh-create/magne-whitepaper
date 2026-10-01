@@ -1,0 +1,13 @@
+{
+  "environment": "Isolated local Anvil, chain ID 20250810; no public-network transaction",
+  "checks": [
+    "invalid address",
+    "read 0",
+    "connect",
+    "simulate and send local increment",
+    "receipt and read 1",
+    "wrong chain rejected",
+    "missing provider handled"
+  ],
+  "errors": []
+}

@@ -1,0 +1,766 @@
+{
+  "checks": [
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "learning/tokenomics",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [
+        {
+          "percent": 30,
+          "amount": 3000000000,
+          "bar": 0.3
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 8,
+          "amount": 800000000,
+          "bar": 0.08
+        },
+        {
+          "percent": 7,
+          "amount": 700000000,
+          "bar": 0.07
+        },
+        {
+          "percent": 3,
+          "amount": 300000000,
+          "bar": 0.03
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        }
+      ],
+      "table": "Mining Nodes\t3,000,000,000 MHA\t30%\nStaking Nodes\t1,500,000,000 MHA\t15%\nEcosystem/DAO\t1,500,000,000 MHA\t15%\nTeam & Advisors\t1,000,000,000 MHA\t10%\nVC\t1,000,000,000 MHA\t10%\nEarly Supporters\t800,000,000 MHA\t8%\nEarly Liquidity Market Makers\t700,000,000 MHA\t7%\nSubscription/Public Sale\t300,000,000 MHA\t3%\nEquipment-Sale Agents\t100,000,000 MHA\t1%\nExchange Campaigns\t100,000,000 MHA\t1%"
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "learning/mha",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "solutions/hardware",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "networks/explorer",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "learning/tokenomics",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [
+        {
+          "percent": 30,
+          "amount": 3000000000,
+          "bar": 0.3
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 8,
+          "amount": 800000000,
+          "bar": 0.08
+        },
+        {
+          "percent": 7,
+          "amount": 700000000,
+          "bar": 0.07
+        },
+        {
+          "percent": 3,
+          "amount": 300000000,
+          "bar": 0.03
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        }
+      ],
+      "table": "Mining Nodes\t3,000,000,000 MHA\t30%\nStaking Nodes\t1,500,000,000 MHA\t15%\nEcosystem/DAO\t1,500,000,000 MHA\t15%\nTeam & Advisors\t1,000,000,000 MHA\t10%\nVC\t1,000,000,000 MHA\t10%\nEarly Supporters\t800,000,000 MHA\t8%\nEarly Liquidity Market Makers\t700,000,000 MHA\t7%\nSubscription/Public Sale\t300,000,000 MHA\t3%\nEquipment-Sale Agents\t100,000,000 MHA\t1%\nExchange Campaigns\t100,000,000 MHA\t1%"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "learning/mha",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "solutions/hardware",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "networks/explorer",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "route": "learning/tokenomics",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [
+        {
+          "percent": 30,
+          "amount": 3000000000,
+          "bar": 0.3
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 8,
+          "amount": 800000000,
+          "bar": 0.08
+        },
+        {
+          "percent": 7,
+          "amount": 700000000,
+          "bar": 0.07
+        },
+        {
+          "percent": 3,
+          "amount": 300000000,
+          "bar": 0.03
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        }
+      ],
+      "table": "Mining Nodes\t3,000,000,000 MHA\t30%\nStaking Nodes\t1,500,000,000 MHA\t15%\nEcosystem/DAO\t1,500,000,000 MHA\t15%\nTeam & Advisors\t1,000,000,000 MHA\t10%\nVC\t1,000,000,000 MHA\t10%\nEarly Supporters\t800,000,000 MHA\t8%\nEarly Liquidity Market Makers\t700,000,000 MHA\t7%\nSubscription/Public Sale\t300,000,000 MHA\t3%\nEquipment-Sale Agents\t100,000,000 MHA\t1%\nExchange Campaigns\t100,000,000 MHA\t1%"
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "route": "learning/mha",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "route": "solutions/hardware",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "route": "networks/explorer",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "learning/tokenomics",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [
+        {
+          "percent": 30,
+          "amount": 3000000000,
+          "bar": 0.3
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 8,
+          "amount": 800000000,
+          "bar": 0.08
+        },
+        {
+          "percent": 7,
+          "amount": 700000000,
+          "bar": 0.07
+        },
+        {
+          "percent": 3,
+          "amount": 300000000,
+          "bar": 0.03
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        }
+      ],
+      "table": "Mining Nodes\t3,000,000,000 MHA\t30%\nStaking Nodes\t1,500,000,000 MHA\t15%\nEcosystem/DAO\t1,500,000,000 MHA\t15%\nTeam & Advisors\t1,000,000,000 MHA\t10%\nVC\t1,000,000,000 MHA\t10%\nEarly Supporters\t800,000,000 MHA\t8%\nEarly Liquidity Market Makers\t700,000,000 MHA\t7%\nSubscription/Public Sale\t300,000,000 MHA\t3%\nEquipment-Sale Agents\t100,000,000 MHA\t1%\nExchange Campaigns\t100,000,000 MHA\t1%"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "learning/mha",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "solutions/hardware",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "networks/explorer",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "route": "learning/tokenomics",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [
+        {
+          "percent": 30,
+          "amount": 3000000000,
+          "bar": 0.3
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 8,
+          "amount": 800000000,
+          "bar": 0.08
+        },
+        {
+          "percent": 7,
+          "amount": 700000000,
+          "bar": 0.07
+        },
+        {
+          "percent": 3,
+          "amount": 300000000,
+          "bar": 0.03
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        }
+      ],
+      "table": "挖礦節點\t3,000,000,000 MHA\t30%\n質押節點\t1,500,000,000 MHA\t15%\n生態系統／DAO\t1,500,000,000 MHA\t15%\n團隊與顧問\t1,000,000,000 MHA\t10%\nVC\t1,000,000,000 MHA\t10%\n早期支持者\t800,000,000 MHA\t8%\n早期流動性做市商\t700,000,000 MHA\t7%\n認購／公開銷售\t300,000,000 MHA\t3%\n設備銷售代理\t100,000,000 MHA\t1%\n交易所活動\t100,000,000 MHA\t1%"
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "route": "learning/mha",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "route": "solutions/hardware",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "route": "networks/explorer",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "route": "learning/tokenomics",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [
+        {
+          "percent": 30,
+          "amount": 3000000000,
+          "bar": 0.3
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 8,
+          "amount": 800000000,
+          "bar": 0.08
+        },
+        {
+          "percent": 7,
+          "amount": 700000000,
+          "bar": 0.07
+        },
+        {
+          "percent": 3,
+          "amount": 300000000,
+          "bar": 0.03
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        }
+      ],
+      "table": "挖礦節點\t3,000,000,000 MHA\t30%\n質押節點\t1,500,000,000 MHA\t15%\n生態系統／DAO\t1,500,000,000 MHA\t15%\n團隊與顧問\t1,000,000,000 MHA\t10%\nVC\t1,000,000,000 MHA\t10%\n早期支持者\t800,000,000 MHA\t8%\n早期流動性做市商\t700,000,000 MHA\t7%\n認購／公開銷售\t300,000,000 MHA\t3%\n設備銷售代理\t100,000,000 MHA\t1%\n交易所活動\t100,000,000 MHA\t1%"
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "route": "learning/mha",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "route": "solutions/hardware",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "route": "networks/explorer",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "route": "learning/tokenomics",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [
+        {
+          "percent": 30,
+          "amount": 3000000000,
+          "bar": 0.3
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 8,
+          "amount": 800000000,
+          "bar": 0.08
+        },
+        {
+          "percent": 7,
+          "amount": 700000000,
+          "bar": 0.07
+        },
+        {
+          "percent": 3,
+          "amount": 300000000,
+          "bar": 0.03
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        }
+      ],
+      "table": "挖礦節點\t3,000,000,000 MHA\t30%\n質押節點\t1,500,000,000 MHA\t15%\n生態系統／DAO\t1,500,000,000 MHA\t15%\n團隊與顧問\t1,000,000,000 MHA\t10%\nVC\t1,000,000,000 MHA\t10%\n早期支持者\t800,000,000 MHA\t8%\n早期流動性做市商\t700,000,000 MHA\t7%\n認購／公開銷售\t300,000,000 MHA\t3%\n設備銷售代理\t100,000,000 MHA\t1%\n交易所活動\t100,000,000 MHA\t1%"
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "route": "learning/mha",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "route": "solutions/hardware",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "route": "networks/explorer",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "route": "learning/tokenomics",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [
+        {
+          "percent": 30,
+          "amount": 3000000000,
+          "bar": 0.3
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 15,
+          "amount": 1500000000,
+          "bar": 0.15
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 10,
+          "amount": 1000000000,
+          "bar": 0.1
+        },
+        {
+          "percent": 8,
+          "amount": 800000000,
+          "bar": 0.08
+        },
+        {
+          "percent": 7,
+          "amount": 700000000,
+          "bar": 0.07
+        },
+        {
+          "percent": 3,
+          "amount": 300000000,
+          "bar": 0.03
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        },
+        {
+          "percent": 1,
+          "amount": 100000000,
+          "bar": 0.01
+        }
+      ],
+      "table": "挖礦節點\t3,000,000,000 MHA\t30%\n質押節點\t1,500,000,000 MHA\t15%\n生態系統／DAO\t1,500,000,000 MHA\t15%\n團隊與顧問\t1,000,000,000 MHA\t10%\nVC\t1,000,000,000 MHA\t10%\n早期支持者\t800,000,000 MHA\t8%\n早期流動性做市商\t700,000,000 MHA\t7%\n認購／公開銷售\t300,000,000 MHA\t3%\n設備銷售代理\t100,000,000 MHA\t1%\n交易所活動\t100,000,000 MHA\t1%"
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "route": "learning/mha",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "route": "solutions/hardware",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "route": "networks/explorer",
+      "ok": true,
+      "overflow": false,
+      "figureOverflow": false,
+      "nestedCaptions": 0,
+      "allocation": [],
+      "table": ""
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

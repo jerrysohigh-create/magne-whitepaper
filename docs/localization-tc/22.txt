@@ -1,0 +1,52 @@
+/solutions/hardware
+1013	Hardware Empowerment: The Fusion of Security and Computing
+1014	In the Web3 world, most blockchains remain confined to software layers. MAGNE.AI breaks this limitation by tightly integrating its dual-chain architecture with hardware. Through secure chips and on-device AI engines, MAGNE.AI not only ensures asset security but also delivers breakthroughs in performance, privacy, and user experience.
+1015	1.Security Architecture
+1016	Built on certified security components
+1017	MAGNE.AI Phone is designed with a <strong>layered security architecture</strong>, combining certified secure hardware, trusted execution environments, and system-level protections.
+1018	Security is treated as a <strong>core engineering requirement</strong>, integrated from hardware design to system software and application layers.
+1019	Certified Secure Components
+1020	<strong>HyperSeed N60 Secure Component</strong>
+1021	Integrates an <strong>EAL6-certified secure element</strong> with an NFC controller in a single package.
+1022	The core cryptographic and key protection capabilities are provided by the certified secure element,
+1023	following internationally accepted security architecture practices.
+1024	Private keys are stored and signed entirely offline
+1025	All transactions are signed within the chip, immune to malware attacks
+1026	Supports multi-signature and hardware-level recovery, ensuring robust protection
+1027	HyperSeed 72B Secure Element
+1028	A <strong>native secure element certified at EAL6</strong>, providing high-assurance cryptographic operations, secure key storage, and tamper-resistant protection.
+1029	Private keys are stored and signed entirely offline
+1030	500,000 repeated R/W
+1031	25 years of data storage
+1032	Trusted Execution Environment (TEE)
+1033	MAGNE.AI Phone Gen1 come with CC <strong>EAL2 certified UTEE OS.</strong>
+1034	<strong>Provides isolated execution environments for sensitive system operations, supporting trusted boot and runtime integrity.</strong>
+1035	System-Level Security
+1036	Together, these components support:
+1037	Secure key generation and storage
+1038	Cryptographic execution in isolated environments
+1039	Trusted boot and system integrity verification
+1040	Protection of sensitive user and application data
+1041	Security assurance is maintained through <strong>ongoing review, testing, and operational controls</strong>, rather than one-time certification alone.
+1042	Transparency &amp; Verification
+1043	Detailed certification materials and technical documentation are available for <strong>exchanges, partners, and regulators</strong> through controlled due diligence processes.
+1044	Public-facing materials focus on <strong>status-level transparency</strong>, ensuring accuracy without exposing unnecessary implementation details.
+1045	<em>Note: Certification scope and implementation may vary by hardware configuration, region, or production batch.</em>
+1046	2. On-Device AI Engine
+1047	Unlike traditional Web3 apps that rely on cloud servers, MAGNE.AI performs AI computation locally:
+1048	Real-time natural language translation and generation
+1049	Behavior analysis and fraud detection
+1050	Personalized Web3 social recommendations
+1051	This approach enhances performance while preserving user privacy.
+1052	3. Native Blockchain Integration
+1053	Unlike conventional smartphones, MAGNE.AI devices are blockchain-native nodes:
+1054	Instantly initiate transactions and run applications
+1055	Dual support for L1 and L2 networks, with seamless switching
+1056	Powered by high-performance AI chips, devices can directly participate in PoW mining or L2 consensus
+1057	4. Expanded Use Cases
+1058	The synergy of <strong>hardware + blockchain + AI</strong> unlocks a wide range of applications:
+1059	Web3 gaming with instant execution and tamper-proof fairness
+1060	Decentralized social networks with fully private AI-assisted protection
+1061	NFT marketplaces with fast trades and secure on-chain ownership
+1062	Cross-border payments and real-time settlements with low fees and high scalability
+1063	<strong>MAGNE.AI’s hardware empowerment marks a new era where blockchain evolves from software-only systems into full-scale soft-and-hardware integration.</strong>

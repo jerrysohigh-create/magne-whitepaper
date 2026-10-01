@@ -1,0 +1,51 @@
+/learning/incentives
+329	Incentive Marketplace
+330	In the M Hash Layer2 PoW ecosystem, the Incentive Marketplace allows protocols to offer whitelisted incentive tokens to miners, encouraging them to support specific on-chain activities or liquidity pools. This creates a competitive environment where different protocols vie for miner attention and block reward allocation.
+331	How Incentives Work
+332	When a miner produces a block, they can choose to allocate part of their earned $MHA rewards toward one or more whitelisted Reward Vaults. These vaults are tied to specific protocols or applications.
+333	When rewards are distributed:
+334	The miner receives a commission in incentive tokens from the protocol
+335	The remaining incentive tokens in the vault are distributed to participants who have staked eligible assets in that vault
+336	All claims are processed automatically via M Hash Layer2 Hub
+337	Users can claim their incentives at any time, with no expiration
+338	Roles in the Incentive Marketplace
+339	Role
+340	Description
+341	Participant
+342	Stakes eligible assets (e.g., LP tokens, NFTs) into a Reward Vault to earn incentives
+343	Miner
+344	Produces blocks via PoW and directs part of $MHA rewards to selected vaults in exchange for incentives
+345	Protocol
+346	Provides incentive tokens to attract miner-directed rewards and increase engagement/liquidity
+347	Incentive Token Governance
+348	Only whitelisted Reward Vaults may distribute incentive tokens
+349	Each vault can support up to two different incentive tokens
+350	Adding a token or changing its manager requires governance approval
+351	Managing Incentives
+352	The protocol’s Token Manager must set an <strong>incentive rate</strong>:
+353	Format: “X tokens per 
+354	MHA)
+355	The rate cannot be lowered unless the vault’s token balance is fully depleted
+356	Additional tokens can be deposited at any time, and the rate can be increased
+357	Once deposited, incentive tokens cannot be withdrawn
+358	<strong>Example:</strong>
+359	Incentives
+360	Rate
+361	$MHA Coverage
+362	2000 USDC
+363	10/$MHA
+364	200 $MHA
+365	Later updated:
+366	New Incentives
+367	New Rate
+368	New Coverage
+369	2500 USDC
+370	11/$MHA
+371	227 $MHA
+372	Commission Distribution
+373	Miners can set a commission rate (default 5%, max 20%) for incentives captured from vaults
+374	Example: If a vault pays 100 USDC for 10 
+375	MHA worth of rewards, the miner earns 5 USDC, and the remaining 95 USDC goes to vault participants
+376	Timing vs Rate
+377	Distribution timing (e.g., 3-day or 7-day streaming) is set by the Reward Vault
+378	The exchange rate (e.g., 10 USDC/$MHA) remains fixed regardless of the reward release schedule

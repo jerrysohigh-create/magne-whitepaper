@@ -1,0 +1,85 @@
+{
+  "footer": "<footer class=\"footer\">\n    <div class=\"footer__brand\">\n      <span class=\"wordmark__mark\" aria-hidden=\"true\">///</span>\n      <strong>MAGNE.AI</strong>\n      <p>Intelligent terminals are not just smartphones.</p>\n    </div>\n    <div class=\"footer__column\">\n      <strong>read</strong>\n      <a href=\"#directory\">site directory</a>\n      <a href=\"#timeline\">Time axis</a>\n      <a href=\"progress.html\">Project progress</a>\n      <a href=\"stories.html\">image file</a>\n      <a href=\"media-kit.html\">Media Kit</a>\n    </div>\n    <div class=\"footer__column\">\n      <strong>verify</strong>\n      <a href=\"compliance.html\">Compliance Overview</a>\n      <a href=\"fcc-lookup.html\">FCC</a>\n      <a href=\"gsma-tac-lookup.html\">GSMA TAC</a>\n    </div>\n    <div class=\"footer__column\">\n      <strong>connect</strong>\n    </div>\n    <div class=\"footer__external\"><div class=\"footer__external-group\"><strong>Resources</strong><a href=\"media-kit.html\">Media Kit</a><a href=\"https://w3.magne.ai\" target=\"_blank\" rel=\"noopener\">W3 Web3 Portal ↗</a><a href=\"https://web3.magne.ai\" target=\"_blank\" rel=\"noopener\">White paper ↗</a></div><div class=\"footer__external-group\"><strong>Follow</strong><a href=\"https://github.com/magne-ai\" target=\"_blank\" rel=\"noopener\">GitHub</a><a href=\"https://x.com/Magne_Ai\" target=\"_blank\" rel=\"noopener\">X</a><a href=\"https://t.me/MagneAI\" target=\"_blank\" rel=\"noopener\">Telegram</a><a href=\"https://www.youtube.com/@MagneAI\" target=\"_blank\" rel=\"noopener\">YouTube</a><a href=\"https://discord.gg/tX2xRAkd\" target=\"_blank\" rel=\"noopener\">Discord</a></div></div><div class=\"footer__legal\">\n      <span>© 2026 MAGNE.AI</span>\n      <span>ENGLISH · VOL. 01</span>\n      <a href=\"privacy-policy.html\">Privacy Policy</a>\n    <button class=\"analytics-settings\" type=\"button\">Cookie settings</button></div>\n  </footer>",
+  "links": [
+    {
+      "label": "site directory",
+      "href": "https://www.magne.ai/en/#directory"
+    },
+    {
+      "label": "Time axis",
+      "href": "https://www.magne.ai/en/#timeline"
+    },
+    {
+      "label": "Project progress",
+      "href": "https://www.magne.ai/en/progress.html"
+    },
+    {
+      "label": "image file",
+      "href": "https://www.magne.ai/en/stories.html"
+    },
+    {
+      "label": "Media Kit",
+      "href": "https://www.magne.ai/en/media-kit.html"
+    },
+    {
+      "label": "Compliance Overview",
+      "href": "https://www.magne.ai/en/compliance.html"
+    },
+    {
+      "label": "FCC",
+      "href": "https://www.magne.ai/en/fcc-lookup.html"
+    },
+    {
+      "label": "GSMA TAC",
+      "href": "https://www.magne.ai/en/gsma-tac-lookup.html"
+    },
+    {
+      "label": "Media Kit",
+      "href": "https://www.magne.ai/en/media-kit.html"
+    },
+    {
+      "label": "W3 Web3 Portal ↗",
+      "href": "https://w3.magne.ai/"
+    },
+    {
+      "label": "White paper ↗",
+      "href": "https://web3.magne.ai/"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "label": "X",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "label": "Telegram",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/@MagneAI"
+    },
+    {
+      "label": "Discord",
+      "href": "https://discord.gg/tX2xRAkd"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "https://www.magne.ai/en/privacy-policy.html"
+    }
+  ],
+  "cookieElements": [
+    {
+      "tag": "BUTTON",
+      "text": "Cookie settings",
+      "html": "<button class=\"analytics-settings\" type=\"button\">Cookie settings</button>"
+    }
+  ],
+  "scripts": [
+    "https://www.magne.ai/assets/site.js?v=consent-3",
+    "https://www.googletagmanager.com/gtag/js?id=G-NGKT224G39",
+    "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+  ]
+}

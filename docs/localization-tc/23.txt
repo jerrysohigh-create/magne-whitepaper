@@ -1,0 +1,34 @@
+/networks/faucet
+1064	Gas and Fees
+1065	M Hash Layer2 is a chain scaling solution built on top of the MAGNE Layer 1 blockchain, designed to deliver <strong>high throughput</strong> and <strong>low-cost transactions</strong> for DeFi, NFTs, gaming, and other high-demand applications.
+1066	The cost of an M Hash Layer2  transaction consists of two components:
+1067	<strong>Layer 2 gas fee</strong> – reflects the computational complexity of processing the transaction on M Hash L2
+1068	<strong>Layer 1 gas fee</strong> – covers the cost of submitting batched transactions to the MAGNE mainnet for verification and finality
+1069	<strong>Gas price formula:</strong>
+Gas price = base price + priority price
+1070	<strong>Transaction cost formula:</strong>
+L2 transaction cost = (L2 gas price × L2 gas consumed) + (L1 gas price × L1 gas consumed)
+1071	Current Configuration
+1072	Network
+1073	Floor Base Price
+1074	Minimum Priority Price
+1075	M Hash L2 Testnet
+1076	0 gwei
+1077	1 gwei
+1078	M Hash L2 Mainnet
+1079	MAGNE L1 Testnet
+1080	0 gwei
+1081	0.1 gwei
+1082	MAGNE L1 Mainnet
+1083	What This Means
+1084	The <strong>floor base price</strong> is the minimum base gas price that M Hash can set. This value can change dynamically depending on network usage.
+For example, with the current configuration, if a block’s usage reaches <strong>50% of the 100M gas limit</strong>, the base price will rise by <strong>12.5%</strong>.
+1085	The <strong>minimum priority price</strong> is preset. Users can choose any priority fee higher than this minimum.
+Typically, wallets and dApps retrieve the <strong>recommended gas price</strong> by calling the “estimate gas price” API, which calculates it based on the average gas price from recent blocks.
+1086	M Hash’s goal is to keep <strong>basic transfer transactions under $0.001</strong>, enabling <strong>mass adoption</strong> and supporting high-frequency, low-value use cases.
+1087	How M Hash Layer2 Keeps Costs Low
+1088	<strong>Enhanced Data Compression</strong> – Apply advanced compression algorithms to minimize L2 transaction data before submitting to L1
+1089	<strong>Efficient Transaction Batching</strong> – Optimize batching to maximize block space usage and reduce per-transaction costs
+1090	<strong>Data Availability Solutions</strong> – Leverage MAGNE’s data availability infrastructure to offload some storage from L1, lowering costs
+1091	<strong>Zero-Knowledge Proofs</strong> – Validate transactions without exposing full transaction data, reducing L1 data load
+1092	<strong>Protocol-Level Optimizations</strong> – Improve protocol execution and networking to lower computational overhead on L2

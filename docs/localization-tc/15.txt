@@ -1,0 +1,71 @@
+/developers/build-app
+805	MAGNE Layer1 Blockchain
+806	<strong>Build an App</strong>
+807	A guide to building a next.js app on MAGNE Layer1 Blockchain using OnchainKit
+808	Welcome to the MAGNE Layer1 Blockchain quickstart guide! In this walkthrough, we'll create a simple onchain app from start to finish. Whether you're a seasoned developer or just starting out, this guide has got you covered.
+809	<strong>What You'll Achieve</strong>
+810	By the end of this quickstart, you'll have built an onchain app by:
+811	Configuring your development environment
+812	Deploying your smart contracts to MagicalHash
+813	Interacting with your deployed contracts from the frontend
+814	Our simple app will be an onchain tally app which lets you add to a total tally, stored onchain, by pressing a button.
+815	Why MAGNE Layer1 Blockchain?
+816	MAGNE Layer1 Blockchain is a mobile-first, EVM-compatible, PoW-based Layer1 chain where smartphones and edge devices can participate in mining and consensus, ensuring security, decentralization, and performance.
+817	<strong>Set Up Your Development Environment</strong>
+818	OnchainKit is a library of ready-to-use React components and Typescript utilities for building onchain apps. Run the following command in your terminal and follow the prompts to bootstrap your project.
+819	Once you've gone through the prompts, you'll have a new project directory with a basic OnchainKit app. Run the following to see it live.
+820	You should see the following screen.
+821	Once we've deployed our contracts, we'll add a button that lets us interact with our contracts.
+822	Create a new "contracts" folder in the root of your project
+823	Install and initialize Foundry
+824	Open the project and find the <span>Counter.sol</span> contract file in the <span>/contracts/src</span> folder. You'll find the simple logic for our tally app.
+825	Because <span>contracts</span> is a folder in our project, we don't want to initialize a separate git repository for it, so we add the <span>--no-git</span> flag.
+
+826	A node connection to interact with the MAGNE Layer1 Testnet network
+827	A funded private key to deploy the contract
+828	Let's set up both of these:
+829	Create a <span>.env</span> file in your <span>contracts</span> directory and add the MAGNE Layer1 and MAGNE Layer1 Testnet RPC URLs
+830	-Load your environment variables
+831	A private key with testnet funds is required to deploy the contract. You can generate a fresh private key <a href="https://visualkey.link/" target="_blank" rel="noopener noreferrer">here</a>.
+832	When prompted enter your private key and a password.
+833	Your private key is stored in <span>~/.foundry/keystores</span> which is not tracked by git.
+834	<strong>Deploy Your Contracts</strong>
+835	Now that your environment is set up, let's deploy your contracts to MAGNE Layer1 Testnet. The foundry project provides a deploy script that will deploy the Counter.sol contract.
+836	Use the following command to compile and deploy your contract
+837	Note the format of the contract being deployed is <span>&lt;contract-path&gt;:&lt;contract-name&gt;</span>.
+838	Copy the deployed contract address and add it to your <span>.env</span> file
+839	Check the transaction on <a href="https://explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">explorer</a>.
+840	Use the <span>cast</span> command to interact with your deployed contract from the command line
+841	This will return the initial value of the Counter contract's <span>number</span> storage variable, which will be <span>0</span>.
+842	The <span>calls.ts</span> file contains the details of the contract interaction, including the contract address, which we saved in the previous step.
+
+843	We can verify that the onchain count took place onchain by once again using <span>cast</span> to call the <span>number</span> function on our contract.
+844	If the transaction was successful, the tally should have incremented by one!
+845	Once you've gone through the prompts, you'll have a new project directory with a basic OnchainKit app. Run the following to see it live.
+846	You should see the following screen.
+847	Once we've deployed our contracts, we'll add a button that lets us interact with our contracts.
+848	Create a new "contracts" folder in the root of your project
+849	Install and initialize Foundry
+850	Open the project and find the <span>Counter.sol</span> contract file in the <span>/contracts/src</span> folder. You'll find the simple logic for our tally app.
+851	Because <span>contracts</span> is a folder in our project, we don't want to initialize a separate git repository for it, so we add the <span>--no-git</span> flag.
+
+852	A node connection to interact with the M Hash Layer2 Testnet network
+853	A funded private key to deploy the contract
+854	Let's set up both of these:
+855	Create a <span>.env</span> file in your <span>contracts</span> directory and add the M Hash Layer2 and M Hash Layer2 Testnet RPC URLs
+856	-Load your environment variables
+857	A private key with testnet funds is required to deploy the contract. You can generate a fresh private key <a href="https://visualkey.link/" target="_blank" rel="noopener noreferrer">here</a>.
+858	When prompted enter your private key and a password.
+859	Your private key is stored in <span>~/.foundry/keystores</span> which is not tracked by git.
+860	<strong>Deploy Your Contracts</strong>
+861	Now that your environment is set up, let's deploy your contracts to M Hash Layer2 Testnet, The foundry project provides a deploy script that will deploy the Counter.sol contract.
+862	Use the following command to compile and deploy your contract
+863	Note the format of the contract being deployed is <span>&lt;contract-path&gt;:&lt;contract-name&gt;</span>.
+864	Copy the deployed contract address and add it to your <span>.env</span> file
+865	Check the transaction on <a href="https://l2-explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">explorer</a>.
+866	Use the <span>cast</span> command to interact with your deployed contract from the command line
+867	This will return the initial value of the Counter contract's <span>number</span> storage variable, which will be <span>0</span>.
+868	The <span>calls.ts</span> file contains the details of the contract interaction, including the contract address, which we saved in the previous step.
+
+869	We can verify that the onchain count took place onchain by once again using <span>cast</span> to call the <span>number</span> function on our contract.
+870	If the transaction was successful, the tally should have incremented by one!

@@ -1,0 +1,89 @@
+/* v1.1 code-drawn figures. Normal text stays HTML so it wraps and localizes. */
+.wp-site .wpf { --figure-ink:#191c22; --figure-muted:#616874; --figure-line:#d6d9df; margin:36px 0; padding:26px 0 0; border-top:2px solid var(--figure-ink); color:var(--figure-ink); break-inside:avoid; }
+.wp-site .wpf-heading { display:flex; flex-direction:column; align-items:flex-start; gap:9px; margin-bottom:24px; }
+.wp-site .wpf-eyebrow { font:500 10px/1.6 'Geist Mono',monospace; letter-spacing:.12em; color:var(--wp-red); }
+.wp-site .wpf .wpf-heading h3 { margin:0; padding:0; font-size:24px; line-height:1.35; letter-spacing:-.025em; font-weight:600; color:var(--figure-ink); }
+.wp-site .wpf p { max-width:none; margin:0; font-size:13px; line-height:1.7; color:var(--figure-muted); }
+.wp-site .wpf figcaption,.wp-site .wpf-product figcaption,.wp-site .wpf-token figcaption { margin:18px 0 0; border-top:1px solid #dfe2e6; padding-top:13px; color:#626a75; font-size:11px; line-height:1.75; max-width:none; }
+.wp-site .wpf-icon { width:28px; height:28px; display:block; color:currentColor; }
+.wp-site .wpf .wpf-flow { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); list-style:none; padding:0; margin:0; border-block:1px solid var(--figure-line); }
+.wp-site .wpf-flow>li { position:relative; margin:0; min-width:0; padding:24px 20px; border-right:1px solid var(--figure-line); }
+.wp-site .wpf-flow>li:first-child { padding-left:0; }.wp-site .wpf-flow>li:last-child { padding-right:0; border-right:0; }
+.wp-site .wpf-flow>li+li::before { content:'→'; position:absolute; top:28px; left:-10px; width:20px; background:#fff; color:var(--wp-red); text-align:center; font:16px/1.4 'Geist Mono',monospace; }
+.wp-site .wpf-flow-parallel>li+li::before { content:none; }
+.wp-site .wpf-step-mark { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:22px; }
+.wp-site .wpf-step-mark>span { color:#707783; font:12px/1.5 'Geist Mono',monospace; }
+.wp-site .wpf-flow strong { display:block; font-size:16px; font-weight:600; line-height:1.5; margin-bottom:8px; }
+.wp-site .wpf-system { display:grid; grid-template-columns:1fr 42px 1.65fr; align-items:stretch; }
+.wp-site .wpf-system-edge { padding:24px 20px; border:1px solid var(--figure-line); display:flex; flex-direction:column; justify-content:center; gap:12px; }
+.wp-site .wpf-system-edge>.wpf-icon { width:40px; height:40px; margin-bottom:10px; }
+.wp-site .wpf-system-edge>span { font:10px/1.5 'Geist Mono',monospace; letter-spacing:.1em; color:var(--figure-muted); }
+.wp-site .wpf-system-edge>strong { font-size:20px; line-height:1.4; }
+.wp-site .wpf-system-link { align-self:center; justify-self:center; font-size:24px; color:var(--wp-red); }
+.wp-site .wpf-system-core { border:1px solid var(--figure-line); }
+.wp-site .wpf-system-app { display:flex; align-items:center; gap:12px; background:#f3f4f6; padding:20px; border-bottom:1px solid var(--figure-line); font-size:14px; }
+.wp-site .wpf-system-networks { display:grid; grid-template-columns:1fr 1fr; }
+.wp-site .wpf-system-networks>div { padding:20px; display:grid; gap:10px; }.wp-site .wpf-system-networks>div+div { border-left:1px solid var(--figure-line); }
+.wp-site .wpf-system-networks span { color:var(--wp-red); font:12px/1.5 'Geist Mono',monospace; }
+.wp-site .wpf-system-networks strong { font-size:19px; line-height:1.4; }
+.wp-site .wpf-rail { display:flex; align-items:center; gap:22px; padding:15px 0; margin-top:16px; border-block:1px solid var(--figure-line); }
+.wp-site .wpf-rail>span { flex-shrink:0; font:500 12px/1.5 'Geist Mono',monospace; color:var(--wp-red); }
+.wp-site .wpf-inline { display:flex; align-items:center; flex-wrap:wrap; gap:12px 18px; border-left:2px solid var(--wp-red); padding:12px 18px; margin:24px 0; background:#f5f6f7; font-size:14px; }
+.wp-site .wpf-inline>span { color:#606875; font-size:12px; }
+.wp-site .wpf-token { display:grid; grid-template-columns:72px minmax(0,1fr); align-items:center; gap:0 24px; border-block:1px solid #d6d9df; padding:22px 0; margin:28px 0; }
+.wp-site .wpf-token-symbol { width:72px; height:72px; flex-shrink:0; display:flex; justify-content:center; align-items:baseline; padding-top:15px; border:1px solid #181c22; border-radius:50%; font-size:30px; font-weight:650; letter-spacing:-.08em; }
+.wp-site .wpf-token-symbol>span { font-size:14px; letter-spacing:-.04em; }
+.wp-site .wpf-token>div { min-width:0; }.wp-site .wpf-token-symbol { grid-row:1/3; }
+.wp-site .wpf-token strong { display:block; margin-top:6px; font-size:22px; letter-spacing:-.04em; line-height:1.5; overflow-wrap:anywhere; }
+.wp-site .wpf-token strong>span { font-size:13px; font-weight:500; letter-spacing:0; }
+.wp-site .wpf-token figcaption { grid-column:2; margin:4px 0 0; padding:0; border:0; }
+.wp-site .wpf-allocation-total { display:flex; align-items:center; gap:15px; flex-wrap:wrap; margin-bottom:25px; }
+.wp-site .wpf-allocation-total>strong { font-size:76px; line-height:1; font-weight:550; letter-spacing:-.08em; }
+.wp-site .wpf-allocation-total>strong>span { font-size:40px; font-weight:400; }
+.wp-site .wpf-allocation-total>div { display:flex; flex-direction:column; gap:2px; font-size:12px; color:var(--figure-muted); }
+.wp-site .wpf-allocation-total b { font-size:19px; color:var(--figure-ink); font-weight:500; }
+.wp-site .wpf-status { margin-left:auto; color:#616874; padding:6px 9px; border:1px solid #d6d9df; font-size:10px; line-height:1.5; }
+.wp-site .wpf-allocation-bar { width:100%; height:40px; display:block; margin-bottom:24px; }
+.wp-site .wpf-allocation-bar>rect { stroke:#fff; stroke-width:2; }
+.wp-site .wpf-color-0 { fill:#b81935; }.wp-site .wpf-color-1 { fill:#202735; }.wp-site .wpf-color-2 { fill:#586575; }.wp-site .wpf-color-3 { fill:#778797; }.wp-site .wpf-color-4 { fill:#adb7c2; }.wp-site .wpf-color-5 { fill:#906c60; }.wp-site .wpf-color-6 { fill:#aa8f7e; }.wp-site .wpf-color-7 { fill:#c1a892; }.wp-site .wpf-color-8 { fill:#dbb798; }.wp-site .wpf-color-9 { fill:#e6d9ce; }
+.wp-site .wpf .wpf-allocations { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 30px; list-style:none; margin:0; padding:0; }
+.wp-site .wpf-allocations>li { min-width:0; margin:0; padding:0; }
+.wp-site .wpf-allocations a { display:grid; grid-template-columns:22px minmax(0,1fr) auto; align-items:start; gap:8px; position:relative; padding:14px 0 19px; border:0; text-decoration:none; color:var(--figure-ink); }
+.wp-site .wpf-allocations a:hover .wpf-allocation-name,.wp-site .wpf-allocations a:focus-visible .wpf-allocation-name { color:var(--wp-red); }
+.wp-site .wpf-allocation-number { font:10px/1.8 'Geist Mono',monospace; color:#737b86; padding-top:2px; }
+.wp-site .wpf-allocation-name { font-size:12px; font-weight:550; line-height:1.6; }
+.wp-site .wpf-allocation-name small { display:block; font:10px/1.8 'Geist Mono',monospace; font-weight:400; color:#666f7c; margin-top:3px; }
+.wp-site .wpf-allocations strong { font:500 17px/1.5 'Geist Mono',monospace; }
+.wp-site .wpf-allocation-meter { position:absolute; width:100%; height:3px; bottom:4px; left:0; }.wp-site .wpf-meter-track { fill:#edeef1; }
+.wp-site .wpf-product { margin:32px 0; }
+.wp-site .wpf-product>img { display:block; width:100%; max-width:650px; max-height:410px; object-fit:contain; height:auto; margin:auto; background:transparent; }
+.wp-site .wpf-product figcaption { display:flex; flex-wrap:wrap; gap:8px 16px; }.wp-site .wpf-product figcaption>span { font-weight:650; color:#1c222c; }
+.wp-site .wpf-signing { display:grid; grid-template-columns:1fr 50px 1.4fr; align-items:center; padding:10px 0; }
+.wp-site .wpf-signing-request { display:grid; justify-items:start; gap:14px; padding:20px; }.wp-site .wpf-signing-request>strong { font-size:18px; }.wp-site .wpf-signing-request>span { font-size:13px; color:var(--figure-muted); }
+.wp-site .wpf-signing-arrow { color:var(--wp-red); font-size:27px; text-align:center; }
+.wp-site .wpf-secure-zone { display:flex; flex-direction:column; align-items:center; gap:14px; padding:25px 18px; border:1px dashed #a3aab5; background:#f5f6f8; }
+.wp-site .wpf-zone-label { font:10px/1.6 'Geist Mono',monospace; letter-spacing:.08em; color:#626c79; }
+.wp-site .wpf-secure-zone>.wpf-icon { width:36px; height:36px; color:var(--wp-red); }.wp-site .wpf-secure-zone>strong { font-size:19px; }.wp-site .wpf-secure-zone>span:last-child { font-size:12px; color:var(--figure-muted); }
+.wp-site .wpf-boundary { border:1px dashed #a3aab5; padding:18px; }.wp-site .wpf-boundary>.wpf-zone-label { display:block; margin-bottom:20px; }.wp-site .wpf-boundary .wpf-flow { border-bottom:0; }.wp-site .wpf-boundary .wpf-flow>li { padding-bottom:0; }
+.wp-site .wpf-worlds { display:grid; grid-template-columns:1fr 1fr; gap:20px; }.wp-site .wpf-world { display:grid; align-content:start; gap:16px; padding:22px; border:1px solid var(--figure-line); }.wp-site .wpf-world strong { font-size:20px; line-height:1.4; }.wp-site .wpf-world-trusted { background:#f5f6f8; border:1px dashed #9ca4b0; }.wp-site .wpf-world-trusted>.wpf-icon { color:var(--wp-red); }
+.wp-site .wpf-foundation { display:flex; align-items:center; gap:13px; margin-top:20px; padding:16px 22px; background:#232831; color:white; font-size:13px; }
+.wp-site .wpf-hub { display:grid; grid-template-columns:1fr 1.3fr 1fr; align-items:center; gap:24px; padding:10px 0; }.wp-site .wpf-hub-entry { display:grid; gap:16px; font-size:14px; }.wp-site .wpf-hub-core { border:1px solid #1f2630; padding:25px 18px; display:grid; gap:14px; }.wp-site .wpf-hub-core>strong { font-size:25px; font-weight:550; }.wp-site .wpf-hub-core>span { font-size:12px; color:var(--figure-muted); }.wp-site .wpf-hub-destinations { display:grid; gap:12px; font-size:13px; }.wp-site .wpf-hub-destinations>span { padding:10px 0; border-bottom:1px solid #d8dce2; }
+.wp-site .wpf-guide { margin-bottom:14px; }.wp-site .wpf-guide .wpf-heading h3 { font-size:20px; }.wp-site .wpf-guide-step { display:flex; align-items:center; gap:20px; background:#f5f6f8; padding:20px; }.wp-site .wpf-guide-step strong { font-size:15px; display:block; margin-bottom:7px; }
+.wp-site .wpf-reference { margin:0 0 30px; border-bottom:1px solid #dce0e6; padding:0 0 13px; }.wp-site .wpf-reference summary { font-size:12px; cursor:pointer; padding:10px 0; color:#5a6472; }.wp-site .wpf-reference summary>span { font:10px 'Geist Mono',monospace; margin-left:6px; padding:2px 5px; background:#eff0f3; }.wp-site .wpf-reference>p { font-size:12px; color:#646f7c; margin:14px 0; }.wp-site .wpf-reference-images { display:flex; flex-wrap:wrap; gap:20px; }.wp-site .wpf-reference-images>a { flex:1 1 180px; max-width:100%; min-width:0; text-decoration:none; border:0; }.wp-site .wpf-reference-images img { display:block; width:100%; max-height:360px; object-fit:contain; object-position:left top; margin:0; }.wp-site .wpf-reference-images span { display:block; font-size:11px; padding-top:8px; color:var(--wp-red); }
+.wp-site .wpf-explorer-query { display:flex; align-items:center; gap:14px; border:1px solid #d6dbe2; padding:18px; margin-bottom:24px; font-size:13px; color:#626b77; }
+@media(max-width:767px) {
+  .wp-site .wpf { margin:28px 0; padding-top:21px; }.wp-site .wpf .wpf-heading h3 { font-size:22px; }.wp-site .wpf-heading { margin-bottom:20px; }
+  .wp-site .wpf .wpf-flow { grid-template-columns:1fr; }
+  .wp-site .wpf-flow>li,.wp-site .wpf-flow>li:first-child,.wp-site .wpf-flow>li:last-child { padding:19px 0 19px 46px; border:0; border-bottom:1px solid #d6d9df; }.wp-site .wpf-flow>li:last-child { border-bottom:0; }
+  .wp-site .wpf-step-mark { position:absolute; top:22px; left:0; display:flex; flex-direction:column; gap:11px; margin:0; }.wp-site .wpf-step-mark>.wpf-icon { width:23px; height:23px; }.wp-site .wpf-flow>li+li::before { content:none; }.wp-site .wpf-flow strong { font-size:16px; margin-bottom:4px; }
+  .wp-site .wpf-system { grid-template-columns:1fr; }.wp-site .wpf-system-edge { padding:20px; gap:8px; }.wp-site .wpf-system-edge>.wpf-icon { width:32px; height:32px; margin:0 0 8px; }.wp-site .wpf-system-link { transform:rotate(90deg); line-height:1; padding:10px 0; }.wp-site .wpf-system-networks>div { padding:18px; }.wp-site .wpf-system-app { padding:18px; }.wp-site .wpf-rail { gap:15px; align-items:flex-start; }
+  .wp-site .wpf-inline { gap:10px; padding:12px; }.wp-site .wpf-inline>span { flex-basis:100%; padding-left:38px; }
+  .wp-site .wpf-token { grid-template-columns:53px minmax(0,1fr); gap:0 15px; }.wp-site .wpf-token-symbol { width:53px; height:53px; font-size:24px; padding-top:9px; }.wp-site .wpf-token-symbol>span { font-size:11px; }.wp-site .wpf-token strong { font-size:19px; }.wp-site .wpf-token strong>span { font-size:11px; }
+  .wp-site .wpf-allocation-total>strong { font-size:64px; }.wp-site .wpf-status { flex-basis:100%; margin:4px 0 0; width:fit-content; flex-grow:0; }.wp-site .wpf-allocation-bar { height:32px; margin-bottom:12px; }.wp-site .wpf .wpf-allocations { grid-template-columns:1fr; }.wp-site .wpf-allocation-name { font-size:13px; }.wp-site .wpf-allocation-name small { font-size:11px; }.wp-site .wpf-allocations a { padding-block:15px 19px; }
+  .wp-site .wpf-signing { grid-template-columns:1fr; }.wp-site .wpf-signing-request { justify-items:center; padding:10px; gap:10px; }.wp-site .wpf-signing-arrow { transform:rotate(90deg); padding:7px 0; }.wp-site .wpf-secure-zone { gap:12px; }.wp-site .wpf-worlds { grid-template-columns:1fr; gap:14px; }.wp-site .wpf-world { gap:12px; padding:20px; }.wp-site .wpf-world>.wpf-icon { width:25px; height:25px; }.wp-site .wpf-world strong { font-size:19px; }.wp-site .wpf-foundation { padding:16px; }.wp-site .wpf-boundary { padding:16px; }.wp-site .wpf-boundary .wpf-flow>li:last-child { padding-bottom:8px; }
+  .wp-site .wpf-hub { grid-template-columns:1fr; gap:18px; }.wp-site .wpf-hub-entry { display:flex; align-items:center; }.wp-site .wpf-hub-core { padding:22px; }.wp-site .wpf-hub-destinations { grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+  .wp-site .wpf-explorer-query { font-size:12px; padding:15px; }.wp-site .wpf-guide-step { align-items:flex-start; gap:15px; padding:17px; }
+}
+@media print {
+  .wp-site .wpf,.wp-site .wpf-product,.wp-site .wpf-token { break-inside:avoid; }.wp-site .wpf-allocation-bar,.wp-site .wpf-allocation-meter { print-color-adjust:exact; }.wp-site .wpf-reference { display:none; }
+}

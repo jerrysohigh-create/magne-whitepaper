@@ -1,0 +1,364 @@
+<div class="font-sans"><div class="mx-auto max-w-screen-2xl px-4"><div class="flex"><aside class="w-64 shrink-0 border-r border-black/10 hidden lg:block"><div class="px-4 py-6"><div class="mb-6"><div class="font-bold text-xs uppercase tracking-wide mb-2"></div><ul class="space-y-1"><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] text-[#B1B1B1]" href="/developers/net-config">Network Configurations (Testnet)</a></li><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] text-[#B1B1B1]" href="/developers/tools">Developer Tools</a></li></ul></div><div class="mb-6"><div class="font-bold text-xs uppercase tracking-wide mb-2">Developer Quickstart</div><ul class="space-y-1"><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] text-[#B1B1B1]" href="/developers/build-contract">Build A Smart Contract</a></li><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] bg-[#1C2B4F] text-gray-2-- border-l-4 border-[#008CFF]" href="/developers/build-app" aria-current="page">Build A App</a></li><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] text-[#B1B1B1]" href="/developers/launch-token">Launch an ERC-20 Token with Foundry</a></li></ul></div></div></aside><div class="flex-1 py-8 px-6 overflow-hidden"><h1 class="font-[Reddit Sans] text-[40px] font-semibold leading-[58.8px] mb-[20px]">MAGNE Layer1 Blockchain</h1>
+<h1 class="font-[Reddit Sans] text-[40px] font-semibold leading-[58.8px] mb-[20px]"><strong>Build an App</strong></h1>
+<blockquote class="border-l-4 border-gray-800 pl-6 italic text-gray-700 bg-gray-50 my-4 py-2 px-4">
+<p class="text-[16px] font-[400] leading-[25.6px]">A guide to building a next.js app on MAGNE Layer1 Blockchain using OnchainKit</p>
+</blockquote>
+<p class="text-[16px] font-[400] leading-[25.6px]">Welcome to the MAGNE Layer1 Blockchain quickstart guide! In this walkthrough, we'll create a simple onchain app from start to finish. Whether you're a seasoned developer or just starting out, this guide has got you covered.</p>
+<h1 class="font-[Reddit Sans] text-[40px] font-semibold leading-[58.8px] mb-[20px]"><strong>What You'll Achieve</strong></h1>
+<p class="text-[16px] font-[400] leading-[25.6px]">By the end of this quickstart, you'll have built an onchain app by:</p>
+<ul class="list-disc list-outside pl-6 space-y-2">
+<li class="leading-relaxed">Configuring your development environment</li>
+<li class="leading-relaxed">Deploying your smart contracts to MagicalHash</li>
+<li class="leading-relaxed">Interacting with your deployed contracts from the frontend</li>
+</ul>
+<p class="text-[16px] font-[400] leading-[25.6px]">Our simple app will be an onchain tally app which lets you add to a total tally, stored onchain, by pressing a button.</p>
+<ul class="list-disc list-outside pl-6 space-y-2">
+<li class="leading-relaxed">Why MAGNE Layer1 Blockchain?</li>
+</ul>
+<p class="text-[16px] font-[400] leading-[25.6px]">MAGNE Layer1 Blockchain is a mobile-first, EVM-compatible, PoW-based Layer1 chain where smartphones and edge devices can participate in mining and consensus, ensuring security, decentralization, and performance.</p>
+<h1 class="font-[Reddit Sans] text-[40px] font-semibold leading-[58.8px] mb-[20px]"><strong>Set Up Your Development Environment</strong></h1>
+<p class="text-[16px] font-[400] leading-[25.6px]">OnchainKit is a library of ready-to-use React components and Typescript utilities for building onchain apps. Run the following command in your terminal and follow the prompts to bootstrap your project.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">```bash Terminal
+npm create onchain@latest
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">Once you've gone through the prompts, you'll have a new project directory with a basic OnchainKit app. Run the following to see it live.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">cd my-onchainkit-app
+npm install
+npm run dev
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">You should see the following screen.</p>
+<!-- -->
+<p class="text-[16px] font-[400] leading-[25.6px]">Once we've deployed our contracts, we'll add a button that lets us interact with our contracts.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+The total tally will be stored onchain in a smart contract. We'll use the Foundry framework to deploy our contract to the MAGNE Layer1 Testnet.
+
+
+</code></pre></div></pre>
+<ol class="list-decimal list-outside pl-6 space-y-2">
+<li class="leading-relaxed">Create a new "contracts" folder in the root of your project</li>
+</ol>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">mkdir contracts &amp;&amp; cd contracts
+</code></pre></div></pre>
+<ol class="list-decimal list-outside pl-6 space-y-2" start="2">
+<li class="leading-relaxed">Install and initialize Foundry</li>
+</ol>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">curl -L https://foundry.paradigm.xyz | bash
+foundryup
+forge init --no-git
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">Open the project and find the <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">Counter.sol</span> contract file in the <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">/contracts/src</span> folder. You'll find the simple logic for our tally app.</p>
+<!-- -->
+<p class="text-[16px] font-[400] leading-[25.6px]">Because <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">contracts</span> is a folder in our project, we don't want to initialize a separate git repository for it, so we add the <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">--no-git</span> flag.
+</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+To deploy your smart contracts to MAGNE Layer1 Testnet, you need two key components:
+
+
+</code></pre></div></pre>
+<ol class="list-decimal list-outside pl-6 space-y-2">
+<li class="leading-relaxed">A node connection to interact with the MAGNE Layer1 Testnet network</li>
+<li class="leading-relaxed">A funded private key to deploy the contract</li>
+</ol>
+<p class="text-[16px] font-[400] leading-[25.6px]">Let's set up both of these:</p>
+<ul class="list-disc list-outside pl-6 space-y-2">
+<li class="leading-relaxed">Create a <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">.env</span> file in your <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">contracts</span> directory and add the MAGNE Layer1 and MAGNE Layer1 Testnet RPC URLs</li>
+</ul>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">MAGICAL_RPC_URL="https://rpc.testnet.magicalhash.com"
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">-Load your environment variables</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">source .env
+</code></pre></div></pre>
+<!-- -->
+<p class="text-[16px] font-[400] leading-[25.6px]">A private key with testnet funds is required to deploy the contract. You can generate a fresh private key <a href="https://visualkey.link/" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-blue-800 underline underline-offset-2 ">here</a>.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">1. Store your private key in Foundry's secure keystore
+
+```bash Terminal
+cast wallet import deployer --interactive
+</code></pre></div></pre>
+<ol class="list-decimal list-outside pl-6 space-y-2" start="2">
+<li class="leading-relaxed">When prompted enter your private key and a password.</li>
+</ol>
+<p class="text-[16px] font-[400] leading-[25.6px]">Your private key is stored in <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">~/.foundry/keystores</span> which is not tracked by git.</p>
+<!-- -->
+<h1 class="font-[Reddit Sans] text-[40px] font-semibold leading-[58.8px] mb-[20px]"><strong>Deploy Your Contracts</strong></h1>
+<p class="text-[16px] font-[400] leading-[25.6px]">Now that your environment is set up, let's deploy your contracts to MAGNE Layer1 Testnet. The foundry project provides a deploy script that will deploy the Counter.sol contract.</p>
+<ol class="list-decimal list-outside pl-6 space-y-2">
+<li class="leading-relaxed">Use the following command to compile and deploy your contract</li>
+</ol>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">```bash Terminal
+forge create ./src/Counter.sol:Counter --rpc-url $MAGICAL_SEPOLIA_RPC_URL --account deployer
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">Note the format of the contract being deployed is <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">&lt;contract-path&gt;:&lt;contract-name&gt;</span>.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+After successful deployment, the transaction hash will be printed to the console output
+
+
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">Copy the deployed contract address and add it to your <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">.env</span> file</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">COUNTER_CONTRACT_ADDRESS="0x..."
+</code></pre></div></pre>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+```bash Terminal
+source .env
+```To ensure your contract was deployed successfully:
+
+
+</code></pre></div></pre>
+<ol class="list-decimal list-outside pl-6 space-y-2">
+<li class="leading-relaxed">Check the transaction on <a href="https://explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-blue-800 underline underline-offset-2 ">explorer</a>.</li>
+<li class="leading-relaxed">Use the <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">cast</span> command to interact with your deployed contract from the command line</li>
+</ol>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]"></span></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">This will return the initial value of the Counter contract's <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">number</span> storage variable, which will be <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">0</span>.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+Now lets connect the frontend to interact with your recently deployed contract.
+
+# **Interacting with your contract**
+
+To interact with the smart contract logic, we need to submit an onchain transaction. We can do this easily with the `Transaction` component. This is a simplified version of the `Transaction` component, designed to streamline the integration process. Instead of manually defining each subcomponent and prop, we can use this shorthand version which renders our suggested implementation of the component and includes the `TransactionButton` and `TransactionToast` components.
+
+Lets add the `Transaction` component to our `page.tsx` file. Delete the existing content in the `main` tag and replace it with the snippet below.
+
+
+</code></pre></div></pre>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-tsx">// @noErrors: 2307 - Cannot find module '@/calls'
+import { Transaction } from '@coinbase/onchainkit/transaction';
+import { calls } from '@/calls';
+
+&lt;main className="flex flex-grow items-center justify-center"&gt;
+  &lt;div className="w-full max-w-4xl p-4"&gt;
+    &lt;div className="mx-auto mb-6 w-1/3"&gt;
+      &lt;Transaction calls={calls} /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/main&gt;;
+</code></pre></div></pre>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+In the previous code snippet, you'll see we imported `calls` from the `calls.ts` file. This file provides the details needed to interact with our contract and call the `increment` function. Create a new `calls.ts` file in the same folder as your `page.tsx` file and add the following code.
+
+
+</code></pre></div></pre>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-ts">const counterContractAddress = '0x...'; // add your contract address here
+const counterContractAbi = [
+  {
+    type: 'function',
+    name: 'increment',
+    inputs: [],
+    outputs: [],
+    stateMutability: 'nonpayable',
+  },
+] as const;
+
+export const calls = [
+  {
+    address: counterContractAddress,
+    abi: counterContractAbi,
+    functionName: 'increment',
+    args: [],
+  },
+];
+</code></pre></div></pre>
+<!-- -->
+<p class="text-[16px] font-[400] leading-[25.6px]">The <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">calls.ts</span> file contains the details of the contract interaction, including the contract address, which we saved in the previous step.
+</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+Now, when you connect a wallet and click on the `Transact` button and approve the transaction, it will increment the tally onchain by one.
+
+
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">We can verify that the onchain count took place onchain by once again using <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">cast</span> to call the <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">number</span> function on our contract.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">cast call $COUNTER_CONTRACT_ADDRESS "number()(uint256)" --rpc-url $MAGNE_RPC_URL
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">If the transaction was successful, the tally should have incremented by one!</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+We now have a working onchain tally app! While the example is simple, it illustrates the end to end process of building on onchain app. We:
+
+- Configured a project with frontend and onchain infrastructure
+- Interacted with the contract from the frontend
+
+# M Hash Layer2 Blockchain
+
+# **Build an App**
+
+&gt; A guide to building a next.js app on M Hash Layer2 Blockchain using OnchainKit
+&gt; 
+
+Welcome to the M Hash Layer2 Blockchain quickstart guide! In this walkthrough, we'll create a simple onchain app from start to finish. Whether you're a seasoned developer or just starting out, this guide has got you covered.
+
+# **What You'll Achieve**
+
+By the end of this quickstart, you'll have built an onchain app by:
+
+- Configuring your development environment
+- Deploying your smart contracts to MagicalHash
+- Interacting with your deployed contracts from the frontend
+
+Our simple app will be an onchain tally app which lets you add to a total tally, stored onchain, by pressing a button.
+
+- Why M Hash Layer2 Blockchain?
+
+M Hash Layer2 Blockchain is a high-performance Layer 2 network built on opStack with an asynchronous consensus mechanism, separating consensus from execution to significantly boost throughput and efficiency while ensuring security and low-cost transactions.
+
+# **Set Up Your Development Environment**
+
+OnchainKit is a library of ready-to-use React components and Typescript utilities for building onchain apps. Run the following command in your terminal and follow the prompts to bootstrap your project.
+
+
+</code></pre></div></pre>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">npm create onchain@latest
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">Once you've gone through the prompts, you'll have a new project directory with a basic OnchainKit app. Run the following to see it live.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">cd my-onchainkit-app
+npm install
+npm run dev
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">You should see the following screen.</p>
+<!-- -->
+<p class="text-[16px] font-[400] leading-[25.6px]">Once we've deployed our contracts, we'll add a button that lets us interact with our contracts.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+The total tally will be stored onchain in a smart contract. We'll use the Foundry framework to deploy our contract to the M Hash Layer2 Testnet.
+
+
+</code></pre></div></pre>
+<ol class="list-decimal list-outside pl-6 space-y-2">
+<li class="leading-relaxed">Create a new "contracts" folder in the root of your project</li>
+</ol>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">mkdir contracts &amp;&amp; cd contracts
+</code></pre></div></pre>
+<ol class="list-decimal list-outside pl-6 space-y-2" start="2">
+<li class="leading-relaxed">Install and initialize Foundry</li>
+</ol>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">curl -L https://foundry.paradigm.xyz | bash
+foundryup
+forge init --no-git
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">Open the project and find the <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">Counter.sol</span> contract file in the <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">/contracts/src</span> folder. You'll find the simple logic for our tally app.</p>
+<!-- -->
+<p class="text-[16px] font-[400] leading-[25.6px]">Because <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">contracts</span> is a folder in our project, we don't want to initialize a separate git repository for it, so we add the <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">--no-git</span> flag.
+</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+To deploy your smart contracts to M Hash Layer2 Testnet, you need two key components:
+
+
+</code></pre></div></pre>
+<ol class="list-decimal list-outside pl-6 space-y-2">
+<li class="leading-relaxed">A node connection to interact with the M Hash Layer2 Testnet network</li>
+<li class="leading-relaxed">A funded private key to deploy the contract</li>
+</ol>
+<p class="text-[16px] font-[400] leading-[25.6px]">Let's set up both of these:</p>
+<ul class="list-disc list-outside pl-6 space-y-2">
+<li class="leading-relaxed">Create a <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">.env</span> file in your <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">contracts</span> directory and add the M Hash Layer2 and M Hash Layer2 Testnet RPC URLs</li>
+</ul>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">MAGICAL_RPC_URL="https://l2-rpc.testnet.magicalhash.com"
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">-Load your environment variables</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">source .env
+</code></pre></div></pre>
+<!-- -->
+<p class="text-[16px] font-[400] leading-[25.6px]">A private key with testnet funds is required to deploy the contract. You can generate a fresh private key <a href="https://visualkey.link/" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-blue-800 underline underline-offset-2 ">here</a>.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">1. Store your private key in Foundry's secure keystore
+
+```bash Terminal
+cast wallet import deployer --interactive
+</code></pre></div></pre>
+<ol class="list-decimal list-outside pl-6 space-y-2" start="2">
+<li class="leading-relaxed">When prompted enter your private key and a password.</li>
+</ol>
+<p class="text-[16px] font-[400] leading-[25.6px]">Your private key is stored in <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">~/.foundry/keystores</span> which is not tracked by git.</p>
+<!-- -->
+<h1 class="font-[Reddit Sans] text-[40px] font-semibold leading-[58.8px] mb-[20px]"><strong>Deploy Your Contracts</strong></h1>
+<p class="text-[16px] font-[400] leading-[25.6px]">Now that your environment is set up, let's deploy your contracts to M Hash Layer2 Testnet, The foundry project provides a deploy script that will deploy the Counter.sol contract.</p>
+<ol class="list-decimal list-outside pl-6 space-y-2">
+<li class="leading-relaxed">Use the following command to compile and deploy your contract</li>
+</ol>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">```bash Terminal
+forge create ./src/Counter.sol:Counter --rpc-url $MAGICAL_SEPOLIA_RPC_URL --account deployer
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">Note the format of the contract being deployed is <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">&lt;contract-path&gt;:&lt;contract-name&gt;</span>.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+After successful deployment, the transaction hash will be printed to the console output
+
+
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">Copy the deployed contract address and add it to your <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">.env</span> file</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">COUNTER_CONTRACT_ADDRESS="0x..."
+</code></pre></div></pre>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+```bash Terminal
+source .env
+```To ensure your contract was deployed successfully:
+
+
+</code></pre></div></pre>
+<ol class="list-decimal list-outside pl-6 space-y-2">
+<li class="leading-relaxed">Check the transaction on <a href="https://l2-explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-blue-800 underline underline-offset-2 ">explorer</a>.</li>
+<li class="leading-relaxed">Use the <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">cast</span> command to interact with your deployed contract from the command line</li>
+</ol>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]"></span></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">This will return the initial value of the Counter contract's <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">number</span> storage variable, which will be <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">0</span>.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+Now lets connect the frontend to interact with your recently deployed contract.
+
+# **Interacting with your contract**
+
+To interact with the smart contract logic, we need to submit an onchain transaction. We can do this easily with the `Transaction` component. This is a simplified version of the `Transaction` component, designed to streamline the integration process. Instead of manually defining each subcomponent and prop, we can use this shorthand version which renders our suggested implementation of the component and includes the `TransactionButton` and `TransactionToast` components.
+
+Lets add the `Transaction` component to our `page.tsx` file. Delete the existing content in the `main` tag and replace it with the snippet below.
+
+
+</code></pre></div></pre>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-tsx">// @noErrors: 2307 - Cannot find module '@/calls'
+import { Transaction } from '@coinbase/onchainkit/transaction';
+import { calls } from '@/calls';
+
+&lt;main className="flex flex-grow items-center justify-center"&gt;
+  &lt;div className="w-full max-w-4xl p-4"&gt;
+    &lt;div className="mx-auto mb-6 w-1/3"&gt;
+      &lt;Transaction calls={calls} /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/main&gt;;
+</code></pre></div></pre>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+In the previous code snippet, you'll see we imported `calls` from the `calls.ts` file. This file provides the details needed to interact with our contract and call the `increment` function. Create a new `calls.ts` file in the same folder as your `page.tsx` file and add the following code.
+
+
+</code></pre></div></pre>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-ts">const counterContractAddress = '0x...'; // add your contract address here
+const counterContractAbi = [
+  {
+    type: 'function',
+    name: 'increment',
+    inputs: [],
+    outputs: [],
+    stateMutability: 'nonpayable',
+  },
+] as const;
+
+export const calls = [
+  {
+    address: counterContractAddress,
+    abi: counterContractAbi,
+    functionName: 'increment',
+    args: [],
+  },
+];
+</code></pre></div></pre>
+<!-- -->
+<p class="text-[16px] font-[400] leading-[25.6px]">The <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">calls.ts</span> file contains the details of the contract interaction, including the contract address, which we saved in the previous step.
+</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+Now, when you connect a wallet and click on the `Transact` button and approve the transaction, it will increment the tally onchain by one.
+
+
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">We can verify that the onchain count took place onchain by once again using <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">cast</span> to call the <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">number</span> function on our contract.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">cast call $COUNTER_CONTRACT_ADDRESS "number()(uint256)" --rpc-url $MAGNE_RPC_URL
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">If the transaction was successful, the tally should have incremented by one!</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-">
+We now have a working onchain tally app! While the example is simple, it illustrates the end to end process of building on onchain app. We:
+
+- Configured a project with frontend and onchain infrastructure
+- Interacted with the contract from the frontend
+</code></pre></div></pre></div></div></div></div><!--$--><!--/$-->

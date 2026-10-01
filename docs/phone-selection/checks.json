@@ -1,0 +1,47 @@
+[
+  {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "natural": [
+      2314,
+      1724
+    ],
+    "rendered": [
+      672,
+      501
+    ],
+    "fit": "contain",
+    "href": "https://www.magne.ai/phone.html",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "scrollWidth": 768,
+    "natural": [
+      2314,
+      1724
+    ],
+    "rendered": [
+      720,
+      536
+    ],
+    "fit": "contain",
+    "href": "https://www.magne.ai/phone.html",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "scrollWidth": 390,
+    "natural": [
+      2314,
+      1724
+    ],
+    "rendered": [
+      342,
+      255
+    ],
+    "fit": "contain",
+    "href": "https://www.magne.ai/phone.html",
+    "errors": []
+  }
+]

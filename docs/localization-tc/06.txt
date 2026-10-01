@@ -1,0 +1,52 @@
+/learning/gov-overview
+278	Governance Overview
+279	MAGNE Governance
+280	MAGNE’s decentralized governance system empowers $MHA token holders to steer protocol-level changes including Reward Vault approvals, native dApp configurations, and PoW distribution logic.
+281	Use Cases for Governance:
+282	Whitelisting Reward Vaults (e.g. staking/incentive token approvals)
+283	Configuring native dApps like MAGNESwap (e.g. fee structure)
+284	Adjusting PoL distribution curves or parameters
+285	Upgrading system-level settings or timelock durations
+286	Governance Lifecycle
+287	MAGNE’s governance is based on OpenZeppelin’s battle-tested contracts, providing a secure and transparent multi-phase lifecycle:
+288	<strong>Proposal Creation</strong>
+289	Any account with sufficient voting power may initiate a proposal
+290	<strong>Pending State</strong>
+291	Proposals enter a brief 1-hour delay before becoming active for voting
+292	<strong>Voting Phase</strong>
+293	$MHA holders (or their delegates) can cast votes during the 5-day voting window
+294	<strong>Proposal Outcome</strong>
+295	If quorum and majority thresholds are met, the proposal is marked as Succeeded
+296	<strong>Timelock Queue</strong>
+297	Successful proposals enter a 2-day delay queue before execution
+298	<strong>Execution</strong>
+299	Once timelock elapses, the change can be implemented on-chain by any actor
+300	Guardian Oversight
+301	To protect the protocol from malicious behavior, MAGNE uses a 5-of-9 Guardian Council with the authority to cancel dangerous proposals during the timelock phase (e.g., unauthorized upgrades or asset seizure).
+302	Creating Your Governance Proposal
+303	<strong>Ensure You Meet the Voting Threshold</strong>
+304	You need at least <strong>10,000 $MHA worth of delegated voting power</strong>
+305	<strong>Delegate to Yourself</strong>
+306	You must explicitly delegate $MHA (even to yourself) to unlock governance rights
+307	<strong>Prepare the Proposal Payload</strong>
+308	For example, a Reward Vault proposal must include the vault address and correct function call (e.g., <span>addRewardVault(address)</span>)
+309	<strong>Submit the Proposal</strong>
+310	Submit through the on-chain governance contract or via the MAGNEHub UI
+311	<strong>Promote the Proposal</strong>
+312	Engage the community to build awareness and gather votes
+313	<strong>Execute After Timelock</strong>
+314	If passed, any user can trigger execution after the 2-day delay
+315	Governance Parameters (Default)
+316	State
+317	Criteria
+318	Proposal Creation
+319	10,000 $MHA delegated votes
+320	Pending Period
+321	1 hour
+322	Voting Period
+323	5 days
+324	Quorum Threshold
+325	20% of total $MHA supply
+326	Timelock Delay
+327	2 days
+328	Reward Vault proposals may follow a simplified governance path. See the Reward Vault Governance Docs for details.

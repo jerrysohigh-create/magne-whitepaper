@@ -1,0 +1,364 @@
+<h1 id="section-0" data-tc-unit="0">MAGNE Layer1 Blockchain</h1>
+<h2 id="section-1" data-tc-unit="1"><strong>Build an App</strong></h2>
+<blockquote>
+<p data-tc-unit="2">A guide to building a next.js app on MAGNE Layer1 Blockchain using OnchainKit</p>
+</blockquote>
+<p data-tc-unit="3">Welcome to the MAGNE Layer1 Blockchain quickstart guide! In this walkthrough, we'll create a simple onchain app from start to finish. Whether you're a seasoned developer or just starting out, this guide has got you covered.</p>
+<h2 id="section-2" data-tc-unit="4"><strong>What You'll Achieve</strong></h2>
+<p data-tc-unit="5">By the end of this quickstart, you'll have built an onchain app by:</p>
+<ul>
+<li data-tc-unit="6">Configuring your development environment</li>
+<li data-tc-unit="7">Deploying your smart contracts to MagicalHash</li>
+<li data-tc-unit="8">Interacting with your deployed contracts from the frontend</li>
+</ul>
+<p data-tc-unit="9">Our simple app will be an onchain tally app which lets you add to a total tally, stored onchain, by pressing a button.</p>
+<ul>
+<li data-tc-unit="10">Why MAGNE Layer1 Blockchain?</li>
+</ul>
+<p data-tc-unit="11">MAGNE Layer1 Blockchain is a mobile-first, EVM-compatible, PoW-based Layer1 chain where smartphones and edge devices can participate in mining and consensus, ensuring security, decentralization, and performance.</p>
+<h2 id="section-3" data-tc-unit="12"><strong>Set Up Your Development Environment</strong></h2>
+<p data-tc-unit="13">OnchainKit is a library of ready-to-use React components and Typescript utilities for building onchain apps. Run the following command in your terminal and follow the prompts to bootstrap your project.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>```bash Terminal
+npm create onchain@latest
+</code></pre></div></pre>
+<p data-tc-unit="14">Once you've gone through the prompts, you'll have a new project directory with a basic OnchainKit app. Run the following to see it live.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>cd my-onchainkit-app
+npm install
+npm run dev
+</code></pre></div></pre>
+<p data-tc-unit="15">You should see the following screen.</p>
+<!-- -->
+<p data-tc-unit="16">Once we've deployed our contracts, we'll add a button that lets us interact with our contracts.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+The total tally will be stored onchain in a smart contract. We'll use the Foundry framework to deploy our contract to the MAGNE Layer1 Testnet.
+
+
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="17">Create a new "contracts" folder in the root of your project</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>mkdir contracts &amp;&amp; cd contracts
+</code></pre></div></pre>
+<ol start="2">
+<li data-tc-unit="18">Install and initialize Foundry</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>curl -L https://foundry.paradigm.xyz | bash
+foundryup
+forge init --no-git
+</code></pre></div></pre>
+<p data-tc-unit="19">Open the project and find the <span>Counter.sol</span> contract file in the <span>/contracts/src</span> folder. You'll find the simple logic for our tally app.</p>
+<!-- -->
+<p data-tc-unit="20">Because <span>contracts</span> is a folder in our project, we don't want to initialize a separate git repository for it, so we add the <span>--no-git</span> flag.
+</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+To deploy your smart contracts to MAGNE Layer1 Testnet, you need two key components:
+
+
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="21">A node connection to interact with the MAGNE Layer1 Testnet network</li>
+<li data-tc-unit="22">A funded private key to deploy the contract</li>
+</ol>
+<p data-tc-unit="23">Let's set up both of these:</p>
+<ul>
+<li data-tc-unit="24">Create a <span>.env</span> file in your <span>contracts</span> directory and add the MAGNE Layer1 and MAGNE Layer1 Testnet RPC URLs</li>
+</ul>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>MAGICAL_RPC_URL="https://rpc.testnet.magicalhash.com"
+</code></pre></div></pre>
+<p data-tc-unit="25">-Load your environment variables</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>source .env
+</code></pre></div></pre>
+<!-- -->
+<p data-tc-unit="26">A private key with testnet funds is required to deploy the contract. You can generate a fresh private key <a href="https://visualkey.link/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>1. Store your private key in Foundry's secure keystore
+
+```bash Terminal
+cast wallet import deployer --interactive
+</code></pre></div></pre>
+<ol start="2">
+<li data-tc-unit="27">When prompted enter your private key and a password.</li>
+</ol>
+<p data-tc-unit="28">Your private key is stored in <span>~/.foundry/keystores</span> which is not tracked by git.</p>
+<!-- -->
+<h2 id="section-4" data-tc-unit="29"><strong>Deploy Your Contracts</strong></h2>
+<p data-tc-unit="30">Now that your environment is set up, let's deploy your contracts to MAGNE Layer1 Testnet. The foundry project provides a deploy script that will deploy the Counter.sol contract.</p>
+<ol>
+<li data-tc-unit="31">Use the following command to compile and deploy your contract</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>```bash Terminal
+forge create ./src/Counter.sol:Counter --rpc-url $MAGICAL_SEPOLIA_RPC_URL --account deployer
+</code></pre></div></pre>
+<p data-tc-unit="32">Note the format of the contract being deployed is <span>&lt;contract-path&gt;:&lt;contract-name&gt;</span>.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+After successful deployment, the transaction hash will be printed to the console output
+
+
+</code></pre></div></pre>
+<p data-tc-unit="33">Copy the deployed contract address and add it to your <span>.env</span> file</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>COUNTER_CONTRACT_ADDRESS="0x..."
+</code></pre></div></pre>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+```bash Terminal
+source .env
+```To ensure your contract was deployed successfully:
+
+
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="34">Check the transaction on <a href="https://explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">explorer</a>.</li>
+<li data-tc-unit="35">Use the <span>cast</span> command to interact with your deployed contract from the command line</li>
+</ol>
+<pre class="overflow-x-auto"><span></span></pre>
+<p data-tc-unit="36">This will return the initial value of the Counter contract's <span>number</span> storage variable, which will be <span>0</span>.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+Now lets connect the frontend to interact with your recently deployed contract.
+
+# **Interacting with your contract**
+
+To interact with the smart contract logic, we need to submit an onchain transaction. We can do this easily with the `Transaction` component. This is a simplified version of the `Transaction` component, designed to streamline the integration process. Instead of manually defining each subcomponent and prop, we can use this shorthand version which renders our suggested implementation of the component and includes the `TransactionButton` and `TransactionToast` components.
+
+Lets add the `Transaction` component to our `page.tsx` file. Delete the existing content in the `main` tag and replace it with the snippet below.
+
+
+</code></pre></div></pre>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>// @noErrors: 2307 - Cannot find module '@/calls'
+import { Transaction } from '@coinbase/onchainkit/transaction';
+import { calls } from '@/calls';
+
+&lt;main className="flex flex-grow items-center justify-center"&gt;
+  &lt;div className="w-full max-w-4xl p-4"&gt;
+    &lt;div className="mx-auto mb-6 w-1/3"&gt;
+      &lt;Transaction calls={calls} /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/main&gt;;
+</code></pre></div></pre>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+In the previous code snippet, you'll see we imported `calls` from the `calls.ts` file. This file provides the details needed to interact with our contract and call the `increment` function. Create a new `calls.ts` file in the same folder as your `page.tsx` file and add the following code.
+
+
+</code></pre></div></pre>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>const counterContractAddress = '0x...'; // add your contract address here
+const counterContractAbi = [
+  {
+    type: 'function',
+    name: 'increment',
+    inputs: [],
+    outputs: [],
+    stateMutability: 'nonpayable',
+  },
+] as const;
+
+export const calls = [
+  {
+    address: counterContractAddress,
+    abi: counterContractAbi,
+    functionName: 'increment',
+    args: [],
+  },
+];
+</code></pre></div></pre>
+<!-- -->
+<p data-tc-unit="37">The <span>calls.ts</span> file contains the details of the contract interaction, including the contract address, which we saved in the previous step.
+</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+Now, when you connect a wallet and click on the `Transact` button and approve the transaction, it will increment the tally onchain by one.
+
+
+</code></pre></div></pre>
+<p data-tc-unit="38">We can verify that the onchain count took place onchain by once again using <span>cast</span> to call the <span>number</span> function on our contract.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>cast call $COUNTER_CONTRACT_ADDRESS "number()(uint256)" --rpc-url $MAGNE_RPC_URL
+</code></pre></div></pre>
+<p data-tc-unit="39">If the transaction was successful, the tally should have incremented by one!</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+We now have a working onchain tally app! While the example is simple, it illustrates the end to end process of building on onchain app. We:
+
+- Configured a project with frontend and onchain infrastructure
+- Interacted with the contract from the frontend
+
+# M Hash Layer2 Blockchain
+
+# **Build an App**
+
+&gt; A guide to building a next.js app on M Hash Layer2 Blockchain using OnchainKit
+&gt; 
+
+Welcome to the M Hash Layer2 Blockchain quickstart guide! In this walkthrough, we'll create a simple onchain app from start to finish. Whether you're a seasoned developer or just starting out, this guide has got you covered.
+
+# **What You'll Achieve**
+
+By the end of this quickstart, you'll have built an onchain app by:
+
+- Configuring your development environment
+- Deploying your smart contracts to MagicalHash
+- Interacting with your deployed contracts from the frontend
+
+Our simple app will be an onchain tally app which lets you add to a total tally, stored onchain, by pressing a button.
+
+- Why M Hash Layer2 Blockchain?
+
+M Hash Layer2 Blockchain is a high-performance Layer 2 network built on opStack with an asynchronous consensus mechanism, separating consensus from execution to significantly boost throughput and efficiency while ensuring security and low-cost transactions.
+
+# **Set Up Your Development Environment**
+
+OnchainKit is a library of ready-to-use React components and Typescript utilities for building onchain apps. Run the following command in your terminal and follow the prompts to bootstrap your project.
+
+
+</code></pre></div></pre>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>npm create onchain@latest
+</code></pre></div></pre>
+<p data-tc-unit="40">Once you've gone through the prompts, you'll have a new project directory with a basic OnchainKit app. Run the following to see it live.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>cd my-onchainkit-app
+npm install
+npm run dev
+</code></pre></div></pre>
+<p data-tc-unit="41">You should see the following screen.</p>
+<!-- -->
+<p data-tc-unit="42">Once we've deployed our contracts, we'll add a button that lets us interact with our contracts.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+The total tally will be stored onchain in a smart contract. We'll use the Foundry framework to deploy our contract to the M Hash Layer2 Testnet.
+
+
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="43">Create a new "contracts" folder in the root of your project</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>mkdir contracts &amp;&amp; cd contracts
+</code></pre></div></pre>
+<ol start="2">
+<li data-tc-unit="44">Install and initialize Foundry</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>curl -L https://foundry.paradigm.xyz | bash
+foundryup
+forge init --no-git
+</code></pre></div></pre>
+<p data-tc-unit="45">Open the project and find the <span>Counter.sol</span> contract file in the <span>/contracts/src</span> folder. You'll find the simple logic for our tally app.</p>
+<!-- -->
+<p data-tc-unit="46">Because <span>contracts</span> is a folder in our project, we don't want to initialize a separate git repository for it, so we add the <span>--no-git</span> flag.
+</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+To deploy your smart contracts to M Hash Layer2 Testnet, you need two key components:
+
+
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="47">A node connection to interact with the M Hash Layer2 Testnet network</li>
+<li data-tc-unit="48">A funded private key to deploy the contract</li>
+</ol>
+<p data-tc-unit="49">Let's set up both of these:</p>
+<ul>
+<li data-tc-unit="50">Create a <span>.env</span> file in your <span>contracts</span> directory and add the M Hash Layer2 and M Hash Layer2 Testnet RPC URLs</li>
+</ul>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>MAGICAL_RPC_URL="https://l2-rpc.testnet.magicalhash.com"
+</code></pre></div></pre>
+<p data-tc-unit="51">-Load your environment variables</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>source .env
+</code></pre></div></pre>
+<!-- -->
+<p data-tc-unit="52">A private key with testnet funds is required to deploy the contract. You can generate a fresh private key <a href="https://visualkey.link/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>1. Store your private key in Foundry's secure keystore
+
+```bash Terminal
+cast wallet import deployer --interactive
+</code></pre></div></pre>
+<ol start="2">
+<li data-tc-unit="53">When prompted enter your private key and a password.</li>
+</ol>
+<p data-tc-unit="54">Your private key is stored in <span>~/.foundry/keystores</span> which is not tracked by git.</p>
+<!-- -->
+<h2 id="section-5" data-tc-unit="55"><strong>Deploy Your Contracts</strong></h2>
+<p data-tc-unit="56">Now that your environment is set up, let's deploy your contracts to M Hash Layer2 Testnet, The foundry project provides a deploy script that will deploy the Counter.sol contract.</p>
+<ol>
+<li data-tc-unit="57">Use the following command to compile and deploy your contract</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>```bash Terminal
+forge create ./src/Counter.sol:Counter --rpc-url $MAGICAL_SEPOLIA_RPC_URL --account deployer
+</code></pre></div></pre>
+<p data-tc-unit="58">Note the format of the contract being deployed is <span>&lt;contract-path&gt;:&lt;contract-name&gt;</span>.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+After successful deployment, the transaction hash will be printed to the console output
+
+
+</code></pre></div></pre>
+<p data-tc-unit="59">Copy the deployed contract address and add it to your <span>.env</span> file</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>COUNTER_CONTRACT_ADDRESS="0x..."
+</code></pre></div></pre>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+```bash Terminal
+source .env
+```To ensure your contract was deployed successfully:
+
+
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="60">Check the transaction on <a href="https://l2-explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">explorer</a>.</li>
+<li data-tc-unit="61">Use the <span>cast</span> command to interact with your deployed contract from the command line</li>
+</ol>
+<pre class="overflow-x-auto"><span></span></pre>
+<p data-tc-unit="62">This will return the initial value of the Counter contract's <span>number</span> storage variable, which will be <span>0</span>.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+Now lets connect the frontend to interact with your recently deployed contract.
+
+# **Interacting with your contract**
+
+To interact with the smart contract logic, we need to submit an onchain transaction. We can do this easily with the `Transaction` component. This is a simplified version of the `Transaction` component, designed to streamline the integration process. Instead of manually defining each subcomponent and prop, we can use this shorthand version which renders our suggested implementation of the component and includes the `TransactionButton` and `TransactionToast` components.
+
+Lets add the `Transaction` component to our `page.tsx` file. Delete the existing content in the `main` tag and replace it with the snippet below.
+
+
+</code></pre></div></pre>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>// @noErrors: 2307 - Cannot find module '@/calls'
+import { Transaction } from '@coinbase/onchainkit/transaction';
+import { calls } from '@/calls';
+
+&lt;main className="flex flex-grow items-center justify-center"&gt;
+  &lt;div className="w-full max-w-4xl p-4"&gt;
+    &lt;div className="mx-auto mb-6 w-1/3"&gt;
+      &lt;Transaction calls={calls} /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/main&gt;;
+</code></pre></div></pre>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+In the previous code snippet, you'll see we imported `calls` from the `calls.ts` file. This file provides the details needed to interact with our contract and call the `increment` function. Create a new `calls.ts` file in the same folder as your `page.tsx` file and add the following code.
+
+
+</code></pre></div></pre>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>const counterContractAddress = '0x...'; // add your contract address here
+const counterContractAbi = [
+  {
+    type: 'function',
+    name: 'increment',
+    inputs: [],
+    outputs: [],
+    stateMutability: 'nonpayable',
+  },
+] as const;
+
+export const calls = [
+  {
+    address: counterContractAddress,
+    abi: counterContractAbi,
+    functionName: 'increment',
+    args: [],
+  },
+];
+</code></pre></div></pre>
+<!-- -->
+<p data-tc-unit="63">The <span>calls.ts</span> file contains the details of the contract interaction, including the contract address, which we saved in the previous step.
+</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+Now, when you connect a wallet and click on the `Transact` button and approve the transaction, it will increment the tally onchain by one.
+
+
+</code></pre></div></pre>
+<p data-tc-unit="64">We can verify that the onchain count took place onchain by once again using <span>cast</span> to call the <span>number</span> function on our contract.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>cast call $COUNTER_CONTRACT_ADDRESS "number()(uint256)" --rpc-url $MAGNE_RPC_URL
+</code></pre></div></pre>
+<p data-tc-unit="65">If the transaction was successful, the tally should have incremented by one!</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>
+We now have a working onchain tally app! While the example is simple, it illustrates the end to end process of building on onchain app. We:
+
+- Configured a project with frontend and onchain infrastructure
+- Interacted with the contract from the frontend
+</code></pre></div></pre>

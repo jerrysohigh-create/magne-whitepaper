@@ -1,0 +1,132 @@
+<div class="font-sans"><div class="mx-auto max-w-screen-2xl px-4"><div class="flex"><aside class="w-64 shrink-0 border-r border-black/10 hidden lg:block"><div class="px-4 py-6"><div class="mb-6"><div class="font-bold text-xs uppercase tracking-wide mb-2"></div><ul class="space-y-1"><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] text-[#B1B1B1]" href="/developers/net-config">Network Configurations (Testnet)</a></li><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] text-[#B1B1B1]" href="/developers/tools">Developer Tools</a></li></ul></div><div class="mb-6"><div class="font-bold text-xs uppercase tracking-wide mb-2">Developer Quickstart</div><ul class="space-y-1"><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] text-[#B1B1B1]" href="/developers/build-contract">Build A Smart Contract</a></li><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] text-[#B1B1B1]" href="/developers/build-app">Build A App</a></li><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] bg-[#1C2B4F] text-gray-2-- border-l-4 border-[#008CFF]" href="/developers/launch-token" aria-current="page">Launch an ERC-20 Token with Foundry</a></li></ul></div></div></aside><div class="flex-1 py-8 px-6 overflow-hidden"><h1 class="font-[Reddit Sans] text-[40px] font-semibold leading-[58.8px] mb-[20px]">Launch an ERC-20 Token with Foundry</h1>
+<hr class="my-[10px] border-gray-300">
+<h2 class="font-[Reddit Sans] text-[24px] font-semibold leading-[46.8px] my-[10px]">0) Requirements</h2>
+<ul class="list-disc list-outside pl-6 space-y-2">
+<li class="leading-relaxed">
+<p class="text-[16px] font-[400] leading-[25.6px]"><strong>Foundry</strong> v1.3.1+</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">curl -L https://foundry.paradigm.xyz | bash
+foundryup
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">(Foundry v1.3.1+ is required for Etherscan V2 verification.)</p>
+</li>
+</ul>
+<hr class="my-[10px] border-gray-300">
+<h2 class="font-[Reddit Sans] text-[24px] font-semibold leading-[46.8px] my-[10px]">1) Create the project</h2>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">mkdir launch-mha-token &amp;&amp; cd launch-mha-token
+forge init
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">This creates the standard Foundry project scaffold.</p>
+<hr class="my-[10px] border-gray-300">
+<h2 class="font-[Reddit Sans] text-[24px] font-semibold leading-[46.8px] my-[10px]">2) Install OpenZeppelin + set remappings</h2>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">forge install OpenZeppelin/openzeppelin-contracts
+echo 'remappings = ["@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/"]' &gt;&gt; foundry.toml
+
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">This ensures your IDE resolves OpenZeppelin imports correctly.</p>
+<hr class="my-[10px] border-gray-300">
+<h2 class="font-[Reddit Sans] text-[24px] font-semibold leading-[46.8px] my-[10px]">3) Write the ERC-20 contract</h2>
+<p class="text-[16px] font-[400] leading-[25.6px]">Rename the default file:</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">mv src/Counter.sol src/MagnetToken.sol
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]"><strong><span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">src/MagnetToken.sol</span></strong>:</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-solidity">// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
+import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract MagnetToken is ERC20 {
+    constructor(
+        string memory name_,
+        string memory symbol_,
+        uint256 initialSupply
+    ) ERC20(name_, symbol_) {
+        _mint(msg.sender, initialSupply);
+    }
+}
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">Compile to confirm:</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">forge compile
+</code></pre></div></pre>
+<hr class="my-[10px] border-gray-300">
+<h2 class="font-[Reddit Sans] text-[24px] font-semibold leading-[46.8px] my-[10px]">4) Create a deploy script</h2>
+<p class="text-[16px] font-[400] leading-[25.6px]">Rename the sample script and update it:</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">mv script/Counter.s.sol script/DeployMagnetToken.s.sol
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]"><strong><span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">script/DeployMagnetToken.s.sol</span></strong>:</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-solidity">// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
+import {Script, console2} from "forge-std/Script.sol";
+import {MagnetToken} from "../src/MagnetToken.sol";
+
+contract DeployMagnetToken is Script {
+    function run() public {
+        vm.startBroadcast();
+        // Example: 1,000,000 tokens (18 decimals)
+        MagnetToken token = new MagnetToken("MAGNE Token", "MHA", 1_000_000 ether);
+        vm.stopBroadcast();
+
+        console2.log("address:", address(token));
+        console2.log("totalSupply:", token.totalSupply());
+    }
+}
+
+</code></pre></div></pre>
+<hr class="my-[10px] border-gray-300">
+<h2 class="font-[Reddit Sans] text-[24px] font-semibold leading-[46.8px] my-[10px]">5) (Optional) Adjust tests</h2>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">mv test/Counter.t.sol test/MagnetToken.t.sol
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">You can keep it empty or add your own token tests.</p>
+<hr class="my-[10px] border-gray-300">
+<h2 class="font-[Reddit Sans] text-[24px] font-semibold leading-[46.8px] my-[10px]">6) Create a Foundry keystore wallet</h2>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">cast wallet import MyMagneAccount --interactive
+# paste private key, set password
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">This account will be used for deployment.</p>
+<hr class="my-[10px] border-gray-300">
+<h2 class="font-[Reddit Sans] text-[24px] font-semibold leading-[46.8px] my-[10px]">7) Local dry-run (optional)</h2>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">anvil
+# new terminal:
+forge script script/DeployMagnetToken.s.sol \
+  --account MyMagneAccount \
+  --fork-url https://rpc.testnet.magicalhash.com \
+  --broadcast
+
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">You’ll see the deployed address and total supply logs.</p>
+<hr class="my-[10px] border-gray-300">
+<h2 class="font-[Reddit Sans] text-[24px] font-semibold leading-[46.8px] my-[10px]">8) Deploy to <strong>MAGNE L1 Testnet</strong></h2>
+<p class="text-[16px] font-[400] leading-[25.6px]">Make sure the wallet has <strong>MAGNE L1</strong> testnet tokens for gas.</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">forge script script/DeployMagnetToken.s.sol \
+  --account MyMagneAccount \
+  --rpc-url https://rpc.testnet.magicalhash.com \
+  --broadcast
+
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">The output will include the transaction hash and your deployed contract address.</p>
+<blockquote class="border-l-4 border-gray-800 pl-6 italic text-gray-700 bg-gray-50 my-4 py-2 px-4">
+<p class="text-[16px] font-[400] leading-[25.6px]">💡 You can adapt this for mainnet by switching to your mainnet RPC (e.g. <a href="https://rpc.magicalhash.com" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-blue-800 underline underline-offset-2 ">https://rpc.magicalhash.com</a>).</p>
+</blockquote>
+<hr class="my-[10px] border-gray-300">
+<h2 class="font-[Reddit Sans] text-[24px] font-semibold leading-[46.8px] my-[10px]">9) Verify the contract on <a href="https://explorer.testnet.magicalhash.com/contract-verification" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-blue-800 underline underline-offset-2 ">MAGNE L1  explorer</a></h2>
+<p class="text-[16px] font-[400] leading-[25.6px]">MAGNE.AI uses Etherscan-compatible verification. You’ll need an API key:</p>
+<pre class="bg-[#F6F5F1] text-gray-800 p-4 rounded-lg overflow-x-auto my-4"><div class="relative my-4"><button class="absolute top-2 right-2 bg-gray-500 text-gray-100 px-2 py-1 rounded-md text-sm hover:bg-gray-700 z-10" data-action="copy" type="button">Copy</button><pre class="overflow-auto rounded-md  p-2 font-mono text-sm"><code class="language-bash">forge verify-contract \
+  --watch \
+  --chain magne-ai-testnet \
+  &lt;0xYOUR_DEPLOYED_CONTRACT_ADDRESS&gt; \
+  src/MagnetToken.sol:MagnetToken \
+  --verifier etherscan \
+  --etherscan-api-key &lt;YOUR_API_KEY&gt;
+
+</code></pre></div></pre>
+<p class="text-[16px] font-[400] leading-[25.6px]">Once verified, the contract page will be visible on <a href="https://explorer.testnet.magicalhash.com/contract-verification" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-blue-800 underline underline-offset-2 ">MAGNE L1 explorer</a>.</p>
+<hr class="my-[10px] border-gray-300">
+<h2 class="font-[Reddit Sans] text-[24px] font-semibold leading-[46.8px] my-[10px]">10) Quick Checklist</h2>
+<ul class="list-disc list-outside pl-6 space-y-2">
+<li class="leading-relaxed">✅ Token name / symbol (<span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">"MAGNE Token"</span>, <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">"MHA"</span>)</li>
+<li class="leading-relaxed">✅ Initial supply with <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">ether</span> (18 decimals)</li>
+<li class="leading-relaxed">✅ RPC: <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">https://rpc.testnet.magicalhash.com/</span></li>
+<li class="leading-relaxed">✅ Wallet: <span class="font-mono text-sm text-gray-800 bg-[#F6F5F1]">MyMagneAccount</span></li>
+<li class="leading-relaxed">✅ API key for verification</li>
+<li class="leading-relaxed">✅ Testnet MAGNE balance for gas</li>
+</ul></div></div></div></div><!--$--><!--/$-->

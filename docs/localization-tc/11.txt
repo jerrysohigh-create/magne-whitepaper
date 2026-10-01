@@ -1,0 +1,26 @@
+/developers/net-config
+646	Network <strong>Configurations （Testnet）</strong>
+647	MAGNE L1 Testnet
+648	Add to MetaMask
+649	<strong>Key</strong>
+650	<strong>Value</strong>
+651	Network Name
+652	MAGNE L1 Testnet
+653	RPC URL
+654	Chain ID
+655	Currency symbol
+656	MHA
+657	Block Explorer URL
+658	MHA Testnet Faucet
+659	M Hash L2 Testnet
+660	Add to MetaMask
+661	<strong>Key</strong>
+662	<strong>Value</strong>
+663	Network Name
+664	M Hash L2 Testnet
+665	RPC URL
+666	Chain ID
+667	Currency symbol
+668	MHA
+669	Block Explorer URL
+670	MHA Testnet Faucet

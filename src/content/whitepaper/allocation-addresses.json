@@ -1,0 +1,71 @@
+{
+  "source": "https://w3.magne.ai/api/v1/mha/supply",
+  "sourcePage": "https://w3.magne.ai/mha-supply.html",
+  "checkedAt": "2026-09-30T08:57:02.693Z",
+  "blockNumber": 124880405,
+  "network": "BNB Smart Chain",
+  "chainId": 56,
+  "contract": "0x37c563cdf4606d4302abb395cdb94e79d31233ed",
+  "records": [
+    {
+      "category": "mining",
+      "address": "0xaAa2ec1f5bd840754e7459fd848D681bC50D62e8",
+      "label": "Mining nodes",
+      "labelTc": "挖礦節點"
+    },
+    {
+      "category": "staking",
+      "address": "0x999A665B14D33B947813ea1a6525c9C377DBE196",
+      "label": "Staking nodes",
+      "labelTc": "質押節點"
+    },
+    {
+      "category": "ecosystem",
+      "address": "0x888F2F895aCf7E068e5eFF76Ae7E7ec7CC337cDD",
+      "label": "Ecosystem / DAO",
+      "labelTc": "生態 / DAO"
+    },
+    {
+      "category": "team",
+      "address": "0x777031eb97880cee836ce508b2d24dc66f898358",
+      "label": "Team and advisers",
+      "labelTc": "團隊與顧問"
+    },
+    {
+      "category": "vc",
+      "address": "0x66660077B39DbF0c6225289Fa6c6a4BF4b1C9417",
+      "label": "VC allocation",
+      "labelTc": "VC 分配"
+    },
+    {
+      "category": "user-airdrop",
+      "address": "0x222EB7Dca28C875115dE21055881E3008df822c4",
+      "label": "User airdrop reserve",
+      "labelTc": "用戶空投儲備"
+    },
+    {
+      "category": "market-making-reserve",
+      "address": "0x3337e8082646Df644179db3834b3ACc19bc55eFf",
+      "label": "Market-making reserve",
+      "labelTc": "做市儲備"
+    },
+    {
+      "category": "public-sale",
+      "address": "0x555d2527752c41c6bdb8166fd6e00d34997be1dd",
+      "label": "Public sale and subscriptions",
+      "labelTc": "公募與訂閱"
+    },
+    {
+      "category": "equipment-agents",
+      "address": "0x4442ff4eae58dc9dbbe318b284b001b3967478fd",
+      "label": "Equipment agents",
+      "labelTc": "設備代理商"
+    },
+    {
+      "category": "exchange-allocation",
+      "address": "0x1117dA6F04376588A94a7B7fDC070607d0ad649C",
+      "label": "Exchange allocation reserve",
+      "labelTc": "交易所分配儲備"
+    }
+  ]
+}

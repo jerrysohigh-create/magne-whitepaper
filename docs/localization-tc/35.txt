@@ -1,0 +1,6 @@
+/learning/tokenomics-announcement
+1426	<a href="/learning/tokenomics">← Tokenomics v1.1</a><a href="/learning/tokenomics-v1-0">v1.0 archive</a>
+1427	Tokenomics v1.1 update
+1428	September 2026 · Announcement draft
+1429	This revision updates Exchange Campaigns and Early Liquidity Market Makers execution rules and adds dated post-TGE disclosures. The 10,000,000,000 MHA total supply and all top-level allocations remain unchanged.
+1430	<a href="/learning/tokenomics">Read Tokenomics v1.1</a> · <a href="/learning/tokenomics-changelog">Revision history</a> · <a href="/learning/tokenomics-zh">中文修訂說明</a>

@@ -1,0 +1,109 @@
+{
+  "title": "Tokenomics — Local Preview",
+  "headings": [
+    "MHA Tokenomics",
+    "Overview",
+    "Mining Nodes",
+    "1. Objective",
+    "2. Sub-pool Structure",
+    "3. Budget & Allocation Core Formulas (Applicable to All Sub-pools)",
+    "3.1 Current Year Budget (Example: MAGNE.AI Phone GEN1)",
+    "3.2 Valid Workload (ECU) & Time-Weighted Distribution",
+    "3.3 Distribution Splits & Locking Mechanisms",
+    "4. Sub-pool-1: Initial Year Smoothing & Value Table",
+    "5. Entry Thresholds, SLA, and Penalties (Slash)",
+    "6. Governance & Parameter Changes",
+    "7. Dashboard & Public Disclosure",
+    "Staking Nodes",
+    "Ecosystem / DAO Treasury",
+    "Team & Advisors",
+    "VC (Investors, Institutional/Private Round)",
+    "Early Supporters",
+    "Early Liquidity Market Makers",
+    "DEX liquidity",
+    "CEX market making",
+    "Release rules",
+    "Subscription / Public Sale（3%）",
+    "Equipment-Sale Agents",
+    "Exchange Campaigns",
+    "Permitted purposes",
+    "Execution and release",
+    "Post-TGE execution disclosure",
+    "Early Supporters and campaign clarification"
+  ],
+  "styles": [
+    {
+      "tag": "BODY",
+      "font": "Arial, Helvetica, sans-serif",
+      "color": "rgb(239, 233, 233)",
+      "bg": "rgb(12, 24, 55)"
+    },
+    {
+      "tag": "NAV",
+      "font": "Arial, Helvetica, sans-serif",
+      "color": "rgb(239, 233, 233)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H1",
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "color": "rgb(230, 234, 242)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "color": "rgb(182, 198, 219)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "color": "rgb(230, 234, 242)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "NAV",
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "color": "rgb(230, 234, 242)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "NAV",
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "color": "rgb(230, 234, 242)",
+      "bg": "rgb(21, 35, 68)"
+    },
+    {
+      "tag": "H1",
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "color": "rgb(230, 234, 242)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "color": "rgb(230, 234, 242)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "color": "rgb(230, 234, 242)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "color": "rgb(230, 234, 242)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H1",
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "color": "rgb(230, 234, 242)",
+      "bg": "rgba(0, 0, 0, 0)"
+    }
+  ],
+  "overflow": false
+}

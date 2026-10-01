@@ -1,0 +1,3101 @@
+{
+  "at": "2026-09-28T18:19:49.184Z",
+  "copy": [
+    {
+      "path": "/developers/tools",
+      "count": 1,
+      "afterButton": "Copy",
+      "clipboard": "{\r\n  \"Network Name\": \"MAGNE L1 Testnet\",\r\n  \"RPC URL\": \"https://rpc.testnet.magicalhash.com\",\r\n  \"ChainID\": 20250810,\r\n  \"Currency Symbol\": \"MHA\",\r\n  \"Block Explorer\": \"https://explorer.testnet.magicalhash.com\"\r\n}\r\n\r\n{\r\n  \"Network Name\": \"M Hash L2 Testnet\",\r\n  \"RPC URL\": \"https://l2-rpc.testnet.magicalhash.com\",\r\n  \"ChainID\": 20250827,\r\n  \"Currency Symbol\": \"MHA\",\r\n  \"Block Explorer\": \"https://l2-explorer.testnet.magicalhash.com\"\r\n}\r\n",
+      "changed": []
+    },
+    {
+      "path": "/developers/build-contract",
+      "count": 20,
+      "afterButton": "Copy",
+      "clipboard": "mkdir my-MAGNE-project && cd my-MAGNE-project\r\n",
+      "changed": [
+        "Copied!"
+      ]
+    },
+    {
+      "path": "/developers/build-app",
+      "count": 40,
+      "afterButton": "Copy",
+      "clipboard": "```bash Terminal\r\nnpm create onchain@latest\r\n",
+      "changed": [
+        "Copied!"
+      ]
+    },
+    {
+      "path": "/developers/launch-token",
+      "count": 13,
+      "afterButton": "Copy",
+      "clipboard": "curl -L https://foundry.paradigm.xyz | bash\r\nfoundryup\r\n",
+      "changed": [
+        "Copied!"
+      ]
+    }
+  ],
+  "walletNoProvider": [],
+  "walletMock": [
+    {
+      "method": "wallet_switchEthereumChain",
+      "params": [
+        {
+          "chainId": "0x13500ba"
+        }
+      ]
+    },
+    {
+      "method": "wallet_switchEthereumChain",
+      "params": [
+        {
+          "chainId": "0x13500cb"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "https://t.me/MagneAI",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "community--telegram-3b51b283-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "https://x.com/Magne_Ai",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "community--twitter-acf1cc6e-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "https://x.com/Magne_Ai",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "community-6c5452a2-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "here",
+      "href": "https://visualkey.link/"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "explorer",
+      "href": "https://explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "here",
+      "href": "https://visualkey.link/"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "explorer",
+      "href": "https://l2-explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--build-app-31a84f9d-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "here",
+      "href": "https://book.getfoundry.sh/"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "faucets",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "https://explorer.testnet.magicalhash.com",
+      "href": "http://explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "here",
+      "href": "https://book.getfoundry.sh/"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "faucets",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "https://l2-explorer.testnet.magicalhash.com",
+      "href": "http://explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--build-contract-c56836a7-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "https://rpc.magicalhash.com",
+      "href": "https://rpc.magicalhash.com/"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "MAGNE L1  explorer",
+      "href": "https://explorer.testnet.magicalhash.com/contract-verification"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "MAGNE L1 explorer",
+      "href": "https://explorer.testnet.magicalhash.com/contract-verification"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--launch-token-6452a21d-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "https://rpc.testnet.magicalhash.com",
+      "href": "https://rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "https://explorer.testnet.magicalhash.com",
+      "href": "https://explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "https://l2-rpc.testnet.magicalhash.com",
+      "href": "https://l2-rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "https://l2-explorer.testnet.magicalhash.com",
+      "href": "https://l2-explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--net-config-8965b05b-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers--tools-84389663-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "https://rpc.testnet.magicalhash.com",
+      "href": "https://rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "https://explorer.testnet.magicalhash.com",
+      "href": "https://explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "https://l2-rpc.testnet.magicalhash.com",
+      "href": "https://l2-rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "https://l2-explorer.testnet.magicalhash.com",
+      "href": "https://l2-explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "developers-02ce1e1f-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "info@MAGNE.AI",
+      "href": "mailto:info@MAGNE.AI"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help--contact-d56c01dc-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help--faqs-ee2eeec3-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help--glossary-9d247507-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "help-c6ba053c-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--gov-overview-8674f07c-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--governance-4c1bd8fc-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--incentives-9ddc5908-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--magne-dapp-f82dbebe-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--metrics-e50a3ee3-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--mha-649c6f1b-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--milestone-6b0aa61f-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--pow-f4369662-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--team-execution-a3163054-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--tokenomics-3465ae77-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning--what-is-magne-ada2c6e3-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "learning-25f0f5fb-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "https://rpc.testnet.magicalhash.com",
+      "href": "https://rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "https://explorer.testnet.magicalhash.com",
+      "href": "https://explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "https://l2-rpc.testnet.magicalhash.com",
+      "href": "https://l2-rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "https://l2-explorer.testnet.magicalhash.com",
+      "href": "https://l2-explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "https://rpc.magicalhash.com",
+      "href": "https://rpc.magicalhash.com/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "https://explorer.magicalhash.com",
+      "href": "https://explorer.magicalhash.com/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "https://l2-rpc.magicalhash.com",
+      "href": "https://l2-rpc.magicalhash.com/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "https://l2-explorer.magicalhash.com",
+      "href": "https://l2-explorer.magicalhash.com/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--explorer-96f4282c-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--faucet-b13ac748-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "MAGNE.AI",
+      "href": "http://magne.ai/"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "MAGNE.AI",
+      "href": "http://magne.ai/"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--l1-49bab9c7-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "MAGNE.AI",
+      "href": "http://magne.ai/"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks--l2-a9607234-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "https://rpc.testnet.magicalhash.com",
+      "href": "https://rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "https://explorer.testnet.magicalhash.com",
+      "href": "https://explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "https://l2-rpc.testnet.magicalhash.com",
+      "href": "https://l2-rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "https://l2-explorer.testnet.magicalhash.com",
+      "href": "https://l2-explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "https://rpc.magicalhash.com",
+      "href": "https://rpc.magicalhash.com/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "https://explorer.magicalhash.com",
+      "href": "https://explorer.magicalhash.com/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "https://l2-rpc.magicalhash.com",
+      "href": "https://l2-rpc.magicalhash.com/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "https://l2-explorer.magicalhash.com",
+      "href": "https://l2-explorer.magicalhash.com/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "networks-1c6a060a-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "PAYMENTS ON MAGNE.AI↗",
+      "href": "https://payment.magne.ai/buy"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "START BUILDING",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "root-8a5edab2-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "https://rpc.testnet.magicalhash.com",
+      "href": "https://rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "https://explorer.testnet.magicalhash.com",
+      "href": "https://explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "https://l2-rpc.testnet.magicalhash.com",
+      "href": "https://l2-rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "https://l2-explorer.testnet.magicalhash.com",
+      "href": "https://l2-explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "http://rpc.magicalhash.com:8500",
+      "href": "http://rpc.magicalhash.com:8500/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "http://explorer.magicalhash.com/",
+      "href": "http://explorer.magicalhash.com/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "http://l2-rpc.magicalhash.com:8600",
+      "href": "http://rpc.magicalhash.com:8600/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "http://l2-explorer.magicalhash.com/",
+      "href": "http://explorer.magicalhash.com/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "EVM-based wallet",
+      "href": "https://ethereum.org/en/wallets/find-wallet/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "MetaMask",
+      "href": "https://metamask.io/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "Rabby",
+      "href": "https://rabby.io/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "Coinbase Wallet",
+      "href": "https://www.coinbase.com/wallet"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "Brave Wallet",
+      "href": "https://brave.com/wallet/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "Frame",
+      "href": "https://frame.sh/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "website",
+      "href": "https://metamask.io/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--connect-1028b519-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--get-mha-5cdbe4ba-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--hardware-d66a40e9-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--opstack-ffe68c83-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--optimizations-83aa5c59-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--poai-depin-f96d741d-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--security-fa034bb2-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions--why-l2-4915769c-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "https://rpc.testnet.magicalhash.com",
+      "href": "https://rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "https://explorer.testnet.magicalhash.com",
+      "href": "https://explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "https://l2-rpc.testnet.magicalhash.com",
+      "href": "https://l2-rpc.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "https://l2-explorer.testnet.magicalhash.com",
+      "href": "https://l2-explorer.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "https://faucet.testnet.magicalhash.com",
+      "href": "https://faucet.testnet.magicalhash.com/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "http://rpc.magicalhash.com:8500",
+      "href": "http://rpc.magicalhash.com:8500/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "http://explorer.magicalhash.com/",
+      "href": "http://explorer.magicalhash.com/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "http://l2-rpc.magicalhash.com:8600",
+      "href": "http://rpc.magicalhash.com:8600/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "http://l2-explorer.magicalhash.com/",
+      "href": "http://explorer.magicalhash.com/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "EVM-based wallet",
+      "href": "https://ethereum.org/en/wallets/find-wallet/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "MetaMask",
+      "href": "https://metamask.io/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "Rabby",
+      "href": "https://rabby.io/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "Coinbase Wallet",
+      "href": "https://www.coinbase.com/wallet"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "Brave Wallet",
+      "href": "https://brave.com/wallet/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "Frame",
+      "href": "https://frame.sh/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "website",
+      "href": "https://metamask.io/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "",
+      "href": "https://www.youtube.com/@Magne_AI"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "page": "solutions-74a05f0a-1440.json",
+      "text": "Privacy Policy",
+      "href": "https://www.magne.ai/legal/privacy-policy"
+    }
+  ],
+  "note": "Wallet request is a mock only; no wallet or chain state changed."
+}

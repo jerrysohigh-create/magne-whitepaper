@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "url": "http://127.0.0.1:4173/tc/learning/milestone",
+      "rows": 41,
+      "brokenAnchors": [],
+      "overflow": false,
+      "scrollHint": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "keyboardTableScroll": 40
+    },
+    {
+      "url": "http://127.0.0.1:4173/learning/milestone",
+      "rows": 41,
+      "brokenAnchors": [],
+      "overflow": false,
+      "scrollHint": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "keyboardTableScroll": 40
+    }
+  ],
+  "errors": []
+}

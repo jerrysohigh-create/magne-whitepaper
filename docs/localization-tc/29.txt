@@ -1,0 +1,3 @@
+/help/contact
+1285	Contact Us
+1286	<strong><a href="mailto:info@MAGNE.AI">info@MAGNE.AI</a></strong>

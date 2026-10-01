@@ -1,0 +1,352 @@
+{
+  "archiveHash": "bf27c056b6632a6c343d44029f82f47cac0a1acfe7ecc4ec767d2fa67a49d81d",
+  "baseline": 13750,
+  "rows": [
+    {
+      "month": 1,
+      "earned": 242.42424242424244,
+      "released": 145.45454545454547,
+      "cumulativeEarned": 242.42424242424244,
+      "cumulativeReleased": 145.45454545454547,
+      "locked": 96.96969696969697
+    },
+    {
+      "month": 2,
+      "earned": 727.2727272727273,
+      "released": 484.8484848484848,
+      "cumulativeEarned": 969.6969696969697,
+      "cumulativeReleased": 630.3030303030303,
+      "locked": 339.3939393939395
+    },
+    {
+      "month": 3,
+      "earned": 1212.121212121212,
+      "released": 921.2121212121211,
+      "cumulativeEarned": 2181.818181818182,
+      "cumulativeReleased": 1551.5151515151515,
+      "locked": 630.3030303030305
+    },
+    {
+      "month": 4,
+      "earned": 1212.121212121212,
+      "released": 1115.151515151515,
+      "cumulativeEarned": 3393.939393939394,
+      "cumulativeReleased": 2666.6666666666665,
+      "locked": 727.2727272727275
+    },
+    {
+      "month": 5,
+      "earned": 1212.121212121212,
+      "released": 1212.121212121212,
+      "cumulativeEarned": 4606.060606060606,
+      "cumulativeReleased": 3878.7878787878785,
+      "locked": 727.2727272727275
+    },
+    {
+      "month": 6,
+      "earned": 1212.121212121212,
+      "released": 1212.121212121212,
+      "cumulativeEarned": 5818.181818181818,
+      "cumulativeReleased": 5090.90909090909,
+      "locked": 727.2727272727279
+    },
+    {
+      "month": 7,
+      "earned": 1212.121212121212,
+      "released": 1212.121212121212,
+      "cumulativeEarned": 7030.30303030303,
+      "cumulativeReleased": 6303.030303030302,
+      "locked": 727.2727272727279
+    },
+    {
+      "month": 8,
+      "earned": 1212.121212121212,
+      "released": 1212.121212121212,
+      "cumulativeEarned": 8242.424242424242,
+      "cumulativeReleased": 7515.151515151514,
+      "locked": 727.2727272727279
+    },
+    {
+      "month": 9,
+      "earned": 1212.121212121212,
+      "released": 1212.121212121212,
+      "cumulativeEarned": 9454.545454545454,
+      "cumulativeReleased": 8727.272727272726,
+      "locked": 727.2727272727279
+    },
+    {
+      "month": 10,
+      "earned": 1212.121212121212,
+      "released": 1212.121212121212,
+      "cumulativeEarned": 10666.666666666666,
+      "cumulativeReleased": 9939.393939393938,
+      "locked": 727.2727272727279
+    },
+    {
+      "month": 11,
+      "earned": 1212.121212121212,
+      "released": 1212.121212121212,
+      "cumulativeEarned": 11878.787878787878,
+      "cumulativeReleased": 11151.51515151515,
+      "locked": 727.2727272727279
+    },
+    {
+      "month": 12,
+      "earned": 1212.121212121212,
+      "released": 1212.121212121212,
+      "cumulativeEarned": 13090.90909090909,
+      "cumulativeReleased": 12363.636363636362,
+      "locked": 727.2727272727279
+    },
+    {
+      "month": 13,
+      "earned": 606.060606060606,
+      "released": 848.4848484848484,
+      "cumulativeEarned": 13696.969696969696,
+      "cumulativeReleased": 13212.12121212121,
+      "locked": 484.8484848484859
+    },
+    {
+      "month": 14,
+      "earned": 606.060606060606,
+      "released": 727.2727272727271,
+      "cumulativeEarned": 14303.030303030302,
+      "cumulativeReleased": 13939.393939393938,
+      "locked": 363.63636363636397
+    },
+    {
+      "month": 15,
+      "earned": 606.060606060606,
+      "released": 606.060606060606,
+      "cumulativeEarned": 14909.090909090908,
+      "cumulativeReleased": 14545.454545454544,
+      "locked": 363.63636363636397
+    },
+    {
+      "month": 16,
+      "earned": 606.060606060606,
+      "released": 606.060606060606,
+      "cumulativeEarned": 15515.151515151514,
+      "cumulativeReleased": 15151.51515151515,
+      "locked": 363.63636363636397
+    },
+    {
+      "month": 17,
+      "earned": 606.060606060606,
+      "released": 606.060606060606,
+      "cumulativeEarned": 16121.21212121212,
+      "cumulativeReleased": 15757.575757575756,
+      "locked": 363.63636363636397
+    },
+    {
+      "month": 18,
+      "earned": 606.060606060606,
+      "released": 606.060606060606,
+      "cumulativeEarned": 16727.272727272728,
+      "cumulativeReleased": 16363.636363636362,
+      "locked": 363.6363636363658
+    },
+    {
+      "month": 19,
+      "earned": 606.060606060606,
+      "released": 606.060606060606,
+      "cumulativeEarned": 17333.333333333336,
+      "cumulativeReleased": 16969.696969696968,
+      "locked": 363.6363636363676
+    },
+    {
+      "month": 20,
+      "earned": 606.060606060606,
+      "released": 606.060606060606,
+      "cumulativeEarned": 17939.393939393944,
+      "cumulativeReleased": 17575.757575757576,
+      "locked": 363.6363636363676
+    },
+    {
+      "month": 21,
+      "earned": 606.060606060606,
+      "released": 606.060606060606,
+      "cumulativeEarned": 18545.45454545455,
+      "cumulativeReleased": 18181.818181818184,
+      "locked": 363.6363636363676
+    },
+    {
+      "month": 22,
+      "earned": 606.060606060606,
+      "released": 606.060606060606,
+      "cumulativeEarned": 19151.51515151516,
+      "cumulativeReleased": 18787.87878787879,
+      "locked": 363.6363636363676
+    },
+    {
+      "month": 23,
+      "earned": 606.060606060606,
+      "released": 606.060606060606,
+      "cumulativeEarned": 19757.575757575767,
+      "cumulativeReleased": 19393.9393939394,
+      "locked": 363.6363636363676
+    },
+    {
+      "month": 24,
+      "earned": 606.060606060606,
+      "released": 606.060606060606,
+      "cumulativeEarned": 20363.636363636375,
+      "cumulativeReleased": 20000.000000000007,
+      "locked": 363.6363636363676
+    },
+    {
+      "month": 25,
+      "earned": 303.030303030303,
+      "released": 424.2424242424242,
+      "cumulativeEarned": 20666.66666666668,
+      "cumulativeReleased": 20424.24242424243,
+      "locked": 242.4242424242475
+    },
+    {
+      "month": 26,
+      "earned": 303.030303030303,
+      "released": 363.63636363636357,
+      "cumulativeEarned": 20969.696969696983,
+      "cumulativeReleased": 20787.878787878795,
+      "locked": 181.81818181818744
+    },
+    {
+      "month": 27,
+      "earned": 303.030303030303,
+      "released": 303.030303030303,
+      "cumulativeEarned": 21272.727272727287,
+      "cumulativeReleased": 21090.9090909091,
+      "locked": 181.81818181818744
+    },
+    {
+      "month": 28,
+      "earned": 303.030303030303,
+      "released": 303.030303030303,
+      "cumulativeEarned": 21575.75757575759,
+      "cumulativeReleased": 21393.939393939403,
+      "locked": 181.81818181818744
+    },
+    {
+      "month": 29,
+      "earned": 303.030303030303,
+      "released": 303.030303030303,
+      "cumulativeEarned": 21878.787878787894,
+      "cumulativeReleased": 21696.969696969707,
+      "locked": 181.81818181818744
+    },
+    {
+      "month": 30,
+      "earned": 303.030303030303,
+      "released": 303.030303030303,
+      "cumulativeEarned": 22181.8181818182,
+      "cumulativeReleased": 22000.00000000001,
+      "locked": 181.81818181818744
+    },
+    {
+      "month": 31,
+      "earned": 303.030303030303,
+      "released": 303.030303030303,
+      "cumulativeEarned": 22484.848484848502,
+      "cumulativeReleased": 22303.030303030315,
+      "locked": 181.81818181818744
+    },
+    {
+      "month": 32,
+      "earned": 303.030303030303,
+      "released": 303.030303030303,
+      "cumulativeEarned": 22787.878787878806,
+      "cumulativeReleased": 22606.06060606062,
+      "locked": 181.81818181818744
+    },
+    {
+      "month": 33,
+      "earned": 303.030303030303,
+      "released": 303.030303030303,
+      "cumulativeEarned": 23090.90909090911,
+      "cumulativeReleased": 22909.090909090923,
+      "locked": 181.81818181818744
+    },
+    {
+      "month": 34,
+      "earned": 303.030303030303,
+      "released": 303.030303030303,
+      "cumulativeEarned": 23393.939393939414,
+      "cumulativeReleased": 23212.121212121227,
+      "locked": 181.81818181818744
+    },
+    {
+      "month": 35,
+      "earned": 303.030303030303,
+      "released": 303.030303030303,
+      "cumulativeEarned": 23696.969696969718,
+      "cumulativeReleased": 23515.15151515153,
+      "locked": 181.81818181818744
+    },
+    {
+      "month": 36,
+      "earned": 303.030303030303,
+      "released": 303.030303030303,
+      "cumulativeEarned": 24000.000000000022,
+      "cumulativeReleased": 23818.181818181834,
+      "locked": 181.81818181818744
+    },
+    {
+      "month": 37,
+      "earned": 0,
+      "released": 121.2121212121212,
+      "cumulativeEarned": 24000.000000000022,
+      "cumulativeReleased": 23939.393939393954,
+      "locked": 60.60606060606733
+    },
+    {
+      "month": 38,
+      "earned": 0,
+      "released": 60.6060606060606,
+      "cumulativeEarned": 24000.000000000022,
+      "cumulativeReleased": 24000.000000000015,
+      "locked": 7.275957614183426e-12
+    }
+  ],
+  "files": [
+    {
+      "file": "src/content/whitepaper/learning/tokenomics.html",
+      "before": "0a62d398a9b360642293b897b820f614f70ef92a3219c042b6f123150bee7b18",
+      "after": "fe1bb313e73b9901fb38da32cae601837ce4aeccc9a7cca69487f8e4f8219fb9"
+    },
+    {
+      "file": "src/content/whitepaper/learning/tokenomics-changelog.html",
+      "before": "1638464043538bdfb2fa51a9e40fe2b9083f29b85bd0d396d6f9b793b6923f59",
+      "after": "8b0844d975b9637b2c8d8a4be7e04c1502f988b5f3a4e53aff69336358a6a8ff"
+    },
+    {
+      "file": "src/content/whitepaper/learning/tokenomics-announcement.html",
+      "before": "0210b05e516ca6e8b756e78a9629887372ec806f66cdfeef7751d252745b5eb5",
+      "after": "1f8477dcb0ff3c3eba2069cbce6934ef1b4d867aff4e3926b817e9e975a19750"
+    },
+    {
+      "file": "src/content/whitepaper/learning/tokenomics-zh.html",
+      "before": "db66fb13bb2100d512e2f514f2a18c985a05a68b696b1bb500314301d386e7c9",
+      "after": "858502b5508cfdeb37e197ebc4dff8106f07d5e4ce3080ad9f42b099dd298733"
+    },
+    {
+      "file": "src/content/whitepaper-tc/learning/tokenomics.html",
+      "before": "b66be4d366c1ed60ebc3a04fb5519b7f30ca7db88e3c4b8185f581aafb8ad12a",
+      "after": "5cb9bf20ea54f37026e5a6f23601a56b90a8c1bf589ce5c3fc2d9f5ed57f10f4"
+    },
+    {
+      "file": "src/content/whitepaper-tc/learning/tokenomics-changelog.html",
+      "before": "d9d7a3a7ffb241a72e69578906a0358025eb34e510d080194158e77c0956f2f9",
+      "after": "c9bdef50caa42c05b3b0f925d8d90a5ba2aedb1b07b678f5d5f3cddd172c065f"
+    },
+    {
+      "file": "src/content/whitepaper-tc/learning/tokenomics-announcement.html",
+      "before": "88e625422da42b5851e6298041943a89318975b45e399753471b6efd5a6e0da0",
+      "after": "01148a6abac4d87034915145e20ec6bea4feab2c29b6e920e0c841a73197f02f"
+    },
+    {
+      "file": "src/content/whitepaper-tc/learning/tokenomics-zh.html",
+      "before": "f7bde9071a517308cb45b3308582c7f513792777e40e69ab71bff4aadcd90951",
+      "after": "4128cc2a04476f13db5b4edb56a4939e47732204f23baadbfcd4629d6e1a2e4a"
+    }
+  ]
+}

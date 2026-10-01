@@ -1,0 +1,251 @@
+{
+  "reviewed": "2026-10-02",
+  "security": [
+    [
+      "2023-12-12",
+      [
+        "UTEE · CC EAL2+",
+        "UTEE · CC EAL2+"
+      ],
+      [
+        "Original disclosure · controlled evidence",
+        "原披露 · 證據受控"
+      ],
+      [
+        "Trusted execution environment evaluation; not a whole-phone certificate.",
+        "可信執行環境評估，不是整機認證。"
+      ],
+      [
+        [
+          "/v1.0/learning/milestone",
+          "v1.0"
+        ],
+        [
+          "https://www.magne.ai/en/compliance.html",
+          "MAG1 · Compliance"
+        ]
+      ]
+    ],
+    [
+      "2024-05-28",
+      [
+        "HyperSeed N60 · CC EAL6+",
+        "HyperSeed N60 · CC EAL6+"
+      ],
+      [
+        "Original disclosure · controlled evidence",
+        "原披露 · 證據受控"
+      ],
+      [
+        "Secure-component reference; the evaluated part and configuration require the certificate mapping.",
+        "安全元件認證參考；受評元件及配置須核對證書對應關係。"
+      ],
+      [
+        [
+          "/v1.0/learning/milestone",
+          "v1.0"
+        ],
+        [
+          "https://www.magne.ai/en/compliance.html",
+          "MAG1 · Compliance"
+        ]
+      ]
+    ],
+    [
+      "2025-09-05",
+      [
+        "HyperSeed 72B · CC EAL6+",
+        "HyperSeed 72B · CC EAL6+"
+      ],
+      [
+        "Original disclosure · controlled evidence",
+        "原披露 · 證據受控"
+      ],
+      [
+        "Secure-element reference used in the NFC recovery architecture.",
+        "NFC 恢復架構所引用的安全元件認證。"
+      ],
+      [
+        [
+          "/v1.0/learning/milestone",
+          "v1.0"
+        ],
+        [
+          "https://www.magne.ai/en/compliance.html",
+          "MAG1 · Compliance"
+        ]
+      ]
+    ]
+  ],
+  "hardware": [
+    [
+      "2025-09-09",
+      [
+        "Manufacturing supply-chain access started",
+        "製造供應鏈導入啟動"
+      ],
+      [
+        "Company disclosure",
+        "公司披露"
+      ],
+      [
+        "Stage record; not a shipment milestone.",
+        "階段記錄，不等同出貨。"
+      ],
+      [
+        [
+          "https://www.magne.ai/en/progress.html",
+          "MAGNE.AI · Progress"
+        ]
+      ]
+    ],
+    [
+      "2025-09-15",
+      [
+        "Trial-production and manufacturing cooperation started",
+        "試產製造合作啟動"
+      ],
+      [
+        "Company disclosure",
+        "公司披露"
+      ],
+      [
+        "Supporting records remain under controlled due diligence.",
+        "支持文件仍採受控盡職調查查閱。"
+      ],
+      [
+        [
+          "https://www.magne.ai/en/progress.html",
+          "MAGNE.AI · Progress"
+        ]
+      ]
+    ],
+    [
+      "2025-09-20",
+      [
+        "Widevine L1 approval record",
+        "Widevine L1 批准記錄"
+      ],
+      [
+        "Original date · verification pending",
+        "原披露日期 · 待核對"
+      ],
+      [
+        "The old whitepaper gives this date; the current compliance index includes Widevine materials. Approval date and build scope require the original record; do not substitute the later GMS chronology date.",
+        "舊白皮書列此日期；現行合規索引有 Widevine 資料。批准日期及版本範圍須核對原記錄，不直接套用後來的 GMS 時間軸日期。"
+      ],
+      [
+        [
+          "/v1.0/learning/milestone",
+          "v1.0"
+        ],
+        [
+          "https://www.magne.ai/en/compliance.html",
+          "MAG1 · Compliance"
+        ]
+      ]
+    ],
+    [
+      "2025-09-30",
+      [
+        "PRE EVT technical-development stage started",
+        "PRE EVT 技術開發階段啟動"
+      ],
+      [
+        "Company disclosure",
+        "公司披露"
+      ],
+      [
+        "Development start is separate from P0 acceptance.",
+        "技術開發啟動與 P0 驗收分開記錄。"
+      ],
+      [
+        [
+          "https://www.magne.ai/en/progress.html",
+          "MAGNE.AI · Progress"
+        ]
+      ]
+    ],
+    [
+      "2025-12-19",
+      [
+        "OEM / ODM production-contract record",
+        "OEM／ODM 生產合約記錄"
+      ],
+      [
+        "Historical disclosure · reconciliation pending",
+        "歷史披露 · 待對齊"
+      ],
+      [
+        "Restored from v1.0. Its relationship to the September cooperation stages requires controlled records; no contract terms or newly verified signing claim are disclosed.",
+        "按 v1.0 恢復。與 9 月合作階段的關係須以受控文件對齊；不披露合約條款，也不列作本次已重新核驗簽署。"
+      ],
+      [
+        [
+          "/v1.0/learning/milestone",
+          "v1.0"
+        ],
+        [
+          "https://www.magne.ai/en/progress.html",
+          "MAGNE.AI · Progress"
+        ]
+      ]
+    ]
+  ],
+  "network": [
+    [
+      "2025-10-20",
+      [
+        "Testnet faucet / gas provision",
+        "測試網水龍頭／Gas 供應"
+      ],
+      [
+        "Original date · testnet only",
+        "原披露日期 · 僅限測試網"
+      ],
+      [
+        "The v1.0 date is retained as a historical record, not a live endpoint-availability test or mainnet service claim.",
+        "保留 v1.0 日期作歷史記錄；不代表本次已測試端點即時可用性或主網服務。"
+      ],
+      [
+        [
+          "/v1.0/learning/milestone",
+          "v1.0"
+        ],
+        [
+          "https://w3.magne.ai/network.html",
+          "W3 · Network"
+        ]
+      ]
+    ],
+    [
+      "2025-10-22",
+      [
+        "Developer documentation v1",
+        "開發者文件 v1"
+      ],
+      [
+        "Original disclosure",
+        "原披露"
+      ],
+      [
+        "RPC, network settings and tools were recorded in v1.0; first-publication timestamp still requires the source history.",
+        "v1.0 記錄 RPC、網絡設定與工具文件；首次發布時間戳仍須核對來源歷史。"
+      ],
+      [
+        [
+          "/v1.0/learning/milestone",
+          "v1.0"
+        ],
+        [
+          "https://w3.magne.ai/network.html",
+          "W3 · Network"
+        ]
+      ]
+    ]
+  ],
+  "notes": [
+    "EAL dates restored as prior project disclosures, not independently verified certificate issue dates.",
+    "Expired production/mainnet plans remain pending; obsolete pre-TGE preparation items are not reinstated as current milestones."
+  ]
+}

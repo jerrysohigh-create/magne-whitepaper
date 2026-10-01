@@ -1,0 +1,223 @@
+{
+  "documents": [
+    {
+      "route": "/learning/magne-dapp",
+      "units": 2,
+      "sourceSha256": "75ec8c8508b03cac9b31af5f47695d8942a8562bf11ed99f3f7391f17750227c",
+      "translationSha256": "1dd6f3ee0c5431570581eab605c9898c6cae80f5cacc2f327767805f9e785f55"
+    },
+    {
+      "route": "/learning/what-is-magne",
+      "units": 17,
+      "sourceSha256": "31d1acc0618dba59eb22e90b3b95063af4caf0ce31915dff8534679a6c1b2ea5",
+      "translationSha256": "86448998f8e8d92771b4bc0c5492e2eb202b32eadcad3185435170011f856a26"
+    },
+    {
+      "route": "/learning/mha",
+      "units": 9,
+      "sourceSha256": "99eb0e5cf19a59522fa8d879092bd0ed3a4fef4fe2c2b7278d5b376ae48efe7d",
+      "translationSha256": "88f204c0f849adbcfd33b020f5763fdfb8d65d0a50e43277dd6ac740ac79a444"
+    },
+    {
+      "route": "/learning/pow",
+      "units": 6,
+      "sourceSha256": "7e8cc439bd505c5190c7970849c7bd48e7ea942837932abeef248a3c82c904c1",
+      "translationSha256": "93075a75e9714eed597922e13979be467ffa33c4241ea588d4045100c3658ee8"
+    },
+    {
+      "route": "/learning/tokenomics",
+      "units": 228,
+      "sourceSha256": "feb8583e932d17b89baf7b513d1a24101038cf754a9880b947c0e877922e4cb5",
+      "translationSha256": "232185ca3c4c519d99cbba2960d7e32cbcf0ef40c9e723a4c54ae28e7fa94b95"
+    },
+    {
+      "route": "/learning/governance",
+      "units": 16,
+      "sourceSha256": "7c84a14313f87b131374d2e774152e33f234bf86b977d7f3b1ad9684bc77cd05",
+      "translationSha256": "1b02713d53d1f03127ebe92a69728790f1cbe7af7bf5e5b172aa44f1fd3a7105"
+    },
+    {
+      "route": "/learning/gov-overview",
+      "units": 51,
+      "sourceSha256": "bb60c6d4c528259250bc45b17e48ef6885a6d669a40e8f971dd66a974a90e949",
+      "translationSha256": "9b5b52df8d0374668a29ea4a0c7a81bfbf6e87e4b3b78a9ae9a8312750caca08"
+    },
+    {
+      "route": "/learning/incentives",
+      "units": 50,
+      "sourceSha256": "348468c2a7f614751a13b17fa68b913fed00eb0c4173ed895589e2217b425b51",
+      "translationSha256": "e5f5d657b355dc89b578219abda9fef2579a7f7e5c59c06a99d6da655fb2c991"
+    },
+    {
+      "route": "/learning/team-execution",
+      "units": 18,
+      "sourceSha256": "a56b882bceb2181cc5e746c0df1a8760938fd4344871d44700f6b38c385e9378",
+      "translationSha256": "e39e14f1ebf746ed98b27b6d8bde06a8c9a24aed5b4613b7a7218d18bc6f0570"
+    },
+    {
+      "route": "/learning/metrics",
+      "units": 61,
+      "sourceSha256": "5c9af49cd3ed2bed1b3ef7a9a9eb638184456bd0d1482a596d40f0f4e341b034",
+      "translationSha256": "6fbcbebbd1d1cd749ab9703a2470a01d31c1939876637bb84f7d7cd242b94094"
+    },
+    {
+      "route": "/learning/milestone",
+      "units": 188,
+      "sourceSha256": "12b327a9273bf25bba5827755f7ffbd51eb9a959ccaa9b158f5d10655b4f834e",
+      "translationSha256": "a046a9045cee02dbbad8671c26fa35f5ee1e7e2253ce4a810f8da0b146eb6fbd"
+    },
+    {
+      "route": "/developers/net-config",
+      "units": 25,
+      "sourceSha256": "4229397a762da0e8097e33297f343307c3a089f90393c6d3463e99bd2b0efaa5",
+      "translationSha256": "fcbea14b48adea6cc399786366658d8ee8fe5c34fa1cf0183742f878c352d4d4"
+    },
+    {
+      "route": "/developers/tools",
+      "units": 5,
+      "sourceSha256": "d04d0bcaa5cb6ec4865dd4cd6d657e87dd61c0e08b5183545a6d39eb720a9172",
+      "translationSha256": "2824b5b720b63be84aec857ac0517bb958eb69db531f3ec742953ce5264fb5a8"
+    },
+    {
+      "route": "/developers/build-contract",
+      "units": 94,
+      "sourceSha256": "340319e14706ea3f4e7c9e82c4a5bb95169a0fbaeaad282c94ce41419a5ff162",
+      "translationSha256": "351917318f4e24101a2671009d380f75f8269484066757b3ecf2e912fecd970a"
+    },
+    {
+      "route": "/developers/launch-token",
+      "units": 35,
+      "sourceSha256": "7f16824d939d325e893391e98af49a6600e567823050a4a94731ab941e00d080",
+      "translationSha256": "0275634b79c6bde7fe233c2d2ed52cfb0745499b1a61911cefa374780103f0b0"
+    },
+    {
+      "route": "/developers/build-app",
+      "units": 66,
+      "sourceSha256": "5dcacf4fbec9f6434f550b783f4d2a8fe9cd3bb83e30bcacdf91b574e63bab59",
+      "translationSha256": "c787d4e49defb13420e2cb79e9e960646ef5e46bb0dfa3d6342f364a9292a6c0"
+    },
+    {
+      "route": "/solutions/connect",
+      "units": 74,
+      "sourceSha256": "881df5f1a2dac44b92eb1fb8b1385c9ec53c422fb6539f072906c1dc81fbd6c6",
+      "translationSha256": "ff3d45e27f761619ae0c97969451a3d91c70abd9f66b571f09c994f88f62e91b"
+    },
+    {
+      "route": "/solutions/opstack",
+      "units": 10,
+      "sourceSha256": "1ff0e3c74ca3fff31b1d923d3965ecce4344251dae859efe3f4d5b43f5c9de42",
+      "translationSha256": "aa25e24bf977dcc9559d4e758c190b17c20c03c154806c0b98aeec290fe293f5"
+    },
+    {
+      "route": "/solutions/get-mha",
+      "units": 19,
+      "sourceSha256": "2b3d4931786e0fb287aa670a3926b7841ec61ad36484a657d1e7d8eb89091e2b",
+      "translationSha256": "593ea7b7e01dba054440d0f60370651001b6a48466def535857ff97013d5806a"
+    },
+    {
+      "route": "/solutions/why-l2",
+      "units": 19,
+      "sourceSha256": "e5b6424e751509d458edc3fb1969646d0c6ccd312b65c9d9afe69b01e0752d9e",
+      "translationSha256": "23574d6d957c9f692d1b7863bfeafe440b63343fbc86ddd41830cb04c721b244"
+    },
+    {
+      "route": "/solutions/security",
+      "units": 6,
+      "sourceSha256": "5554677e15a4b1d949ecc58716504022f9ffe5f82ef2f5b12cb9709132f33d46",
+      "translationSha256": "b1785cf245563d7fce8c5ff775c6a918c144c77fb4408d15512ba09ce756e174"
+    },
+    {
+      "route": "/solutions/optimizations",
+      "units": 14,
+      "sourceSha256": "d203fce1138ec0c458b717cd36ba79afefe6d6d23247a595ec90734a41d58afe",
+      "translationSha256": "d2f0520fccce02d77f7d3290eb84690d237e55c0831f29eccc07d59c0b843657"
+    },
+    {
+      "route": "/solutions/hardware",
+      "units": 51,
+      "sourceSha256": "7b64bec40fe08a5c0fe08a78d393e27d6c73454faee08edefb5458d92c9ea1aa",
+      "translationSha256": "79b7899ab02359d542821a666a5fe674556126145da99b9e055f4967ec9fb817"
+    },
+    {
+      "route": "/networks/faucet",
+      "units": 29,
+      "sourceSha256": "aa8c966e1b6d864b35fe5ec30cbec2f572a93cc1b3cca654c5920fad46d51334",
+      "translationSha256": "460027dd5becba3eb43c03be33375b966afe3a4a0ac550d81d0ed3321c72f646"
+    },
+    {
+      "route": "/networks/explorer",
+      "units": 50,
+      "sourceSha256": "3fc285b291a5392385a6c1e63f386e8e184f8c53d61eae782b3eecf18cf21dd5",
+      "translationSha256": "8e51a12149cad2b4626ba1760a97875f186ed4a516e1cacbacebc58928f06843"
+    },
+    {
+      "route": "/solutions/poai-depin",
+      "units": 20,
+      "sourceSha256": "52095da2e6041f00f02f27fda125357a615215f634f57d57bd987c146e285be8",
+      "translationSha256": "aefca402607ff80f6c63f9216297d44e1421928514c49b2428f924c87045248a"
+    },
+    {
+      "route": "/networks/l2",
+      "units": 20,
+      "sourceSha256": "2395eeb98fd57bfbadd5ab45078c8d4d3980912def3bbc531c0bf90cd8fc533b",
+      "translationSha256": "d0bd6cc2396ea527968bf7011cc4e2ce9191d9476d7a20f408419a9f7e219b2b"
+    },
+    {
+      "route": "/networks/l1",
+      "units": 18,
+      "sourceSha256": "811b83bb4271d5f717224ffe9a7705869f897073c1ed8180ee20eac0a45557b7",
+      "translationSha256": "36df838872e8180f88f0fc5e497daabd94ed7b11926d23cfd92c8641a79197a6"
+    },
+    {
+      "route": "/help/faqs",
+      "units": 84,
+      "sourceSha256": "64d7555165e0c2085e8ab359bd5bc3e4c754751eec11308b19dd911afccffec7",
+      "translationSha256": "2153dbfb758c66c471a49b68d5d0bc12fa0763548d5130aded6f35c1fd0f5768"
+    },
+    {
+      "route": "/help/contact",
+      "units": 2,
+      "sourceSha256": "7517253459ddb455e3f77d019a1e8d68c79a08d580b83a42d716acae421bad0f",
+      "translationSha256": "8b6c2127d9c3c1d62fcae4a7e302e15798f0ee58d96296fb99eb853be271e172"
+    },
+    {
+      "route": "/help/glossary",
+      "units": 52,
+      "sourceSha256": "8ef5c62e14c9fed290f8d4d823ebdb28da5f958d082072595d3e53b8da61e706",
+      "translationSha256": "2b922d430e490936b0bd33b0045321f0503d7a7ac2b9a6ac0d3bf256ff0b7799"
+    },
+    {
+      "route": "/community/twitter",
+      "units": 1,
+      "sourceSha256": "05055fe4f95b7b6886dccc2defeeb5e081c2ae733f632715b80e9ff0add5a498",
+      "translationSha256": "05055fe4f95b7b6886dccc2defeeb5e081c2ae733f632715b80e9ff0add5a498"
+    },
+    {
+      "route": "/community/telegram",
+      "units": 1,
+      "sourceSha256": "cd5376b7efbb798048ff50df5f0a7412e5f409721c988b16888a9618251ae83d",
+      "translationSha256": "cd5376b7efbb798048ff50df5f0a7412e5f409721c988b16888a9618251ae83d"
+    },
+    {
+      "route": "/learning/tokenomics-changelog",
+      "units": 35,
+      "sourceSha256": "be6a549b2b11af64c6c3ee84ca58773f826a8aced37b22e7260f57ae8fa6b462",
+      "translationSha256": "32e7aea2e87632ff604b851f955ed8ec163f77514fe8c79134eeea23e5ef626b"
+    },
+    {
+      "route": "/learning/tokenomics-zh",
+      "units": 50,
+      "sourceSha256": "4532c8f83720131496976af244c5a6913c4911388d2b72eb084d413e590bfcec",
+      "translationSha256": "6d6a63bdab08d0bbdb57a6bad2fdc480e352d3a3ee1d34a8945cba98e9b238a8"
+    },
+    {
+      "route": "/learning/tokenomics-announcement",
+      "units": 5,
+      "sourceSha256": "0b7ba150cfd6895eb53fa9873171bdfadc8b02a786151b1710105f8f2eb8adf5",
+      "translationSha256": "32f22e4d1fd4ed2bfecadacbc7c10a2e3d96f909c8c37d162c6967eb0c51a0fe"
+    }
+  ],
+  "units": 1431,
+  "untranslated": 0,
+  "technicalIdentifiersRetained": 85
+}

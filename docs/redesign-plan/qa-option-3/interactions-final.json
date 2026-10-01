@@ -1,0 +1,14 @@
+{
+  "passed": [
+    "Code copy uses the actual code block",
+    "Section navigation and active outline follow scrolling",
+    "Primary reading journey",
+    "Archive entry, chapter navigation and isolated internal links",
+    "Keyboard search result navigation",
+    "Mobile dialog Escape and focus restoration",
+    "18 final responsive checks across six viewport widths",
+    "Six existing category redirects",
+    "Existing v1.0 tokenomics entry preserved"
+  ],
+  "errors": []
+}

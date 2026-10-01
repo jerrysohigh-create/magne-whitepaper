@@ -1,0 +1,598 @@
+[
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\home.html",
+    "Hash": "E1A93030EACBAD6D46EE88FCF0DDE604D934BC64D09FA38DE7D118E7703309C8"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\routes.json",
+    "Hash": "E27EA68801B7AC98803C6BC26BF306DEF2E7CC71007803CA517B6659B86DE292"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\community\\telegram.html",
+    "Hash": "F1AA1B355E69D12DEF2101569C5D0B1BE4E7253A7027125B65E6BC507FD5F587"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\community\\twitter.html",
+    "Hash": "41F2F1A2FCD5952AF9C24075C4D78C3420D8F6F6D3FF331A8DB385566B434BC9"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\developers\\build-app.html",
+    "Hash": "F2553CA8952FCD01EA97B4BC7BDD6CF6C3368EEB37ADA2F0E315D67748532C21"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\developers\\build-contract.html",
+    "Hash": "7EE4C995FAA08FE40F3B7F6170436ABC9991BC2ED193BBC9AF2662C087298B1A"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\developers\\launch-token.html",
+    "Hash": "762E18D54B64742EF94C7FC14DC2BADF996CE0A8B6EF40F1889979D2AEF3AE90"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\developers\\net-config.html",
+    "Hash": "07FF25EC68A94CF12B1B41B8D228457A41F6E7174475365AE42A2629282B9FB9"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\developers\\tools.html",
+    "Hash": "1D924EE5206497A34F564285B53226FE2D0E5E905DC827ABBC20557CDAEAB9A0"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\help\\contact.html",
+    "Hash": "A8483EEA50607EC03854C7225CB2732FF37A147679F968BA5B0CEA6177BE98EE"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\help\\faqs.html",
+    "Hash": "769B0C4F6EF84020AA5B827475E3696CE27F01833D4F06989D2A6B36E778CE61"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\help\\glossary.html",
+    "Hash": "EC3334299762DC3C16417ECB3D846724B854CE727D9D75C7752D73BD9142235A"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\learning\\gov-overview.html",
+    "Hash": "3CA4CFBC6FCD14578C64F625A4EBA8CBCB8061F61542567B4FE8D3DB07189CF3"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\learning\\governance.html",
+    "Hash": "E8A36688B5EA0CC26ED4AC759E58874FDB44CF3568DDAF0A214D9C1B0C72C22C"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\learning\\incentives.html",
+    "Hash": "B0186FBD55E0A297BFDC311EB519205CDD1F458DC7E769AF870412E90C48924F"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\learning\\magne-dapp.html",
+    "Hash": "2C49FAC491704D17C030C9E6B4386DB2F4A82C46CDC38D50F7F55A3576743E4A"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\learning\\metrics.html",
+    "Hash": "6CEFA4ED178A05D0323C2EE4B90F97EFE7CE793AB6D434E2836744849AA15D60"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\learning\\mha.html",
+    "Hash": "7D5105DE746A0720B298B2C3BD33A71B7639C51E1673024FC9CABE3DC9E46683"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\learning\\milestone.html",
+    "Hash": "0393017238D5547FD758B480B0568F8CFF21C522B8A5E00330E723B811B3DD0B"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\learning\\pow.html",
+    "Hash": "79F52741861ABBA5905466ADF7B46474762A6C1FB6D6C121E077E1D2DCC24121"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\learning\\team-execution.html",
+    "Hash": "4F32974DECBCEC3CB6769A452D3F952D23B585D1BE164DB72CB8C4C47D7D152C"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\learning\\tokenomics.html",
+    "Hash": "BF27C056B6632A6C343D44029F82F47CAC0A1ACFE7ECC4EC767D2FA67A49D81D"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\learning\\what-is-magne.html",
+    "Hash": "E34D2B739E0DE34D27421E0262A080D7DD4F061A826CBEE540837E2B4978AA41"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\networks\\explorer.html",
+    "Hash": "A5B0C56D22D250391D4F3140D2D39943759B9639DDB7731FDCA6A50906A5F4B8"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\networks\\faucet.html",
+    "Hash": "772B6265D852D533F2DA08A840F794FB389E9D642C9213350A737F22A0EF0319"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\networks\\l1.html",
+    "Hash": "C60ABD674188CAD9FC7912A772A957029F81D824B63F29D910ECCA52BB661F1D"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\networks\\l2.html",
+    "Hash": "925A369DA651B702E1420889887BAB10A42B8422E7B1219DEFFBF48ED2A208A9"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\solutions\\connect.html",
+    "Hash": "AF86EB858B17C0440541319F8C5EEEC5856F3F13458E95F38AE93F3B87E109CC"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\solutions\\get-mha.html",
+    "Hash": "449DA9E8FBDE29655AE5402D26AC48D9FE5ECE940742FF01F42EFEA0C971A5AF"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\solutions\\hardware.html",
+    "Hash": "B61772A65CDD693C9961F18AEC921F462CD0FD733BA317FF71847AADB2FA93FE"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\solutions\\opstack.html",
+    "Hash": "697A7116E015BBF34DA854DEF66409375690D38F3019AC1C12AD544FA8B12E14"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\solutions\\optimizations.html",
+    "Hash": "68998E323F06AF4A416548508763A31CF5F1D88E209BBBEE1BF303B7379A207E"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\solutions\\poai-depin.html",
+    "Hash": "E1E346E757798E744DC59B99CB80AD466B46FA797586ED36DED71232C6425DA8"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\solutions\\security.html",
+    "Hash": "A91C8952B057CF027B182948E2A29FD05DD4ED932863D60BC75C4539FD6132C2"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\archive-v1\\solutions\\why-l2.html",
+    "Hash": "1FF215526087F7D022C21FEEA05549BC6037047BF582F7EAE808297FFF3FDF94"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\routes.json",
+    "Hash": "F6521D0FAB87102D16A8D8D8E2FC439A604EA339B11A3B29CD97794675049E34"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\community\\telegram.html",
+    "Hash": "F1AA1B355E69D12DEF2101569C5D0B1BE4E7253A7027125B65E6BC507FD5F587"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\community\\twitter.html",
+    "Hash": "41F2F1A2FCD5952AF9C24075C4D78C3420D8F6F6D3FF331A8DB385566B434BC9"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\developers\\build-app.html",
+    "Hash": "F2553CA8952FCD01EA97B4BC7BDD6CF6C3368EEB37ADA2F0E315D67748532C21"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\developers\\build-contract.html",
+    "Hash": "7EE4C995FAA08FE40F3B7F6170436ABC9991BC2ED193BBC9AF2662C087298B1A"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\developers\\launch-token.html",
+    "Hash": "762E18D54B64742EF94C7FC14DC2BADF996CE0A8B6EF40F1889979D2AEF3AE90"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\developers\\net-config.html",
+    "Hash": "07FF25EC68A94CF12B1B41B8D228457A41F6E7174475365AE42A2629282B9FB9"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\developers\\tools.html",
+    "Hash": "1D924EE5206497A34F564285B53226FE2D0E5E905DC827ABBC20557CDAEAB9A0"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\help\\contact.html",
+    "Hash": "A8483EEA50607EC03854C7225CB2732FF37A147679F968BA5B0CEA6177BE98EE"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\help\\faqs.html",
+    "Hash": "769B0C4F6EF84020AA5B827475E3696CE27F01833D4F06989D2A6B36E778CE61"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\help\\glossary.html",
+    "Hash": "EC3334299762DC3C16417ECB3D846724B854CE727D9D75C7752D73BD9142235A"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\gov-overview.html",
+    "Hash": "3CA4CFBC6FCD14578C64F625A4EBA8CBCB8061F61542567B4FE8D3DB07189CF3"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\governance.html",
+    "Hash": "E8A36688B5EA0CC26ED4AC759E58874FDB44CF3568DDAF0A214D9C1B0C72C22C"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\incentives.html",
+    "Hash": "B0186FBD55E0A297BFDC311EB519205CDD1F458DC7E769AF870412E90C48924F"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\magne-dapp.html",
+    "Hash": "2C49FAC491704D17C030C9E6B4386DB2F4A82C46CDC38D50F7F55A3576743E4A"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\metrics.html",
+    "Hash": "6CEFA4ED178A05D0323C2EE4B90F97EFE7CE793AB6D434E2836744849AA15D60"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\mha.html",
+    "Hash": "7D5105DE746A0720B298B2C3BD33A71B7639C51E1673024FC9CABE3DC9E46683"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\milestone.html",
+    "Hash": "0393017238D5547FD758B480B0568F8CFF21C522B8A5E00330E723B811B3DD0B"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\pow.html",
+    "Hash": "79F52741861ABBA5905466ADF7B46474762A6C1FB6D6C121E077E1D2DCC24121"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\team-execution.html",
+    "Hash": "4F32974DECBCEC3CB6769A452D3F952D23B585D1BE164DB72CB8C4C47D7D152C"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\tokenomics-announcement.html",
+    "Hash": "2033E18B0B4B392B87CDAB288E79AC230B4CEC15898BF1AF2BA52179CD72A16D"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\tokenomics-changelog.html",
+    "Hash": "04B683A6C75074712BEF8A195B7E1F257547AA3ACD8F5FE4E1A4D74EF8153C49"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\tokenomics-v1-0.html",
+    "Hash": "BF27C056B6632A6C343D44029F82F47CAC0A1ACFE7ECC4EC767D2FA67A49D81D"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\tokenomics-zh.html",
+    "Hash": "C445328109FF6BE85EEBAC90F772BA3913C2F0C43ABFF31BB654C766AB6F1906"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\tokenomics.html",
+    "Hash": "CE008E2A19D3C59830C9C93B7E3C8DCAE64D911966152F98092FF9B0F47943DC"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\learning\\what-is-magne.html",
+    "Hash": "E34D2B739E0DE34D27421E0262A080D7DD4F061A826CBEE540837E2B4978AA41"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\networks\\explorer.html",
+    "Hash": "A5B0C56D22D250391D4F3140D2D39943759B9639DDB7731FDCA6A50906A5F4B8"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\networks\\faucet.html",
+    "Hash": "772B6265D852D533F2DA08A840F794FB389E9D642C9213350A737F22A0EF0319"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\networks\\l1.html",
+    "Hash": "C60ABD674188CAD9FC7912A772A957029F81D824B63F29D910ECCA52BB661F1D"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\networks\\l2.html",
+    "Hash": "925A369DA651B702E1420889887BAB10A42B8422E7B1219DEFFBF48ED2A208A9"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\solutions\\connect.html",
+    "Hash": "AF86EB858B17C0440541319F8C5EEEC5856F3F13458E95F38AE93F3B87E109CC"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\solutions\\get-mha.html",
+    "Hash": "449DA9E8FBDE29655AE5402D26AC48D9FE5ECE940742FF01F42EFEA0C971A5AF"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\solutions\\hardware.html",
+    "Hash": "B61772A65CDD693C9961F18AEC921F462CD0FD733BA317FF71847AADB2FA93FE"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\solutions\\opstack.html",
+    "Hash": "697A7116E015BBF34DA854DEF66409375690D38F3019AC1C12AD544FA8B12E14"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\solutions\\optimizations.html",
+    "Hash": "68998E323F06AF4A416548508763A31CF5F1D88E209BBBEE1BF303B7379A207E"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\solutions\\poai-depin.html",
+    "Hash": "E1E346E757798E744DC59B99CB80AD466B46FA797586ED36DED71232C6425DA8"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\solutions\\security.html",
+    "Hash": "A91C8952B057CF027B182948E2A29FD05DD4ED932863D60BC75C4539FD6132C2"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\web3\\solutions\\why-l2.html",
+    "Hash": "1FF215526087F7D022C21FEEA05549BC6037047BF582F7EAE808297FFF3FDF94"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\manifest.json",
+    "Hash": "86897003A125DD5ACDC671CE32DD54B3AE0591566E9DC3F5379A02965563C663"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\search.json",
+    "Hash": "AED71A8B017B4CA4BB22AA0E80942EBB6867859AFCBD1AD6D7EDE58605CB7555"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\community\\telegram.html",
+    "Hash": "CD5376B7EFBB798048FF50DF5F0A7412E5F409721C988B16888A9618251AE83D"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\community\\twitter.html",
+    "Hash": "05055FE4F95B7B6886DCCC2DEFEEB5E081C2AE733F632715B80E9FF0ADD5A498"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\developers\\build-app.html",
+    "Hash": "5DCACF4FBEC9F6434F550B783F4D2A8FE9CD3BB83E30BCACDF91B574E63BAB59"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\developers\\build-contract.html",
+    "Hash": "340319E14706EA3F4E7C9E82C4A5BB95169A0FBAEAAD282C94CE41419A5FF162"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\developers\\launch-token.html",
+    "Hash": "7F16824D939D325E893391E98AF49A6600E567823050A4A94731AB941E00D080"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\developers\\net-config.html",
+    "Hash": "4229397A762DA0E8097E33297F343307C3A089F90393C6D3463E99BD2B0EFAA5"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\developers\\tools.html",
+    "Hash": "D04D0BCAA5CB6EC4865DD4CD6D657E87DD61C0E08B5183545A6D39EB720A9172"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\help\\contact.html",
+    "Hash": "7517253459DDB455E3F77D019A1E8D68C79A08D580B83A42D716ACAE421BAD0F"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\help\\faqs.html",
+    "Hash": "64D7555165E0C2085E8AB359BD5BC3E4C754751EEC11308B19DD911AFCCFFEC7"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\help\\glossary.html",
+    "Hash": "8EF5C62E14C9FED290F8D4D823EBDB28DA5F958D082072595D3E53B8DA61E706"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\gov-overview.html",
+    "Hash": "BB60C6D4C528259250BC45B17E48EF6885A6D669A40E8F971DD66A974A90E949"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\governance.html",
+    "Hash": "7C84A14313F87B131374D2E774152E33F234BF86B977D7F3B1AD9684BC77CD05"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\incentives.html",
+    "Hash": "348468C2A7F614751A13B17FA68B913FED00EB0C4173ED895589E2217B425B51"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\magne-dapp.html",
+    "Hash": "75EC8C8508B03CAC9B31AF5F47695D8942A8562BF11ED99F3F7391F17750227C"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\metrics.html",
+    "Hash": "5C9AF49CD3ED2BED1B3EF7A9A9EB638184456BD0D1482A596D40F0F4E341B034"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\mha.html",
+    "Hash": "99EB0E5CF19A59522FA8D879092BD0ED3A4FEF4FE2C2B7278D5B376AE48EFE7D"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\milestone.html",
+    "Hash": "12B327A9273BF25BBA5827755F7FFBD51EB9A959CCAA9B158F5D10655B4F834E"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\pow.html",
+    "Hash": "7E8CC439BD505C5190C7970849C7BD48E7EA942837932ABEEF248A3C82C904C1"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\team-execution.html",
+    "Hash": "A56B882BCEB2181CC5E746C0DF1A8760938FD4344871D44700F6B38C385E9378"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\tokenomics-announcement.html",
+    "Hash": "0B7BA150CFD6895EB53FA9873171BDFADC8B02A786151B1710105F8F2EB8ADF5"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\tokenomics-changelog.html",
+    "Hash": "BE6A549B2B11AF64C6C3EE84CA58773F826A8ACED37B22E7260F57AE8FA6B462"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\tokenomics-zh.html",
+    "Hash": "4532C8F83720131496976AF244C5A6913C4911388D2B72EB084D413E590BFCEC"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\tokenomics.html",
+    "Hash": "FEB8583E932D17B89BAF7B513D1A24101038CF754A9880B947C0E877922E4CB5"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\learning\\what-is-magne.html",
+    "Hash": "31D1ACC0618DBA59EB22E90B3B95063AF4CAF0CE31915DFF8534679A6C1B2EA5"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\networks\\explorer.html",
+    "Hash": "3FC285B291A5392385A6C1E63F386E8E184F8C53D61EAE782B3EECF18CF21DD5"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\networks\\faucet.html",
+    "Hash": "AA8C966E1B6D864B35FE5EC30CBEC2F572A93CC1B3CCA654C5920FAD46D51334"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\networks\\l1.html",
+    "Hash": "811B83BB4271D5F717224FFE9A7705869F897073C1ED8180EE20EAC0A45557B7"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\networks\\l2.html",
+    "Hash": "2395EEB98FD57BFBADD5AB45078C8D4D3980912DEF3BBC531C0BF90CD8FC533B"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\solutions\\connect.html",
+    "Hash": "881DF5F1A2DAC44B92EB1FB8B1385C9EC53C422FB6539F072906C1DC81FBD6C6"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\solutions\\get-mha.html",
+    "Hash": "2B3D4931786E0FB287AA670A3926B7841EC61AD36484A657D1E7D8EB89091E2B"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\solutions\\hardware.html",
+    "Hash": "7B64BEC40FE08A5C0FE08A78D393E27D6C73454FAEE08EDEFB5458D92C9EA1AA"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\solutions\\opstack.html",
+    "Hash": "1FF0E3C74CA3FFF31B1D923D3965ECCE4344251DAE859EFE3F4D5B43F5C9DE42"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\solutions\\optimizations.html",
+    "Hash": "D203FCE1138EC0C458B717CD36BA79AFEFE6D6D23247A595EC90734A41D58AFE"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\solutions\\poai-depin.html",
+    "Hash": "52095DA2E6041F00F02F27FDA125357A615215F634F57D57BD987C146E285BE8"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\solutions\\security.html",
+    "Hash": "5554677E15A4B1D949ECC58716504022F9FFE5F82EF2F5B12CB9709132F33D46"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper\\solutions\\why-l2.html",
+    "Hash": "E5B6424E751509D458EDC3FB1969646D0C6CCD312B65C9D9AFE69B01E0752D9E"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\manifest.json",
+    "Hash": "DFE97203FC385C358651754A6A20E2DD7B967AFF089D129E201C3BD4473E4989"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\search.json",
+    "Hash": "D05C15D4DE99B9EC865CD58BB04050BF718BB753C2FC51B3A3C341AA4FB90A65"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\community\\telegram.html",
+    "Hash": "CD5376B7EFBB798048FF50DF5F0A7412E5F409721C988B16888A9618251AE83D"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\community\\twitter.html",
+    "Hash": "05055FE4F95B7B6886DCCC2DEFEEB5E081C2AE733F632715B80E9FF0ADD5A498"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\developers\\build-app.html",
+    "Hash": "C787D4E49DEFB13420E2CB79E9E960646EF5E46BB0DFA3D6342F364A9292A6C0"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\developers\\build-contract.html",
+    "Hash": "351917318F4E24101A2671009D380F75F8269484066757B3ECF2E912FECD970A"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\developers\\launch-token.html",
+    "Hash": "0275634B79C6BDE7FE233C2D2ED52CFB0745499B1A61911CEFA374780103F0B0"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\developers\\net-config.html",
+    "Hash": "FCBEA14B48ADEA6CC399786366658D8EE8FE5C34FA1CF0183742F878C352D4D4"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\developers\\tools.html",
+    "Hash": "2824B5B720B63BE84AEC857AC0517BB958EB69DB531F3EC742953CE5264FB5A8"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\help\\contact.html",
+    "Hash": "8B6C2127D9C3C1D62FCAE4A7E302E15798F0EE58D96296FB99EB853BE271E172"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\help\\faqs.html",
+    "Hash": "2153DBFB758C66C471A49B68D5D0BC12FA0763548D5130ADED6F35C1FD0F5768"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\help\\glossary.html",
+    "Hash": "2B922D430E490936B0BD33B0045321F0503D7A7AC2B9A6AC0D3BF256FF0B7799"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\gov-overview.html",
+    "Hash": "9B5B52DF8D0374668A29EA4A0C7A81BFBF6E87E4B3B78A9AE9A8312750CACA08"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\governance.html",
+    "Hash": "1B02713D53D1F03127EBE92A69728790F1CBE7AF7BF5E5B172AA44F1FD3A7105"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\incentives.html",
+    "Hash": "E5F5D657B355DC89B578219ABDA9FEF2579A7F7E5C59C06A99D6DA655FB2C991"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\magne-dapp.html",
+    "Hash": "1DD6F3EE0C5431570581EAB605C9898C6CAE80F5CACC2F327767805F9E785F55"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\metrics.html",
+    "Hash": "6FBCBEBBD1D1CD749AB9703A2470A01D31C1939876637BB84F7D7CD242B94094"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\mha.html",
+    "Hash": "88F204C0F849ADBCFD33B020F5763FDFB8D65D0A50E43277DD6AC740AC79A444"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\milestone.html",
+    "Hash": "A046A9045CEE02DBBAD8671C26FA35F5EE1E7E2253CE4A810F8DA0B146EB6FBD"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\pow.html",
+    "Hash": "93075A75E9714EED597922E13979BE467FFA33C4241EA588D4045100C3658EE8"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\team-execution.html",
+    "Hash": "E39E14F1EBF746ED98B27B6D8BDE06A8C9A24AED5B4613B7A7218D18BC6F0570"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\tokenomics-announcement.html",
+    "Hash": "32F22E4D1FD4ED2BFECADACBC7C10A2E3D96F909C8C37D162C6967EB0C51A0FE"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\tokenomics-changelog.html",
+    "Hash": "32E7AEA2E87632FF604B851F955ED8EC163F77514FE8C79134EEEA23E5EF626B"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\tokenomics-zh.html",
+    "Hash": "6D6A63BDAB08D0BBDB57A6BAD2FDC480E352D3A3EE1D34A8945CBA98E9B238A8"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\tokenomics.html",
+    "Hash": "232185CA3C4C519D99CBBA2960D7E32CBCF0EF40C9E723A4C54AE28E7FA94B95"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\learning\\what-is-magne.html",
+    "Hash": "86448998F8E8D92771B4BC0C5492E2EB202B32EADCAD3185435170011F856A26"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\networks\\explorer.html",
+    "Hash": "8E51A12149CAD2B4626BA1760A97875F186ED4A516E1CACBACEBC58928F06843"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\networks\\faucet.html",
+    "Hash": "460027DD5BECBA3EB43C03BE33375B966AFE3A4A0AC550D81D0ED3321C72F646"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\networks\\l1.html",
+    "Hash": "36DF838872E8180F88F0FC5E497DAABD94ED7B11926D23CFD92C8641A79197A6"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\networks\\l2.html",
+    "Hash": "D0BD6CC2396EA527968BF7011CC4E2CE9191D9476D7A20F408419A9F7E219B2B"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\solutions\\connect.html",
+    "Hash": "FF3D45E27F761619AE0C97969451A3D91C70ABD9F66B571F09C994F88F62E91B"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\solutions\\get-mha.html",
+    "Hash": "593EA7B7E01DBA054440D0F60370651001B6A48466DEF535857FF97013D5806A"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\solutions\\hardware.html",
+    "Hash": "79B7899AB02359D542821A666A5FE674556126145DA99B9E055F4967EC9FB817"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\solutions\\opstack.html",
+    "Hash": "AA25E24BF977DCC9559D4E758C190B17C20C03C154806C0B98AEEC290FE293F5"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\solutions\\optimizations.html",
+    "Hash": "D2F0520FCCCE02D77F7D3290EB84690D237E55C0831F29ECCC07D59C0B843657"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\solutions\\poai-depin.html",
+    "Hash": "AEFCA402607FF80F6C63F9216297D44E1421928514C49B2428F924C87045248A"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\solutions\\security.html",
+    "Hash": "B1785CF245563D7FCE8C5FF775C6A918C144C77FB4408D15512BA09CE756E174"
+  },
+  {
+    "Path": "D:\\magne.ai\\web3-clone\\src\\content\\whitepaper-tc\\solutions\\why-l2.html",
+    "Hash": "23574D6D957C9F692D1B7863BFEAFE440B63343FBC86DDD41830CB04C721B244"
+  }
+]

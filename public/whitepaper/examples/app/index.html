@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAGNE testnet counter example</title>
+<body><main>
+<h1>MAGNE testnet counter</h1><p>Demo only. Select your testnet and use a deployed Counter from this tutorial.</p>
+<label>Network <select id="network"><option value="20250810">MAGNE L1 testnet</option><option value="20250827">M Hash L2 testnet</option></select></label>
+<label>Counter address <input id="contract" placeholder="0x…" autocomplete="off"></label>
+<button id="read">Read counter</button><button id="connect">Connect wallet</button><button id="increment">Increment (wallet approval)</button>
+<p id="output" role="status" aria-live="polite">Ready. No transaction sent.</p>
+</main><script type="module" src="/main.js"></script></body></html>

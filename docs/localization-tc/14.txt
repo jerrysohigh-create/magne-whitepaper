@@ -1,0 +1,36 @@
+/developers/launch-token
+770	Launch an ERC-20 Token with Foundry
+771	0) Requirements
+772	<strong>Foundry</strong> v1.3.1+
+773	(Foundry v1.3.1+ is required for Etherscan V2 verification.)
+774	1) Create the project
+775	This creates the standard Foundry project scaffold.
+776	2) Install OpenZeppelin + set remappings
+777	This ensures your IDE resolves OpenZeppelin imports correctly.
+778	3) Write the ERC-20 contract
+779	Rename the default file:
+780	<strong><span>src/MagnetToken.sol</span></strong>:
+781	Compile to confirm:
+782	4) Create a deploy script
+783	Rename the sample script and update it:
+784	<strong><span>script/DeployMagnetToken.s.sol</span></strong>:
+785	5) (Optional) Adjust tests
+786	You can keep it empty or add your own token tests.
+787	6) Create a Foundry keystore wallet
+788	This account will be used for deployment.
+789	7) Local dry-run (optional)
+790	You’ll see the deployed address and total supply logs.
+791	8) Deploy to <strong>MAGNE L1 Testnet</strong>
+792	Make sure the wallet has <strong>MAGNE L1</strong> testnet tokens for gas.
+793	The output will include the transaction hash and your deployed contract address.
+794	💡 You can adapt this for mainnet by switching to your mainnet RPC (e.g. <a href="https://rpc.magicalhash.com" target="_blank" rel="noopener noreferrer">https://rpc.magicalhash.com</a>).
+795	9) Verify the contract on <a href="https://explorer.testnet.magicalhash.com/contract-verification" target="_blank" rel="noopener noreferrer">MAGNE L1  explorer</a>
+796	MAGNE.AI uses Etherscan-compatible verification. You’ll need an API key:
+797	Once verified, the contract page will be visible on <a href="https://explorer.testnet.magicalhash.com/contract-verification" target="_blank" rel="noopener noreferrer">MAGNE L1 explorer</a>.
+798	10) Quick Checklist
+799	✅ Token name / symbol (<span>"MAGNE Token"</span>, <span>"MHA"</span>)
+800	✅ Initial supply with <span>ether</span> (18 decimals)
+801	✅ RPC: <span>https://rpc.testnet.magicalhash.com/</span>
+802	✅ Wallet: <span>MyMagneAccount</span>
+803	✅ API key for verification
+804	✅ Testnet MAGNE balance for gas

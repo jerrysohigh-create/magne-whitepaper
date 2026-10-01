@@ -1,0 +1,192 @@
+<h1 id="section-0" data-tc-unit="0">Build A Smart Contract</h1>
+<h2 id="section-1" data-tc-unit="1">MAGNE Layer1 Blockchain</h2>
+<h2 id="section-2" data-tc-unit="2"><strong>Deploy Smart Contracts</strong></h2>
+<blockquote>
+<p data-tc-unit="3">A guide to help you get started with deploying your smart contracts on MAGNE Layer1 Blockchain.</p>
+</blockquote>
+<p data-tc-unit="4">Welcome to the MAGNE Layer1 Blockchain deployment quickstart guide! This comprehensive walkthrough will help you set up your environment and deploy smart contracts on MAGNE Layer1 Blockchain. Whether you're a seasoned developer or just starting out, this guide has got you covered.</p>
+<h2 id="section-3" data-tc-unit="5"><strong>What You'll Achieve</strong></h2>
+<p data-tc-unit="6">By the end of this quickstart, you'll be able to:</p>
+<ul>
+<li data-tc-unit="7">Set up your development environment to deploy on MAGNE Layer1 Blockchain</li>
+<li data-tc-unit="8">Deploy your smart contracts to MAGNE Layer1 Blockchain</li>
+<li data-tc-unit="9">Connect your frontend to your smart contracts</li>
+<li data-tc-unit="10">Why MAGNE Layer1 Blockchain?</li>
+</ul>
+<p data-tc-unit="11">MAGNE Layer1 Blockchain is a mobile-first, EVM-compatible, PoW-based Layer1 chain where smartphones and edge devices can participate in mining and consensus, ensuring security, decentralization, and performance.</p>
+<h2 id="section-4" data-tc-unit="12"><strong>Set Up Your Development Environment</strong></h2>
+<ol>
+<li data-tc-unit="13">Create a new project directory</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>mkdir my-MAGNE-project &amp;&amp; cd my-MAGNE-project
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="14">Install Foundry, a powerful framework for smart contract development</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>curl -L https://foundry.paradigm.xyz | bash
+foundryup
+</code></pre></div></pre>
+<p data-tc-unit="15">This installs Foundry and updates it to the latest version.</p>
+<ol>
+<li data-tc-unit="16">Initialize a new Solidity project</li>
+</ol>
+<p data-tc-unit="17">Copy</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>forge init
+</code></pre></div></pre>
+<p data-tc-unit="18">Your Foundry project is now ready. You'll find an example contract in the <span>src</span> directory, which you can replace with your own contracts. For the purposes of this guide, we'll use the Counter contract provided in <span>src/Counter.sol</span></p>
+<p data-tc-unit="19">Foundry provides a suite of tools for EVM application development, including Forge (for testing), Cast (for interacting with the chain), and Anvil (for setting up a local node). You can learn more about Foundry <a href="https://book.getfoundry.sh/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<h2 id="section-5" data-tc-unit="20"><strong>Configure Foundry with</strong> MAGNE Layer1 Blockchain</h2>
+<p data-tc-unit="21">To deploy your smart contracts to MAGNE Layer1 Blockchain, you need two key components:</p>
+<ol>
+<li data-tc-unit="22">A node connection to interact with the MAGNE Layer1 Blockchain network</li>
+<li data-tc-unit="23">A funded private key to deploy the contract</li>
+</ol>
+<p data-tc-unit="24">Let's set up both of these:</p>
+<h3 id="section-6" data-tc-unit="25"><strong>1. Set up your node connection</strong></h3>
+<ol>
+<li data-tc-unit="26">Create a <span>.env</span> file in your project's root directory</li>
+<li data-tc-unit="27">Add the MagicalHash network RPC URL to your <span>.env</span> file</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>MAGICAL_RPC_URL="https://rpc.testnet.magicalhash.com"
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="28">Load your environment variables</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>source .env
+</code></pre></div></pre>
+<p data-tc-unit="29">Magne L1 Testnet is the test network for MAGNE Layer1 Blockchain, which we will use for the rest of this guide. You can obtain free MHA from one of the <a href="https://faucet.testnet.magicalhash.com" target="_blank" rel="noopener noreferrer">faucets</a> .</p>
+<h3 id="section-7" data-tc-unit="30"><strong>2. Secure your private key</strong></h3>
+<ol>
+<li data-tc-unit="31">Store your private key in Foundry's secure keystore</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>cast wallet import deployer --interactive
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="32">When prompted enter your private key and a password.</li>
+</ol>
+<p data-tc-unit="33">Your private key is stored in <span>~/.foundry/keystores</span> which is not tracked by git.</p>
+<p data-tc-unit="34">Never share or commit your private key. Always keep it secure and handle with care.</p>
+<h2 id="section-8" data-tc-unit="35"><strong>Deploy Your Contracts</strong></h2>
+<p data-tc-unit="36">Now that your environment is set up, let's deploy your contracts to Magne L1 Testnet.</p>
+<ol>
+<li data-tc-unit="37">Use the following command to compile and deploy your contract</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>forge create ./src/Counter.sol:Counter --rpc-url $MAGICAL_RPC_URL --account deployer
+</code></pre></div></pre>
+<p data-tc-unit="38">Note the format of the contract being deployed is <span>&lt;contract-path&gt;:&lt;contract-name&gt;</span>.</p>
+<ol>
+<li data-tc-unit="39">After successful deployment, the transaction hash will be printed to the console output</li>
+<li data-tc-unit="40">Copy the deployed contract address and add it to your <span>.env</span> file</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>COUNTER_CONTRACT_ADDRESS="0x..."
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="41">Load the new environment variable</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>source .env
+</code></pre></div></pre>
+<h3 id="section-9" data-tc-unit="42"><strong>Verify Your Deployment</strong></h3>
+<p data-tc-unit="43">To ensure your contract was deployed successfully:</p>
+<ol>
+<li data-tc-unit="44">Check the transaction on <a href="http://explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">https://explorer.testnet.magicalhash.com</a>.</li>
+<li data-tc-unit="45">Use the <span>cast</span> command to interact with your deployed contract from the command line</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>cast call $COUNTER_CONTRACT_ADDRESS "number()(uint256)" --rpc-url $MAGNE_RPC_URL
+</code></pre></div></pre>
+<p data-tc-unit="46">This will return the initial value of the Counter contract's <span>number</span> storage variable, which will be <span>0</span>.</p>
+<p data-tc-unit="47"><strong>Congratulations! You've deployed your smart contracts to MAGNE L1 chain!</strong></p>
+<h2 id="section-10" data-tc-unit="48">M Hash Layer2 Blockchain</h2>
+<h2 id="section-11" data-tc-unit="49"><strong>Deploy Smart Contracts</strong></h2>
+<blockquote>
+<p data-tc-unit="50">A guide to help you get started with deploying your smart contracts on M Hash Layer2 Blockchain</p>
+</blockquote>
+<p data-tc-unit="51">Welcome to the M Hash Layer2 Blockchain deployment quickstart guide! This comprehensive walkthrough will help you set up your environment and deploy smart contracts on M Hash Layer2 Blockchain. Whether you're a seasoned developer or just starting out, this guide has got you covered.</p>
+<h2 id="section-12" data-tc-unit="52"><strong>What You'll Achieve</strong></h2>
+<p data-tc-unit="53">By the end of this quickstart, you'll be able to:</p>
+<ul>
+<li data-tc-unit="54">Set up your development environment to deploy on M Hash Layer2 Blockchain.</li>
+<li data-tc-unit="55">Deploy your smart contracts to M Hash Layer2 Blockchain.</li>
+<li data-tc-unit="56">Connect your frontend to your smart contracts</li>
+<li data-tc-unit="57">Why M Hash Layer2 Blockchain?</li>
+</ul>
+<p data-tc-unit="58">M Hash Layer2 Blockchain is a high-performance Layer 2 network built on opStack with an asynchronous consensus mechanism, separating consensus from execution to significantly boost throughput and efficiency while ensuring security and low-cost transactions.</p>
+<h2 id="section-13" data-tc-unit="59"><strong>Set Up Your Development Environment</strong></h2>
+<ol>
+<li data-tc-unit="60">Create a new project directory</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>mkdir my-MAGNE-project &amp;&amp; cd my-MAGNE-project
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="61">Install Foundry, a powerful framework for smart contract development</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>curl -L https://foundry.paradigm.xyz | bash
+foundryup
+</code></pre></div></pre>
+<p data-tc-unit="62">This installs Foundry and updates it to the latest version.</p>
+<ol>
+<li data-tc-unit="63">Initialize a new Solidity project</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>forge init
+</code></pre></div></pre>
+<p data-tc-unit="64">Your Foundry project is now ready. You'll find an example contract in the <span>src</span> directory, which you can replace with your own contracts. For the purposes of this guide, we'll use the Counter contract provided in <span>src/Counter.sol</span></p>
+<p data-tc-unit="65">Foundry provides a suite of tools for EVM application development, including Forge (for testing), Cast (for interacting with the chain), and Anvil (for setting up a local node). You can learn more about Foundry <a href="https://book.getfoundry.sh/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<h2 id="section-14" data-tc-unit="66"><strong>Configure Foundry with</strong> M Hash Layer2 Blockchain</h2>
+<p data-tc-unit="67">To deploy your smart contracts to M Hash Layer2 Blockchain, you need two key components:</p>
+<ol>
+<li data-tc-unit="68">A node connection to interact with the M Hash Layer2 Blockchain network</li>
+<li data-tc-unit="69">A funded private key to deploy the contract</li>
+</ol>
+<p data-tc-unit="70">Let's set up both of these:</p>
+<h3 id="section-15" data-tc-unit="71"><strong>1. Set up your node connection</strong></h3>
+<ol>
+<li data-tc-unit="72">Create a <span>.env</span> file in your project's root directory</li>
+<li data-tc-unit="73">Add the M Hash Layer2 Blockchain network RPC URL to your <span>.env</span> file</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>MAGICAL_RPC_URL="https://l2-rpc.testnet.magicalhash.com"
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="74">Load your environment variables</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>source .env
+</code></pre></div></pre>
+<p data-tc-unit="75">M Hash L2 Testnet is the test network for M Hash Layer2 Blockchain, which we will use for the rest of this guide. You can obtain free MHA from one of the <a href="https://faucet.testnet.magicalhash.com" target="_blank" rel="noopener noreferrer">faucets</a> .</p>
+<h3 id="section-16" data-tc-unit="76"><strong>2. Secure your private key</strong></h3>
+<ol>
+<li data-tc-unit="77">Store your private key in Foundry's secure keystore</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>cast wallet import deployer --interactive
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="78">When prompted enter your private key and a password.</li>
+</ol>
+<p data-tc-unit="79">Your private key is stored in <span>~/.foundry/keystores</span> which is not tracked by git.</p>
+<p data-tc-unit="80">Never share or commit your private key. Always keep it secure and handle with care.</p>
+<h2 id="section-17" data-tc-unit="81"><strong>Deploy Your Contracts</strong></h2>
+<p data-tc-unit="82">Now that your environment is set up, let's deploy your contracts to M Hash L2 Testnet.</p>
+<ol>
+<li data-tc-unit="83">Use the following command to compile and deploy your contract</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>forge create ./src/Counter.sol:Counter --rpc-url $MAGICAL_RPC_URL --account deployer
+</code></pre></div></pre>
+<p data-tc-unit="84">Note the format of the contract being deployed is <span>&lt;contract-path&gt;:&lt;contract-name&gt;</span>.</p>
+<ol>
+<li data-tc-unit="85">After successful deployment, the transaction hash will be printed to the console output</li>
+<li data-tc-unit="86">Copy the deployed contract address and add it to your <span>.env</span> file</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>COUNTER_CONTRACT_ADDRESS="0x..."
+</code></pre></div></pre>
+<ol>
+<li data-tc-unit="87">Load the new environment variable</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>source .env
+</code></pre></div></pre>
+<h3 id="section-18" data-tc-unit="88"><strong>Verify Your Deployment</strong></h3>
+<p data-tc-unit="89">To ensure your contract was deployed successfully:</p>
+<ol>
+<li data-tc-unit="90">Check the transaction on <a href="http://explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">https://l2-explorer.testnet.magicalhash.com</a>.</li>
+<li data-tc-unit="91">Use the <span>cast</span> command to interact with your deployed contract from the command line</li>
+</ol>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>cast call $COUNTER_CONTRACT_ADDRESS "number()(uint256)" --rpc-url $MAGNE_RPC_URL
+</code></pre></div></pre>
+<p data-tc-unit="92">This will return the initial value of the Counter contract's <span>number</span> storage variable, which will be <span>0</span>.</p>
+<p data-tc-unit="93"><strong>Congratulations! You've deployed your smart contracts to</strong> M Hash L2 <strong>chain!</strong></p>

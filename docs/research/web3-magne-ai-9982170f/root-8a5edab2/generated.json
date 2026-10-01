@@ -1,0 +1,15 @@
+{
+  "components": "src/components/sites/web3-magne-ai-9982170f/root-8a5edab2",
+  "ns": "sites/web3-magne-ai-9982170f/root-8a5edab2",
+  "research": "docs/research/web3-magne-ai-9982170f/root-8a5edab2",
+  "names": [
+    "Hero",
+    "CommunityStats",
+    "Adoption",
+    "Growth",
+    "CommunityHeading",
+    "CommunityGallery",
+    "JoinCommunity",
+    "TokenEconomics"
+  ]
+}

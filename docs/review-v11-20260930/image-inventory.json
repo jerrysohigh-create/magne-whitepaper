@@ -1,0 +1,436 @@
+[
+  {
+    "route": "/tc/learning/tokenomics",
+    "index": 1,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/2b5d720ea4b7-mha.png",
+    "width": 620,
+    "height": 641,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      400,
+      414
+    ]
+  },
+  {
+    "route": "/tc/learning/tokenomics",
+    "index": 2,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/737a46138f49-token.png",
+    "width": 1464,
+    "height": 844,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      387
+    ]
+  },
+  {
+    "route": "/tc/learning/what-is-magne",
+    "index": 1,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/a999b92c4166-ma.png",
+    "width": 1010,
+    "height": 455,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      600,
+      270
+    ]
+  },
+  {
+    "route": "/tc/learning/what-is-magne",
+    "index": 2,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/fa7535017809-l1.png",
+    "width": 969,
+    "height": 421,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      600,
+      261
+    ]
+  },
+  {
+    "route": "/tc/learning/what-is-magne",
+    "index": 3,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/2ecf186c865b-l2.png",
+    "width": 1001,
+    "height": 474,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      600,
+      284
+    ]
+  },
+  {
+    "route": "/tc/solutions/hardware",
+    "index": 1,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/9b5b6fb817a8-pg.png",
+    "width": 1266,
+    "height": 765,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      406
+    ]
+  },
+  {
+    "route": "/tc/solutions/hardware",
+    "index": 2,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/71ac8d8be3bd-Hardware01.png",
+    "width": 1440,
+    "height": 844,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      394
+    ]
+  },
+  {
+    "route": "/tc/solutions/hardware",
+    "index": 3,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/2959ff813478-Hardware02.png",
+    "width": 946,
+    "height": 564,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      401
+    ]
+  },
+  {
+    "route": "/tc/solutions/hardware",
+    "index": 4,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/3b8267fa1b4c-Hardware03.png",
+    "width": 900,
+    "height": 599,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      447
+    ]
+  },
+  {
+    "route": "/tc/solutions/hardware",
+    "index": 5,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/8868149de808-Hardware04.png",
+    "width": 1336,
+    "height": 838,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      422
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 1,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/177d72cc3549-connect.png",
+    "width": 1995,
+    "height": 1445,
+    "alpha": false,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      487
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 2,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/db30a5515d19-connect01.png",
+    "width": 2098,
+    "height": 1506,
+    "alpha": false,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      482
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 3,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/f28e0e434acf-connect02.png",
+    "width": 1139,
+    "height": 768,
+    "alpha": false,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      453
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 4,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/7d604aa7e46e-connect03.png",
+    "width": 2098,
+    "height": 1506,
+    "alpha": false,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      482
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 5,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/6a6f9c97fdf8-connect04.png",
+    "width": 2098,
+    "height": 1506,
+    "alpha": false,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      482
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 6,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/72ecff6c1b2d-connect05.png",
+    "width": 1139,
+    "height": 768,
+    "alpha": false,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      453
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 7,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/16208a7f6eb4-connect06.png",
+    "width": 2098,
+    "height": 1506,
+    "alpha": false,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      482
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 8,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/5556d159664f-connect07.png",
+    "width": 621,
+    "height": 920,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      400,
+      593
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 9,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/dd8a0949504a-connect08.png",
+    "width": 621,
+    "height": 920,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      400,
+      593
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 10,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/a39dd0d54974-connect09.png",
+    "width": 621,
+    "height": 920,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      400,
+      593
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 11,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/67685ba37068-connect10.png",
+    "width": 621,
+    "height": 920,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      400,
+      593
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 12,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/072cebb4173b-connect11.png",
+    "width": 621,
+    "height": 920,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      400,
+      593
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 13,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/e1327ccaec9f-connect12.png",
+    "width": 621,
+    "height": 920,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      400,
+      593
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 14,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/3e0aefe46955-connect13.png",
+    "width": 621,
+    "height": 920,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      400,
+      593
+    ]
+  },
+  {
+    "route": "/tc/solutions/connect",
+    "index": 15,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/c28228772648-connect14.png",
+    "width": 621,
+    "height": 920,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      400,
+      593
+    ]
+  },
+  {
+    "route": "/tc/networks/explorer",
+    "index": 1,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/88b2276ec935-Explorer-l1.png",
+    "width": 3695,
+    "height": 2028,
+    "alpha": false,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      369
+    ]
+  },
+  {
+    "route": "/tc/networks/explorer",
+    "index": 2,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/48add81c2176-Explorer-l2.png",
+    "width": 3700,
+    "height": 2023,
+    "alpha": false,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      672,
+      367
+    ]
+  },
+  {
+    "route": "/tc/learning/magne-dapp",
+    "index": 1,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/eed88537d54c-dapp.png",
+    "width": 996,
+    "height": 413,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      600,
+      249
+    ]
+  },
+  {
+    "route": "/tc/networks/l1",
+    "index": 1,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/db4ba7abcd9a-m-l1.png",
+    "width": 968,
+    "height": 590,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      600,
+      366
+    ]
+  },
+  {
+    "route": "/tc/networks/l2",
+    "index": 1,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/6d14d021aeed-m-l2.png",
+    "width": 1002,
+    "height": 599,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      600,
+      359
+    ]
+  },
+  {
+    "route": "/tc/learning/mha",
+    "index": 1,
+    "source": "/sites/web3-magne-ai-9982170f/shared/full-site/2b5d720ea4b7-mha.png",
+    "width": 620,
+    "height": 641,
+    "alpha": true,
+    "alt": "MAGNE.AI 技術文件插圖",
+    "caption": null,
+    "display": [
+      400,
+      414
+    ]
+  }
+]

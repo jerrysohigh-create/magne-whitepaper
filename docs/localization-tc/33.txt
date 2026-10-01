@@ -1,0 +1,36 @@
+/learning/tokenomics-changelog
+1341	<a href="/learning/tokenomics">← Tokenomics v1.1</a><a href="/learning/tokenomics-v1-0">v1.0 archive</a>
+1342	Revision history
+1343	Version 1.1 · September 2026 · Review draft
+1344	Draft updated 29 September 2026. Only the two execution-rule sections have been replaced; all top-level allocations and other vesting rules are unchanged. The purpose is to align disclosed execution with post-TGE implementation.
+1345	Item
+1346	Version 1.0
+1347	Version 1.1
+1348	Top-level change
+1349	Total supply
+1350	10,000,000,000 MHA
+1351	Unchanged
+1352	No
+1353	Exchange Campaigns
+1354	100,000,000 MHA; mainly campaigns
+1355	Listing, integration and initial liquidity execution clarified
+1356	No
+1357	Exchange release
+1358	1–12 month installments
+1359	Execution-driven; unused reserves do not auto-unlock
+1360	No
+1361	Market makers
+1362	700,000,000 MHA; LP lock ≥12 months
+1363	Separate CEX and DEX rules; full reserve remains
+1364	No
+1365	Initial launch liquidity
+1366	Specific amount not disclosed
+1367	25,000,000 MHA from Exchange Campaigns
+1368	No new allocation
+1369	LBank tests
+1370	Not separately disclosed
+1371	500 MHA test deposits
+1372	No
+1373	Version 1.0 archive
+1374	The original publication date has not been established. The original page was captured on 29 September 2026 (Asia/Shanghai); v1.0 is the archive designation for this revision.
+1375	Read the original version

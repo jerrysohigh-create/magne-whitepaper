@@ -1,5 +1,5 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
-  - name: Questions & Discussion
-    url: https://discord.gg/hrTSX5yTpB
-    about: Ask questions and chat with the community on Discord
+  - name: MAGNE contact
+    url: https://www.magne.ai/en/contact.html
+    about: Contact the MAGNE team about the whitepaper.

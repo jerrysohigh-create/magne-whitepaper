@@ -1,0 +1,53 @@
+/help/glossary
+1287	Glossary
+1288	Glossary
+1289	<strong>MagneKit</strong>
+1290	MagneKit is Magne’s modular consensus client framework built on CometBFT, allowing EVM-compatible consensus for mobile-native blockchains.
+1291	<strong>MHA Token</strong>
+1292	$MHA is the native and only token of the Magne network, used for:
+1293	Paying transaction gas fees
+1294	Staking to run validators
+1295	Governance and PoL reward participation
+1296	Higher MHA staked = higher chance to propose blocks
+1297	<strong>MagneSwap (In Planning)</strong>
+1298	Magne’s native decentralized exchange (DEX), supporting weighted, stable, and composable liquidity pools.
+1299	<strong>PoW (Proof-of-Work)</strong>
+1300	Magne’s consensus mechanism where validators (miners) secure the network by performing computational work. Block production rights are earned based on hash rate, while economic incentives such as Reward Vault rewards are handled separately through smart contracts at the protocol layer.
+1301	<strong>Block</strong>
+1302	A unit of data containing transactions added sequentially to the blockchain.
+1303	<strong>Block Time</strong>
+1304	The average time it takes to produce a block on Magne, currently ~2 seconds.
+1305	<strong>CometBFT</strong>
+1306	The consensus engine powering MagneKit, enabling high throughput and instant finality.
+1307	<strong>Consensus Client</strong>
+1308	Software that handles block validation, ordering, and agreement across nodes, often paired with an execution client.
+1309	<strong>Consensus Mechanism</strong>
+1310	The protocol by which the Magne network agrees on state. Magne uses Proof-of-Liquidity, based on stake and participation.
+1311	<strong>Delegation</strong>
+1312	The act of assigning your staking rights to a validator for rewards or governance power.
+1313	<strong>DEX (Decentralized Exchange)</strong>
+1314	On-chain platforms that allow users to swap tokens without intermediaries.
+1315	<strong>Engine API</strong>
+1316	The communication interface between the consensus and execution layer, enabling client modularity.
+1317	<strong>Execution Client</strong>
+1318	Handles the actual execution of transactions and smart contracts. Magne supports Geth- and Reth-based forks with full Ethereum compatibility.
+1319	<strong>Finality</strong>
+1320	The assurance that a confirmed transaction cannot be reversed. Magne achieves single slot finality.
+1321	<strong>Governance</strong>
+1322	The process by which changes are proposed, voted on, and applied to the protocol. Governance is conducted using $MHA.
+1323	<strong>Liquidity</strong>
+1324	The amount of tokens available for trading. More liquidity enables faster, lower-slippage swaps.
+1325	<strong>Liquidity Pool</strong>
+1326	A smart contract holding two or more tokens that facilitates token swaps.
+1327	<strong>Liquidity Provider</strong>
+1328	A user who adds assets to a pool and earns a share of trading fees and/or PoL rewards.
+1329	<strong>Mainnet</strong>
+1330	The live network where real assets are transacted, as opposed to a testnet.
+1331	<strong>Single Slot Finality</strong>
+1332	A finality system in which transactions are finalized in the same block they’re proposed, ensuring irreversibility.
+1333	<strong>Staking</strong>
+1334	The act of locking tokens for securing the network or earning yield. Includes validator staking and PoL yield staking.
+1335	<strong>Swap</strong>
+1336	The process of trading one token for another on a DEX. Each swap incurs a fee.
+1337	<strong>Vault (Reward Vault)</strong>
+1338	Smart contracts where users stake LP or other receipt tokens to earn PoL-based $MHA rewards.

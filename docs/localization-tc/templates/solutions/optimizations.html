@@ -1,0 +1,15 @@
+<h1 id="section-0" data-tc-unit="0">M Hash Layer2 Optimizations on OP Stack</h1>
+<p data-tc-unit="1">To maximize throughput and reduce gas fees on M Hash Layer2 Rollup, we introduced multiple performance optimizations across the Execution and Derivation layers of the OP Stack. These enhancements build upon research and engineering efforts tailored to high-throughput Layer 2 networks.</p>
+<h3 id="section-1" data-tc-unit="2">Execution Layer Optimizations</h3>
+<p data-tc-unit="3"><strong>EVM State Access Optimization</strong></p>
+<p data-tc-unit="4">In M Hash Layer2, we optimized how the EVM accesses state by improving cache hierarchy. Similar to BSC’s "SharedPool" concept, we introduced a Level 1.5 (L1.5) cache to improve data access efficiency between in-memory and dik-level storage, reducing latency in execution.</p>
+<p data-tc-unit="5"><strong>Improved Bloom Filter Accuracy in Diff Layer</strong></p>
+<p data-tc-unit="6">Bloom filters are used to check the presence of key-value pairs during state lookups. However, large datasets increase false positives. M Hash Layer2 reduces the Diff Layer depth from 128 to 32, shrinking the filter’s data footprint and cutting down on unnecessary recursive cache lookups. This significantly improves EVM state retrieval efficiency.</p>
+<p data-tc-unit="7"><strong>Efficient Prefetching with Shared Cache</strong></p>
+<p data-tc-unit="8">Prefetching accelerates transaction processing by preloading state data into cache before block execution. Previously, separate caches between the main and prefetch threads limited performance. We now use a shared world state pool (originStorage), allowing both threads to access L1.5 cache directly. This design dramatically improves cache hit rates during block processing.</p>
+<p data-tc-unit="9"><strong>L2 Block Production Caching</strong></p>
+<p data-tc-unit="10">During block proposal, transactions are often executed twice: once during production and again upon payload commit. We resolved this by introducing a caching layer that stores execution results from the initial run. Upon receiving the finalization call (<span>engine_newPayloadV1</span>), M Hash Layer2 retrieves the precomputed payload directly from cache, reducing latency.</p>
+<h3 id="section-2" data-tc-unit="11">Derivation Layer Optimizations</h3>
+<p data-tc-unit="12"><strong>Asynchronous Batch Submission</strong></p>
+<p data-tc-unit="13">Previously, the batcher would wait for 15 confirmations (~45s) on L1 before submitting a new batch. To increase throughput, we implemented asynchronous submission. Now, batches are sent without waiting, while a background watcher monitors for L1 reorgs. If reorgs occur, affected batches are re-submitted. This upgrade greatly improves L2 throughput and is scheduled for future mainnet release.</p>
+<hr>

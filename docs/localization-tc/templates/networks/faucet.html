@@ -1,0 +1,29 @@
+<h1 id="section-0" data-tc-unit="0">Gas and Fees</h1>
+<p data-tc-unit="1">M Hash Layer2 is a chain scaling solution built on top of the MAGNE Layer 1 blockchain, designed to deliver <strong>high throughput</strong> and <strong>low-cost transactions</strong> for DeFi, NFTs, gaming, and other high-demand applications.</p>
+<p data-tc-unit="2">The cost of an M Hash Layer2  transaction consists of two components:</p>
+<ul>
+<li data-tc-unit="3"><strong>Layer 2 gas fee</strong> – reflects the computational complexity of processing the transaction on M Hash L2</li>
+<li data-tc-unit="4"><strong>Layer 1 gas fee</strong> – covers the cost of submitting batched transactions to the MAGNE mainnet for verification and finality</li>
+</ul>
+<p data-tc-unit="5"><strong>Gas price formula:</strong>
+Gas price = base price + priority price</p>
+<p data-tc-unit="6"><strong>Transaction cost formula:</strong>
+L2 transaction cost = (L2 gas price × L2 gas consumed) + (L1 gas price × L1 gas consumed)</p>
+<hr>
+<h3 id="section-1" data-tc-unit="7">Current Configuration</h3>
+<div class="overflow-x-auto"><table><thead><tr><th data-tc-unit="8">Network</th><th data-tc-unit="9">Floor Base Price</th><th data-tc-unit="10">Minimum Priority Price</th></tr></thead><tbody><tr><td data-tc-unit="11">M Hash L2 Testnet</td><td data-tc-unit="12">0 gwei</td><td data-tc-unit="13">1 gwei</td></tr><tr><td data-tc-unit="14">M Hash L2 Mainnet</td><td></td><td></td></tr><tr><td data-tc-unit="15">MAGNE L1 Testnet</td><td data-tc-unit="16">0 gwei</td><td data-tc-unit="17">0.1 gwei</td></tr><tr><td data-tc-unit="18">MAGNE L1 Mainnet</td><td></td><td></td></tr></tbody></table></div>
+<hr>
+<h3 id="section-2" data-tc-unit="19">What This Means</h3>
+<p data-tc-unit="20">The <strong>floor base price</strong> is the minimum base gas price that M Hash can set. This value can change dynamically depending on network usage.
+For example, with the current configuration, if a block’s usage reaches <strong>50% of the 100M gas limit</strong>, the base price will rise by <strong>12.5%</strong>.</p>
+<p data-tc-unit="21">The <strong>minimum priority price</strong> is preset. Users can choose any priority fee higher than this minimum.
+Typically, wallets and dApps retrieve the <strong>recommended gas price</strong> by calling the “estimate gas price” API, which calculates it based on the average gas price from recent blocks.</p>
+<p data-tc-unit="22">M Hash’s goal is to keep <strong>basic transfer transactions under $0.001</strong>, enabling <strong>mass adoption</strong> and supporting high-frequency, low-value use cases.</p>
+<h3 id="section-3" data-tc-unit="23">How M Hash Layer2 Keeps Costs Low</h3>
+<ul>
+<li data-tc-unit="24"><strong>Enhanced Data Compression</strong> – Apply advanced compression algorithms to minimize L2 transaction data before submitting to L1</li>
+<li data-tc-unit="25"><strong>Efficient Transaction Batching</strong> – Optimize batching to maximize block space usage and reduce per-transaction costs</li>
+<li data-tc-unit="26"><strong>Data Availability Solutions</strong> – Leverage MAGNE’s data availability infrastructure to offload some storage from L1, lowering costs</li>
+<li data-tc-unit="27"><strong>Zero-Knowledge Proofs</strong> – Validate transactions without exposing full transaction data, reducing L1 data load</li>
+<li data-tc-unit="28"><strong>Protocol-Level Optimizations</strong> – Improve protocol execution and networking to lower computational overhead on L2</li>
+</ul>

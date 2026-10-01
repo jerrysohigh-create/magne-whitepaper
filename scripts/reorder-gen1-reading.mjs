@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const out='docs/gen1-reading-order';await fs.mkdir(out,{recursive:true});
+for(const tc of [false,true]){
+ const file=`src/content/${tc?'whitepaper-tc':'whitepaper'}/learning/tokenomics.html`;
+ const h=await fs.readFile(file,'utf8');await fs.writeFile(`${out}/${tc?'tc':'en'}.before.html`,h,{flag:'wx'});
+ const a=h.indexOf('<h2 id="section-3"'),b=h.indexOf('<h2 id="section-9"'),c=h.indexOf('<h2 id="section-10"');assert.ok(a>0&&b>a&&c>b);
+ const guide=tc?`<h2 id="gen1-reading-guide">先看設備數，再選擇釋放表</h2><ul><li><strong>合資格設備數不超過 13,750 台：</strong>總預算按設備數比例縮減，相同參與條件下，單台參考獎勵相同。持續達標且達到滿參考任務量時，可查看下方標準釋放表。</li><li><strong>合資格設備數超過 13,750 台：</strong>總預算不再隨設備數增加，單台參考獎勵隨設備數上升而降低。請使用<a href="#gen1-calculator">獎勵測算工具</a>產生對應的逐月表。</li><li><strong>設備數逐月變化，或可用性／任務量未達 100%：</strong>即使未超過基準，也應使用測算工具調整情境。新增設備僅影響當期新增獎勵，不追溯重算已核定批次。</li></ul><p>13,750 台是預算分界，不是保底收益門檻。下表以同等設備自計劃 M1 起持續參與、可用性與有效任務均達參考標準為條件；中途加入的設備不能直接套用完整 24／36 個月合計。</p>`:`<h2 id="gen1-reading-guide">Start with device count, then choose your schedule</h2><ul><li><strong>Up to 13,750 eligible devices:</strong> the total budget scales with device count, so the per-device reference reward is the same under equal participation conditions. Use the standard schedule below for continuous eligibility, full availability and full reference work.</li><li><strong>More than 13,750 eligible devices:</strong> the total budget stops growing with device count, and the per-device reference reward decreases as more devices participate. Use the <a href="#gen1-calculator">reward calculator</a> to generate the matching monthly schedule.</li><li><strong>Changing monthly counts or less than 100% availability/work:</strong> adjust the scenario in the calculator even when counts are below the baseline. New devices affect newly earned rewards only; previously approved batches are not recalculated.</li></ul><p>The 13,750-device baseline divides budget regimes; it is not a minimum-return threshold. The table assumes equal devices participating from program M1 with full verified availability and reference work. Late entrants cannot apply its full 24/36-month totals directly.</p>`;
+ let next=h.slice(0,a)+guide+h.slice(b,c)+h.slice(a,b)+h.slice(c);
+ const names=tc?[
+ ['4. 每台設備 36 個月釋放表','不超過 13,750 台｜滿參考任務量標準釋放表'],
+ ['1. 適用範圍與草案狀態','適用範圍與草案狀態'],['2. 預算參數','計算依據：預算參數'],['3. 計算與釋放','計算依據：獎勵與解鎖公式'],['3.1 隨設備規模調整預算','隨設備規模調整預算'],['3.2 可用性與有效任務','可用性與有效任務'],['3.3 賺取與釋放的區別','賺取與釋放的區別'],['5. 資格與核驗','資格與核驗'],['6. 啟用與參數變更','啟用與參數變更'],['7. 公開披露與測算依據','公開披露與測算依據']
+ ]:[['4. 36-month per-device release schedule','Up to 13,750 devices · Standard full-work release schedule'],['1. Scope and proposal status','Scope and proposal status'],['2. Budget parameters','Calculation basis: budget parameters'],['3. Calculation and release','Calculation basis: reward and vesting formulas'],['3.1 Device-scaled budget','Device-scaled budget'],['3.2 Availability and validated work','Availability and validated work'],['3.3 Earned versus released','Earned versus released'],['5. Eligibility and verification','Eligibility and verification'],['6. Activation and parameter changes','Activation and parameter changes'],['7. Public reporting and methodology','Public reporting and methodology']];
+ for(const [from,to]of names)next=next.replace(from,to);
+ assert.deepEqual([...h.matchAll(/<tr data-gen1-month[\s\S]*?<\/tr>/g)].map(m=>m[0]),[...next.matchAll(/<tr data-gen1-month[\s\S]*?<\/tr>/g)].map(m=>m[0]));
+ await fs.writeFile(file,next);
+}
+console.log('Reordered bilingual mining copy; all monthly rows preserved.');

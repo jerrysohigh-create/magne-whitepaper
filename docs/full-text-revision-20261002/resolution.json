@@ -1,0 +1,364 @@
+{
+  "date": "2026-10-02",
+  "changed": [
+    {
+      "locale": "en",
+      "route": "/learning/magne-dapp",
+      "title": "MAGNE dApp — planned hub"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/what-is-magne",
+      "title": "What is MAGNE.AI?"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/mha",
+      "title": "Magic Hash (MHA)"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/pow",
+      "title": "Proof of Work and device rewards"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/tokenomics",
+      "title": "MHA Tokenomics"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/governance",
+      "title": "Governance — design and responsibilities"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/gov-overview",
+      "title": "Governance lifecycle — proposed parameters"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/incentives",
+      "title": "Incentive Marketplace — design draft"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/metrics",
+      "title": "Network metrics and measurement"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/milestone",
+      "title": "Milestones and current status"
+    },
+    {
+      "locale": "en",
+      "route": "/developers/tools",
+      "title": "Developer Tools （Testnet）"
+    },
+    {
+      "locale": "en",
+      "route": "/developers/build-contract",
+      "title": "Build and deploy a test contract"
+    },
+    {
+      "locale": "en",
+      "route": "/developers/launch-token",
+      "title": "Create a demo ERC-20 token"
+    },
+    {
+      "locale": "en",
+      "route": "/developers/build-app",
+      "title": "Build a testnet web application"
+    },
+    {
+      "locale": "en",
+      "route": "/solutions/connect",
+      "title": "Connect To MAGNE L1 / M Hash L2 Testnet"
+    },
+    {
+      "locale": "en",
+      "route": "/solutions/opstack",
+      "title": "Why M Hash uses an OP Stack design"
+    },
+    {
+      "locale": "en",
+      "route": "/solutions/get-mha",
+      "title": "Get and identify MHA"
+    },
+    {
+      "locale": "en",
+      "route": "/solutions/why-l2",
+      "title": "Why MAGNE needs Layer 2"
+    },
+    {
+      "locale": "en",
+      "route": "/solutions/security",
+      "title": "Application security boundaries"
+    },
+    {
+      "locale": "en",
+      "route": "/solutions/optimizations",
+      "title": "M Hash optimisation proposals"
+    },
+    {
+      "locale": "en",
+      "route": "/solutions/hardware",
+      "title": "Hardware: security and computation"
+    },
+    {
+      "locale": "en",
+      "route": "/networks/faucet",
+      "title": "Gas and fees"
+    },
+    {
+      "locale": "en",
+      "route": "/networks/explorer",
+      "title": "MAGNE / M Hash Block Explorer"
+    },
+    {
+      "locale": "en",
+      "route": "/solutions/poai-depin",
+      "title": "PoAI and DePIN participation"
+    },
+    {
+      "locale": "en",
+      "route": "/networks/l2",
+      "title": "M Hash Layer 2"
+    },
+    {
+      "locale": "en",
+      "route": "/networks/l1",
+      "title": "MAGNE Layer 1"
+    },
+    {
+      "locale": "en",
+      "route": "/help/faqs",
+      "title": "Frequently asked questions"
+    },
+    {
+      "locale": "en",
+      "route": "/help/contact",
+      "title": "Contact"
+    },
+    {
+      "locale": "en",
+      "route": "/help/glossary",
+      "title": "Glossary"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/tokenomics-changelog",
+      "title": "Revision history"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/tokenomics-zh",
+      "title": "Tokenomics v1.1 · 中文修訂說明"
+    },
+    {
+      "locale": "en",
+      "route": "/learning/tokenomics-announcement",
+      "title": "Tokenomics v1.1 update"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/magne-dapp",
+      "title": "MAGNE dApp · 規劃中的入口"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/what-is-magne",
+      "title": "甚麼是 MAGNE.AI？"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/mha",
+      "title": "Magic Hash (MHA)"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/pow",
+      "title": "工作量證明與裝置獎勵"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/tokenomics",
+      "title": "MHA 代幣經濟"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/governance",
+      "title": "治理 · 設計與職責"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/gov-overview",
+      "title": "治理流程 · 擬議參數"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/incentives",
+      "title": "激勵市場 · 設計草案"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/metrics",
+      "title": "網絡指標與測量"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/milestone",
+      "title": "里程碑與目前進度"
+    },
+    {
+      "locale": "tc",
+      "route": "/developers/tools",
+      "title": "開發工具（測試網）"
+    },
+    {
+      "locale": "tc",
+      "route": "/developers/build-contract",
+      "title": "建立與部署測試合約"
+    },
+    {
+      "locale": "tc",
+      "route": "/developers/launch-token",
+      "title": "建立示範 ERC-20 代幣"
+    },
+    {
+      "locale": "tc",
+      "route": "/developers/build-app",
+      "title": "建立測試網網頁應用"
+    },
+    {
+      "locale": "tc",
+      "route": "/solutions/connect",
+      "title": "連接 MAGNE L1／M Hash L2 測試網"
+    },
+    {
+      "locale": "tc",
+      "route": "/solutions/opstack",
+      "title": "為何 M Hash 採用 OP Stack 設計"
+    },
+    {
+      "locale": "tc",
+      "route": "/solutions/get-mha",
+      "title": "取得與識別 MHA"
+    },
+    {
+      "locale": "tc",
+      "route": "/solutions/why-l2",
+      "title": "為何 MAGNE 需要 Layer2"
+    },
+    {
+      "locale": "tc",
+      "route": "/solutions/security",
+      "title": "應用安全邊界"
+    },
+    {
+      "locale": "tc",
+      "route": "/solutions/optimizations",
+      "title": "M Hash 優化方案"
+    },
+    {
+      "locale": "tc",
+      "route": "/solutions/hardware",
+      "title": "硬件：安全與運算"
+    },
+    {
+      "locale": "tc",
+      "route": "/networks/faucet",
+      "title": "Gas 與費用"
+    },
+    {
+      "locale": "tc",
+      "route": "/networks/explorer",
+      "title": "MAGNE／M Hash 區塊瀏覽器"
+    },
+    {
+      "locale": "tc",
+      "route": "/solutions/poai-depin",
+      "title": "PoAI 與 DePIN 參與"
+    },
+    {
+      "locale": "tc",
+      "route": "/networks/l2",
+      "title": "M Hash Layer2"
+    },
+    {
+      "locale": "tc",
+      "route": "/networks/l1",
+      "title": "MAGNE Layer1"
+    },
+    {
+      "locale": "tc",
+      "route": "/help/faqs",
+      "title": "常見問題"
+    },
+    {
+      "locale": "tc",
+      "route": "/help/contact",
+      "title": "聯絡我們"
+    },
+    {
+      "locale": "tc",
+      "route": "/help/glossary",
+      "title": "術語表"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/tokenomics-changelog",
+      "title": "修訂紀錄"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/tokenomics-zh",
+      "title": "代幣經濟 v1.1 · 中文修訂說明"
+    },
+    {
+      "locale": "tc",
+      "route": "/learning/tokenomics-announcement",
+      "title": "代幣經濟 v1.1 更新"
+    }
+  ],
+  "pending": [
+    "L1 最终共识、验证者准入与最终确定性规格",
+    "mBGT 是否保留及与 MHA 的投票权关系",
+    "各公售批次的实际归属条款",
+    "12–1 月交付窗口的年份与开始／完成含义",
+    "CB、UN38.3 原件日期，以及现行网络参数和性能测量证据"
+  ],
+  "resolutions": {
+    "A01": "已分开 L1 共识、L2 排序与 GEN1 任务奖励；最终共识实现仍待技术确认。",
+    "A02": "已取消互相冲突的单／双代币定论；mBGT 是否保留及投票权关系仍待确认。",
+    "A03": "已移除价格保底与交易所排名保证，按 TGE 后阶段整理公售说明。",
+    "A04": "已并列保存两种历史归属口径，明确未定稿且不改变已有权益；须按销售批次确认。",
+    "A05": "已修正 0.5／9.5 USDC 佣金算例，并区分新增存款与更新后总余额。",
+    "A06": "已撤下互相冲突的现行参数断言与无日期竞品对比；保留标明假设的 Gas／TPS 算例。真实配置与性能仍需版本化证据。",
+    "A07": "已区分储备释放与新增发行、区块纳入与结算及提款，保留固定总量和现有池规则。",
+    "A08": "已重写完整教程和固定版本示例；本地编译、合约测试、网页读写流程通过。没有向公开测试网广播。",
+    "A09": "示例币已更名 Demo Token／DEMO，明确与正式 MHA 无关。",
+    "A10": "已移除未公布的主网 RPC／Chain ID 操作表，保留测试网配置。",
+    "A11": "已限定签名路径与认证范围，去掉无限安全承诺；EAL2+／EAL6+ 与官方组件口径一致。",
+    "A12": "已列出 L2 组件职责、技术依赖和优化验收证据，未证实的优化维持方案状态。",
+    "A13": "治理参数、守护者及权限已标明设计状态，未宣称已经部署。",
+    "A14": "已加入项目确认的首批交付和后续内存供货延期；12–1 月窗口的准确年份及起止含义待订单公告确认。",
+    "A15": "已说明时间轴节点与证书签发日不同，保留原件日期待对齐事项；本轮未完成原件重新获取。",
+    "A16": "已区分装置能力、AI 任务设计、dApp 规划与实际网络状态，去除现有数百万设备等未经支持的断言。",
+    "A17": "获取 MHA 章节已重写为正式合约识别、BSC 与测试资产区别及获取入口。",
+    "A18": "中英文目录与全文搜索已同步，构建前自动从正文生成，使用静态 HTML 解析器，不依赖浏览器。",
+    "A19": "已修正全角旧编号、原始 Markdown、正文层级及繁中教程；两组网络 JSON 分块展示。",
+    "A20": "已明确全网 M1、个人加入月与晚交付的关系，不重新起算每台设备曲线；补偿安排未擅自增加。"
+  },
+  "scope": "Local v1.1 only; v1.0 retained; no on-chain transfer or external publication",
+  "verification": {
+    "productionBuildPages": 131,
+    "documentPages": 72,
+    "viewports": 144,
+    "solidityTests": 2,
+    "exampleFlow": "Local Anvil only",
+    "searchHits": 4,
+    "calculatorFilesUnchanged": true
+  }
+}

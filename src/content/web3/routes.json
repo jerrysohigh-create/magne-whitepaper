@@ -1,0 +1,277 @@
+[
+  {
+    "route": "/learning/magne-dapp",
+    "file": "src/content/web3/learning/magne-dapp.html",
+    "title": "MAGNE dApp (In Planning)",
+    "source": "https://web3.magne.ai/learning/magne-dapp",
+    "sourceKey": "learning--magne-dapp-f82dbebe"
+  },
+  {
+    "route": "/learning/what-is-magne",
+    "file": "src/content/web3/learning/what-is-magne.html",
+    "title": "What is MAGNE.AI?",
+    "source": "https://web3.magne.ai/learning/what-is-magne",
+    "sourceKey": "learning--what-is-magne-ada2c6e3"
+  },
+  {
+    "route": "/learning/mha",
+    "file": "src/content/web3/learning/mha.html",
+    "title": "$MHA",
+    "source": "https://web3.magne.ai/learning/mha",
+    "sourceKey": "learning--mha-649c6f1b"
+  },
+  {
+    "route": "/learning/pow",
+    "file": "src/content/web3/learning/pow.html",
+    "title": "What Is Proof-of-Work?",
+    "source": "https://web3.magne.ai/learning/pow",
+    "sourceKey": "learning--pow-f4369662"
+  },
+  {
+    "route": "/learning/tokenomics",
+    "file": "src/content/web3/learning/tokenomics.html",
+    "title": "Tokenomics",
+    "source": "https://web3.magne.ai/learning/tokenomics",
+    "sourceKey": "learning--tokenomics-3465ae77"
+  },
+  {
+    "route": "/learning/governance",
+    "file": "src/content/web3/learning/governance.html",
+    "title": "Governance",
+    "source": "https://web3.magne.ai/learning/governance",
+    "sourceKey": "learning--governance-4c1bd8fc"
+  },
+  {
+    "route": "/learning/gov-overview",
+    "file": "src/content/web3/learning/gov-overview.html",
+    "title": "Governance Overview",
+    "source": "https://web3.magne.ai/learning/gov-overview",
+    "sourceKey": "learning--gov-overview-8674f07c"
+  },
+  {
+    "route": "/learning/incentives",
+    "file": "src/content/web3/learning/incentives.html",
+    "title": "Incentive Marketplace",
+    "source": "https://web3.magne.ai/learning/incentives",
+    "sourceKey": "learning--incentives-9ddc5908"
+  },
+  {
+    "route": "/learning/team-execution",
+    "file": "src/content/web3/learning/team-execution.html",
+    "title": "Team & Execution",
+    "source": "https://web3.magne.ai/learning/team-execution",
+    "sourceKey": "learning--team-execution-a3163054"
+  },
+  {
+    "route": "/learning/metrics",
+    "file": "src/content/web3/learning/metrics.html",
+    "title": "MAGNE Layer2 Metrics",
+    "source": "https://web3.magne.ai/learning/metrics",
+    "sourceKey": "learning--metrics-e50a3ee3"
+  },
+  {
+    "route": "/learning/milestone",
+    "file": "src/content/web3/learning/milestone.html",
+    "title": "Milestone (Timeline-Ordered) — (Updated: 2026-04-19)",
+    "source": "https://web3.magne.ai/learning/milestone",
+    "sourceKey": "learning--milestone-6b0aa61f"
+  },
+  {
+    "route": "/developers/net-config",
+    "file": "src/content/web3/developers/net-config.html",
+    "title": "Network Configurations （Testnet）",
+    "source": "https://web3.magne.ai/developers/net-config",
+    "sourceKey": "developers--net-config-8965b05b"
+  },
+  {
+    "route": "/developers/tools",
+    "file": "src/content/web3/developers/tools.html",
+    "title": "Developer Tools （Testnet）",
+    "source": "https://web3.magne.ai/developers/tools",
+    "sourceKey": "developers--tools-84389663"
+  },
+  {
+    "route": "/developers/build-contract",
+    "file": "src/content/web3/developers/build-contract.html",
+    "title": "Build A Smart Contract",
+    "source": "https://web3.magne.ai/developers/build-contract",
+    "sourceKey": "developers--build-contract-c56836a7"
+  },
+  {
+    "route": "/developers/launch-token",
+    "file": "src/content/web3/developers/launch-token.html",
+    "title": "Launch an ERC-20 Token with Foundry",
+    "source": "https://web3.magne.ai/developers/launch-token",
+    "sourceKey": "developers--launch-token-6452a21d"
+  },
+  {
+    "route": "/developers/build-app",
+    "file": "src/content/web3/developers/build-app.html",
+    "title": "MAGNE Layer1 Blockchain",
+    "source": "https://web3.magne.ai/developers/build-app",
+    "sourceKey": "developers--build-app-31a84f9d"
+  },
+  {
+    "route": "/solutions/connect",
+    "file": "src/content/web3/solutions/connect.html",
+    "title": "Connect To MAGNE L1 / M Hash L2 Testnet",
+    "source": "https://web3.magne.ai/solutions/connect",
+    "sourceKey": "solutions--connect-1028b519"
+  },
+  {
+    "route": "/solutions/opstack",
+    "file": "src/content/web3/solutions/opstack.html",
+    "title": "Why M Hash Layer2 is Built on OP Stack",
+    "source": "https://web3.magne.ai/solutions/opstack",
+    "sourceKey": "solutions--opstack-ffe68c83"
+  },
+  {
+    "route": "/solutions/get-mha",
+    "file": "src/content/web3/solutions/get-mha.html",
+    "title": "Why MAGNE.AI Needs Layer2",
+    "source": "https://web3.magne.ai/solutions/get-mha",
+    "sourceKey": "solutions--get-mha-5cdbe4ba"
+  },
+  {
+    "route": "/solutions/why-l2",
+    "file": "src/content/web3/solutions/why-l2.html",
+    "title": "Why Magne Needs Layer2",
+    "source": "https://web3.magne.ai/solutions/why-l2",
+    "sourceKey": "solutions--why-l2-4915769c"
+  },
+  {
+    "route": "/solutions/security",
+    "file": "src/content/web3/solutions/security.html",
+    "title": "High-Security Applications",
+    "source": "https://web3.magne.ai/solutions/security",
+    "sourceKey": "solutions--security-fa034bb2"
+  },
+  {
+    "route": "/solutions/optimizations",
+    "file": "src/content/web3/solutions/optimizations.html",
+    "title": "M Hash Layer2 Optimizations on OP Stack",
+    "source": "https://web3.magne.ai/solutions/optimizations",
+    "sourceKey": "solutions--optimizations-83aa5c59"
+  },
+  {
+    "route": "/solutions/hardware",
+    "file": "src/content/web3/solutions/hardware.html",
+    "title": "Hardware Empowerment: The Fusion of Security and Computing",
+    "source": "https://web3.magne.ai/solutions/hardware",
+    "sourceKey": "solutions--hardware-d66a40e9"
+  },
+  {
+    "route": "/networks/faucet",
+    "file": "src/content/web3/networks/faucet.html",
+    "title": "Gas and Fees",
+    "source": "https://web3.magne.ai/networks/faucet",
+    "sourceKey": "networks--faucet-b13ac748"
+  },
+  {
+    "route": "/networks/explorer",
+    "file": "src/content/web3/networks/explorer.html",
+    "title": "MAGNE / M Hash Block Explorer",
+    "source": "https://web3.magne.ai/networks/explorer",
+    "sourceKey": "networks--explorer-96f4282c"
+  },
+  {
+    "route": "/solutions/poai-depin",
+    "file": "src/content/web3/solutions/poai-depin.html",
+    "title": "POAi and DePIN Integration: The Edge Revolution of MAGNE.AI",
+    "source": "https://web3.magne.ai/solutions/poai-depin",
+    "sourceKey": "solutions--poai-depin-f96d741d"
+  },
+  {
+    "route": "/networks/l2",
+    "file": "src/content/web3/networks/l2.html",
+    "title": "MAGNE.AI Layer2-M Hash",
+    "source": "https://web3.magne.ai/networks/l2",
+    "sourceKey": "networks--l2-a9607234"
+  },
+  {
+    "route": "/networks/l1",
+    "file": "src/content/web3/networks/l1.html",
+    "title": "MAGNE.AI Layer1-MAGNE",
+    "source": "https://web3.magne.ai/networks/l1",
+    "sourceKey": "networks--l1-49bab9c7"
+  },
+  {
+    "route": "/help/faqs",
+    "file": "src/content/web3/help/faqs.html",
+    "title": "FAQs",
+    "source": "https://web3.magne.ai/help/faqs",
+    "sourceKey": "help--faqs-ee2eeec3"
+  },
+  {
+    "route": "/help/contact",
+    "file": "src/content/web3/help/contact.html",
+    "title": "Contact Us",
+    "source": "https://web3.magne.ai/help/contact",
+    "sourceKey": "help--contact-d56c01dc"
+  },
+  {
+    "route": "/help/glossary",
+    "file": "src/content/web3/help/glossary.html",
+    "title": "Glossary",
+    "source": "https://web3.magne.ai/help/glossary",
+    "sourceKey": "help--glossary-9d247507"
+  },
+  {
+    "route": "/community/twitter",
+    "file": "src/content/web3/community/twitter.html",
+    "title": "Twitter",
+    "source": "https://web3.magne.ai/community/twitter",
+    "sourceKey": "community--twitter-acf1cc6e"
+  },
+  {
+    "route": "/community/telegram",
+    "file": "src/content/web3/community/telegram.html",
+    "title": "Telegram",
+    "source": "https://web3.magne.ai/community/telegram",
+    "sourceKey": "community--telegram-3b51b283"
+  },
+  {
+    "route": "/developers",
+    "redirect": "/developers/net-config"
+  },
+  {
+    "route": "/learning",
+    "redirect": "/learning/what-is-magne"
+  },
+  {
+    "route": "/help",
+    "redirect": "/help/faqs"
+  },
+  {
+    "route": "/networks",
+    "redirect": "/networks/explorer"
+  },
+  {
+    "route": "/solutions",
+    "redirect": "/solutions/connect"
+  },
+  {
+    "route": "/community",
+    "redirect": "/community/twitter"
+  },
+  {
+    "route": "/learning/tokenomics-v1-0",
+    "file": "src/content/web3/learning/tokenomics-v1-0.html",
+    "title": "Tokenomics v1.0 archive"
+  },
+  {
+    "route": "/learning/tokenomics-changelog",
+    "file": "src/content/web3/learning/tokenomics-changelog.html",
+    "title": "Tokenomics revision history"
+  },
+  {
+    "route": "/learning/tokenomics-zh",
+    "file": "src/content/web3/learning/tokenomics-zh.html",
+    "title": "Tokenomics 中文修訂說明"
+  },
+  {
+    "route": "/learning/tokenomics-announcement",
+    "file": "src/content/web3/learning/tokenomics-announcement.html",
+    "title": "Tokenomics v1.1 update"
+  }
+]

@@ -1,0 +1,76 @@
+<h1 id="section-0" data-tc-unit="0">Governance Overview</h1>
+<h2 id="section-1" data-tc-unit="1">MAGNE Governance</h2>
+<p data-tc-unit="2">MAGNE’s decentralized governance system empowers $MHA token holders to steer protocol-level changes including Reward Vault approvals, native dApp configurations, and PoW distribution logic.</p>
+<h3 id="section-2" data-tc-unit="3">Use Cases for Governance:</h3>
+<ul>
+<li data-tc-unit="4">Whitelisting Reward Vaults (e.g. staking/incentive token approvals)</li>
+<li data-tc-unit="5">Configuring native dApps like MAGNESwap (e.g. fee structure)</li>
+<li data-tc-unit="6">Adjusting PoL distribution curves or parameters</li>
+<li data-tc-unit="7">Upgrading system-level settings or timelock durations</li>
+</ul>
+<hr>
+<h3 id="section-3" data-tc-unit="8">Governance Lifecycle</h3>
+<p data-tc-unit="9">MAGNE’s governance is based on OpenZeppelin’s battle-tested contracts, providing a secure and transparent multi-phase lifecycle:</p>
+<ol>
+<li>
+<p data-tc-unit="10"><strong>Proposal Creation</strong></p>
+<p data-tc-unit="11">Any account with sufficient voting power may initiate a proposal</p>
+</li>
+<li>
+<p data-tc-unit="12"><strong>Pending State</strong></p>
+<p data-tc-unit="13">Proposals enter a brief 1-hour delay before becoming active for voting</p>
+</li>
+<li>
+<p data-tc-unit="14"><strong>Voting Phase</strong></p>
+<p data-tc-unit="15">$MHA holders (or their delegates) can cast votes during the 5-day voting window</p>
+</li>
+<li>
+<p data-tc-unit="16"><strong>Proposal Outcome</strong></p>
+<p data-tc-unit="17">If quorum and majority thresholds are met, the proposal is marked as Succeeded</p>
+</li>
+<li>
+<p data-tc-unit="18"><strong>Timelock Queue</strong></p>
+<p data-tc-unit="19">Successful proposals enter a 2-day delay queue before execution</p>
+</li>
+<li>
+<p data-tc-unit="20"><strong>Execution</strong></p>
+<p data-tc-unit="21">Once timelock elapses, the change can be implemented on-chain by any actor</p>
+</li>
+</ol>
+<hr>
+<h3 id="section-4" data-tc-unit="22">Guardian Oversight</h3>
+<p data-tc-unit="23">To protect the protocol from malicious behavior, MAGNE uses a 5-of-9 Guardian Council with the authority to cancel dangerous proposals during the timelock phase (e.g., unauthorized upgrades or asset seizure).</p>
+<hr>
+<h3 id="section-5" data-tc-unit="24">Creating Your Governance Proposal</h3>
+<ol>
+<li>
+<p data-tc-unit="25"><strong>Ensure You Meet the Voting Threshold</strong></p>
+<p data-tc-unit="26">You need at least <strong>10,000 $MHA worth of delegated voting power</strong></p>
+</li>
+<li>
+<p data-tc-unit="27"><strong>Delegate to Yourself</strong></p>
+<p data-tc-unit="28">You must explicitly delegate $MHA (even to yourself) to unlock governance rights</p>
+</li>
+<li>
+<p data-tc-unit="29"><strong>Prepare the Proposal Payload</strong></p>
+<p data-tc-unit="30">For example, a Reward Vault proposal must include the vault address and correct function call (e.g., <span>addRewardVault(address)</span>)</p>
+</li>
+<li>
+<p data-tc-unit="31"><strong>Submit the Proposal</strong></p>
+<p data-tc-unit="32">Submit through the on-chain governance contract or via the MAGNEHub UI</p>
+</li>
+<li>
+<p data-tc-unit="33"><strong>Promote the Proposal</strong></p>
+<p data-tc-unit="34">Engage the community to build awareness and gather votes</p>
+</li>
+<li>
+<p data-tc-unit="35"><strong>Execute After Timelock</strong></p>
+<p data-tc-unit="36">If passed, any user can trigger execution after the 2-day delay</p>
+</li>
+</ol>
+<hr>
+<h3 id="section-6" data-tc-unit="37">Governance Parameters (Default)</h3>
+<div class="overflow-x-auto"><table><thead><tr><th data-tc-unit="38">State</th><th data-tc-unit="39">Criteria</th></tr></thead><tbody><tr><td data-tc-unit="40">Proposal Creation</td><td data-tc-unit="41">10,000 $MHA delegated votes</td></tr><tr><td data-tc-unit="42">Pending Period</td><td data-tc-unit="43">1 hour</td></tr><tr><td data-tc-unit="44">Voting Period</td><td data-tc-unit="45">5 days</td></tr><tr><td data-tc-unit="46">Quorum Threshold</td><td data-tc-unit="47">20% of total $MHA supply</td></tr><tr><td data-tc-unit="48">Timelock Delay</td><td data-tc-unit="49">2 days</td></tr></tbody></table></div>
+<blockquote>
+<p data-tc-unit="50">Reward Vault proposals may follow a simplified governance path. See the Reward Vault Governance Docs for details.</p>
+</blockquote>

@@ -1,0 +1,6 @@
+/developers/tools
+671	Developer Tools <strong>（Testnet）</strong>
+672	<strong>Wallet Configuration (MetaMask)</strong>
+673	Open MetaMask → Networks → Add Network
+674	Enter:
+675	Get Testnet Gas: use the public faucet (rate-limited). For higher limits, request via controlled review.

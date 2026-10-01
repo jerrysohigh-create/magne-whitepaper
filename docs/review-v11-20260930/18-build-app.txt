@@ -1,0 +1,424 @@
+MAGNE Layer1 區塊鏈
+建立應用程式
+
+使用 OnchainKit 在 MAGNE Layer1 區塊鏈建立 Next.js 應用的指南
+
+歡迎使用 MAGNE Layer1 區塊鏈快速入門指南！我們將由零開始建立簡單鏈上應用。無論您是資深開發者或剛入門，都可依照本指南操作。
+
+您將完成甚麼
+
+完成本快速入門後，您將透過以下步驟建立鏈上應用：
+
+設定開發環境
+將智能合約部署至 MagicalHash
+從前端與已部署合約互動
+
+此範例是一個鏈上計數應用，按下按鈕即可增加儲存於鏈上的累計數值。
+
+為何選擇 MAGNE Layer1 區塊鏈？
+
+MAGNE Layer1 區塊鏈以行動裝置為優先，相容 EVM 並採用 PoW，讓智能手機與邊緣裝置參與挖礦及共識，以保障安全性、去中心化與效能。
+
+設定開發環境
+
+OnchainKit 提供現成 React 元件及 TypeScript 工具，用於建立鏈上應用。在終端機執行以下指令，並依提示初始化項目。
+
+複製
+```bash Terminal
+npm create onchain@latest
+
+
+完成提示步驟後，您將取得包含基本 OnchainKit 應用的新項目目錄。執行以下指令即可啟動查看。
+
+複製
+cd my-onchainkit-app
+npm install
+npm run dev
+
+
+您應會看到以下畫面。
+
+部署合約後，我們會加入按鈕，以便與合約互動。
+
+複製
+
+The total tally will be stored onchain in a smart contract. We'll use the Foundry framework to deploy our contract to the MAGNE Layer1 Testnet.
+
+
+
+在項目根目錄建立新的「contracts」資料夾
+複製
+mkdir contracts && cd contracts
+
+安裝並初始化 Foundry
+複製
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
+forge init --no-git
+
+
+開啟項目，在 /contracts/src 資料夾找到 Counter.sol 合約檔案，其中包含計數應用的簡單邏輯。
+
+由於 contracts 是項目內的資料夾，我們不希望為它初始化獨立 Git 儲存庫，因此加入 --no-git 旗標。
+
+複製
+
+To deploy your smart contracts to MAGNE Layer1 Testnet, you need two key components:
+
+
+
+用於與 MAGNE Layer1 測試網互動的節點連接
+具有足夠資金、可用於部署合約的私鑰
+
+以下逐一設定：
+
+在 contracts 目錄建立 .env 檔案，並加入 MAGNE Layer1 與 MAGNE Layer1 測試網 RPC URL
+複製
+MAGICAL_RPC_URL="https://rpc.testnet.magicalhash.com"
+
+
+載入環境變數
+
+複製
+source .env
+
+
+部署合約需要持有測試網資金的私鑰。您可在此處產生新私鑰。
+
+複製
+1. Store your private key in Foundry's secure keystore
+
+```bash Terminal
+cast wallet import deployer --interactive
+
+依提示輸入私鑰及密碼。
+
+私鑰儲存於 ~/.foundry/keystores，此位置不受 Git 追蹤。
+
+部署合約
+
+環境設定完成後，即可將合約部署至 MAGNE Layer1 測試網。Foundry 項目提供用於部署 Counter.sol 合約的腳本。
+
+使用以下指令編譯並部署合約
+複製
+```bash Terminal
+forge create ./src/Counter.sol:Counter --rpc-url $MAGICAL_SEPOLIA_RPC_URL --account deployer
+
+
+請注意，部署合約的格式為 <contract-path>:<contract-name>。
+
+複製
+
+After successful deployment, the transaction hash will be printed to the console output
+
+
+
+
+複製已部署合約地址，並加入 .env 檔案
+
+複製
+COUNTER_CONTRACT_ADDRESS="0x..."
+
+複製
+
+```bash Terminal
+source .env
+```To ensure your contract was deployed successfully:
+
+
+
+在瀏覽器查閱交易。
+使用 cast 指令，從命令列與已部署合約互動
+
+此操作會傳回 Counter 合約 number 儲存變數的初始值，即 0。
+
+複製
+
+Now lets connect the frontend to interact with your recently deployed contract.
+
+# **Interacting with your contract**
+
+To interact with the smart contract logic, we need to submit an onchain transaction. We can do this easily with the `Transaction` component. This is a simplified version of the `Transaction` component, designed to streamline the integration process. Instead of manually defining each subcomponent and prop, we can use this shorthand version which renders our suggested implementation of the component and includes the `TransactionButton` and `TransactionToast` components.
+
+Lets add the `Transaction` component to our `page.tsx` file. Delete the existing content in the `main` tag and replace it with the snippet below.
+
+
+
+複製
+// @noErrors: 2307 - Cannot find module '@/calls'
+import { Transaction } from '@coinbase/onchainkit/transaction';
+import { calls } from '@/calls';
+
+<main className="flex flex-grow items-center justify-center">
+  <div className="w-full max-w-4xl p-4">
+    <div className="mx-auto mb-6 w-1/3">
+      <Transaction calls={calls} />
+    </div>
+  </div>
+</main>;
+
+複製
+
+In the previous code snippet, you'll see we imported `calls` from the `calls.ts` file. This file provides the details needed to interact with our contract and call the `increment` function. Create a new `calls.ts` file in the same folder as your `page.tsx` file and add the following code.
+
+
+
+複製
+const counterContractAddress = '0x...'; // add your contract address here
+const counterContractAbi = [
+  {
+    type: 'function',
+    name: 'increment',
+    inputs: [],
+    outputs: [],
+    stateMutability: 'nonpayable',
+  },
+] as const;
+
+export const calls = [
+  {
+    address: counterContractAddress,
+    abi: counterContractAbi,
+    functionName: 'increment',
+    args: [],
+  },
+];
+
+
+calls.ts 檔案包含合約互動詳情，包括上一步儲存的合約地址。
+
+複製
+
+Now, when you connect a wallet and click on the `Transact` button and approve the transaction, it will increment the tally onchain by one.
+
+
+
+
+我們可再次使用 cast 呼叫合約的 number 函式，確認鏈上計數已執行。
+
+複製
+cast call $COUNTER_CONTRACT_ADDRESS "number()(uint256)" --rpc-url $MAGNE_RPC_URL
+
+
+若交易成功，計數應增加一！
+
+複製
+
+We now have a working onchain tally app! While the example is simple, it illustrates the end to end process of building on onchain app. We:
+
+- Configured a project with frontend and onchain infrastructure
+- Interacted with the contract from the frontend
+
+# M Hash Layer2 Blockchain
+
+# **Build an App**
+
+> A guide to building a next.js app on M Hash Layer2 Blockchain using OnchainKit
+> 
+
+Welcome to the M Hash Layer2 Blockchain quickstart guide! In this walkthrough, we'll create a simple onchain app from start to finish. Whether you're a seasoned developer or just starting out, this guide has got you covered.
+
+# **What You'll Achieve**
+
+By the end of this quickstart, you'll have built an onchain app by:
+
+- Configuring your development environment
+- Deploying your smart contracts to MagicalHash
+- Interacting with your deployed contracts from the frontend
+
+Our simple app will be an onchain tally app which lets you add to a total tally, stored onchain, by pressing a button.
+
+- Why M Hash Layer2 Blockchain?
+
+M Hash Layer2 Blockchain is a high-performance Layer 2 network built on opStack with an asynchronous consensus mechanism, separating consensus from execution to significantly boost throughput and efficiency while ensuring security and low-cost transactions.
+
+# **Set Up Your Development Environment**
+
+OnchainKit is a library of ready-to-use React components and Typescript utilities for building onchain apps. Run the following command in your terminal and follow the prompts to bootstrap your project.
+
+
+
+複製
+npm create onchain@latest
+
+
+完成提示步驟後，您將取得包含基本 OnchainKit 應用的新項目目錄。執行以下指令即可啟動查看。
+
+複製
+cd my-onchainkit-app
+npm install
+npm run dev
+
+
+您應會看到以下畫面。
+
+部署合約後，我們會加入按鈕，以便與合約互動。
+
+複製
+
+The total tally will be stored onchain in a smart contract. We'll use the Foundry framework to deploy our contract to the M Hash Layer2 Testnet.
+
+
+
+在項目根目錄建立新的「contracts」資料夾
+複製
+mkdir contracts && cd contracts
+
+安裝並初始化 Foundry
+複製
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
+forge init --no-git
+
+
+開啟項目，在 /contracts/src 資料夾找到 Counter.sol 合約檔案，其中包含計數應用的簡單邏輯。
+
+由於 contracts 是項目內的資料夾，我們不希望為它初始化獨立 Git 儲存庫，因此加入 --no-git 旗標。
+
+複製
+
+To deploy your smart contracts to M Hash Layer2 Testnet, you need two key components:
+
+
+
+用於與 M Hash Layer2 測試網互動的節點連接
+具有足夠資金、可用於部署合約的私鑰
+
+以下逐一設定：
+
+在 contracts 目錄建立 .env 檔案，並加入 M Hash Layer2 與 M Hash Layer2 測試網 RPC URL
+複製
+MAGICAL_RPC_URL="https://l2-rpc.testnet.magicalhash.com"
+
+
+載入環境變數
+
+複製
+source .env
+
+
+部署合約需要持有測試網資金的私鑰。您可在此處產生新私鑰。
+
+複製
+1. Store your private key in Foundry's secure keystore
+
+```bash Terminal
+cast wallet import deployer --interactive
+
+依提示輸入私鑰及密碼。
+
+私鑰儲存於 ~/.foundry/keystores，此位置不受 Git 追蹤。
+
+部署合約
+
+環境設定完成後，即可將合約部署至 M Hash Layer2 測試網。Foundry 項目提供用於部署 Counter.sol 合約的腳本。
+
+使用以下指令編譯並部署合約
+複製
+```bash Terminal
+forge create ./src/Counter.sol:Counter --rpc-url $MAGICAL_SEPOLIA_RPC_URL --account deployer
+
+
+請注意，部署合約的格式為 <contract-path>:<contract-name>。
+
+複製
+
+After successful deployment, the transaction hash will be printed to the console output
+
+
+
+
+複製已部署合約地址，並加入 .env 檔案
+
+複製
+COUNTER_CONTRACT_ADDRESS="0x..."
+
+複製
+
+```bash Terminal
+source .env
+```To ensure your contract was deployed successfully:
+
+
+
+在瀏覽器查閱交易。
+使用 cast 指令，從命令列與已部署合約互動
+
+此操作會傳回 Counter 合約 number 儲存變數的初始值，即 0。
+
+複製
+
+Now lets connect the frontend to interact with your recently deployed contract.
+
+# **Interacting with your contract**
+
+To interact with the smart contract logic, we need to submit an onchain transaction. We can do this easily with the `Transaction` component. This is a simplified version of the `Transaction` component, designed to streamline the integration process. Instead of manually defining each subcomponent and prop, we can use this shorthand version which renders our suggested implementation of the component and includes the `TransactionButton` and `TransactionToast` components.
+
+Lets add the `Transaction` component to our `page.tsx` file. Delete the existing content in the `main` tag and replace it with the snippet below.
+
+
+
+複製
+// @noErrors: 2307 - Cannot find module '@/calls'
+import { Transaction } from '@coinbase/onchainkit/transaction';
+import { calls } from '@/calls';
+
+<main className="flex flex-grow items-center justify-center">
+  <div className="w-full max-w-4xl p-4">
+    <div className="mx-auto mb-6 w-1/3">
+      <Transaction calls={calls} />
+    </div>
+  </div>
+</main>;
+
+複製
+
+In the previous code snippet, you'll see we imported `calls` from the `calls.ts` file. This file provides the details needed to interact with our contract and call the `increment` function. Create a new `calls.ts` file in the same folder as your `page.tsx` file and add the following code.
+
+
+
+複製
+const counterContractAddress = '0x...'; // add your contract address here
+const counterContractAbi = [
+  {
+    type: 'function',
+    name: 'increment',
+    inputs: [],
+    outputs: [],
+    stateMutability: 'nonpayable',
+  },
+] as const;
+
+export const calls = [
+  {
+    address: counterContractAddress,
+    abi: counterContractAbi,
+    functionName: 'increment',
+    args: [],
+  },
+];
+
+
+calls.ts 檔案包含合約互動詳情，包括上一步儲存的合約地址。
+
+複製
+
+Now, when you connect a wallet and click on the `Transact` button and approve the transaction, it will increment the tally onchain by one.
+
+
+
+
+我們可再次使用 cast 呼叫合約的 number 函式，確認鏈上計數已執行。
+
+複製
+cast call $COUNTER_CONTRACT_ADDRESS "number()(uint256)" --rpc-url $MAGNE_RPC_URL
+
+
+若交易成功，計數應增加一！
+
+複製
+
+We now have a working onchain tally app! While the example is simple, it illustrates the end to end process of building on onchain app. We:
+
+- Configured a project with frontend and onchain infrastructure
+- Interacted with the contract from the frontend

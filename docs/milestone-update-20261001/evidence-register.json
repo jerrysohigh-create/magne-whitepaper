@@ -1,0 +1,698 @@
+{
+  "checked": "2026-10-01",
+  "sources": {
+    "progress": [
+      "MAGNE.AI · Progress",
+      "https://www.magne.ai/en/progress.html"
+    ],
+    "root": [
+      "ROOTDATA · MAGNE.AI",
+      "https://www.rootdata.com/projects/detail/MAGNEAI?k=MjA3NjY%3D"
+    ],
+    "compliance": [
+      "MAG1 · Compliance",
+      "https://www.magne.ai/en/compliance.html"
+    ],
+    "ce": [
+      "MAG1 · CE",
+      "https://www.magne.ai/en/ce-lookup.html"
+    ],
+    "fcc": [
+      "MAG1 · FCC",
+      "https://www.magne.ai/en/fcc-lookup.html"
+    ],
+    "cp": [
+      "MAG1 · Prop 65",
+      "https://www.magne.ai/en/cp65-lookup.html"
+    ],
+    "a1": [
+      "Beosin · 202603131847",
+      "https://www.beosin.com/audits/Magne.AI_202603131847.pdf"
+    ],
+    "a2": [
+      "Beosin · 202603181600",
+      "https://www.beosin.com/audits/Magne.AI_202603181600.pdf"
+    ],
+    "network": [
+      "W3 · Network",
+      "https://w3.magne.ai/network.html"
+    ],
+    "agent": [
+      "W3 · AgentPay",
+      "https://w3.magne.ai/agentpay.html"
+    ],
+    "box": [
+      "W3 · AI BOX",
+      "https://w3.magne.ai/ai-box.html"
+    ],
+    "s1": [
+      "W3 · Season 1",
+      "https://w3.magne.ai/season-1.html"
+    ],
+    "s2": [
+      "W3 · Season 2",
+      "https://w3.magne.ai/season-2.html"
+    ],
+    "og": [
+      "W3 · Public Sale OG",
+      "https://w3.magne.ai/public-sale-og.html"
+    ],
+    "kucoin": [
+      "KuCoin · MHA listing",
+      "https://www.kucoin.com/announcement/en-world-premiere-magne-ai-mha-listed-on-kucoin"
+    ],
+    "bitget": [
+      "Bitget · MHA listing",
+      "https://www.bitget.com/support/articles/12560603895256"
+    ],
+    "mexc": [
+      "MEXC · MHA listing",
+      "https://www.mexc.com/ja-JP/announcements/article/first-in-market-17827791538572"
+    ],
+    "lbank": [
+      "LBank · MHA listing",
+      "https://www.lbank.com/hi/support/articles/2099819086971142144"
+    ]
+  },
+  "groups": [
+    {
+      "id": "section-1",
+      "title": [
+        "MAG1 · Hardware and compliance",
+        "MAG1 · 硬件與合規"
+      ],
+      "rows": [
+        [
+          "2025-11-04",
+          [
+            "GMS disclosure",
+            "GMS 公開記錄"
+          ],
+          [
+            "Published record",
+            "公開記錄"
+          ],
+          [
+            "Widevine L1 references are in the device passport; this is not a new device-wide security certification.",
+            "Widevine L1 參考資料見裝置護照；不延伸為整機安全等級認證。"
+          ],
+          [
+            "progress",
+            "compliance"
+          ]
+        ],
+        [
+          "2025-12-01",
+          [
+            "UN38.3 record",
+            "UN38.3 運輸測試記錄"
+          ],
+          [
+            "Published record",
+            "公開記錄"
+          ],
+          [
+            "Transport documentation is indexed by the official site.",
+            "官網已提供運輸測試資料入口。"
+          ],
+          [
+            "progress",
+            "compliance"
+          ]
+        ],
+        [
+          "2025-12-03",
+          [
+            "GSMA TAC",
+            "GSMA TAC 核發記錄"
+          ],
+          [
+            "Published record",
+            "公開記錄"
+          ],
+          [
+            "MAG1 · TAC 01681300.",
+            "MAG1 · TAC 01681300。"
+          ],
+          [
+            "progress",
+            "compliance"
+          ]
+        ],
+        [
+          "2025-12-11",
+          [
+            "CB battery safety record",
+            "CB 電池安全記錄"
+          ],
+          [
+            "Published record",
+            "公開記錄"
+          ],
+          [
+            "IEC 62133-2 scope follows the certificate.",
+            "IEC 62133-2 適用範圍以證書為準。"
+          ],
+          [
+            "progress",
+            "compliance"
+          ]
+        ],
+        [
+          "2025-12-25",
+          [
+            "PRE EVT · P0 acceptance",
+            "PRE EVT · P0 階段驗收"
+          ],
+          [
+            "Company disclosure",
+            "公司披露"
+          ],
+          [
+            "Controlled evidence.",
+            "支持文件受控查閱。"
+          ],
+          [
+            "progress"
+          ]
+        ],
+        [
+          "2026-01-07",
+          [
+            "EVT trial production started",
+            "EVT 試產啟動"
+          ],
+          [
+            "Company disclosure",
+            "公司披露"
+          ],
+          [
+            "Stage record.",
+            "階段記錄。"
+          ],
+          [
+            "progress"
+          ]
+        ],
+        [
+          "2026-02-03",
+          [
+            "EVT · P1 acceptance",
+            "EVT · P1 階段驗收"
+          ],
+          [
+            "Company disclosure",
+            "公司披露"
+          ],
+          [
+            "Controlled evidence.",
+            "支持文件受控查閱。"
+          ],
+          [
+            "progress"
+          ]
+        ],
+        [
+          "2026-04-07",
+          [
+            "Prop 65 report record",
+            "Prop 65 測試報告記錄"
+          ],
+          [
+            "Published report",
+            "報告公開"
+          ],
+          [
+            "Chemical testing scope follows the report, not a blanket regulatory approval.",
+            "屬化學物質測試報告，不概括為監管全面批准。"
+          ],
+          [
+            "progress",
+            "cp"
+          ]
+        ],
+        [
+          "2026-05-24",
+          [
+            "FCC public record",
+            "FCC 公開記錄"
+          ],
+          [
+            "Documents published",
+            "資料公開"
+          ],
+          [
+            "FCC ID 2BVCPGC603606; chronology date, not every report’s issue date.",
+            "FCC ID 2BVCPGC603606；此為時間軸公開節點，不代表每份報告的簽發日。"
+          ],
+          [
+            "progress",
+            "fcc"
+          ]
+        ],
+        [
+          "2026-07-02",
+          [
+            "CE documents published",
+            "CE 資料公開"
+          ],
+          [
+            "Documents published",
+            "資料公開"
+          ],
+          [
+            "Type-examination and supporting documents are available. Scope is configuration-specific.",
+            "型式檢驗及支持文件可查；適用範圍以配置及原文件為準。"
+          ],
+          [
+            "progress",
+            "ce"
+          ]
+        ],
+        [
+          "2026-07-03",
+          [
+            "PVT · P2 acceptance",
+            "PVT · P2 階段驗收"
+          ],
+          [
+            "Company disclosure",
+            "公司披露"
+          ],
+          [
+            "Does not establish shipments.",
+            "不等同已完成批量出貨。"
+          ],
+          [
+            "progress"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": [
+        "Networks and contract security",
+        "網絡與合約安全"
+      ],
+      "rows": [
+        [
+          "2025-09-09",
+          [
+            "L1 / L2 code publication",
+            "L1／L2 程式碼公開"
+          ],
+          [
+            "Public record",
+            "公開記錄"
+          ],
+          [
+            "Open-source milestone.",
+            "開源節點。"
+          ],
+          [
+            "progress",
+            "root"
+          ]
+        ],
+        [
+          "2025-10-12",
+          [
+            "M Hash L2 explorer",
+            "M Hash L2 測試網瀏覽器"
+          ],
+          [
+            "Testnet",
+            "測試網"
+          ],
+          [
+            "Chain ID 20250827; the ID is not a launch date.",
+            "Chain ID 20250827；編號不是上線日期。"
+          ],
+          [
+            "progress",
+            "network"
+          ]
+        ],
+        [
+          "2025-10-20",
+          [
+            "MAGNE L1 explorer",
+            "MAGNE L1 測試網瀏覽器"
+          ],
+          [
+            "Testnet",
+            "測試網"
+          ],
+          [
+            "Chain ID 20250810; no mainnet completion claim.",
+            "Chain ID 20250810；不表示主網已完成。"
+          ],
+          [
+            "progress",
+            "network"
+          ]
+        ],
+        [
+          "2026-03-13",
+          [
+            "Beosin business-contract report",
+            "Beosin 業務合約審計報告"
+          ],
+          [
+            "Report published",
+            "報告公開"
+          ],
+          [
+            "Report 202603131847 identifies the reviewed BNB Chain code and findings; it is not an L1/L2 audit.",
+            "報告 202603131847 列明受審 BNB Chain 程式碼及發現事項；不是 L1／L2 主網審計。"
+          ],
+          [
+            "a1"
+          ]
+        ],
+        [
+          "2026-03-18",
+          [
+            "Beosin token / NFT report",
+            "Beosin 代幣／NFT 合約審計報告"
+          ],
+          [
+            "Report published",
+            "報告公開"
+          ],
+          [
+            "Report 202603181600 covers specified MHAToken / MagneNFT code. The report alone does not prove equivalence to later deployments or new v1.1 rules.",
+            "報告 202603181600 涵蓋指定 MHAToken／MagneNFT 程式碼；不能單凭該報告認定後續部署或新版 1.1 規則已受審。"
+          ],
+          [
+            "a2"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": [
+        "Company, financing and MHA",
+        "公司、融資與 MHA"
+      ],
+      "rows": [
+        [
+          "2025-07-20",
+          [
+            "MYBW Launch Night",
+            "MYBW Launch Night"
+          ],
+          [
+            "Public event record",
+            "公開活動記錄"
+          ],
+          [
+            "Product introduction.",
+            "產品公開亮相。"
+          ],
+          [
+            "progress",
+            "root"
+          ]
+        ],
+        [
+          "2025-08-24",
+          [
+            "New York · AI / RWA event",
+            "紐約 · AI／RWA 活動"
+          ],
+          [
+            "Public event record",
+            "公開活動記錄"
+          ],
+          [
+            "Community event.",
+            "社群交流。"
+          ],
+          [
+            "progress",
+            "root"
+          ]
+        ],
+        [
+          "2025-08-26",
+          [
+            "US$10M strategic round",
+            "1,000 萬美元策略融資"
+          ],
+          [
+            "Company disclosure",
+            "公司披露"
+          ],
+          [
+            "Funding announcement; not an audited cash balance.",
+            "融資公告，不是經審計現金餘額。"
+          ],
+          [
+            "progress",
+            "root"
+          ]
+        ],
+        [
+          "2026-01-22",
+          [
+            "Philadelphia · RWA event",
+            "費城 · RWA 活動"
+          ],
+          [
+            "Public event record",
+            "公開活動記錄"
+          ],
+          [
+            "Public engagement.",
+            "公開交流。"
+          ],
+          [
+            "progress",
+            "root"
+          ]
+        ],
+        [
+          "2026-03-06 / 03-13",
+          [
+            "MHA legal opinion record",
+            "MHA 法律意見記錄"
+          ],
+          [
+            "Date reconciliation",
+            "日期待對齊"
+          ],
+          [
+            "Official site: 6 March; ROOTDATA: 13 March. Original under controlled review; no blanket legal-status conclusion reproduced here.",
+            "官網列 3 月 6 日，ROOTDATA 列 3 月 13 日。原件受控查閱；本頁不重述全面法律定性。"
+          ],
+          [
+            "compliance",
+            "root"
+          ]
+        ],
+        [
+          "2026-07-12",
+          [
+            "WebX Tokyo event",
+            "WebX 東京活動"
+          ],
+          [
+            "Public event record",
+            "公開活動記錄"
+          ],
+          [
+            "Participation record.",
+            "參與記錄。"
+          ],
+          [
+            "progress",
+            "root"
+          ]
+        ],
+        [
+          "2026-07-22 / 08-05",
+          [
+            "Additional US$2.64M round",
+            "新增 264 萬美元融資"
+          ],
+          [
+            "Company disclosure · date reconciliation",
+            "公司披露 · 日期待對齊"
+          ],
+          [
+            "Official chronology: 22 July; ROOTDATA: 5 August. One round, not two; cumulative disclosed financing US$12.64M.",
+            "官網時間軸列 7 月 22 日，ROOTDATA 列 8 月 5 日。同一輪不重複計算；累計披露融資 1,264 萬美元。"
+          ],
+          [
+            "progress",
+            "root"
+          ]
+        ],
+        [
+          "2026-09-02",
+          [
+            "MHA BSC deployment entry",
+            "MHA BSC 部署登記"
+          ],
+          [
+            "ROOTDATA entry",
+            "ROOTDATA 收錄"
+          ],
+          [
+            "Date is from the event calendar; deployment transaction timestamp was not independently reverified in this update. Current BSC contract is linked in Tokenomics.",
+            "日期依事件日曆收錄；本次未重新獨立核驗部署交易時間戳。現行 BSC 合約見代幣經濟頁。"
+          ],
+          [
+            "root"
+          ]
+        ],
+        [
+          "2026-09-17 · 12:00 UTC",
+          [
+            "MHA/USDT listing milestone",
+            "MHA／USDT 上市節點"
+          ],
+          [
+            "Exchange announcements",
+            "交易所公告"
+          ],
+          [
+            "Bitget, KuCoin, MEXC and LBank specify this trading start. BSC token trading does not establish MAGNE L1/L2 mainnet launch.",
+            "Bitget、KuCoin、MEXC、LBank 公告均列此交易啟動時間。BSC 代幣交易不等同 MAGNE L1／L2 主網上線。"
+          ],
+          [
+            "bitget",
+            "kucoin",
+            "mexc",
+            "lbank"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": [
+        "Community and product disclosures",
+        "社群與產品資料公開"
+      ],
+      "rows": [
+        [
+          "2026-04-20",
+          [
+            "Season 1 campaign and dashboard",
+            "Season 1 活動與面板"
+          ],
+          [
+            "Launch record",
+            "啟動記錄"
+          ],
+          [
+            "Campaign launch and dashboard are grouped as one milestone.",
+            "活動與面板合併記錄，不重複計作兩次啟動。"
+          ],
+          [
+            "progress",
+            "s1"
+          ]
+        ],
+        [
+          "2026-07-06",
+          [
+            "Season 1 campaign close",
+            "Season 1 活動結束"
+          ],
+          [
+            "Campaign archive",
+            "活動歸檔"
+          ],
+          [
+            "Campaign closure is separate from delivery and reward settlement.",
+            "活動結束不等同手機已全部交付或獎勵已結算。"
+          ],
+          [
+            "progress",
+            "s1"
+          ]
+        ],
+        [
+          "2026-07-10",
+          [
+            "Season 2 launch",
+            "Season 2 活動啟動"
+          ],
+          [
+            "Launch record",
+            "啟動記錄"
+          ],
+          [
+            "1,600 phones is campaign configuration, not a verified active-device count.",
+            "1,600 台是活動配置，不是已核驗活躍設備數。"
+          ],
+          [
+            "progress",
+            "s2"
+          ]
+        ],
+        [
+          "2026-08-21–27",
+          [
+            "MAG1 specifications, viewer and W3 preview",
+            "MAG1 規格、結構查看器與 W3 預覽"
+          ],
+          [
+            "Public pages · dates differ",
+            "頁面公開 · 日期有差異"
+          ],
+          [
+            "Primary site and ROOTDATA assign different dates to this group of releases; see reconciliation notes below. Publication does not establish commercial delivery.",
+            "官網與 ROOTDATA 對這組發布的日期不同，見下方校對說明；資料公開不等同商業交付。"
+          ],
+          [
+            "progress",
+            "root"
+          ]
+        ],
+        [
+          "2026-08",
+          [
+            "AI BOX roadmap and controlled test matrix",
+            "AI BOX 路線圖與受控測試矩陣"
+          ],
+          [
+            "Conditional POC",
+            "有條件 POC"
+          ],
+          [
+            "Public page distinguishes measured examples from engineering targets. A first sample is shown; Gate 0 remains in progress and Gate 1 validation is next. No mass-production conclusion.",
+            "公開頁區分受控測試與工程目標；已展示首台工程樣機，Gate 0 仍進行中，下一步為 Gate 1 驗證，不作量產結論。"
+          ],
+          [
+            "box",
+            "root"
+          ]
+        ],
+        [
+          "2026-09-08",
+          [
+            "Public Sale OG conversion disclosure",
+            "Public Sale OG 轉換安排披露"
+          ],
+          [
+            "Rules published",
+            "規則公開"
+          ],
+          [
+            "Choice to retain rights or convert to MS2; publication is not proof that all conversions, claims or the final Season 2 settlement are complete.",
+            "可保留原權益或選擇轉換 MS2；規則公開不代表全部轉換、領取或 Season 2 最終結算已完成。"
+          ],
+          [
+            "og"
+          ]
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<h1 id="section-0">建立測試網網頁應用</h1>
+<p>此 Vite＋viem 小型應用讀取已部署的 Counter，並可透過使用者瀏覽器錢包要求增加計數。範例明確定義自訂網絡，不依賴 OnchainKit 或未列出的 Provider 設定。</p><p><a href="/whitepaper/examples/app.zip" download="">下載完整網頁範例</a></p><h2 id="section-1">環境與檔案</h2><p>使用 Node.js 24、Vite 8.3.2 及 viem 2.57.2。解壓縮並進入 app 資料夾。準備支援 EIP-1193 的瀏覽器錢包、所選測試網設定、測試 Gas 及上一章部署的 Counter 地址。</p><pre><code>npm ci
+npm run build
+npm run dev</code></pre><h2 id="section-2">package.json</h2><pre><code>{
+  "name": "magne-whitepaper-app-example",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "viem": "2.57.2"
+  },
+  "devDependencies": {
+    "vite": "8.3.2"
+  }
+}</code></pre><h2 id="section-3">index.html</h2><pre><code>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;&lt;meta charset="utf-8"&gt;&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;title&gt;MAGNE testnet counter example&lt;/title&gt;
+&lt;body&gt;&lt;main&gt;
+&lt;h1&gt;MAGNE testnet counter&lt;/h1&gt;&lt;p&gt;Demo only. Select your testnet and use a deployed Counter from this tutorial.&lt;/p&gt;
+&lt;label&gt;Network &lt;select id="network"&gt;&lt;option value="20250810"&gt;MAGNE L1 testnet&lt;/option&gt;&lt;option value="20250827"&gt;M Hash L2 testnet&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;
+&lt;label&gt;Counter address &lt;input id="contract" placeholder="0x…" autocomplete="off"&gt;&lt;/label&gt;
+&lt;button id="read"&gt;Read counter&lt;/button&gt;&lt;button id="connect"&gt;Connect wallet&lt;/button&gt;&lt;button id="increment"&gt;Increment (wallet approval)&lt;/button&gt;
+&lt;p id="output" role="status" aria-live="polite"&gt;Ready. No transaction sent.&lt;/p&gt;
+&lt;/main&gt;&lt;script type="module" src="/main.js"&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</code></pre><h2 id="section-4">main.js</h2><pre><code>import { createPublicClient, createWalletClient, custom, defineChain, http, isAddress } from 'viem';
+const networks = {
+  20250810: defineChain({ id: 20250810, name: 'MAGNE L1 Testnet', nativeCurrency: { name: 'Test MHA', symbol: 'MHA', decimals: 18 }, rpcUrls: { default: { http: ['https://rpc.testnet.magicalhash.com'] } }, testnet: true }),
+  20250827: defineChain({ id: 20250827, name: 'M Hash L2 Testnet', nativeCurrency: { name: 'Test MHA', symbol: 'MHA', decimals: 18 }, rpcUrls: { default: { http: ['https://l2-rpc.testnet.magicalhash.com'] } }, testnet: true }),
+};
+const abi = [
+  { type: 'function', name: 'number', inputs: [], outputs: [{ type: 'uint256' }], stateMutability: 'view' },
+  { type: 'function', name: 'increment', inputs: [], outputs: [], stateMutability: 'nonpayable' },
+];
+const output = document.querySelector('#output');
+const select = document.querySelector('#network');
+const field = document.querySelector('#contract');
+function clients() {
+  const chain = networks[Number(select.value)];
+  const publicClient = createPublicClient({ chain, transport: http() });
+  return { chain, publicClient };
+}
+function contractAddress() {
+  const address = field.value.trim();
+  if (!isAddress(address)) throw new Error('Enter the deployed Counter address for the selected network.');
+  return address;
+}
+async function wallet(chain) {
+  if (!window.ethereum) throw new Error('Install an EIP-1193 browser wallet first.');
+  const client = createWalletClient({ chain, transport: custom(window.ethereum) });
+  const [account] = await client.requestAddresses();
+  if (!account) throw new Error('No wallet account selected.');
+  if (await client.getChainId() !== chain.id) throw new Error('Switch the wallet to the selected testnet, then retry.');
+  return { client, account };
+}
+let busy = false;
+async function run(action) {
+  if (busy) return;
+  busy = true;
+  document.querySelectorAll('button, input, select').forEach(e =&gt; e.disabled = true);
+  output.textContent = 'Working…';
+  try { await action(); } catch (error) { output.textContent = error.shortMessage || error.message || String(error); }
+  finally { busy = false; document.querySelectorAll('button, input, select').forEach(e =&gt; e.disabled = false); }
+}
+document.querySelector('#read').onclick = () =&gt; run(async () =&gt; {
+  const { publicClient } = clients();
+  const value = await publicClient.readContract({ address: contractAddress(), abi, functionName: 'number' });
+  output.textContent = 'Counter: ' + value.toString();
+});
+document.querySelector('#connect').onclick = () =&gt; run(async () =&gt; {
+  const { chain } = clients();
+  const { account } = await wallet(chain);
+  output.textContent = 'Connected on ' + chain.name + ': ' + account;
+});
+document.querySelector('#increment').onclick = () =&gt; run(async () =&gt; {
+  const address = contractAddress();
+  const { chain, publicClient } = clients();
+  const { client, account } = await wallet(chain);
+  const { request } = await publicClient.simulateContract({ address, abi, functionName: 'increment', account });
+  const hash = await client.writeContract(request);
+  output.textContent = 'Submitted: ' + hash + '. Waiting for receipt…';
+  const receipt = await publicClient.waitForTransactionReceipt({ hash, timeout: 120_000 });
+  if (receipt.status !== 'success') throw new Error('Transaction reverted: ' + hash);
+  output.textContent = 'Included in a testnet block: ' + hash;
+});
+</code></pre><h2 id="section-5">操作流程</h2><p>選擇 L1 或 L2、填入該網絡的 Counter 地址並讀取數值。連接錢包，核對帳戶與網絡後要求 Increment。應用先模擬呼叫，再請錢包簽署並等待交易回執；拒絕、網絡不符及 RPC 錯誤均顯示錯誤，不記作成功。</p><h2 id="section-6">部署範圍</h2><p>成功回執表示納入測試網區塊，不代表正式結算最終確定。瀏覽器組建只包含公開配置；私鑰留在錢包，不輸入此應用。</p><p><a href="https://viem.sh/docs/clients/wallet">viem Wallet Client</a> · <a href="/tc/developers/net-config">測試網參數</a></p>

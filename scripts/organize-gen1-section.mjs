@@ -1,0 +1,27 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const out='docs/gen1-section-layout';await fs.mkdir(out+'/before',{recursive:true});
+const addresses=JSON.parse(await fs.readFile('src/content/whitepaper/allocation-addresses.json','utf8'));
+const mining=addresses.records.find(r=>r.category==='mining').address;
+for(const tc of [false,true]){
+ const t=(en,zh)=>tc?zh:en;
+ const file=`src/content/${tc?'whitepaper-tc':'whitepaper'}/learning/tokenomics.html`;
+ const h=await fs.readFile(file,'utf8');await fs.writeFile(`${out}/before/${tc?'tc':'en'}.html`,h,{flag:'wx'});
+ const ids=['section-9','section-3','gen1-optional-incentives','section-10','allocation-2'];
+ const pos=ids.map(id=>h.indexOf(`<h2 id="${id}"`));assert.ok(pos.every((p,i)=>p>0&&(i===0||p>pos[i-1])));
+ const [tableStart,configStart,incentiveStart,executionStart,stakingStart]=pos;
+ const source=`<p class="gen1-assumptions"><strong>${t('Proposed funding route','擬議資金路徑')}</strong><br>${t('Mining allocation (30%) → GEN1 sub-pool (up to 400 million MHA) → separately approved optional incentive budget (up to 17 million).','挖礦分配（30%）→ GEN1 子池（上限 4 億 MHA）→ 另行批准的自願激勵預算（最多 1,700 萬 MHA）。')}<br>${t('Registered mining reserve','已登記挖礦儲備')}：<a href="https://bscscan.com/token/${addresses.contract}?a=${mining}">${mining}</a></p><p>${t('This uses neither the separate 15% validator-staking allocation nor user deposits as a reward source. A dedicated GEN1 distribution contract or multisig address must be disclosed before funding; none is assigned here. Reserve registration was checked on 30 September 2026 and does not verify current spendable funds.','不使用獨立的 15% 驗證者質押分配，也不以用戶交入的質押本金支付獎勵。GEN1 專用發放合約或多簽地址須在撥款前披露，此處尚未指定。儲備地址登記核對於 2026 年 9 月 30 日，不代表已核驗目前可支用餘額。')}</p>`;
+ const compare=`<h3 id="gen1-options-comparison">${t('Compare participation options','比較兩種參與方式')}</h3><div class="table-wrap" tabindex="0" role="region" aria-label="${t('Locking and device staking comparison','鎖定與設備質押比較')}"><table><thead><tr><th>${t('Item','項目')}</th><th>${t('Reward locking','獎勵鎖定')}</th><th>${t('Device-linked staking','設備綁定質押')}</th></tr></thead><tbody><tr><th>${t('Principal','本金來源')}</th><td>${t('A selected portion of newly approved base rewards','新核定基礎獎勵中自願選定的部分')}</td><td>${t('Separate 3,000 MHA deposit per eligible device','每台合資格設備另行存入 3,000 MHA')}</td></tr><tr><th>${t('Commitment / exit','佔用時間／退出')}</th><td>${t('6 / 9 / 12 months; no early exit in this draft','6／9／12 個月，本草案不設提前退出')}</td><td>${t('New incentives stop on withdrawal request; principal returns after 30 days','提出退出即停止新增激勵，本金於 30 天後返還')}</td></tr><tr><th>${t('Request ceiling','申請額上限')}</th><td>${t('10% / 15% / 20% of selected principal; once per batch','所選本金的 10%／15%／20%，每批僅一次')}</td><td>${t('10% of monthly base reward while eligible','符合資格期間，當月基礎獎勵的 10%')}</td></tr><tr><th>${t('Reward budget','獎勵預算')}</th><td colspan="2">${t('Shared proposed GEN1 incentive budget; budget proration applies; no stacking','共用擬議 GEN1 激勵預算；按預算縮減，不疊加')}</td></tr></tbody></table></div><p>${t('A higher request is not automatically a better choice: principal, duration and exit conditions differ. Compare each option separately.','申請額較高不代表方案較優；兩者本金、佔用期限與退出条件不同，應分別比較。')}</p>`;
+ let incentive=h.slice(incentiveStart,executionStart).replace('Optional locking and staking incentives · proposal','GEN1 optional participation incentives · discussion draft').replace('自願鎖定與設備質押激勵 · 草案','GEN1 自願參與激勵 · 討論稿');
+ const headEnd=incentive.indexOf('</h2>')+5;
+ const pending=`<p class="gen1-review-note">${t('Discussion draft: reward-month versus execution-date handling, comparable lock/stake incentives and the production budget ledger still require resolution. The estimator is a scenario illustration, not an executable offer.','討論稿：獎勵月份與實際執行日期的銜接、鎖定與質押的同條件比較，以及正式預算帳本仍待完善。測算僅為情境示例，不是可執行報價。')}</p>`;
+ incentive=incentive.slice(0,headEnd)+pending+source+compare+`<div data-gen1-widget="incentive"></div><details class="gen1-reading-details"><summary>${t('Budget limits, rules and open issues','展開預算限制、詳細規則與待定事項')}</summary>`+incentive.slice(headEnd)+'</details>';
+ const table=`<details class="gen1-reading-details" open><summary>${t('Standard 36-month release schedule','標準 36 個月釋放表')}</summary>${h.slice(tableStart,configStart)}</details>`;
+ const technical=`<details class="gen1-reading-details" id="gen1-technical-details"><summary>${t('Formulas, verification and execution details','展開公式、核驗與執行細則')}</summary>${h.slice(configStart,incentiveStart)}${h.slice(executionStart,stakingStart)}</details>`;
+ let after=h.slice(stakingStart);const end=after.indexOf('</h2>')+5;
+ after=after.slice(0,end)+`<p>${t('This allocation covers consensus staking by validators and delegators. It is separate from GEN1 device-linked staking incentives, which remain under Mining Nodes; their reward budgets are not shared. A device deposit does not make its owner a validator.','本項分配用於驗證者及委託者參與網絡共識的質押，與挖礦節點下的 GEN1 設備綁定質押激勵分開核算，不共用獎勵預算。設備質押不代表成為驗證者。')} <a href="#gen1-optional-incentives">${t('See GEN1 optional participation incentives','查看 GEN1 自願參與激勵')}</a></p>`+after.slice(end);
+ const next=(h.slice(0,tableStart)+'<div data-gen1-widget="base"></div>'+table+incentive+technical+after).replaceAll('退出条件','退出條件');
+ assert.deepEqual([...h.matchAll(/<tr data-gen1-month[\s\S]*?<\/tr>/g)].map(m=>m[0]),[...next.matchAll(/<tr data-gen1-month[\s\S]*?<\/tr>/g)].map(m=>m[0]));
+ await fs.writeFile(file,next);
+}
+console.log('Grouped both calculators under Mining Nodes; added funding, comparison and staking distinction.');

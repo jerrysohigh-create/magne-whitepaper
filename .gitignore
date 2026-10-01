@@ -47,3 +47,15 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Local review evidence and recoverable snapshots (not website assets)
+/docs/**/*.png
+/docs/**/*.jpg
+/docs/**/*.webp
+/docs/**/before*/
+/docs/full-text-revision-20261002/examples/
+*.log
+.env.*
+!.env.example
+*.pem
+*.key

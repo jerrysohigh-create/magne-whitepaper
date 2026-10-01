@@ -1,0 +1,291 @@
+{
+  "at": "2026-09-28T18:26:43.191Z",
+  "copy": [
+    {
+      "path": "/developers/tools",
+      "count": 1,
+      "index": 0,
+      "pass": true,
+      "newlineNormalization": "Windows clipboard CRLF normalized to LF",
+      "length": 439,
+      "status": "Copied to clipboard."
+    },
+    {
+      "path": "/developers/build-contract",
+      "count": 20,
+      "index": 0,
+      "pass": true,
+      "newlineNormalization": "Windows clipboard CRLF normalized to LF",
+      "length": 47,
+      "status": "Copied to clipboard."
+    },
+    {
+      "path": "/developers/build-contract",
+      "count": 20,
+      "index": 19,
+      "pass": true,
+      "newlineNormalization": "Windows clipboard CRLF normalized to LF",
+      "length": 82,
+      "status": "Copied to clipboard."
+    },
+    {
+      "path": "/developers/build-app",
+      "count": 40,
+      "index": 0,
+      "pass": true,
+      "newlineNormalization": "Windows clipboard CRLF normalized to LF",
+      "length": 45,
+      "status": "Copied to clipboard."
+    },
+    {
+      "path": "/developers/build-app",
+      "count": 40,
+      "index": 39,
+      "pass": true,
+      "newlineNormalization": "Windows clipboard CRLF normalized to LF",
+      "length": 260,
+      "status": "Copied to clipboard."
+    },
+    {
+      "path": "/developers/launch-token",
+      "count": 13,
+      "index": 0,
+      "pass": true,
+      "newlineNormalization": "Windows clipboard CRLF normalized to LF",
+      "length": 56,
+      "status": "Copied to clipboard."
+    },
+    {
+      "path": "/developers/launch-token",
+      "count": 13,
+      "index": 12,
+      "pass": true,
+      "newlineNormalization": "Windows clipboard CRLF normalized to LF",
+      "length": 211,
+      "status": "Copied to clipboard."
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/learning",
+      "url": "http://127.0.0.1:4173/learning/what-is-magne",
+      "local": true
+    },
+    {
+      "path": "/developers",
+      "url": "http://127.0.0.1:4173/developers/net-config",
+      "local": true
+    },
+    {
+      "path": "/solutions",
+      "url": "http://127.0.0.1:4173/solutions/connect",
+      "local": true
+    },
+    {
+      "path": "/networks",
+      "url": "http://127.0.0.1:4173/networks/explorer",
+      "local": true
+    },
+    {
+      "path": "/help",
+      "url": "http://127.0.0.1:4173/help/faqs",
+      "local": true
+    },
+    {
+      "path": "/community",
+      "url": "http://127.0.0.1:4173/community/twitter",
+      "local": true
+    }
+  ],
+  "mobile": {
+    "open": "true",
+    "href": "/learning/tokenomics",
+    "destination": "http://127.0.0.1:4173/learning/tokenomics",
+    "escapeClosed": "false",
+    "focus": "Open Menu"
+  },
+  "wallet": [
+    {
+      "mode": "no-provider",
+      "status": "No compatible wallet was detected. Install or open MetaMask, then try again. You can also add the network manually using the values below.",
+      "requests": []
+    },
+    {
+      "mode": "switch",
+      "index": 0,
+      "status": "Wallet switched to MAGNE L1 Testnet.",
+      "requests": [
+        {
+          "method": "wallet_switchEthereumChain",
+          "params": [
+            {
+              "chainId": "0x13500ba"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "switch",
+      "index": 1,
+      "status": "Wallet switched to M Hash L2 Testnet.",
+      "requests": [
+        {
+          "method": "wallet_switchEthereumChain",
+          "params": [
+            {
+              "chainId": "0x13500cb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "add",
+      "index": 0,
+      "status": "MAGNE L1 Testnet was added. Check the active network in your wallet.",
+      "requests": [
+        {
+          "method": "wallet_switchEthereumChain",
+          "params": [
+            {
+              "chainId": "0x13500ba"
+            }
+          ]
+        },
+        {
+          "method": "wallet_addEthereumChain",
+          "params": [
+            {
+              "chainId": "0x13500ba",
+              "chainName": "MAGNE L1 Testnet",
+              "rpcUrls": [
+                "https://rpc.testnet.magicalhash.com"
+              ],
+              "blockExplorerUrls": [
+                "https://explorer.testnet.magicalhash.com"
+              ],
+              "nativeCurrency": {
+                "name": "MHA",
+                "symbol": "MHA",
+                "decimals": 18
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "add",
+      "index": 1,
+      "status": "M Hash L2 Testnet was added. Check the active network in your wallet.",
+      "requests": [
+        {
+          "method": "wallet_switchEthereumChain",
+          "params": [
+            {
+              "chainId": "0x13500cb"
+            }
+          ]
+        },
+        {
+          "method": "wallet_addEthereumChain",
+          "params": [
+            {
+              "chainId": "0x13500cb",
+              "chainName": "M Hash L2 Testnet",
+              "rpcUrls": [
+                "https://l2-rpc.testnet.magicalhash.com"
+              ],
+              "blockExplorerUrls": [
+                "https://l2-explorer.testnet.magicalhash.com"
+              ],
+              "nativeCurrency": {
+                "name": "MHA",
+                "symbol": "MHA",
+                "decimals": 18
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "reject",
+      "index": 0,
+      "status": "The wallet request was declined. No network change was confirmed.",
+      "requests": [
+        {
+          "method": "wallet_switchEthereumChain",
+          "params": [
+            {
+              "chainId": "0x13500ba"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "reject",
+      "index": 1,
+      "status": "The wallet request was declined. No network change was confirmed.",
+      "requests": [
+        {
+          "method": "wallet_switchEthereumChain",
+          "params": [
+            {
+              "chainId": "0x13500cb"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sidebar": [
+    {
+      "path": "/developers/tools",
+      "aria": [],
+      "active": [
+        {
+          "text": "Developer Tools",
+          "class": "block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] bg-[#1C2B4F] text-gray-2-- border-l-4 border-[#008CFF]",
+          "aria": null
+        }
+      ]
+    },
+    {
+      "path": "/developers/build-contract",
+      "aria": [],
+      "active": [
+        {
+          "text": "Build A Smart Contract",
+          "class": "block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] bg-[#1C2B4F] text-gray-2-- border-l-4 border-[#008CFF]",
+          "aria": null
+        }
+      ]
+    },
+    {
+      "path": "/developers/build-app",
+      "aria": [],
+      "active": [
+        {
+          "text": "Build A App",
+          "class": "block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] bg-[#1C2B4F] text-gray-2-- border-l-4 border-[#008CFF]",
+          "aria": null
+        }
+      ]
+    },
+    {
+      "path": "/developers/launch-token",
+      "aria": [],
+      "active": [
+        {
+          "text": "Launch an ERC-20 Token with Foundry",
+          "class": "block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] bg-[#1C2B4F] text-gray-2-- border-l-4 border-[#008CFF]",
+          "aria": null
+        }
+      ]
+    }
+  ],
+  "note": "Only mocked EIP-1193 provider used. No wallet extension installed or actual RPC/transaction request sent."
+}

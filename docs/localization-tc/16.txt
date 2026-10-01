@@ -1,0 +1,75 @@
+/solutions/connect
+871	Connect To MAGNE L1 / M Hash L2 Testnet
+872	<strong>How To Connect A Wallet With MAGNE L1 / M Hash L2 Testnet</strong>
+873	<strong>Testnet RPC</strong>
+874	Copy and paste these values into any wallet that supports importing RPCs.
+875	<strong>Add MAGNE Layer1 Testnet</strong>
+876	<strong>Key</strong>
+877	<strong>Value</strong>
+878	Network Name
+879	MAGNE L1 Testnet
+880	RPC URL
+881	Chain ID
+882	Currency symbol
+883	MHA
+884	Block Explorer URL
+885	MHA Testnet Faucet
+886	<strong>Add M Hash Layer2 Testnet</strong>
+887	<strong>Key</strong>
+888	<strong>Value</strong>
+889	Network Name
+890	M Hash L2 Testnet
+891	RPC URL
+892	Chain ID
+893	Currency symbol
+894	MHA
+895	Block Explorer URL
+896	MHA Testnet Faucet
+897	<strong>Mainnet RPC (<strong>In Planning</strong>)</strong>
+898	Copy and paste these values into any wallet that supports importing RPCs.
+899	<strong>Add MAGNE Layer1</strong>
+900	<strong>Key</strong>
+901	<strong>Value</strong>
+902	Network
+903	MAGNE L1
+904	RPC URL
+905	Chain ID
+906	Currency symbol
+907	MHA
+908	Block explorer URL
+909	<strong>Add M Hash Layer2</strong>
+910	<strong>Key</strong>
+911	<strong>Value</strong>
+912	Network
+913	M Hash L2
+914	RPC URL
+915	Chain ID
+916	in planning
+917	Currency symbol
+918	MHA
+919	Block explorer URL
+920	<strong>Supported Wallets 👛</strong>
+921	Currently, any&nbsp;<a href="https://ethereum.org/en/wallets/find-wallet/" target="_blank" rel="noopener noreferrer"><strong>EVM-based wallet</strong></a>&nbsp;that allows&nbsp;<span>RPC importing</span>&nbsp;can be configured to work with <strong>MAGNE L1 / M Hash L2 Testnet</strong>
+922	Here are some examples of compatible wallets:
+923	<a href="https://metamask.io/" target="_blank" rel="noopener noreferrer"><strong>MetaMask</strong></a>
+924	<a href="https://rabby.io/" target="_blank" rel="noopener noreferrer"><strong>Rabby</strong></a>
+925	<a href="https://www.coinbase.com/wallet" target="_blank" rel="noopener noreferrer"><strong>Coinbase Wallet</strong></a>
+926	<a href="https://brave.com/wallet/" target="_blank" rel="noopener noreferrer"><strong>Brave Wallet</strong></a>
+927	<a href="https://frame.sh/" target="_blank" rel="noopener noreferrer"><strong>Frame</strong></a>
+928	<strong>How To Set Up A MetaMask Wallet With MAGNE L1 / M Hash L2 Testnet</strong>
+929	This will walk you through the steps of setting up and configuring a MetaMask wallet with <strong>MAGNE.AI</strong>.
+930	<strong>NOTE:</strong>&nbsp;It is recommended that you set this up through Chrome.
+931	<strong>Install MetaMask</strong>
+932	Go to MetaMask's&nbsp;<a href="https://metamask.io/" target="_blank" rel="noopener noreferrer"><strong>website</strong></a>&nbsp;and click to download and install the browser extension for your browser of choice. Make sure the extension is being offered by&nbsp;<span>metamask.io</span>.
+933	Wallets can connect to various blockchains, with MetaMask setting Ethereum as its default blockchain. In order to connect to MAGNE L1 / M Hash L2 Testnet, we'll need to add the network to MetaMask and select it.
+934	<strong>Add MAGNE L1 Testnet in One Click</strong>
+935	Using Chrome browser, open MAGNE L1 Testnet Blockchain explorer.
+936	Click the button below to add the network to your MetaMask in one click.
+937	<strong>Add M Hash L2 Testnet in One Click</strong>
+938	Using Chrome browser, open M Hash L2 Testnet Blockchain explorer.
+939	Click the button below to add the network to your MetaMask in one click.
+940	<strong>Add MAGNE L1 / M Hash L2 Testnet  Manually</strong>
+941	To add the network manually, click the drop-down in the top-left of MetaMask.
+942	Enter the following details into MetaMask to configure the network and connect to MAGNE L1 Testnet and M Hash L2 Testnet.
+943	Once the data is entered correctly, click&nbsp;<span>Save</span>.
+944	After saving the network configuration, you should be connected to the MAGNE L1 Testnet and M Hash L2 Testnet.

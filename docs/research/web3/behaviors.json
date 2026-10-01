@@ -1,0 +1,31 @@
+[
+  {
+    "text": "RESOURCES",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "transform": "none"
+  },
+  {
+    "text": "START BUILDING",
+    "background": "rgba(0, 0, 0, 0) linear-gradient(to right, rgb(250, 204, 21), rgb(251, 146, 60), rgb(236, 72, 153)) repeat scroll 0% 0% / auto padding-box border-box",
+    "transform": "matrix(1, 0, 0, 1, 0, 0)"
+  },
+  {
+    "resourcesURL": "https://web3.magne.ai/",
+    "scrollY": 0
+  },
+  {
+    "menu": "LEARNING\n+\nDEVELOPERS\n+\nSOLUTIONS\n+\nNETWORKS\n+\nHELP\n+\nCOMMUNITY\n+",
+    "buttons": [
+      "",
+      "LEARNING+",
+      "DEVELOPERS+",
+      "SOLUTIONS+",
+      "NETWORKS+",
+      "HELP+",
+      "COMMUNITY+",
+      "START BUILDING",
+      "RESOURCES",
+      "START BUILDING"
+    ]
+  }
+]

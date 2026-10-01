@@ -1,0 +1,1004 @@
+{
+  "checks": [
+    {
+      "type": "all ten rule bodies unchanged this turn",
+      "locale": "en",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "name": "tokenomics",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/learning/tokenomics-changelog",
+        "http://127.0.0.1:4173/learning/tokenomics-v1-0",
+        "http://127.0.0.1:4173/learning/tokenomics-zh",
+        "http://127.0.0.1:4173/learning/tokenomics-announcement",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/learning/tokenomics#execution-snapshot",
+        "http://127.0.0.1:4173/learning/tokenomics#campaign-notes",
+        "http://127.0.0.1:4173/learning/tokenomics#wpf-allocation",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-addresses",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-rules",
+        "http://127.0.0.1:4173/learning/tokenomics#execution-snapshot",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/learning/tokenomics#section-3",
+        "http://127.0.0.1:4173/learning/tokenomics#section-4",
+        "http://127.0.0.1:4173/learning/tokenomics#section-5",
+        "http://127.0.0.1:4173/learning/tokenomics#section-6",
+        "http://127.0.0.1:4173/learning/tokenomics#section-7",
+        "http://127.0.0.1:4173/learning/tokenomics#section-8",
+        "http://127.0.0.1:4173/learning/tokenomics#section-9",
+        "http://127.0.0.1:4173/learning/tokenomics#section-10",
+        "http://127.0.0.1:4173/learning/tokenomics#section-11",
+        "http://127.0.0.1:4173/learning/tokenomics#section-12",
+        "http://127.0.0.1:4173/learning/tokenomics#section-19",
+        "http://127.0.0.1:4173/learning/tokenomics#section-20",
+        "http://127.0.0.1:4173/learning/tokenomics#section-21",
+        "http://127.0.0.1:4173/learning/tokenomics#section-25",
+        "http://127.0.0.1:4173/learning/tokenomics#section-26"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "execution numbers and sums",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "allocation sum",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "version and announcement",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "dated snapshot and reserve disclosures",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "LBank transaction links",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "name": "tokenomics-changelog",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics-v1-0",
+        "http://127.0.0.1:4173/learning/tokenomics-announcement",
+        "http://127.0.0.1:4173/learning/tokenomics-v1-0"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "name": "tokenomics-announcement",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics-changelog"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "name": "tokenomics-zh",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics-v1-0",
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics-changelog"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "tokenomics",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/learning/tokenomics-changelog",
+        "http://127.0.0.1:4173/learning/tokenomics-v1-0",
+        "http://127.0.0.1:4173/learning/tokenomics-zh",
+        "http://127.0.0.1:4173/learning/tokenomics-announcement",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/learning/tokenomics#execution-snapshot",
+        "http://127.0.0.1:4173/learning/tokenomics#campaign-notes",
+        "http://127.0.0.1:4173/learning/tokenomics#wpf-allocation",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-addresses",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-rules",
+        "http://127.0.0.1:4173/learning/tokenomics#execution-snapshot",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/learning/tokenomics#section-3",
+        "http://127.0.0.1:4173/learning/tokenomics#section-4",
+        "http://127.0.0.1:4173/learning/tokenomics#section-5",
+        "http://127.0.0.1:4173/learning/tokenomics#section-6",
+        "http://127.0.0.1:4173/learning/tokenomics#section-7",
+        "http://127.0.0.1:4173/learning/tokenomics#section-8",
+        "http://127.0.0.1:4173/learning/tokenomics#section-9",
+        "http://127.0.0.1:4173/learning/tokenomics#section-10",
+        "http://127.0.0.1:4173/learning/tokenomics#section-11",
+        "http://127.0.0.1:4173/learning/tokenomics#section-12",
+        "http://127.0.0.1:4173/learning/tokenomics#section-19",
+        "http://127.0.0.1:4173/learning/tokenomics#section-20",
+        "http://127.0.0.1:4173/learning/tokenomics#section-21",
+        "http://127.0.0.1:4173/learning/tokenomics#section-25",
+        "http://127.0.0.1:4173/learning/tokenomics#section-26"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "execution numbers and sums",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "allocation sum",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "version and announcement",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "dated snapshot and reserve disclosures",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "LBank transaction links",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "tokenomics-changelog",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics-v1-0",
+        "http://127.0.0.1:4173/learning/tokenomics-announcement",
+        "http://127.0.0.1:4173/learning/tokenomics-v1-0"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "tokenomics-announcement",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics-changelog"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "name": "tokenomics-zh",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics-v1-0",
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics-changelog"
+      ]
+    },
+    {
+      "type": "all ten rule bodies unchanged this turn",
+      "locale": "tc",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "name": "tokenomics",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/tc/learning/tokenomics-changelog",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics-zh",
+        "http://127.0.0.1:4173/tc/learning/tokenomics-announcement",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#execution-snapshot",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#campaign-notes",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#wpf-allocation",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-addresses",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-rules",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#execution-snapshot",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-3",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-4",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-5",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-6",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-7",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-8",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-9",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-10",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-11",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-12",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-19",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-20",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-21",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-25",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-26"
+      ]
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "execution numbers and sums",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "allocation sum",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "version and announcement",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "dated snapshot and reserve disclosures",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "LBank transaction links",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "name": "tokenomics-changelog",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics-announcement",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics"
+      ]
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "name": "tokenomics-announcement",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics-changelog"
+      ]
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "name": "tokenomics-zh",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics-changelog"
+      ]
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "name": "tokenomics",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/tc/learning/tokenomics-changelog",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics-zh",
+        "http://127.0.0.1:4173/tc/learning/tokenomics-announcement",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#execution-snapshot",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#campaign-notes",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#wpf-allocation",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-addresses",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-rules",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#execution-snapshot",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-1",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-2",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-3",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-4",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-5",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-6",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#market-makers",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-8",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-9",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#exchange-campaigns",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-3",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-4",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-5",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-6",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-7",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-8",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-9",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-10",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-11",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-12",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-19",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-20",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-21",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-25",
+        "http://127.0.0.1:4173/tc/learning/tokenomics#section-26"
+      ]
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "execution numbers and sums",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "allocation sum",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "version and announcement",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "dated snapshot and reserve disclosures",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "LBank transaction links",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "name": "tokenomics-changelog",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics-announcement",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics"
+      ]
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "name": "tokenomics-announcement",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics-changelog"
+      ]
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "name": "tokenomics-zh",
+      "type": "page",
+      "ok": true,
+      "overflow": false,
+      "brokenAnchors": [],
+      "localLinks": [
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/v1.0/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics",
+        "http://127.0.0.1:4173/learning/tokenomics",
+        "http://127.0.0.1:4173/tc/learning/tokenomics-changelog"
+      ]
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics-changelog",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics-v1-0",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics-zh",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics-announcement",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#allocation",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#allocation-1",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#allocation-2",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#allocation-3",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#allocation-4",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#allocation-5",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#allocation-6",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#market-makers",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#allocation-8",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#allocation-9",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#exchange-campaigns",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#execution-snapshot",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#campaign-notes",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#wpf-allocation",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#allocation-addresses",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#allocation-rules",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-3",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-4",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-5",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-6",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-7",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-8",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-9",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-10",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-11",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-12",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-19",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-20",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-21",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-25",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics#section-26",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/learning/tokenomics",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/v1.0/learning/tokenomics",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics-changelog",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics-zh",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics-announcement",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#allocation",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-1",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-2",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-3",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-4",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-5",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-6",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#market-makers",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-8",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-9",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#exchange-campaigns",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#execution-snapshot",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#campaign-notes",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#wpf-allocation",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-addresses",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#allocation-rules",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-3",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-4",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-5",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-6",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-7",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-8",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-9",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-10",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-11",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-12",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-19",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-20",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-21",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-25",
+      "ok": true
+    },
+    {
+      "type": "internal link",
+      "url": "http://127.0.0.1:4173/tc/learning/tokenomics#section-26",
+      "ok": true
+    },
+    {
+      "type": "unchanged rule compared with v1.0",
+      "name": "Mining Nodes",
+      "ok": true,
+      "oldLength": 6157,
+      "currentLength": 6157
+    },
+    {
+      "type": "unchanged rule compared with v1.0",
+      "name": "Staking Nodes",
+      "ok": true,
+      "oldLength": 213,
+      "currentLength": 213
+    },
+    {
+      "type": "unchanged rule compared with v1.0",
+      "name": "Ecosystem / DAO Treasury",
+      "ok": true,
+      "oldLength": 374,
+      "currentLength": 374
+    },
+    {
+      "type": "unchanged rule compared with v1.0",
+      "name": "Team & Advisors",
+      "ok": true,
+      "oldLength": 250,
+      "currentLength": 250
+    },
+    {
+      "type": "unchanged rule compared with v1.0",
+      "name": "VC (Investors, Institutional/Private Round)",
+      "ok": true,
+      "oldLength": 149,
+      "currentLength": 149
+    },
+    {
+      "type": "unchanged rule compared with v1.0",
+      "name": "Early Supporters",
+      "ok": true,
+      "oldLength": 331,
+      "currentLength": 331
+    },
+    {
+      "type": "unchanged rule compared with v1.0",
+      "name": "Subscription / Public Sale（3%）",
+      "ok": true,
+      "oldLength": 2151,
+      "currentLength": 2151
+    },
+    {
+      "type": "unchanged rule compared with v1.0",
+      "name": "Equipment-Sale Agents",
+      "ok": true,
+      "oldLength": 312,
+      "currentLength": 312
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

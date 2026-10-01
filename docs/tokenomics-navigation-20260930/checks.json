@@ -1,0 +1,698 @@
+{
+  "checks": [
+    {
+      "locale": "en",
+      "width": 320,
+      "type": "layout",
+      "groups": 10,
+      "open": 0,
+      "nested": 10,
+      "contract": "0x37c563cdf4606d4302abb395cdb94e79d31233ed",
+      "addresses": [
+        "0xaAa2ec1f5bd840754e7459fd848D681bC50D62e8",
+        "0x999A665B14D33B947813ea1a6525c9C377DBE196",
+        "0x888F2F895aCf7E068e5eFF76Ae7E7ec7CC337cDD",
+        "0x777031eb97880cee836ce508b2d24dc66f898358",
+        "0x66660077B39DbF0c6225289Fa6c6a4BF4b1C9417",
+        "0x222EB7Dca28C875115dE21055881E3008df822c4",
+        "0x3337e8082646Df644179db3834b3ACc19bc55eFf",
+        "0x555d2527752c41c6bdb8166fd6e00d34997be1dd",
+        "0x4442ff4eae58dc9dbbe318b284b001b3967478fd",
+        "0x1117dA6F04376588A94a7B7fDC070607d0ad649C"
+      ],
+      "missingLinks": [],
+      "overflow": false,
+      "duplicateIDs": [],
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "type": "keyboard opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "type": "expand all",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "type": "collapse all",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "type": "chart opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "type": "direct legacy subsection link opens parent",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "type": "contract clipboard",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "type": "reserve clipboard",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "type": "print opens and restores all rules",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "layout",
+      "groups": 10,
+      "open": 0,
+      "nested": 10,
+      "contract": "0x37c563cdf4606d4302abb395cdb94e79d31233ed",
+      "addresses": [
+        "0xaAa2ec1f5bd840754e7459fd848D681bC50D62e8",
+        "0x999A665B14D33B947813ea1a6525c9C377DBE196",
+        "0x888F2F895aCf7E068e5eFF76Ae7E7ec7CC337cDD",
+        "0x777031eb97880cee836ce508b2d24dc66f898358",
+        "0x66660077B39DbF0c6225289Fa6c6a4BF4b1C9417",
+        "0x222EB7Dca28C875115dE21055881E3008df822c4",
+        "0x3337e8082646Df644179db3834b3ACc19bc55eFf",
+        "0x555d2527752c41c6bdb8166fd6e00d34997be1dd",
+        "0x4442ff4eae58dc9dbbe318b284b001b3967478fd",
+        "0x1117dA6F04376588A94a7B7fDC070607d0ad649C"
+      ],
+      "missingLinks": [],
+      "overflow": false,
+      "duplicateIDs": [],
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "keyboard opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "expand all",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "collapse all",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "chart opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "direct legacy subsection link opens parent",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "contract clipboard",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "reserve clipboard",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "type": "print opens and restores all rules",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "type": "layout",
+      "groups": 10,
+      "open": 0,
+      "nested": 10,
+      "contract": "0x37c563cdf4606d4302abb395cdb94e79d31233ed",
+      "addresses": [
+        "0xaAa2ec1f5bd840754e7459fd848D681bC50D62e8",
+        "0x999A665B14D33B947813ea1a6525c9C377DBE196",
+        "0x888F2F895aCf7E068e5eFF76Ae7E7ec7CC337cDD",
+        "0x777031eb97880cee836ce508b2d24dc66f898358",
+        "0x66660077B39DbF0c6225289Fa6c6a4BF4b1C9417",
+        "0x222EB7Dca28C875115dE21055881E3008df822c4",
+        "0x3337e8082646Df644179db3834b3ACc19bc55eFf",
+        "0x555d2527752c41c6bdb8166fd6e00d34997be1dd",
+        "0x4442ff4eae58dc9dbbe318b284b001b3967478fd",
+        "0x1117dA6F04376588A94a7B7fDC070607d0ad649C"
+      ],
+      "missingLinks": [],
+      "overflow": false,
+      "duplicateIDs": [],
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "type": "keyboard opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "type": "expand all",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "type": "collapse all",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "type": "chart opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "type": "direct legacy subsection link opens parent",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "type": "contract clipboard",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "type": "reserve clipboard",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "type": "print opens and restores all rules",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "layout",
+      "groups": 10,
+      "open": 0,
+      "nested": 10,
+      "contract": "0x37c563cdf4606d4302abb395cdb94e79d31233ed",
+      "addresses": [
+        "0xaAa2ec1f5bd840754e7459fd848D681bC50D62e8",
+        "0x999A665B14D33B947813ea1a6525c9C377DBE196",
+        "0x888F2F895aCf7E068e5eFF76Ae7E7ec7CC337cDD",
+        "0x777031eb97880cee836ce508b2d24dc66f898358",
+        "0x66660077B39DbF0c6225289Fa6c6a4BF4b1C9417",
+        "0x222EB7Dca28C875115dE21055881E3008df822c4",
+        "0x3337e8082646Df644179db3834b3ACc19bc55eFf",
+        "0x555d2527752c41c6bdb8166fd6e00d34997be1dd",
+        "0x4442ff4eae58dc9dbbe318b284b001b3967478fd",
+        "0x1117dA6F04376588A94a7B7fDC070607d0ad649C"
+      ],
+      "missingLinks": [],
+      "overflow": false,
+      "duplicateIDs": [],
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "keyboard opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "expand all",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "collapse all",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "chart opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "direct legacy subsection link opens parent",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "contract clipboard",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "reserve clipboard",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "type": "print opens and restores all rules",
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "type": "language switch preserves expanded category",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "type": "layout",
+      "groups": 10,
+      "open": 0,
+      "nested": 10,
+      "contract": "0x37c563cdf4606d4302abb395cdb94e79d31233ed",
+      "addresses": [
+        "0xaAa2ec1f5bd840754e7459fd848D681bC50D62e8",
+        "0x999A665B14D33B947813ea1a6525c9C377DBE196",
+        "0x888F2F895aCf7E068e5eFF76Ae7E7ec7CC337cDD",
+        "0x777031eb97880cee836ce508b2d24dc66f898358",
+        "0x66660077B39DbF0c6225289Fa6c6a4BF4b1C9417",
+        "0x222EB7Dca28C875115dE21055881E3008df822c4",
+        "0x3337e8082646Df644179db3834b3ACc19bc55eFf",
+        "0x555d2527752c41c6bdb8166fd6e00d34997be1dd",
+        "0x4442ff4eae58dc9dbbe318b284b001b3967478fd",
+        "0x1117dA6F04376588A94a7B7fDC070607d0ad649C"
+      ],
+      "missingLinks": [],
+      "overflow": false,
+      "duplicateIDs": [],
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "type": "keyboard opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "type": "expand all",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "type": "collapse all",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "type": "chart opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "type": "direct legacy subsection link opens parent",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "type": "contract clipboard",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "type": "reserve clipboard",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 320,
+      "type": "print opens and restores all rules",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "layout",
+      "groups": 10,
+      "open": 0,
+      "nested": 10,
+      "contract": "0x37c563cdf4606d4302abb395cdb94e79d31233ed",
+      "addresses": [
+        "0xaAa2ec1f5bd840754e7459fd848D681bC50D62e8",
+        "0x999A665B14D33B947813ea1a6525c9C377DBE196",
+        "0x888F2F895aCf7E068e5eFF76Ae7E7ec7CC337cDD",
+        "0x777031eb97880cee836ce508b2d24dc66f898358",
+        "0x66660077B39DbF0c6225289Fa6c6a4BF4b1C9417",
+        "0x222EB7Dca28C875115dE21055881E3008df822c4",
+        "0x3337e8082646Df644179db3834b3ACc19bc55eFf",
+        "0x555d2527752c41c6bdb8166fd6e00d34997be1dd",
+        "0x4442ff4eae58dc9dbbe318b284b001b3967478fd",
+        "0x1117dA6F04376588A94a7B7fDC070607d0ad649C"
+      ],
+      "missingLinks": [],
+      "overflow": false,
+      "duplicateIDs": [],
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "keyboard opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "expand all",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "collapse all",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "chart opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "direct legacy subsection link opens parent",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "contract clipboard",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "reserve clipboard",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "type": "print opens and restores all rules",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "type": "layout",
+      "groups": 10,
+      "open": 0,
+      "nested": 10,
+      "contract": "0x37c563cdf4606d4302abb395cdb94e79d31233ed",
+      "addresses": [
+        "0xaAa2ec1f5bd840754e7459fd848D681bC50D62e8",
+        "0x999A665B14D33B947813ea1a6525c9C377DBE196",
+        "0x888F2F895aCf7E068e5eFF76Ae7E7ec7CC337cDD",
+        "0x777031eb97880cee836ce508b2d24dc66f898358",
+        "0x66660077B39DbF0c6225289Fa6c6a4BF4b1C9417",
+        "0x222EB7Dca28C875115dE21055881E3008df822c4",
+        "0x3337e8082646Df644179db3834b3ACc19bc55eFf",
+        "0x555d2527752c41c6bdb8166fd6e00d34997be1dd",
+        "0x4442ff4eae58dc9dbbe318b284b001b3967478fd",
+        "0x1117dA6F04376588A94a7B7fDC070607d0ad649C"
+      ],
+      "missingLinks": [],
+      "overflow": false,
+      "duplicateIDs": [],
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "type": "keyboard opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "type": "expand all",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "type": "collapse all",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "type": "chart opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "type": "direct legacy subsection link opens parent",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "type": "contract clipboard",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "type": "reserve clipboard",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 768,
+      "type": "print opens and restores all rules",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "layout",
+      "groups": 10,
+      "open": 0,
+      "nested": 10,
+      "contract": "0x37c563cdf4606d4302abb395cdb94e79d31233ed",
+      "addresses": [
+        "0xaAa2ec1f5bd840754e7459fd848D681bC50D62e8",
+        "0x999A665B14D33B947813ea1a6525c9C377DBE196",
+        "0x888F2F895aCf7E068e5eFF76Ae7E7ec7CC337cDD",
+        "0x777031eb97880cee836ce508b2d24dc66f898358",
+        "0x66660077B39DbF0c6225289Fa6c6a4BF4b1C9417",
+        "0x222EB7Dca28C875115dE21055881E3008df822c4",
+        "0x3337e8082646Df644179db3834b3ACc19bc55eFf",
+        "0x555d2527752c41c6bdb8166fd6e00d34997be1dd",
+        "0x4442ff4eae58dc9dbbe318b284b001b3967478fd",
+        "0x1117dA6F04376588A94a7B7fDC070607d0ad649C"
+      ],
+      "missingLinks": [],
+      "overflow": false,
+      "duplicateIDs": [],
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "keyboard opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "expand all",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "collapse all",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "chart opens allocation",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "direct legacy subsection link opens parent",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "contract clipboard",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "reserve clipboard",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "type": "print opens and restores all rules",
+      "ok": true
+    },
+    {
+      "locale": "tc",
+      "type": "language switch preserves expanded category",
+      "ok": true
+    },
+    {
+      "type": "address matches official source",
+      "category": "mining",
+      "ok": true
+    },
+    {
+      "type": "address matches official source",
+      "category": "staking",
+      "ok": true
+    },
+    {
+      "type": "address matches official source",
+      "category": "ecosystem",
+      "ok": true
+    },
+    {
+      "type": "address matches official source",
+      "category": "team",
+      "ok": true
+    },
+    {
+      "type": "address matches official source",
+      "category": "vc",
+      "ok": true
+    },
+    {
+      "type": "address matches official source",
+      "category": "user-airdrop",
+      "ok": true
+    },
+    {
+      "type": "address matches official source",
+      "category": "market-making-reserve",
+      "ok": true
+    },
+    {
+      "type": "address matches official source",
+      "category": "public-sale",
+      "ok": true
+    },
+    {
+      "type": "address matches official source",
+      "category": "equipment-agents",
+      "ok": true
+    },
+    {
+      "type": "address matches official source",
+      "category": "exchange-allocation",
+      "ok": true
+    },
+    {
+      "type": "existing economic rules preserved",
+      "locale": "en",
+      "name": "mha",
+      "ok": true
+    },
+    {
+      "type": "current BSC form and future migration disclosed",
+      "locale": "en",
+      "name": "mha",
+      "ok": true
+    },
+    {
+      "type": "existing economic rules preserved",
+      "locale": "en",
+      "name": "tokenomics",
+      "ok": true
+    },
+    {
+      "type": "current BSC form and future migration disclosed",
+      "locale": "en",
+      "name": "tokenomics",
+      "ok": true
+    },
+    {
+      "type": "existing economic rules preserved",
+      "locale": "tc",
+      "name": "mha",
+      "ok": true
+    },
+    {
+      "type": "current BSC form and future migration disclosed",
+      "locale": "tc",
+      "name": "mha",
+      "ok": true
+    },
+    {
+      "type": "existing economic rules preserved",
+      "locale": "tc",
+      "name": "tokenomics",
+      "ok": true
+    },
+    {
+      "type": "current BSC form and future migration disclosed",
+      "locale": "tc",
+      "name": "tokenomics",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

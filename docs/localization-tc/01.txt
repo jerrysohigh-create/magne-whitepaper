@@ -1,0 +1,18 @@
+/learning/what-is-magne
+2	What is <strong>MAGNE.AI</strong>?
+3	<strong>MAGNE.AI is a next-generation blockchain platform that merges AI compute infrastructure, DePin networks, and Web3 applications. We aim to build a mobile-native, embedded, and autonomous AI-powered Web3 world.</strong>
+4	The project is powered by two foundational technologies:
+5	<strong>MAGNE Layer1 Blockchain</strong>: A mobile-first, EVM-compatible, PoW-based Layer1 chain where smartphones and edge devices can participate in mining and consensus, ensuring security, decentralization, and performance.
+6	<strong>M Hash Layer2 Blockchain</strong>: A high-performance Layer 2 network built on opStack with an asynchronous consensus mechanism, separating consensus from execution to significantly boost throughput and efficiency while ensuring security and low-cost transactions.
+7	<strong>MAGNE Kit Modular Execution Framework</strong>: A re-engineered execution layer optimized for low-latency smart contract processing, tailored for mobile use and AI-native workloads.
+8	MAGNE.AI introduces a novel architecture that fuses AI compute with Web3 infrastructure:
+9	Users earn $MHA tokens by sharing idle compute from devices like the <strong>MAGNE.AI Phone Gen1.</strong>
+10	Builds a <strong>DePin (Decentralized Physical Infrastructure)</strong> network where edge devices act as nodes.
+11	Provides AI APIs and SDKs for developers to build decentralized, AI-integrated applications.
+12	Enables on-chain deployment, validation, pricing, and usage of AI models—realizing Web3-native AI-as-a-Service.
+13	The MAGNE.AI ecosystem consists of:
+14	<strong>Base infrastructure</strong>: MAGNE Layer1, M Hash Layer2
+15	<strong>Device matrix</strong>: AI-powered phones, earbuds, and glasses (planned)
+16	<strong>Application layer</strong>: Dapp Hub (Shin Getter Nexus), AI assistants, Web3 games, NFT platforms
+17	<strong>Unified token economy</strong>: $MHA token used for gas, governance, incentives, staking, and access
+18	MAGNE.AI redefines the boundary between “smart devices” and “decentralized infrastructure,” enabling trusted AI execution, traceable model provenance, data ownership, and multi-device collaboration. Through tight integration of protocol and hardware, MAGNE.AI empowers every user to become a contributor and beneficiary in the AI Web3 era.

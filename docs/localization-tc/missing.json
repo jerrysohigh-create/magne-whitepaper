@@ -1,0 +1,512 @@
+[
+  {
+    "id": 19,
+    "local": 0,
+    "html": "$MHA",
+    "text": "$MHA"
+  },
+  {
+    "id": 48,
+    "local": 14,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 50,
+    "local": 16,
+    "html": "10,000,000,000 MHA",
+    "text": "10,000,000,000 MHA"
+  },
+  {
+    "id": 57,
+    "local": 23,
+    "html": "3,000,000,000 MHA",
+    "text": "3,000,000,000 MHA"
+  },
+  {
+    "id": 59,
+    "local": 25,
+    "html": "1,500,000,000 MHA",
+    "text": "1,500,000,000 MHA"
+  },
+  {
+    "id": 61,
+    "local": 27,
+    "html": "1,500,000,000 MHA",
+    "text": "1,500,000,000 MHA"
+  },
+  {
+    "id": 63,
+    "local": 29,
+    "html": "1,000,000,000 MHA",
+    "text": "1,000,000,000 MHA"
+  },
+  {
+    "id": 64,
+    "local": 30,
+    "html": "VC",
+    "text": "VC"
+  },
+  {
+    "id": 65,
+    "local": 31,
+    "html": "1,000,000,000 MHA",
+    "text": "1,000,000,000 MHA"
+  },
+  {
+    "id": 67,
+    "local": 33,
+    "html": "800,000,000 MHA",
+    "text": "800,000,000 MHA"
+  },
+  {
+    "id": 69,
+    "local": 35,
+    "html": "700,000,000 MHA",
+    "text": "700,000,000 MHA"
+  },
+  {
+    "id": 71,
+    "local": 37,
+    "html": "300,000,000 MHA",
+    "text": "300,000,000 MHA"
+  },
+  {
+    "id": 73,
+    "local": 39,
+    "html": "100,000,000 MHA",
+    "text": "100,000,000 MHA"
+  },
+  {
+    "id": 75,
+    "local": 41,
+    "html": "100,000,000 MHA",
+    "text": "100,000,000 MHA"
+  },
+  {
+    "id": 248,
+    "local": 214,
+    "html": "Bitget",
+    "text": "Bitget"
+  },
+  {
+    "id": 249,
+    "local": 215,
+    "html": "KuCoin",
+    "text": "KuCoin"
+  },
+  {
+    "id": 250,
+    "local": 216,
+    "html": "LBank",
+    "text": "LBank"
+  },
+  {
+    "id": 251,
+    "local": 217,
+    "html": "MEXC",
+    "text": "MEXC"
+  },
+  {
+    "id": 362,
+    "local": 33,
+    "html": "2000 USDC",
+    "text": "2000 USDC"
+  },
+  {
+    "id": 363,
+    "local": 34,
+    "html": "10/$MHA",
+    "text": "10/$MHA"
+  },
+  {
+    "id": 364,
+    "local": 35,
+    "html": "200 $MHA",
+    "text": "200 $MHA"
+  },
+  {
+    "id": 369,
+    "local": 40,
+    "html": "2500 USDC",
+    "text": "2500 USDC"
+  },
+  {
+    "id": 370,
+    "local": 41,
+    "html": "11/$MHA",
+    "text": "11/$MHA"
+  },
+  {
+    "id": 371,
+    "local": 42,
+    "html": "227 $MHA",
+    "text": "227 $MHA"
+  },
+  {
+    "id": 404,
+    "local": 7,
+    "html": "100,000,000 gas",
+    "text": "100,000,000 gas"
+  },
+  {
+    "id": 405,
+    "local": 8,
+    "html": "30,000,000 gas",
+    "text": "30,000,000 gas"
+  },
+  {
+    "id": 407,
+    "local": 10,
+    "html": "50,000,000 gas",
+    "text": "50,000,000 gas"
+  },
+  {
+    "id": 408,
+    "local": 11,
+    "html": "5,000,000 gas",
+    "text": "5,000,000 gas"
+  },
+  {
+    "id": 415,
+    "local": 18,
+    "html": "M Hash Layer2",
+    "text": "M Hash Layer2"
+  },
+  {
+    "id": 416,
+    "local": 19,
+    "html": "OP Mainnet",
+    "text": "OP Mainnet"
+  },
+  {
+    "id": 417,
+    "local": 20,
+    "html": "Arbitrum",
+    "text": "Arbitrum"
+  },
+  {
+    "id": 419,
+    "local": 22,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 420,
+    "local": 23,
+    "html": "ETH",
+    "text": "ETH"
+  },
+  {
+    "id": 421,
+    "local": 24,
+    "html": "ETH",
+    "text": "ETH"
+  },
+  {
+    "id": 423,
+    "local": 26,
+    "html": "EVM",
+    "text": "EVM"
+  },
+  {
+    "id": 424,
+    "local": 27,
+    "html": "EVM",
+    "text": "EVM"
+  },
+  {
+    "id": 425,
+    "local": 28,
+    "html": "EVM",
+    "text": "EVM"
+  },
+  {
+    "id": 439,
+    "local": 42,
+    "html": "M Hash(L2)",
+    "text": "M Hash(L2)"
+  },
+  {
+    "id": 440,
+    "local": 43,
+    "html": "MAGNE (L1)",
+    "text": "MAGNE (L1)"
+  },
+  {
+    "id": 441,
+    "local": 44,
+    "html": "Ethereum (L1)",
+    "text": "Ethereum (L1)"
+  },
+  {
+    "id": 443,
+    "local": 46,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 444,
+    "local": 47,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 445,
+    "local": 48,
+    "html": "ETH",
+    "text": "ETH"
+  },
+  {
+    "id": 447,
+    "local": 50,
+    "html": "EVM",
+    "text": "EVM"
+  },
+  {
+    "id": 448,
+    "local": 51,
+    "html": "EVM",
+    "text": "EVM"
+  },
+  {
+    "id": 449,
+    "local": 52,
+    "html": "EVM",
+    "text": "EVM"
+  },
+  {
+    "id": 451,
+    "local": 54,
+    "html": "EIP-1559",
+    "text": "EIP-1559"
+  },
+  {
+    "id": 453,
+    "local": 56,
+    "html": "EIP-1559",
+    "text": "EIP-1559"
+  },
+  {
+    "id": 515,
+    "local": 57,
+    "html": "CE",
+    "text": "CE"
+  },
+  {
+    "id": 519,
+    "local": 61,
+    "html": "FCC",
+    "text": "FCC"
+  },
+  {
+    "id": 656,
+    "local": 10,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 668,
+    "local": 22,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 780,
+    "local": 10,
+    "html": "<strong><span>src/MagnetToken.sol</span></strong>:",
+    "text": "src/MagnetToken.sol:"
+  },
+  {
+    "id": 784,
+    "local": 14,
+    "html": "<strong><span>script/DeployMagnetToken.s.sol</span></strong>:",
+    "text": "script/DeployMagnetToken.s.sol:"
+  },
+  {
+    "id": 883,
+    "local": 12,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 894,
+    "local": 23,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 903,
+    "local": 32,
+    "html": "MAGNE L1",
+    "text": "MAGNE L1"
+  },
+  {
+    "id": 907,
+    "local": 36,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 913,
+    "local": 42,
+    "html": "M Hash L2",
+    "text": "M Hash L2"
+  },
+  {
+    "id": 918,
+    "local": 47,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 923,
+    "local": 52,
+    "html": "<a href=\"https://metamask.io/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>MetaMask</strong></a>",
+    "text": "MetaMask"
+  },
+  {
+    "id": 924,
+    "local": 53,
+    "html": "<a href=\"https://rabby.io/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Rabby</strong></a>",
+    "text": "Rabby"
+  },
+  {
+    "id": 925,
+    "local": 54,
+    "html": "<a href=\"https://www.coinbase.com/wallet\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Coinbase Wallet</strong></a>",
+    "text": "Coinbase Wallet"
+  },
+  {
+    "id": 926,
+    "local": 55,
+    "html": "<a href=\"https://brave.com/wallet/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Brave Wallet</strong></a>",
+    "text": "Brave Wallet"
+  },
+  {
+    "id": 927,
+    "local": 56,
+    "html": "<a href=\"https://frame.sh/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Frame</strong></a>",
+    "text": "Frame"
+  },
+  {
+    "id": 1076,
+    "local": 12,
+    "html": "0 gwei",
+    "text": "0 gwei"
+  },
+  {
+    "id": 1077,
+    "local": 13,
+    "html": "1 gwei",
+    "text": "1 gwei"
+  },
+  {
+    "id": 1080,
+    "local": 16,
+    "html": "0 gwei",
+    "text": "0 gwei"
+  },
+  {
+    "id": 1081,
+    "local": 17,
+    "html": "0.1 gwei",
+    "text": "0.1 gwei"
+  },
+  {
+    "id": 1103,
+    "local": 10,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 1114,
+    "local": 21,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 1126,
+    "local": 33,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 1139,
+    "local": 46,
+    "html": "MHA",
+    "text": "MHA"
+  },
+  {
+    "id": 1286,
+    "local": 1,
+    "html": "<strong><a href=\"mailto:info@MAGNE.AI\">info@MAGNE.AI</a></strong>",
+    "text": "info@MAGNE.AI"
+  },
+  {
+    "id": 1289,
+    "local": 2,
+    "html": "<strong>MagneKit</strong>",
+    "text": "MagneKit"
+  },
+  {
+    "id": 1305,
+    "local": 18,
+    "html": "<strong>CometBFT</strong>",
+    "text": "CometBFT"
+  },
+  {
+    "id": 1315,
+    "local": 28,
+    "html": "<strong>Engine API</strong>",
+    "text": "Engine API"
+  },
+  {
+    "id": 1339,
+    "local": 0,
+    "html": "Twitter",
+    "text": "Twitter"
+  },
+  {
+    "id": 1340,
+    "local": 0,
+    "html": "Telegram",
+    "text": "Telegram"
+  },
+  {
+    "id": 1350,
+    "local": 9,
+    "html": "10,000,000,000 MHA",
+    "text": "10,000,000,000 MHA"
+  },
+  {
+    "id": 1402,
+    "local": 26,
+    "html": "Bitget",
+    "text": "Bitget"
+  },
+  {
+    "id": 1403,
+    "local": 27,
+    "html": "KuCoin",
+    "text": "KuCoin"
+  },
+  {
+    "id": 1404,
+    "local": 28,
+    "html": "LBank",
+    "text": "LBank"
+  },
+  {
+    "id": 1405,
+    "local": 29,
+    "html": "MEXC",
+    "text": "MEXC"
+  },
+  {
+    "id": 1415,
+    "local": 39,
+    "html": "10,000,000,000 MHA",
+    "text": "10,000,000,000 MHA"
+  }
+]

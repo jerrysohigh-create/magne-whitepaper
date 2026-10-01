@@ -1,0 +1,1298 @@
+[
+  {
+    "route": "/learning/magne-dapp",
+    "key": "learning--magne-dapp-f82dbebe",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/magne-dapp",
+    "title": "MAGNE.AI",
+    "headings": [
+      "MAGNE dApp (In Planning)"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/learning/what-is-magne",
+    "key": "learning--what-is-magne-ada2c6e3",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/what-is-magne",
+    "title": "MAGNE.AI",
+    "headings": [
+      "What is MAGNE.AI?"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "key": "root-8a5edab2",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Building the Next Generation High-Performance Blockchain Foundation!",
+      "Join a community  of millions.",
+      "Made for mass adoption.",
+      "Fast",
+      "Scalable",
+      "Decentralized",
+      "Energy Efficient",
+      "Build for growth.",
+      "Join a thriving community.",
+      "800+",
+      "48,000",
+      "1,000+",
+      "800+",
+      "48,000",
+      "1,000+",
+      "It's time to join the thousands of creators, builders, and developers using Magne.AI."
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "START BUILDING",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "RESOURCES",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "START BUILDING",
+        "label": null
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/learning/mha",
+    "key": "learning--mha-649c6f1b",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/mha",
+    "title": "MAGNE.AI",
+    "headings": [
+      "$MHA"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/learning/pow",
+    "key": "learning--pow-f4369662",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/pow",
+    "title": "MAGNE.AI",
+    "headings": [
+      "What Is Proof-of-Work?",
+      "MAGNE Layer 1's PoW Proof-of-Work Mechanism"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/learning/tokenomics",
+    "key": "learning--tokenomics-3465ae77",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/tokenomics",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Tokenomics",
+      "MAGNE.AI Tokenomics",
+      "Overview",
+      "Mining Nodes",
+      "1. Objective",
+      "2. Sub-pool Structure",
+      "3. Budget & Allocation Core Formulas (Applicable to All Sub-pools)",
+      "3.1 Current Year Budget (Example: MAGNE.AI Phone GEN1)",
+      "3.2 Valid Workload (ECU) & Time-Weighted Distribution",
+      "3.3 Distribution Splits & Locking Mechanisms",
+      "4. Sub-pool-1: Initial Year Smoothing & Value Table",
+      "5. Entry Thresholds, SLA, and Penalties (Slash)",
+      "6. Governance & Parameter Changes",
+      "7. Dashboard & Public Disclosure",
+      "Staking Nodes",
+      "Ecosystem / DAO Treasury",
+      "Team & Advisors",
+      "VC (Investors, Institutional/Private Round)",
+      "Early Supporters",
+      "Early Liquidity Market Makers",
+      "Subscription / Public Sale（3%）",
+      "Equipment-Sale Agents",
+      "Exchange Campaigns"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/learning/governance",
+    "key": "learning--governance-4c1bd8fc",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/governance",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Governance",
+      "Governance Responsibilities",
+      "Protocol Roles and Permissions"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/learning/gov-overview",
+    "key": "learning--gov-overview-8674f07c",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/gov-overview",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Governance Overview",
+      "MAGNE Governance",
+      "Use Cases for Governance:",
+      "Governance Lifecycle",
+      "Guardian Oversight",
+      "Creating Your Governance Proposal",
+      "Governance Parameters (Default)"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/learning/incentives",
+    "key": "learning--incentives-9ddc5908",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/incentives",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Incentive Marketplace",
+      "How Incentives Work",
+      "Roles in the Incentive Marketplace",
+      "Incentive Token Governance",
+      "Managing Incentives",
+      "Commission Distribution",
+      "Timing vs Rate"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/learning/team-execution",
+    "key": "learning--team-execution-a3163054",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/team-execution",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Team & Execution",
+      "Team & Execution"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/learning/metrics",
+    "key": "learning--metrics-e50a3ee3",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/metrics",
+    "title": "MAGNE.AI",
+    "headings": [
+      "MAGNE Layer2 Metrics",
+      "Gas Parameter Differences",
+      "Metrics Differences",
+      "M Hash Layer2 vs MAGNE Layer1 vs Ethereum Layer1"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/learning/milestone",
+    "key": "learning--milestone-6b0aa61f",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/milestone",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Milestone (Timeline-Ordered) — (Updated: 2026-04-19)",
+      "MAGNE.AI Phone Gen1 — Certification, Security & Production Milestones",
+      "MAGNE L1 & M Hash L2 — Network, Open Source & Infrastructure Milestones",
+      "MAGNE.AI — Capital Markets & Listing Readiness Milestones"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/developers/net-config",
+    "key": "developers--net-config-8965b05b",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/developers/net-config",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Network Configurations （Testnet）",
+      "MAGNE L1 Testnet",
+      "M Hash L2 Testnet",
+      ""
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Add to MetaMask",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Add to MetaMask",
+        "label": null
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/developers/tools",
+    "key": "developers--tools-84389663",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/developers/tools",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Developer Tools （Testnet）",
+      "Wallet Configuration (MetaMask)",
+      "Open MetaMask → Networks → Add Network",
+      "Enter:"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/developers/build-contract",
+    "key": "developers--build-contract-c56836a7",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/developers/build-contract",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Build A Smart Contract",
+      "MAGNE Layer1 Blockchain",
+      "Deploy Smart Contracts",
+      "What You'll Achieve",
+      "Set Up Your Development Environment",
+      "Configure Foundry with MAGNE Layer1 Blockchain",
+      "1. Set up your node connection",
+      "2. Secure your private key",
+      "Deploy Your Contracts",
+      "Verify Your Deployment",
+      "M Hash Layer2 Blockchain",
+      "Deploy Smart Contracts",
+      "What You'll Achieve",
+      "Set Up Your Development Environment",
+      "Configure Foundry with M Hash Layer2 Blockchain",
+      "1. Set up your node connection",
+      "2. Secure your private key",
+      "Deploy Your Contracts",
+      "Verify Your Deployment"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/developers/launch-token",
+    "key": "developers--launch-token-6452a21d",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/developers/launch-token",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Launch an ERC-20 Token with Foundry",
+      "0) Requirements",
+      "1) Create the project",
+      "2) Install OpenZeppelin + set remappings",
+      "3) Write the ERC-20 contract",
+      "4) Create a deploy script",
+      "5) (Optional) Adjust tests",
+      "6) Create a Foundry keystore wallet",
+      "7) Local dry-run (optional)",
+      "8) Deploy to MAGNE L1 Testnet",
+      "9) Verify the contract on MAGNE L1  explorer",
+      "10) Quick Checklist"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/developers/build-app",
+    "key": "developers--build-app-31a84f9d",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/developers/build-app",
+    "title": "MAGNE.AI",
+    "headings": [
+      "MAGNE Layer1 Blockchain",
+      "Build an App",
+      "What You'll Achieve",
+      "Set Up Your Development Environment",
+      "Deploy Your Contracts",
+      "Deploy Your Contracts"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Copy",
+        "label": null
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/solutions/connect",
+    "key": "solutions--connect-1028b519",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/solutions/connect",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Connect To MAGNE L1 / M Hash L2 Testnet",
+      "How To Connect A Wallet With MAGNE L1 / M Hash L2 Testnet",
+      "Testnet RPC",
+      "Mainnet RPC (In Planning)",
+      "Supported Wallets 👛",
+      "How To Set Up A MetaMask Wallet With MAGNE L1 / M Hash L2 Testnet",
+      "Install MetaMask",
+      "Add MAGNE L1 Testnet in One Click",
+      "Add M Hash L2 Testnet in One Click",
+      "Add MAGNE L1 / M Hash L2 Testnet  Manually"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/solutions/opstack",
+    "key": "solutions--opstack-ffe68c83",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/solutions/opstack",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Why M Hash Layer2 is Built on OP Stack",
+      "Our Goals",
+      "Why OP Stack"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/solutions/get-mha",
+    "key": "solutions--get-mha-5cdbe4ba",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/solutions/get-mha",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Why MAGNE.AI Needs Layer2",
+      "Challenges for L1 During Peak Loads",
+      "How M Hash Layer2 (L2) Helps",
+      "Positive Impact on $MHA and the Ecosystem"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/solutions/why-l2",
+    "key": "solutions--why-l2-4915769c",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/solutions/why-l2",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Why Magne Needs Layer2",
+      "Challenges for L1 During Peak Loads",
+      "How Magne Layer2 (L2) Helps",
+      "Positive Impact on $MHA and the Ecosystem"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/solutions/security",
+    "key": "solutions--security-fa034bb2",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/solutions/security",
+    "title": "MAGNE.AI",
+    "headings": [
+      "High-Security Applications",
+      "High-Security Applications"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/solutions/optimizations",
+    "key": "solutions--optimizations-83aa5c59",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/solutions/optimizations",
+    "title": "MAGNE.AI",
+    "headings": [
+      "M Hash Layer2 Optimizations on OP Stack",
+      "Execution Layer Optimizations",
+      "Derivation Layer Optimizations"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/solutions/hardware",
+    "key": "solutions--hardware-d66a40e9",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/solutions/hardware",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Hardware Empowerment: The Fusion of Security and Computing",
+      "1.Security Architecture",
+      "Built on certified security components",
+      "Certified Secure Components",
+      "HyperSeed N60 Secure Component",
+      "HyperSeed 72B Secure Element",
+      "Trusted Execution Environment (TEE)",
+      "System-Level Security",
+      "Transparency & Verification",
+      "2. On-Device AI Engine",
+      "3. Native Blockchain Integration",
+      "4. Expanded Use Cases"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/networks/faucet",
+    "key": "networks--faucet-b13ac748",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/networks/faucet",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Gas and Fees",
+      "Current Configuration",
+      "What This Means",
+      "How M Hash Layer2 Keeps Costs Low"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/networks/explorer",
+    "key": "networks--explorer-96f4282c",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/networks/explorer",
+    "title": "MAGNE.AI",
+    "headings": [
+      "MAGNE / M Hash Block Explorer",
+      "Testnet",
+      "MAGNE L1 Testnet",
+      "M Hash L2 Testnet",
+      "Mainnet (In Planning)",
+      "MAGNE L1 Mainnet(Coming Soon)",
+      "M Hash L2 Mainnet"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/solutions/poai-depin",
+    "key": "solutions--poai-depin-f96d741d",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/solutions/poai-depin",
+    "title": "MAGNE.AI",
+    "headings": [
+      "POAi and DePIN Integration: The Edge Revolution of MAGNE.AI",
+      "1. AI Computation Contribution (POAi)",
+      "2. Participation in DePIN Networks",
+      "3. Convergence of Blockchain and Hardware",
+      "4. Global Significance"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/networks/l2",
+    "key": "networks--l2-a9607234",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/networks/l2",
+    "title": "MAGNE.AI",
+    "headings": [
+      "MAGNE.AI Layer2-M Hash",
+      "Layer2 Architecture",
+      "Layer2 Innovation"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/networks/l1",
+    "key": "networks--l1-49bab9c7",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/networks/l1",
+    "title": "MAGNE.AI",
+    "headings": [
+      "MAGNE.AI Layer1-MAGNE",
+      "Layer1 Architecture",
+      "Layer1 Token",
+      "Layer1 Innovations",
+      "Optimized Storage Architecture",
+      "Enhanced Security Mechanism"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/help/faqs",
+    "key": "help--faqs-ee2eeec3",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/help/faqs",
+    "title": "MAGNE.AI",
+    "headings": [
+      "FAQs",
+      "MAGNE Frequently Asked Questions (FAQ)"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/help/contact",
+    "key": "help--contact-d56c01dc",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/help/contact",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Contact Us"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/help/glossary",
+    "key": "help--glossary-9d247507",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/help/glossary",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Glossary",
+      "Glossary"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/community/twitter",
+    "key": "community--twitter-acf1cc6e",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/community/twitter",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Twitter"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/community/telegram",
+    "key": "community--telegram-3b51b283",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/community/telegram",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Telegram"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/developers",
+    "key": "developers-02ce1e1f",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/developers/net-config",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Network Configurations （Testnet）",
+      "MAGNE L1 Testnet",
+      "M Hash L2 Testnet",
+      ""
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Add to MetaMask",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Add to MetaMask",
+        "label": null
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/learning",
+    "key": "learning-25f0f5fb",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/learning/what-is-magne",
+    "title": "MAGNE.AI",
+    "headings": [
+      "What is MAGNE.AI?"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/help",
+    "key": "help-c6ba053c",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/help/faqs",
+    "title": "MAGNE.AI",
+    "headings": [
+      "FAQs",
+      "MAGNE Frequently Asked Questions (FAQ)"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/networks",
+    "key": "networks-1c6a060a",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/networks/explorer",
+    "title": "MAGNE.AI",
+    "headings": [
+      "MAGNE / M Hash Block Explorer",
+      "Testnet",
+      "MAGNE L1 Testnet",
+      "M Hash L2 Testnet",
+      "Mainnet (In Planning)",
+      "MAGNE L1 Mainnet(Coming Soon)",
+      "M Hash L2 Mainnet"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/solutions",
+    "key": "solutions-74a05f0a",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/solutions/connect",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Connect To MAGNE L1 / M Hash L2 Testnet",
+      "How To Connect A Wallet With MAGNE L1 / M Hash L2 Testnet",
+      "Testnet RPC",
+      "Mainnet RPC (In Planning)",
+      "Supported Wallets 👛",
+      "How To Set Up A MetaMask Wallet With MAGNE L1 / M Hash L2 Testnet",
+      "Install MetaMask",
+      "Add MAGNE L1 Testnet in One Click",
+      "Add M Hash L2 Testnet in One Click",
+      "Add MAGNE L1 / M Hash L2 Testnet  Manually"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "/community",
+    "key": "community-6c5452a2",
+    "status": 200,
+    "resolved": "https://web3.magne.ai/community/twitter",
+    "title": "MAGNE.AI",
+    "headings": [
+      "Twitter"
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "label": "Open Menu"
+      }
+    ],
+    "overflow": false
+  }
+]

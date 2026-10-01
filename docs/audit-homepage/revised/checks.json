@@ -1,0 +1,23 @@
+[
+  {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "brokenImages": 0,
+    "errors": [],
+    "claimsRemoved": true
+  },
+  {
+    "width": 768,
+    "scrollWidth": 768,
+    "brokenImages": 0,
+    "errors": [],
+    "claimsRemoved": true
+  },
+  {
+    "width": 390,
+    "scrollWidth": 390,
+    "brokenImages": 0,
+    "errors": [],
+    "claimsRemoved": true
+  }
+]

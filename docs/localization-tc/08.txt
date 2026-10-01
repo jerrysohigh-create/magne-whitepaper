@@ -1,0 +1,19 @@
+/learning/team-execution
+379	Team &amp; Execution
+380	Team &amp; Execution
+381	MAGNE.AI is developed by a multidisciplinary team spanning secure mobile systems, Web3 infrastructure (L1/L2), security engineering, hardware program execution, and global ecosystem operations.
+382	<strong>Security &amp; Privacy Engineering</strong>
+383	Focused on secure architecture design, certified secure component integration, vulnerability research, and continuous security assurance. This function oversees threat modeling, security reviews across the stack, and incident-response readiness.
+384	<strong>Blockchain &amp; Protocol Engineering (L1/L2)</strong>
+385	Responsible for protocol development, node infrastructure, performance and stability optimization, and developer tooling that supports ecosystem partners.
+386	<strong>Mobile &amp; Wallet Product Engineering</strong>
+387	Builds the consumer-facing OS/app layer, wallet and account flows, and user experience abstractions that reduce complexity while preserving self-custody and security.
+388	<strong>Hardware Program &amp; Compliance Execution</strong>
+389	Leads the end-to-end device program including platform selection, supplier integration, validation and ramp phases (EVT/DVT/PVT), and certification readiness across regions.
+390	<strong>Business Development &amp; Ecosystem Operations</strong>
+391	Drives partner onboarding, exchange and institutional coordination, and compliance-aware operations—supporting partner due diligence and compliance processes (e.g., KYC/AML-related workflows where applicable)—alongside global community growth.
+392	<strong>Extended Contributors &amp; Partners</strong>
+393	In addition to the core team, MAGNE.AI is supported by extended contributors and strategic partners across manufacturing, component supply, certification services, and ecosystem development to accelerate delivery and ensure production-grade quality.
+394	<strong>Governance &amp; Delivery Discipline</strong>
+395	MAGNE.AI maintains clear separation of responsibilities across product, engineering, security, and operations, supported by standardized development processes and controlled release management. Public communications follow a disclosure policy designed to ensure accuracy and avoid forward-looking listing or price-related statements. Detailed team and certification materials are available for exchanges, partners, and regulators through controlled due diligence processes.
+396	<em>Note: For privacy and security reasons, certain biographies and credentials may be presented in summarized form. Detailed information is available under NDA / controlled review.</em>

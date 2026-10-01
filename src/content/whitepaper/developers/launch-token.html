@@ -1,0 +1,41 @@
+<h1 id="section-0">Create a demo ERC-20 token</h1><span id="section-6" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-7" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-8" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-9" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-10" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-11" class="wp-legacy-anchor" aria-hidden="true"></span>
+<p>This tutorial creates Demo Token (DEMO) with an initial supply of 1,000,000 tokens. It does not deploy, replace or mint official Magic Hash (MHA).</p><p>Examples use Bash/WSL shell syntax, Node.js 24, Foundry 1.7.1, Solidity 0.8.30 (Paris EVM target) and OpenZeppelin Contracts 5.6.1. Use the pinned package and lockfile in the download. Paris is a compatibility target for the example, not a claim about the current network fork.</p><p><a href="/whitepaper/examples/contracts.zip" download="">Download complete contract examples</a></p><h2 id="section-1">Complete project structure</h2><pre><code>contracts/
+  package.json
+  package-lock.json
+  foundry.toml
+  src/Counter.sol
+  src/DemoToken.sol
+  test/Examples.t.sol</code></pre><p>The Counter example remains in place. No file is renamed while leaving stale imports in the tests.</p><h2 id="section-2">src/DemoToken.sol</h2><pre><code>// SPDX-License-Identifier: MIT
+pragma solidity 0.8.30;
+import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+contract DemoToken is ERC20 {
+    constructor(address recipient) ERC20("Demo Token", "DEMO") {
+        _mint(recipient, 1_000_000 * 10 ** decimals());
+    }
+}
+</code></pre><h2 id="section-3">Build and test</h2><pre><code>npm install
+npm run build
+npm test</code></pre><p>The included tests cover the initial supply, recipient allocation, transfer balances and preservation of total supply.</p><pre><code>// SPDX-License-Identifier: MIT
+pragma solidity 0.8.30;
+import {Counter} from "../src/Counter.sol";
+import {DemoToken} from "../src/DemoToken.sol";
+contract ExamplesTest {
+    function testCounter() public {
+        Counter c = new Counter();
+        require(c.number() == 0, "initial value");
+        c.increment(); c.increment();
+        require(c.number() == 2, "two increments");
+    }
+    function testDemoSupplyAndTransfer() public {
+        DemoToken d = new DemoToken(address(this));
+        uint256 supply = 1_000_000 * 10 ** d.decimals();
+        require(d.totalSupply() == supply, "supply");
+        require(d.balanceOf(address(this)) == supply, "recipient");
+        d.transfer(address(0xBEEF), 100 ether);
+        require(d.balanceOf(address(0xBEEF)) == 100 ether, "transfer");
+        require(d.balanceOf(address(this)) == supply - 100 ether, "sender");
+        require(d.totalSupply() == supply, "no extra issuance");
+    }
+}
+</code></pre><h2 id="section-4">Deploy locally</h2><p>Start Anvil as in the previous chapter, then run this against localhost only:</p><pre><code>npx forge create src/DemoToken.sol:DemoToken --rpc-url http://127.0.0.1:8545 --unlocked --from 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 --broadcast --constructor-args 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266</code></pre><h2 id="section-5">Optional testnet deployment</h2><p>After local tests, select the RPC and verify its chain ID as in the previous chapter. Import a dedicated test account and replace the recipient placeholder with its public address. This command broadcasts to the selected testnet.</p><pre><code>export DEMO_RECIPIENT="0xYOUR_TEST_RECIPIENT_ADDRESS"
+npx forge create src/DemoToken.sol:DemoToken --rpc-url "$MAGNE_RPC_URL" --account magne-test --broadcast --constructor-args "$DEMO_RECIPIENT"</code></pre><p>Record the contract and transaction on the correct network. Mainnet deployment is outside this example; published mainnet configuration is required before any production guide applies.</p>

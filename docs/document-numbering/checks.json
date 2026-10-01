@@ -1,0 +1,2094 @@
+{
+  "pages": 72,
+  "differences": [],
+  "results": [
+    {
+      "lang": "",
+      "route": "/learning/what-is-magne",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.1",
+          "title": "1.1 What is MAGNE.AI?"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/magne-dapp",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.2",
+          "title": "1.2 MAGNE dApp (In Planning)"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/mha",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.3",
+          "title": "1.3 Magic Hash (MHA)"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/pow",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.4",
+          "title": "1.4 What Is Proof-of-Work?"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/tokenomics",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.5",
+          "title": "1.5 MHA Tokenomics"
+        },
+        {
+          "id": "allocation",
+          "level": "H2",
+          "number": "1.5.1",
+          "title": "1.5.1 Overview"
+        },
+        {
+          "id": "token-contract",
+          "level": "H2",
+          "number": "1.5.2",
+          "title": "1.5.2 Token contract"
+        },
+        {
+          "id": "allocation-addresses",
+          "level": "H2",
+          "number": "1.5.3",
+          "title": "1.5.3 Ten allocations. Ten reserve addresses."
+        },
+        {
+          "id": "allocation-rules",
+          "level": "H2",
+          "number": "1.5.4",
+          "title": "1.5.4 Allocation & release rules"
+        },
+        {
+          "id": "execution-snapshot",
+          "level": "H2",
+          "number": "1.5.5",
+          "title": "1.5.5 Post-TGE execution disclosure"
+        },
+        {
+          "id": "section-28",
+          "level": "H2",
+          "number": "1.5.6",
+          "title": "1.5.6 Community campaigns and historical airdrops"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/governance",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.6",
+          "title": "1.6 Governance"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/gov-overview",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.7",
+          "title": "1.7 Governance Overview"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "1.7.1",
+          "title": "1.7.1 MAGNE Governance"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/incentives",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.8",
+          "title": "1.8 Incentive Marketplace"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/team-execution",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.9",
+          "title": "1.9 Team & Execution"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/metrics",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.10",
+          "title": "1.10 MAGNE Layer2 Metrics"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "1.10.1",
+          "title": "1.10.1 Gas Parameter Differences"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "1.10.2",
+          "title": "1.10.2 Metrics Differences"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "1.10.3",
+          "title": "1.10.3 M Hash Layer2 vs MAGNE Layer1 vs Ethereum Layer1"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/milestone",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.11",
+          "title": "1.11 Milestones and current status"
+        },
+        {
+          "id": "security-certifications",
+          "level": "H2",
+          "number": "1.11.1",
+          "title": "1.11.1 Component security · certification history"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "1.11.2",
+          "title": "1.11.2 MAG1 · Hardware and compliance"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "1.11.3",
+          "title": "1.11.3 Networks and contract security"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "1.11.4",
+          "title": "1.11.4 Company, financing and MHA"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "1.11.5",
+          "title": "1.11.5 Community and product disclosures"
+        },
+        {
+          "id": "next-stage",
+          "level": "H2",
+          "number": "1.11.6",
+          "title": "1.11.6 Next stages · completion not established"
+        },
+        {
+          "id": "date-notes",
+          "level": "H2",
+          "number": "1.11.7",
+          "title": "1.11.7 Date reconciliation and historical records"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/tokenomics-changelog",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.12",
+          "title": "1.12 Revision history"
+        },
+        {
+          "id": "ecosystem-budget-revision",
+          "level": "H2",
+          "number": "1.12.1",
+          "title": "1.12.1 Ecosystem budget and historical-expense reimbursement proposal"
+        },
+        {
+          "id": "gen1-october-update",
+          "level": "H2",
+          "number": "1.12.2",
+          "title": "1.12.2 October 2026: GEN1 reward proposal"
+        },
+        {
+          "id": "revision-record",
+          "level": "H2",
+          "number": "1.12.3",
+          "title": "1.12.3 Revision record"
+        },
+        {
+          "id": "disclosure-reading-updates",
+          "level": "H2",
+          "number": "1.12.4",
+          "title": "1.12.4 Additional disclosures and reading updates"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "1.12.5",
+          "title": "1.12.5 Version 1.0 archive"
+        },
+        {
+          "id": "gen1-incentive-revision",
+          "level": "H2",
+          "number": "1.12.6",
+          "title": "1.12.6 GEN1 optional incentive budget proposal"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/tokenomics-zh",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.13",
+          "title": "1.13 Tokenomics v1.1 · 中文修訂說明"
+        },
+        {
+          "id": "ecosystem-budget-revision",
+          "level": "H2",
+          "number": "1.13.1",
+          "title": "1.13.1 Ecosystem budget and historical-expense reimbursement proposal"
+        },
+        {
+          "id": "gen1-october-update",
+          "level": "H2",
+          "number": "1.13.2",
+          "title": "1.13.2 2026 年 10 月：GEN1 獎勵草案"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "1.13.3",
+          "title": "1.13.3 版本 1.1——2026 年 10 月審核稿"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "1.13.4",
+          "title": "1.13.4 Early Liquidity Market Makers｜早期流動性做市儲備"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "1.13.5",
+          "title": "1.13.5 DEX 流動性"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "1.13.6",
+          "title": "1.13.6 CEX 做市"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "1.13.7",
+          "title": "1.13.7 釋放規則"
+        },
+        {
+          "id": "section-6",
+          "level": "H2",
+          "number": "1.13.8",
+          "title": "1.13.8 Exchange Campaigns｜交易所活動"
+        },
+        {
+          "id": "section-7",
+          "level": "H2",
+          "number": "1.13.9",
+          "title": "1.13.9 允許用途"
+        },
+        {
+          "id": "section-8",
+          "level": "H2",
+          "number": "1.13.10",
+          "title": "1.13.10 執行及釋放"
+        },
+        {
+          "id": "section-9",
+          "level": "H2",
+          "number": "1.13.11",
+          "title": "1.13.11 TGE 後執行披露"
+        },
+        {
+          "id": "section-10",
+          "level": "H2",
+          "number": "1.13.12",
+          "title": "1.13.12 Early Supporters 及活動空投澄清"
+        },
+        {
+          "id": "gen1-incentive-revision",
+          "level": "H2",
+          "number": "1.13.13",
+          "title": "1.13.13 GEN1 自願激勵預算修訂草案"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/learning/tokenomics-announcement",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.14",
+          "title": "1.14 Tokenomics v1.1 update"
+        },
+        {
+          "id": "ecosystem-budget-revision",
+          "level": "H2",
+          "number": "1.14.1",
+          "title": "1.14.1 Ecosystem budget and historical-expense reimbursement proposal"
+        },
+        {
+          "id": "gen1-october-update",
+          "level": "H2",
+          "number": "1.14.2",
+          "title": "1.14.2 October 2026: GEN1 reward proposal"
+        },
+        {
+          "id": "gen1-incentive-revision",
+          "level": "H2",
+          "number": "1.14.3",
+          "title": "1.14.3 GEN1 optional incentive budget proposal"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/networks/faucet",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "2.1",
+          "title": "2.1 Gas and Fees"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/networks/explorer",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "2.2",
+          "title": "2.2 MAGNE / M Hash Block Explorer"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "2.2.1",
+          "title": "2.2.1 Testnet"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "2.2.2",
+          "title": "2.2.2 MAGNE L1 Testnet"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "2.2.3",
+          "title": "2.2.3 M Hash L2 Testnet"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "2.2.4",
+          "title": "2.2.4 Mainnet (In Planning)"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "2.2.5",
+          "title": "2.2.5 MAGNE L1 Mainnet(Coming Soon)"
+        },
+        {
+          "id": "section-6",
+          "level": "H2",
+          "number": "2.2.6",
+          "title": "2.2.6 M Hash L2 Mainnet"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/networks/l2",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "2.3",
+          "title": "2.3 MAGNE.AI Layer2-M Hash"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "2.3.1",
+          "title": "2.3.1 Layer2 Architecture"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "2.3.2",
+          "title": "2.3.2 Layer2 Innovation"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/networks/l1",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "2.4",
+          "title": "2.4 MAGNE.AI Layer1-MAGNE"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "2.4.1",
+          "title": "2.4.1 Layer1 Architecture"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "2.4.2",
+          "title": "2.4.2 Layer1 Token"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "2.4.3",
+          "title": "2.4.3 Layer1 Innovations"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/solutions/connect",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.1",
+          "title": "3.1 Connect To MAGNE L1 / M Hash L2 Testnet"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "3.1.1",
+          "title": "3.1.1 How To Connect A Wallet With MAGNE L1 / M Hash L2 Testnet"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "3.1.2",
+          "title": "3.1.2 Testnet RPC"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "3.1.3",
+          "title": "3.1.3 Mainnet RPC (In Planning)"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "3.1.4",
+          "title": "3.1.4 Supported Wallets 👛"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "3.1.5",
+          "title": "3.1.5 How To Set Up A MetaMask Wallet With MAGNE L1 / M Hash L2 Testnet"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/solutions/opstack",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.2",
+          "title": "3.2 Why M Hash Layer2 is Built on OP Stack"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "3.2.1",
+          "title": "3.2.1 Our Goals"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "3.2.2",
+          "title": "3.2.2 Why OP Stack"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/solutions/get-mha",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.3",
+          "title": "3.3 Why MAGNE.AI Needs Layer2"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "3.3.1",
+          "title": "3.3.1 Challenges for L1 During Peak Loads"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "3.3.2",
+          "title": "3.3.2 How M Hash Layer2 (L2) Helps"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "3.3.3",
+          "title": "3.3.3 Positive Impact on $MHA and the Ecosystem"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/solutions/why-l2",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.4",
+          "title": "3.4 Why Magne Needs Layer2"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "3.4.1",
+          "title": "3.4.1 Challenges for L1 During Peak Loads"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "3.4.2",
+          "title": "3.4.2 How Magne Layer2 (L2) Helps"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "3.4.3",
+          "title": "3.4.3 Positive Impact on $MHA and the Ecosystem"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/solutions/security",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.5",
+          "title": "3.5 High-Security Applications"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/solutions/optimizations",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.6",
+          "title": "3.6 M Hash Layer2 Optimizations on OP Stack"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/solutions/hardware",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.7",
+          "title": "3.7 Hardware Empowerment: The Fusion of Security and Computing"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "3.7.1",
+          "title": "3.7.1 Security Architecture"
+        },
+        {
+          "id": "section-9",
+          "level": "H2",
+          "number": "3.7.2",
+          "title": "3.7.2 On-Device AI Engine"
+        },
+        {
+          "id": "section-10",
+          "level": "H2",
+          "number": "3.7.3",
+          "title": "3.7.3 Native Blockchain Integration"
+        },
+        {
+          "id": "section-11",
+          "level": "H2",
+          "number": "3.7.4",
+          "title": "3.7.4 Expanded Use Cases"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/solutions/poai-depin",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.8",
+          "title": "3.8 POAi and DePIN Integration: The Edge Revolution of MAGNE.AI"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/developers/net-config",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "4.1",
+          "title": "4.1 Network Configurations （Testnet）"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "4.1.1",
+          "title": "4.1.1 MAGNE L1 Testnet"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "4.1.2",
+          "title": "4.1.2 M Hash L2 Testnet"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "4.1.3",
+          "title": "4.1.3 "
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/developers/tools",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "4.2",
+          "title": "4.2 Developer Tools （Testnet）"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "4.2.1",
+          "title": "4.2.1 Wallet Configuration (MetaMask)"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "4.2.2",
+          "title": "4.2.2 Open MetaMask → Networks → Add Network"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/developers/build-contract",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "4.3",
+          "title": "4.3 Build A Smart Contract"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "4.3.1",
+          "title": "4.3.1 MAGNE Layer1 Blockchain"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "4.3.2",
+          "title": "4.3.2 Deploy Smart Contracts"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "4.3.3",
+          "title": "4.3.3 What You'll Achieve"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "4.3.4",
+          "title": "4.3.4 Set Up Your Development Environment"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "4.3.5",
+          "title": "4.3.5 Configure Foundry with MAGNE Layer1 Blockchain"
+        },
+        {
+          "id": "section-8",
+          "level": "H2",
+          "number": "4.3.6",
+          "title": "4.3.6 Deploy Your Contracts"
+        },
+        {
+          "id": "section-10",
+          "level": "H2",
+          "number": "4.3.7",
+          "title": "4.3.7 M Hash Layer2 Blockchain"
+        },
+        {
+          "id": "section-11",
+          "level": "H2",
+          "number": "4.3.8",
+          "title": "4.3.8 Deploy Smart Contracts"
+        },
+        {
+          "id": "section-12",
+          "level": "H2",
+          "number": "4.3.9",
+          "title": "4.3.9 What You'll Achieve"
+        },
+        {
+          "id": "section-13",
+          "level": "H2",
+          "number": "4.3.10",
+          "title": "4.3.10 Set Up Your Development Environment"
+        },
+        {
+          "id": "section-14",
+          "level": "H2",
+          "number": "4.3.11",
+          "title": "4.3.11 Configure Foundry with M Hash Layer2 Blockchain"
+        },
+        {
+          "id": "section-17",
+          "level": "H2",
+          "number": "4.3.12",
+          "title": "4.3.12 Deploy Your Contracts"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/developers/launch-token",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "4.4",
+          "title": "4.4 Launch an ERC-20 Token with Foundry"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "4.4.1",
+          "title": "4.4.1 Requirements"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "4.4.2",
+          "title": "4.4.2 Create the project"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "4.4.3",
+          "title": "4.4.3 Install OpenZeppelin + set remappings"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "4.4.4",
+          "title": "4.4.4 Write the ERC-20 contract"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "4.4.5",
+          "title": "4.4.5 Create a deploy script"
+        },
+        {
+          "id": "section-6",
+          "level": "H2",
+          "number": "4.4.6",
+          "title": "4.4.6 (Optional) Adjust tests"
+        },
+        {
+          "id": "section-7",
+          "level": "H2",
+          "number": "4.4.7",
+          "title": "4.4.7 Create a Foundry keystore wallet"
+        },
+        {
+          "id": "section-8",
+          "level": "H2",
+          "number": "4.4.8",
+          "title": "4.4.8 Local dry-run (optional)"
+        },
+        {
+          "id": "section-9",
+          "level": "H2",
+          "number": "4.4.9",
+          "title": "4.4.9 Deploy to MAGNE L1 Testnet"
+        },
+        {
+          "id": "section-10",
+          "level": "H2",
+          "number": "4.4.10",
+          "title": "4.4.10 Verify the contract on MAGNE L1  explorer"
+        },
+        {
+          "id": "section-11",
+          "level": "H2",
+          "number": "4.4.11",
+          "title": "4.4.11 Quick Checklist"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/developers/build-app",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "4.5",
+          "title": "4.5 MAGNE Layer1 Blockchain"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "4.5.1",
+          "title": "4.5.1 Build an App"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "4.5.2",
+          "title": "4.5.2 What You'll Achieve"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "4.5.3",
+          "title": "4.5.3 Set Up Your Development Environment"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "4.5.4",
+          "title": "4.5.4 Deploy Your Contracts"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "4.5.5",
+          "title": "4.5.5 Deploy Your Contracts"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/help/faqs",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "5.1",
+          "title": "5.1 FAQs"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "5.1.1",
+          "title": "5.1.1 MAGNE Frequently Asked Questions (FAQ)"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/help/contact",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "5.2",
+          "title": "5.2 Contact Us"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/help/glossary",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "5.3",
+          "title": "5.3 Glossary"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "5.3.1",
+          "title": "5.3.1 Glossary"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/community/twitter",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "6.1",
+          "title": "6.1 Twitter"
+        }
+      ]
+    },
+    {
+      "lang": "",
+      "route": "/community/telegram",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "6.2",
+          "title": "6.2 Telegram"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/what-is-magne",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.1",
+          "title": "1.1 甚麼是 MAGNE.AI？"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/magne-dapp",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.2",
+          "title": "1.2 MAGNE dApp（規劃中）"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/mha",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.3",
+          "title": "1.3 Magic Hash (MHA)"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/pow",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.4",
+          "title": "1.4 甚麼是工作量證明？"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/tokenomics",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.5",
+          "title": "1.5 MHA 代幣經濟"
+        },
+        {
+          "id": "allocation",
+          "level": "H2",
+          "number": "1.5.1",
+          "title": "1.5.1 概覽"
+        },
+        {
+          "id": "token-contract",
+          "level": "H2",
+          "number": "1.5.2",
+          "title": "1.5.2 代幣合約"
+        },
+        {
+          "id": "allocation-addresses",
+          "level": "H2",
+          "number": "1.5.3",
+          "title": "1.5.3 十項分配，十個儲備地址。"
+        },
+        {
+          "id": "allocation-rules",
+          "level": "H2",
+          "number": "1.5.4",
+          "title": "1.5.4 分配與釋放規則"
+        },
+        {
+          "id": "execution-snapshot",
+          "level": "H2",
+          "number": "1.5.5",
+          "title": "1.5.5 TGE 後執行披露"
+        },
+        {
+          "id": "section-28",
+          "level": "H2",
+          "number": "1.5.6",
+          "title": "1.5.6 社群活動與歷史空投說明"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/governance",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.6",
+          "title": "1.6 治理"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/gov-overview",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.7",
+          "title": "1.7 治理概覽"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "1.7.1",
+          "title": "1.7.1 MAGNE 治理"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/incentives",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.8",
+          "title": "1.8 激勵市場"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/team-execution",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.9",
+          "title": "1.9 團隊與執行"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/metrics",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.10",
+          "title": "1.10 MAGNE Layer2 指標"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "1.10.1",
+          "title": "1.10.1 Gas 參數差異"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "1.10.2",
+          "title": "1.10.2 指標差異"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "1.10.3",
+          "title": "1.10.3 M Hash Layer2、MAGNE Layer1 與 Ethereum Layer1 比較"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/milestone",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.11",
+          "title": "1.11 里程碑與目前進度"
+        },
+        {
+          "id": "security-certifications",
+          "level": "H2",
+          "number": "1.11.1",
+          "title": "1.11.1 元件安全 · 認證歷史"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "1.11.2",
+          "title": "1.11.2 MAG1 · 硬件與合規"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "1.11.3",
+          "title": "1.11.3 網絡與合約安全"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "1.11.4",
+          "title": "1.11.4 公司、融資與 MHA"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "1.11.5",
+          "title": "1.11.5 社群與產品資料公開"
+        },
+        {
+          "id": "next-stage",
+          "level": "H2",
+          "number": "1.11.6",
+          "title": "1.11.6 下一階段 · 不列作已完成"
+        },
+        {
+          "id": "date-notes",
+          "level": "H2",
+          "number": "1.11.7",
+          "title": "1.11.7 日期校對與歷史記錄"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/tokenomics-changelog",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.12",
+          "title": "1.12 修訂紀錄"
+        },
+        {
+          "id": "ecosystem-budget-revision",
+          "level": "H2",
+          "number": "1.12.1",
+          "title": "1.12.1 生態預算及歷史支出補回修訂草案"
+        },
+        {
+          "id": "gen1-october-update",
+          "level": "H2",
+          "number": "1.12.2",
+          "title": "1.12.2 2026 年 10 月：GEN1 獎勵草案"
+        },
+        {
+          "id": "revision-record",
+          "level": "H2",
+          "number": "1.12.3",
+          "title": "1.12.3 版本紀錄"
+        },
+        {
+          "id": "disclosure-reading-updates",
+          "level": "H2",
+          "number": "1.12.4",
+          "title": "1.12.4 補充披露與閱讀方式更新"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "1.12.5",
+          "title": "1.12.5 版本 1.0 歸檔"
+        },
+        {
+          "id": "gen1-incentive-revision",
+          "level": "H2",
+          "number": "1.12.6",
+          "title": "1.12.6 GEN1 自願激勵預算修訂草案"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/tokenomics-zh",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.13",
+          "title": "1.13 代幣經濟 v1.1 · 中文修訂說明"
+        },
+        {
+          "id": "ecosystem-budget-revision",
+          "level": "H2",
+          "number": "1.13.1",
+          "title": "1.13.1 生態預算及歷史支出補回修訂草案"
+        },
+        {
+          "id": "gen1-october-update",
+          "level": "H2",
+          "number": "1.13.2",
+          "title": "1.13.2 2026 年 10 月：GEN1 獎勵草案"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "1.13.3",
+          "title": "1.13.3 版本 1.1——2026 年 10 月審核稿"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "1.13.4",
+          "title": "1.13.4 早期流動性做市儲備"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "1.13.5",
+          "title": "1.13.5 DEX 流動性"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "1.13.6",
+          "title": "1.13.6 CEX 做市"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "1.13.7",
+          "title": "1.13.7 釋放規則"
+        },
+        {
+          "id": "section-6",
+          "level": "H2",
+          "number": "1.13.8",
+          "title": "1.13.8 交易所活動"
+        },
+        {
+          "id": "section-7",
+          "level": "H2",
+          "number": "1.13.9",
+          "title": "1.13.9 允許用途"
+        },
+        {
+          "id": "section-8",
+          "level": "H2",
+          "number": "1.13.10",
+          "title": "1.13.10 執行及釋放"
+        },
+        {
+          "id": "section-9",
+          "level": "H2",
+          "number": "1.13.11",
+          "title": "1.13.11 TGE 後執行披露"
+        },
+        {
+          "id": "section-10",
+          "level": "H2",
+          "number": "1.13.12",
+          "title": "1.13.12 早期支持者及活動空投說明"
+        },
+        {
+          "id": "gen1-incentive-revision",
+          "level": "H2",
+          "number": "1.13.13",
+          "title": "1.13.13 GEN1 自願激勵預算修訂草案"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/learning/tokenomics-announcement",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "1.14",
+          "title": "1.14 代幣經濟 v1.1 更新"
+        },
+        {
+          "id": "ecosystem-budget-revision",
+          "level": "H2",
+          "number": "1.14.1",
+          "title": "1.14.1 生態預算及歷史支出補回修訂草案"
+        },
+        {
+          "id": "gen1-october-update",
+          "level": "H2",
+          "number": "1.14.2",
+          "title": "1.14.2 2026 年 10 月：GEN1 獎勵草案"
+        },
+        {
+          "id": "gen1-incentive-revision",
+          "level": "H2",
+          "number": "1.14.3",
+          "title": "1.14.3 GEN1 自願激勵預算修訂草案"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/networks/faucet",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "2.1",
+          "title": "2.1 Gas 與費用"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/networks/explorer",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "2.2",
+          "title": "2.2 MAGNE／M Hash 區塊瀏覽器"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "2.2.1",
+          "title": "2.2.1 測試網"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "2.2.2",
+          "title": "2.2.2 MAGNE L1 測試網"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "2.2.3",
+          "title": "2.2.3 M Hash L2 測試網"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "2.2.4",
+          "title": "2.2.4 主網（規劃中）"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "2.2.5",
+          "title": "2.2.5 MAGNE L1 主網（即將推出）"
+        },
+        {
+          "id": "section-6",
+          "level": "H2",
+          "number": "2.2.6",
+          "title": "2.2.6 M Hash L2 主網"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/networks/l2",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "2.3",
+          "title": "2.3 MAGNE.AI Layer2 — M Hash"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "2.3.1",
+          "title": "2.3.1 Layer2 架構"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "2.3.2",
+          "title": "2.3.2 Layer2 創新"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/networks/l1",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "2.4",
+          "title": "2.4 MAGNE.AI Layer1 — MAGNE"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "2.4.1",
+          "title": "2.4.1 Layer1 架構"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "2.4.2",
+          "title": "2.4.2 Layer1 代幣"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "2.4.3",
+          "title": "2.4.3 Layer1 創新"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/solutions/connect",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.1",
+          "title": "3.1 連接 MAGNE L1／M Hash L2 測試網"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "3.1.1",
+          "title": "3.1.1 如何將錢包連接至 MAGNE L1／M Hash L2 測試網"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "3.1.2",
+          "title": "3.1.2 測試網 RPC"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "3.1.3",
+          "title": "3.1.3 主網 RPC（規劃中）"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "3.1.4",
+          "title": "3.1.4 支援的錢包 👛"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "3.1.5",
+          "title": "3.1.5 如何設定 MetaMask 錢包連接 MAGNE L1／M Hash L2 測試網"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/solutions/opstack",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.2",
+          "title": "3.2 為何 M Hash Layer2 建基於 OP Stack"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "3.2.1",
+          "title": "3.2.1 我們的目標"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "3.2.2",
+          "title": "3.2.2 為何選擇 OP Stack"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/solutions/get-mha",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.3",
+          "title": "3.3 為何 MAGNE.AI 需要 Layer2"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "3.3.1",
+          "title": "3.3.1 L1 在高峰負載下的挑戰"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "3.3.2",
+          "title": "3.3.2 M Hash Layer2（L2）如何提供協助"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "3.3.3",
+          "title": "3.3.3 對 $MHA 與生態的正面影響"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/solutions/why-l2",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.4",
+          "title": "3.4 為何 Magne 需要 Layer2"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "3.4.1",
+          "title": "3.4.1 L1 在高峰負載下的挑戰"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "3.4.2",
+          "title": "3.4.2 Magne Layer2（L2）如何提供協助"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "3.4.3",
+          "title": "3.4.3 對 $MHA 與生態的正面影響"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/solutions/security",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.5",
+          "title": "3.5 高安全性應用"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/solutions/optimizations",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.6",
+          "title": "3.6 M Hash Layer2 在 OP Stack 上的優化"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/solutions/hardware",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.7",
+          "title": "3.7 硬件賦能：安全與運算的融合"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "3.7.1",
+          "title": "3.7.1 安全架構"
+        },
+        {
+          "id": "section-9",
+          "level": "H2",
+          "number": "3.7.2",
+          "title": "3.7.2 裝置端 AI 引擎"
+        },
+        {
+          "id": "section-10",
+          "level": "H2",
+          "number": "3.7.3",
+          "title": "3.7.3 原生區塊鏈整合"
+        },
+        {
+          "id": "section-11",
+          "level": "H2",
+          "number": "3.7.4",
+          "title": "3.7.4 擴展應用場景"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/solutions/poai-depin",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "3.8",
+          "title": "3.8 POAi 與 DePIN 整合：MAGNE.AI 的邊緣革命"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/developers/net-config",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "4.1",
+          "title": "4.1 網絡設定（測試網）"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "4.1.1",
+          "title": "4.1.1 MAGNE L1 測試網"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "4.1.2",
+          "title": "4.1.2 M Hash L2 測試網"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "4.1.3",
+          "title": "4.1.3 "
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/developers/tools",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "4.2",
+          "title": "4.2 開發工具（測試網）"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "4.2.1",
+          "title": "4.2.1 錢包設定（MetaMask）"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "4.2.2",
+          "title": "4.2.2 開啟 MetaMask → 網絡 → 新增網絡"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/developers/build-contract",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "4.3",
+          "title": "4.3 建立智能合約"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "4.3.1",
+          "title": "4.3.1 MAGNE Layer1 區塊鏈"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "4.3.2",
+          "title": "4.3.2 部署智能合約"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "4.3.3",
+          "title": "4.3.3 您將完成甚麼"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "4.3.4",
+          "title": "4.3.4 設定開發環境"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "4.3.5",
+          "title": "4.3.5 設定 Foundry 連接 MAGNE Layer1 區塊鏈"
+        },
+        {
+          "id": "section-8",
+          "level": "H2",
+          "number": "4.3.6",
+          "title": "4.3.6 部署合約"
+        },
+        {
+          "id": "section-10",
+          "level": "H2",
+          "number": "4.3.7",
+          "title": "4.3.7 M Hash Layer2 區塊鏈"
+        },
+        {
+          "id": "section-11",
+          "level": "H2",
+          "number": "4.3.8",
+          "title": "4.3.8 部署智能合約"
+        },
+        {
+          "id": "section-12",
+          "level": "H2",
+          "number": "4.3.9",
+          "title": "4.3.9 您將完成甚麼"
+        },
+        {
+          "id": "section-13",
+          "level": "H2",
+          "number": "4.3.10",
+          "title": "4.3.10 設定開發環境"
+        },
+        {
+          "id": "section-14",
+          "level": "H2",
+          "number": "4.3.11",
+          "title": "4.3.11 設定 Foundry 連接 M Hash Layer2 區塊鏈"
+        },
+        {
+          "id": "section-17",
+          "level": "H2",
+          "number": "4.3.12",
+          "title": "4.3.12 部署合約"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/developers/launch-token",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "4.4",
+          "title": "4.4 使用 Foundry 發行 ERC-20 代幣"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "4.4.1",
+          "title": "4.4.1 0）先決條件"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "4.4.2",
+          "title": "4.4.2 1）建立項目"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "4.4.3",
+          "title": "4.4.3 2）安裝 OpenZeppelin 並設定路徑映射"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "4.4.4",
+          "title": "4.4.4 3）編寫 ERC-20 合約"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "4.4.5",
+          "title": "4.4.5 4）建立部署腳本"
+        },
+        {
+          "id": "section-6",
+          "level": "H2",
+          "number": "4.4.6",
+          "title": "4.4.6 5）（可選）調整測試"
+        },
+        {
+          "id": "section-7",
+          "level": "H2",
+          "number": "4.4.7",
+          "title": "4.4.7 6）建立 Foundry 金鑰庫錢包"
+        },
+        {
+          "id": "section-8",
+          "level": "H2",
+          "number": "4.4.8",
+          "title": "4.4.8 7）本地試跑（可選）"
+        },
+        {
+          "id": "section-9",
+          "level": "H2",
+          "number": "4.4.9",
+          "title": "4.4.9 8）部署至 MAGNE L1 測試網"
+        },
+        {
+          "id": "section-10",
+          "level": "H2",
+          "number": "4.4.10",
+          "title": "4.4.10 9）在 MAGNE L1 瀏覽器驗證合約"
+        },
+        {
+          "id": "section-11",
+          "level": "H2",
+          "number": "4.4.11",
+          "title": "4.4.11 10）快速檢查清單"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/developers/build-app",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "4.5",
+          "title": "4.5 MAGNE Layer1 區塊鏈"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "4.5.1",
+          "title": "4.5.1 建立應用程式"
+        },
+        {
+          "id": "section-2",
+          "level": "H2",
+          "number": "4.5.2",
+          "title": "4.5.2 您將完成甚麼"
+        },
+        {
+          "id": "section-3",
+          "level": "H2",
+          "number": "4.5.3",
+          "title": "4.5.3 設定開發環境"
+        },
+        {
+          "id": "section-4",
+          "level": "H2",
+          "number": "4.5.4",
+          "title": "4.5.4 部署合約"
+        },
+        {
+          "id": "section-5",
+          "level": "H2",
+          "number": "4.5.5",
+          "title": "4.5.5 部署合約"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/help/faqs",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "5.1",
+          "title": "5.1 常見問題"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "5.1.1",
+          "title": "5.1.1 MAGNE 常見問題（FAQ）"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/help/contact",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "5.2",
+          "title": "5.2 聯絡我們"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/help/glossary",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "5.3",
+          "title": "5.3 術語表"
+        },
+        {
+          "id": "section-1",
+          "level": "H2",
+          "number": "5.3.1",
+          "title": "5.3.1 術語表"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/community/twitter",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "6.1",
+          "title": "6.1 Twitter"
+        }
+      ]
+    },
+    {
+      "lang": "/tc",
+      "route": "/community/telegram",
+      "headings": [
+        {
+          "id": "section-0",
+          "level": "H1",
+          "number": "6.2",
+          "title": "6.2 Telegram"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1053 @@
+0	MAGNE dApp（規劃中）
+1	<strong>Dapp Hub：Shin Getter Nexus</strong> 是即將推出的整合平台，旨在成為 M Hash 生態系統內去中心化應用程式的統一入口。開發者與使用者可透過一致介面，順暢存取各類 dApp、工具及服務。透過優化 Layer 1 與 Layer 2 的連接，Shin Getter Nexus 致力提升跨應用互通性、降低加入門檻，並促進去中心化經濟發展。
+2	甚麼是 <strong>MAGNE.AI</strong>？
+3	<strong>MAGNE.AI 是結合 AI 運算基礎設施、DePin 網絡與 Web3 應用的新一代區塊鏈平台。我們致力建立以行動裝置為原生環境、嵌入式且自主運作的 AI 驅動 Web3 世界。</strong>
+4	本項目由兩項基礎技術支撐：
+5	<strong>MAGNE Layer1 區塊鏈</strong>：以行動裝置為優先、相容 EVM 並採用 PoW 的 Layer1 鏈，讓智能手機與邊緣裝置參與挖礦及共識，以保障安全性、去中心化與效能。
+6	<strong>M Hash Layer2 區塊鏈</strong>：基於 opStack 建立的高效能 Layer 2 網絡，採用非同步共識機制，將共識與執行分離，在維持安全性及低交易成本的同時，大幅提高吞吐量與效率。
+7	<strong>MAGNE Kit 模組化執行框架</strong>：重新設計的執行層，針對低延遲智能合約處理優化，適用於行動場景與 AI 原生工作負載。
+8	MAGNE.AI 引入融合 AI 運算與 Web3 基礎設施的新架構：
+9	使用者分享 <strong>MAGNE.AI Phone Gen1</strong> 等裝置的閒置算力，即可獲得 $MHA 代幣。
+10	建立由邊緣裝置充當節點的 <strong>DePin（去中心化實體基礎設施）</strong>網絡。
+11	提供 AI API 與 SDK，讓開發者建立整合 AI 的去中心化應用。
+12	支援 AI 模型在鏈上部署、驗證、定價及使用，實現 Web3 原生 AI 即服務。
+13	MAGNE.AI 生態系統包括：
+14	<strong>基礎設施</strong>：MAGNE Layer1、M Hash Layer2
+15	<strong>裝置矩陣</strong>：AI 手機、耳機及眼鏡（規劃中）
+16	<strong>應用層</strong>：Dapp Hub（Shin Getter Nexus）、AI 助理、Web3 遊戲及 NFT 平台
+17	<strong>統一代幣經濟</strong>：$MHA 用於 Gas、治理、激勵、質押及存取權限
+18	MAGNE.AI 重新界定「智能裝置」與「去中心化基礎設施」的邊界，支援可信 AI 執行、模型來源追溯、資料所有權及多裝置協作。透過協議與硬件的緊密整合，MAGNE.AI 讓每位使用者都能成為 AI Web3 時代的貢獻者與受益者。
+20	$MHA 是 MAGNE Layer 1 的原生 Gas 與區塊獎勵代幣。網絡採用<strong>工作量證明（PoW）</strong>，安全性由總算力支撐，行動及邊緣裝置均可參與挖礦。
+21	<strong>交易費用</strong>
+22	所有鏈上操作（轉帳、合約呼叫、DApp 互動）均以 $MHA 支付 Gas。按照協議設計，部分費用會被銷毀（與 EVM 費用機制一致），逐步減少流通供應量，形成支持長期價值的通縮壓力。
+23	<strong>挖礦與安全</strong>
+24	區塊透過 PoW 產生：礦工投入算力打包交易，並競爭下一個區塊的提議權。成功礦工獲得<strong>區塊獎勵（$MHA）及交易費用</strong>。總算力越高，攻擊成本越高，網絡安全性亦越強。
+25	MAGNE 針對行動及邊緣環境進行優化，讓輕量節點與裝置協助挖礦或中繼，提升去中心化程度及網絡覆蓋。
+26	<strong>發行與減半</strong>
+27	$MHA 按照先通脹、後減半的規劃發行：初期提供較充足獎勵，其後定期減少，以平衡網絡啟動與長期稀缺性。區塊獎勵與費用銷毀機制共同決定代幣供給與消耗的動態。
+28	甚麼是工作量證明？
+29	MAGNE Layer 1 的 PoW 工作量證明機制
+30	工作量證明（PoW）是 MAGNE Layer1 網絡的基礎共識機制，透過運算競爭確保去中心化信任、安全交易驗證及網絡抗審查能力。每個節點須解答密碼學難題，以取得區塊提議權，毋須依賴可信中介。MAGNE.AI 將 PoW 重新構想為超越傳統高耗能挖礦的模式，透過整合 DePin（去中心化實體基礎設施），讓智能手機等邊緣裝置成為挖礦節點。此模式讓任何人都能參與共識，並使網絡發展與實際使用相配合。MAGNE PoW 的最終願景，是為 Web3 建立毋須信任、以行動裝置為優先且高度安全的 Layer1 基礎設施。
+31	有別於依賴專用硬件與高能耗的傳統挖礦，MAGNE Layer1 引入輕量 PoW：行動挖礦。配備安全 SPU 與 NPU 晶片的 MAGNE.AI 裝置，讓一般使用者貢獻閒置運算資源、驗證交易並獲取獎勵，形成具包容性的共識層。此模式由 MAGNE 自有 DePin 基礎設施支撐，每台實體裝置均成為區塊鏈節點，不僅是使用者，也是網絡安全驗證者。這種參與式設計降低 Web3 門檻，並促進更公平的價值分配。MAGNE 透過結合 PoW 與邊緣硬件，重新定義去中心化未來的共識模式。
+32	在 MAGNE Layer1 中，PoW 不僅是共識基石，也是效能加速器。項目透過簡化 Merkle Tree 結構及整合智能快取，深度改進 EVM 架構，以最少磁碟 I/O 存取狀態資料，提升執行速度。智能合約因而獲得更低延遲及更高吞吐量，適合高頻應用。此基礎設計亦配合未來 Layer2 擴展，確保模組化鏈之間順暢同步資料。在 MAGNE 中，PoW 既是防護盾，也是引擎，同時保障鏈的安全並提升能力。
+33	受 Berachain 流動性證明等架構啟發，MAGNE 將共識與治理解耦。PoW 專注保障網絡安全，決策與投票則透過鏈上 MHA 代幣進行。此職責分離讓 Layer1 專注效能及安全，同時將治理權交予更廣泛的社群，避免礦工主導協議控制所帶來的中心化風險。
+34	<span>白皮書 / 代幣經濟</span><span>v1.1 · 2026 年 9 月 · 審核稿</span>
+35	MHA 代幣經濟
+36	分配、釋放規則與 TGE 後執行披露。
+37	本次更新將交易所活動及早期流動性做市商的執行規則，與 TGE 後的實際執行情況及已披露鏈上紀錄對齊。代幣總供應量及各頂層分配比例均維持不變。
+38	<span>總供應量</span><strong>10,000,000,000 MHA</strong>
+39	<span>TGE · UTC</span><strong>2026 年 9 月 17 日 · 12:00</strong>
+40	<span>分配</span><strong>10 個類別 · 維持不變</strong>
+41	<a href="/learning/tokenomics-changelog">修訂紀錄</a><a href="/learning/tokenomics-v1-0">檢視 v1.0 歸檔</a><a href="/learning/tokenomics-zh">中文修訂說明</a><a href="/learning/tokenomics-announcement">更新公告</a>
+42	本頁目錄
+43	<a href="#allocation">概覽</a><a href="#allocation-1">挖礦節點</a><a href="#allocation-2">質押節點</a><a href="#allocation-3">生態系統 / DAO 金庫</a><a href="#allocation-4">團隊與顧問</a><a href="#allocation-5">VC（投資者、機構／私募輪）</a><a href="#allocation-6">早期支持者</a><a href="#market-makers">早期流動性做市商</a><a href="#allocation-8">認購／公開銷售（3%）</a><a href="#allocation-9">設備銷售代理</a><a href="#exchange-campaigns">交易所活動</a><a href="#execution-snapshot">執行快照</a><a href="#campaign-notes">活動說明</a>
+44	概覽
+45	項目
+46	詳情
+47	代幣名稱
+49	總供應量
+51	小數位數
+52	MHA 是 MAGNE Layer1 區塊鏈的原生代幣，用作交易 Gas、驗證者安全質押，以及透過 PoL 進行治理與生態激勵的基礎貨幣。mBGT 是用於協調驗證者發放及參與協議層投票的功能與治理代幣。
+53	100 億枚 MHA 的分配如下
+56	挖礦節點
+58	質押節點
+60	生態系統／DAO
+62	團隊與顧問
+66	早期支持者
+68	早期流動性做市商
+70	認購／公開銷售
+72	設備銷售代理
+74	交易所活動
+76	<strong>挖礦節點</strong>
+77	指透過提供<strong>有效工作負載</strong>獲得代幣獎勵的節點，涵蓋 <strong>PoAI／DePIN 運算、頻寬供應及分散式儲存</strong>等場景。獎勵通常依據整體<strong>貢獻分數</strong>結算，考量算力、吞吐量、在線時間及品質指標。
+78	<strong>1. 目標</strong>
+79	<strong>目標：</strong>
+80	在不改變<strong>100 億枚代幣分配</strong>及<strong>挖礦 = 30%（3,000,000,000 MHA）</strong>配置的前提下，為<strong>裝置激勵</strong>建立<strong>可審計、可治理、可擴展的發行機制</strong>。
+81	<strong>範圍：</strong>
+82	現階段<strong>僅啟用 MAGNE.AI Phone GEN1（8 TOPS）</strong>。
+83	其餘硬件裝置<strong>保留待日後啟用</strong>，須達到<strong>量產準備條件</strong>並符合<strong>治理要求</strong>。
+84	<strong>2. 子池結構</strong>
+85	<strong>子池-1：MAGNE.AI Phone GEN1（8 TOPS）</strong>
+86	<strong>上限 = 400,000,000 MHA（4 億枚）</strong><em>（註：上限 ≠ 保證全額分配；未使用代幣將回流挖礦池或下一個週期）</em>
+87	<strong>發行曲線：</strong><strong>每年減半</strong>，<strong>首年配置為 200,000,000 MHA</strong>，按<strong>每月等額</strong>分配。
+88	<strong>初期市場穩定安排（第一季）：</strong>
+89	第 1 年：<strong>M1 = 20%、M2 = 60%、M3–M12 = 100%</strong>
+90	<strong>子池-2：待定</strong>
+91	<strong>子池-3：待定</strong>
+92	<strong>子池-4：待定</strong>
+93	設計原則：所有子池均採用分配上限，並非承諾全額發放。獎勵按各期有效工作負載結算。未分配代幣將自動回流挖礦池或下一個週期，以避免被動獲利及早期過度通脹。
+94	<strong>3. 預算與分配核心公式（適用於所有子池）</strong>
+95	<strong>3.1 當年度預算（以 MAGNE.AI Phone GEN1 為例）</strong>
+96	<strong>年度配置（每年減半）：</strong>
+97	<strong>當年度每月基準上限：</strong>
+98	<strong>首年平滑安排（僅適用於第 1 年 M1–M3）：</strong>
+99	未分配代幣處理：第一季 M1 與 M2 的任何未使用部分將回流主池。
+100	<strong>3.2 有效工作負載（ECU）與時間加權分配</strong>
+101	<strong>ECU 定義</strong>（避免原始 TOPS 主導計算）：
+102	（MAGNE.AI Phone Gen1 暫不採用效率因子）
+103	（MAGNE.AI Phone Gen1）
+104	<strong>在線時間差異化（時間加權計算）：</strong>
+105	<strong>當期獎勵分配：</strong>
+106	此機制確保較早上線、在線時間較長且品質較高的裝置獲得較多獎勵。較遲上線或期中加入的裝置，僅按其實際有效運作時間獲得獎勵。
+107	<strong>3.3 分配比例與鎖定機制</strong>
+108	<strong>基本比例：</strong>
+109	<strong>40% 即時可用</strong> + <strong>60% 於 3 個月內線性釋放</strong>。
+110	<strong>自願鎖定 → 下期加權（不增發，僅重新分配）：</strong>
+111	自願鎖定 6／9／12 個月，分別提高<strong>下一個結算期</strong>的 ECU 權重：
+112	<strong>流通量計算：</strong>
+113	僅<strong>即時可用</strong>及<strong>已解鎖部分</strong>計入流通供應量。<strong>鎖定部分</strong>列為<strong>已分配（非流通）</strong>。
+114	<strong>4. 子池-1：首年平滑安排與數值表</strong>
+115	<strong>首年年度配置：</strong>
+116	<strong>每月基準上限：</strong>
+117	月份
+118	平滑係數
+119	每月上限（MHA）
+120	執行建議：M1／M2 未使用部分將回流主池。
+121	配合<strong>40% 即時可用</strong>及<strong>60% 於 3 個月內線性釋放</strong>的比例，可平滑早期賣壓。
+122	<strong>5. 參與門檻、SLA 與罰沒（Slash）</strong>
+123	<strong>最低參與要求：</strong>
+124	登記及遠端認證（硬件指紋／韌體簽章）；KYC 為可選設定，可開啟或關閉。
+125	<strong>活躍門檻：</strong>
+126	節點須符合以下條件，方可參與分配：
+127	<strong>每月在線時間 ≥ 240 小時</strong>、<strong>在線率 ≥ 95%</strong>及<strong>品質 ≥ 98%</strong>。
+128	**長時間離線：**Reward=Uptime0.5×Uptime0.5×Uptime0.5
+129	當期獎勵將依以下公式<strong>扣減</strong>：
+130	重複違規者將<strong>降級</strong>至<strong>觀察名單</strong>接受監察。
+131	<strong>惡意行為／造假：</strong>
+132	當期獎勵將<strong>歸零</strong>，並優先從<strong>「已解鎖餘額」</strong>執行罰沒；同時追溯歷史紀錄，將相關主體列入黑名單 <strong>3–12 個月</strong>。
+133	<strong>防女巫攻擊：</strong>
+134	同一主體／ASN 的多台裝置將<strong>合併加權</strong>；裝置指紋去重；並對<strong>地域</strong>及<strong>營運商多樣性</strong>加權，防止集中操控。
+135	<strong>自有質押（可選）：</strong>
+136	營運者可質押少量 <strong>MHA</strong>，取得 <strong>1.05–1.15x</strong> 獎勵倍數。違規將觸發<strong>罰沒</strong>。
+137	<strong>6. 治理與參數變更</strong>
+138	<strong>可治理參數：</strong>
+139	第一季平滑係數、分配比例、鎖定期限、活躍及品質門檻、季度結轉模式等。
+140	<strong>流程：</strong>
+141	<strong>提案 → 投票通過 → 48–72h 時間鎖</strong> → 更新合約參數。
+142	<strong>風險基準：</strong>
+143	<strong>首 24 個月的流通供應淨增量</strong>每月不應超過 <strong>0.8%</strong>。重大變更須評估對此指標的影響。
+144	<strong>7. 儀表板與公開披露</strong>
+145	<strong>鏈上透明度：</strong>
+146	子池合約地址、每月上限、實際分配、鎖定餘額及已解鎖餘額。
+147	<strong>營運資料：</strong>
+148	活躍裝置數量、地域／ASN 分佈、平均在線率／品質、黑名單及罰沒紀錄。
+149	<strong>透明度：</strong>
+150	季度報告（未使用代幣回流、參數調整、風險管理事件）。
+151	<strong>質押節點</strong>
+152	質押節點透過<strong>質押 MHA</strong>，參與<strong>區塊驗證</strong>及<strong>投票</strong>，共同維護網絡安全與共識。獎勵按<strong>質押數量 × 在線時間／效能</strong>分配。委託者可將代幣委託予驗證者，分享獎勵。
+153	<strong>生態系統 / DAO 金庫</strong>
+154	用於<strong>開發者資助、生態合作、黑客松、社群預算</strong>及其他生態倡議，須經<strong>DAO 提案批准</strong>，並按<strong>里程碑撥付</strong>。<strong>未達成里程碑的款項將退回</strong>金庫。
+155	年度撥付不超過<strong>總供應量的 10%</strong>。
+156	<strong>執行方式：</strong>
+157	48 個月線性釋放 + 多重簽名批准 + 時間鎖 + 季度透明度報告。
+158	<strong>團隊與顧問</strong>
+159	用於<strong>核心團隊成員的長期激勵</strong>及<strong>顧問報酬</strong>。
+161	<strong>18 個月懸崖期</strong>，其後<strong>於 120 個月內線性歸屬</strong>。
+162	離職或未達績效目標時，適用<strong>追回條款</strong>，可收回尚未歸屬的代幣。
+163	<strong>VC（投資者、機構／私募輪）</strong>
+164	用於回饋<strong>機構投資者</strong>或<strong>合資格投資者的早期投入</strong>。
+166	<strong>12 個月懸崖期</strong>，其後<strong>於 24 個月內線性歸屬</strong>。
+167	<strong>早期支持者</strong>
+168	用於最早參與<strong>社群建設</strong>、<strong>測試</strong>、<strong>內容貢獻</strong>及<strong>節點設置</strong>的個人或團體。
+170	<strong>6 個月懸崖期</strong>，<strong>第 7 個月釋放 1/6</strong>，其餘 <strong>5/6 於 24 個月內歸屬</strong>。
+171	引入<strong>貢獻證明（PoC）</strong>，防範「空投獵人」，確保獎勵與實際貢獻掛鈎。
+173	<strong>700,000,000 MHA · 7% — 維持不變。</strong>
+174	截至披露快照，主要儲備地址持有完整的 700,000,000 MHA。項目方表示，該儲備未有轉出紀錄。上市時投入的 25,000,000 MHA 初始流動性來自交易所活動分配，並不構成 700,000,000 MHA 早期流動性做市商儲備的解鎖。
+175	披露儲備地址：<a href="https://bscscan.com/token/0x37c563cdf4606d4302abb395cdb94e79d31233ed?a=0x3337e8082646Df644179db3834b3ACc19bc55eFf">0x3337e8082646Df644179db3834b3ACc19bc55eFf</a>。
+176	DEX 流動性
+177	使用可在鏈上驗證的 LP 地址。
+178	在技術可行的情況下，採用時間鎖或多重簽名管理。
+179	計劃鎖定期一般應至少為 12 個月。
+180	公開披露 LP 變更、遷移及撤回情況。
+181	CEX 做市
+182	依據具體交易所及做市協議分批投入。
+183	使用獨立帳戶或可辨識的入金路徑。
+184	界定庫存、最低深度、最大價差及風險限額。
+185	不得以混合託管的公開熱錢包餘額，推斷交易所內部帳戶餘額。
+186	單憑轉帳並不能證明出售。
+187	啟用 700,000,000 MHA 儲備前，須另行發布公告。
+188	釋放規則
+189	儲備不會按固定日期自動解鎖。任何投入均須具備實際流動性需求、內部授權、交易所或 DEX 執行計劃及公開披露。尚未投入的代幣，繼續保留於已披露的非流通儲備錢包。
+190	<strong>認購／公開銷售（3%）</strong>
+191	用於<strong>向較廣泛使用者公開銷售</strong>的代幣，例如 Launchpad、認購或白名單公開發售。
+192	<strong>公開銷售簡介</strong>
+193	按照 MHA 代幣經濟，總供應量的 3% 分配予公開銷售，並將於上市前完成。此期間購入的所有代幣將於全球前 10 大中心化交易所上市。上市後，代幣鎖定六個月，自第七個月起線性歸屬。
+194	目前公開銷售於 BSC 鏈進行，其後將映射至 MHA 鏈。
+195	<strong>Public Sale OG（1%）：</strong>上市前，以最低公開銷售價格向早期支持者進行發售；上市時代幣價格不會低於該水平。代幣上市後鎖定六個月，其後於二十四個月內持續釋放。
+196	**KOL／ECO 銷售（0.5%）：**面向 KOL 及生態合作夥伴的公開銷售，定價高於 Public Sale OG。代幣上市後鎖定六個月，其後於二十四個月內持續釋放。
+197	**公開銷售第 1 場（1.5%）：**正式預售將向全球公眾開放，價格高於 Public Sale OG。代幣上市後鎖定六個月，其後於二十四個月內持續釋放。
+198	<strong>比較維度</strong>
+199	<strong>Public Sale OG 的常見做法</strong>
+200	<strong>與一般公開銷售的差異</strong>
+201	<strong>對象</strong>
+202	<strong>創世 NFT 持有人、測試網互動地址、早期 Discord 身分持有人、創世裝置買家</strong>，以及其他<strong>可在鏈上驗證的 OG 地址</strong>
+203	無參與門檻；<strong>任何人均可參與</strong>。
+204	<strong>價格</strong>
+205	<strong>所有銷售中的最低價格</strong>，低於<strong>未來預售、公開銷售或交易所上市價格</strong>
+206	<strong>高於 OG</strong>，但<strong>低於或等於初始市場價格</strong>。
+207	<strong>配置</strong>
+208	<strong>個人硬上限很低</strong>（例如每地址 50–200 USD），著重<strong>廣泛分配</strong>
+209	<strong>硬上限較高</strong>，著重<strong>籌集較大規模資金</strong>。
+210	<strong>鎖定期</strong>
+211	一般為<strong>TGE 時解鎖部分</strong>，其餘<strong>於 3–18 個月內線性釋放</strong>；或<strong>全部鎖定 6 個月後線性釋放</strong>
+212	可能在 <strong>TGE 時解鎖 20-50%</strong>。
+213	<strong>市場推廣定位</strong>
+214	<strong>「社群獎勵」</strong>、<strong>「早鳥榮譽」</strong>，強調<strong>身分認同</strong>
+215	著重<strong>「投資機會」</strong>及<strong>「公開募資」</strong>。
+217	<strong>6 個月懸崖期</strong>，<strong>第 7 個月釋放 1/6</strong>，其餘 <strong>5/6 於 24 個月內歸屬</strong>。
+218	將進行 <strong>KYC／合規審查</strong>。
+219	將設立機制，<strong>避免與私募價格出現差異</strong>。
+220	<strong>設備銷售代理</strong>
+221	用於硬件生態（例如 MAGNE.AI Phone、PoAI Station）的<strong>經銷商／渠道激勵</strong>，透過代幣折扣或返利推動銷售。
+223	<strong>3 個月懸崖期</strong>，其後<strong>於 24 個月內線性歸屬</strong>。
+224	激勵<strong>與實際銷售／收入掛鈎</strong>。
+225	可要求<strong>鎖定 MHA</strong>，以獲取<strong>較高返利比例</strong>。
+227	<strong>100,000,000 MHA · 1% — 維持不變。</strong>
+228	允許用途
+229	交易所上市及相關服務。
+230	技術整合與錢包連接。
+231	上市、入金及交易活動。
+232	交易所使用者激勵。
+233	上市時的初始市場流動性投入。
+234	與交易所上市直接相關的測試轉帳。
+235	其他經批准的交易所市場支援。
+236	執行與釋放
+237	代幣按已簽訂或實際執行的交易所上市、技術整合、市場活動及初始流動性安排釋放。未有明確執行用途的代幣，繼續保留於已披露的主要儲備錢包，不會隨時間推移而自動解鎖。相關使用者激勵活動須採用資格審查、白名單及防女巫措施。
+238	交易所分配儲備的轉出，表示代幣進入特定交易所執行流程，並不代表所有代幣均已出售、成交，或成為等量的公開市場流通量。
+239	披露儲備地址：<a href="https://bscscan.com/token/0x37c563cdf4606d4302abb395cdb94e79d31233ed?a=0x1117dA6F04376588A94a7B7fDC070607d0ad649C">0x1117dA6F04376588A94a7B7fDC070607d0ad649C</a>。
+240	TGE 後執行披露
+241	<strong>快照：2026-09-28 17:56:21 UTC · BSC 區塊 <a href="https://bscscan.com/block/124568474">124,568,474</a>。</strong>下列所有靜態餘額均以此區塊為準。最新資料：<a href="https://w3.magne.ai/mha-supply.html">供應量證據</a>及 <a href="https://w3.magne.ai/api/v1/mha/supply">供應量 API</a>。轉帳用途由項目方分類；單憑鏈上轉帳與餘額，不能確立交易所合約條款、交易成交或內部帳戶餘額。
+242	原始分配：<strong>100,000,000 MHA</strong> − 轉出：<strong>76,250,500 MHA</strong> = 剩餘儲備：<strong>23,749,500 MHA</strong>。
+243	交易所
+244	上市／相關服務（MHA）
+245	初始流動性（MHA）
+246	測試（MHA）
+247	合計（MHA）
+252	合計
+253	LBank 的 500 MHA 被分類為測試入金。第一筆交易將 500 MHA 從儲備轉至入金地址；第二筆將同一批 500 MHA 轉至觀察到的 LBank 託管地址。兩筆交易是同一轉帳路徑的兩個環節，僅計算一次。交易紀錄：
+254	早期支持者與活動說明
+255	800,000,000 MHA 早期支持者分配及原有長期歸屬規則維持不變。截至快照，社群空投儲備轉出的 1,635,000 MHA，被項目方分類為上市前簽到及相關空投；並非待發放的 Season 1 獎勵，亦非 Season 2 獎勵池。
+256	Season 1 獎勵仍待資格核實及具體分配公告。
+257	Season 2 的 40,000,000 MHA 獎勵池尚未轉出或釋放。
+258	Season 2 須於 1,600 台 Phone Gen1 活動完成、資格核實及最終快照完成後執行。
+259	尚未轉出的 Season 2 獎勵池不得計入已釋放代幣。
+260	<a href="https://bscscan.com/token/0x37c563cdf4606d4302abb395cdb94e79d31233ed">MHA 合約</a><a href="https://w3.magne.ai/season-1.html">Season 1</a><a href="https://w3.magne.ai/season-2.html">Season 2</a>
+261	版本 1.1 · 草稿更新於 2026 年 9 月 29 日。餘額為指定日期快照，並非即時數值。最新資料：<a href="https://w3.magne.ai/mha-supply.html">供應量證據</a>／<a href="https://w3.magne.ai/api/v1/mha/supply">供應量 API</a>。尚待審核發布。
+262	治理
+263	MAGNE.AI 的治理系統讓 $MHA 持有人直接參與協議層決策，投票權與持幣數量成正比。治理如同網絡的大腦：核心協議行為的任何變更，均須通過鏈上治理流程，確保透明度及去中心化控制。
+264	治理職責
+265	治理機構負責協議運作與長期方向的策略決策，包括：
+266	設定費用、質押獎勵及協議參數
+267	批准協議升級與核心模組更換
+268	管理特權角色與存取權限
+269	制定長期增長、激勵及生態發展方向
+270	所有重大變更均須在執行前，完成正式治理提案與投票週期。
+271	協議角色與權限
+272	<strong>管理者角色（Manager）</strong>
+273	管理者負責處理需要即時執行的緊急協議操作，例如在出現威脅時暫停資金池或金庫。管理者亦須執行已經治理批准的營運變更，讓系統在預先界定的治理範圍內迅速行動。
+274	<strong>授權者角色（Authorizer）</strong>
+275	授權者是協議的權限控制者，連接治理決策與可執行的協議功能。透過對每項敏感操作實施授權邏輯，確保整個系統的存取控制安全。授權者與治理時間鎖協作，確保所有變更經審核後安全執行。
+276	<strong>協調者角色（Coordinator）</strong>
+277	協調者監督治理提案的最終執行階段，管理升級的分階段部署、先後次序及時機，確保所有操作符合協議規則。若部署期間出現問題，協調者亦有緊急權力取消或延遲變更，以維護治理流程完整性。
+278	治理概覽
+279	MAGNE 治理
+280	MAGNE 的去中心化治理系統，讓 $MHA 代幣持有人主導協議層變更，包括獎勵金庫批准、原生 dApp 設定及 PoW 分配邏輯。
+281	治理應用場景：
+282	將獎勵金庫加入白名單（例如批准質押／激勵代幣）
+283	設定 MAGNESwap 等原生 dApp（例如費用結構）
+284	調整 PoL 分配曲線或參數
+285	升級系統設定或時間鎖期限
+286	治理生命週期
+287	MAGNE 治理建基於經實務驗證的 OpenZeppelin 合約，提供安全透明的多階段生命週期：
+288	<strong>建立提案</strong>
+289	任何具備足夠投票權的帳戶均可發起提案
+290	<strong>待啟動狀態</strong>
+291	提案先經過 1 小時短暫延遲，然後啟動投票
+292	<strong>投票階段</strong>
+293	$MHA 持有人或其受託代表可在 5 天投票期內投票
+294	<strong>提案結果</strong>
+295	若達到法定參與門檻及多數票要求，提案標記為通過
+296	<strong>時間鎖佇列</strong>
+297	通過的提案須進入 2 天延遲佇列，然後執行
+298	<strong>執行</strong>
+299	時間鎖到期後，任何參與者均可在鏈上執行變更
+300	守護者監督
+301	為防止惡意行為，MAGNE 採用 5-of-9 守護者委員會，有權在時間鎖階段取消危險提案，例如未經授權的升級或資產沒收。
+302	建立治理提案
+303	<strong>確認符合投票權門檻</strong>
+304	您須具備至少<strong>相當於 10,000 $MHA 的委託投票權</strong>
+305	<strong>委託予自己</strong>
+306	您須明確委託 $MHA（即使受託人是自己），才可啟用治理權
+307	<strong>準備提案資料</strong>
+308	例如，獎勵金庫提案須包含金庫地址及正確函式呼叫，例如 <span>addRewardVault(address)</span>
+309	<strong>提交提案</strong>
+310	透過鏈上治理合約或 MAGNEHub 介面提交
+311	<strong>推廣提案</strong>
+312	與社群交流，提升認知並爭取投票支持
+313	<strong>時間鎖到期後執行</strong>
+314	提案通過後，任何使用者均可在 2 天延遲期結束後觸發執行
+315	治理參數（預設值）
+316	狀態
+317	條件
+318	建立提案
+319	10,000 $MHA 委託票數
+320	待啟動期
+321	1 小時
+322	投票期
+323	5 天
+324	法定參與門檻
+325	$MHA 總供應量的 20%
+326	時間鎖延遲
+327	2 天
+328	獎勵金庫提案可採用簡化治理流程，詳見獎勵金庫治理文件。
+329	激勵市場
+330	在 M Hash Layer2 PoW 生態中，激勵市場讓協議向礦工提供白名單激勵代幣，鼓勵其支援特定鏈上活動或流動性池。不同協議因此競爭礦工關注與區塊獎勵配置。
+331	激勵運作方式
+332	礦工產生區塊時，可選擇將部分所得 $MHA 獎勵分配至一個或多個白名單獎勵金庫。這些金庫與特定協議或應用相連。
+333	分配獎勵時：
+334	礦工獲得協議以激勵代幣支付的佣金
+335	金庫其餘激勵代幣分配予已在該金庫質押合資格資產的參與者
+336	所有領取均透過 M Hash Layer2 Hub 自動處理
+337	使用者可隨時領取激勵，沒有到期限制
+338	激勵市場角色
+339	角色
+340	說明
+341	參與者
+342	將合資格資產（例如 LP 代幣、NFT）質押至獎勵金庫，以獲取激勵
+343	礦工
+344	透過 PoW 產生區塊，將部分 $MHA 獎勵導向選定金庫，以換取激勵
+345	協議
+346	提供激勵代幣，吸引礦工導入獎勵，提升參與度及流動性
+347	激勵代幣治理
+348	只有白名單獎勵金庫可分配激勵代幣
+349	每個金庫最多支援兩種不同激勵代幣
+350	新增代幣或變更其管理者須經治理批准
+351	管理激勵
+352	協議的代幣管理者須設定<strong>激勵兌換率</strong>：
+353	格式：「每 
+354	MHA）
+355	除非金庫代幣餘額已完全耗盡，否則不得調低兌換率
+356	可隨時存入額外代幣，亦可提高兌換率
+357	激勵代幣一旦存入，便不得提取
+358	<strong>範例：</strong>
+359	激勵
+360	兌換率
+361	$MHA 覆蓋量
+365	其後更新：
+366	新增激勵
+367	新兌換率
+368	新覆蓋量
+372	佣金分配
+373	礦工可設定從金庫取得激勵的佣金比例（預設 5%，最高 20%）
+374	範例：若金庫為 10 
+375	MHA 的獎勵，礦工獲得 5 USDC，其餘 95 USDC 分配予金庫參與者。
+376	時間安排與兌換率
+377	分配時間（例如 3 天或 7 天串流釋放）由獎勵金庫設定
+378	無論獎勵釋放時間如何安排，兌換率（例如 10 USDC/$MHA）均保持固定
+379	團隊與執行
+381	MAGNE.AI 由跨領域團隊開發，涵蓋安全行動系統、Web3 基礎設施（L1／L2）、安全工程、硬件項目執行及全球生態營運。
+382	<strong>安全與私隱工程</strong>
+383	專注安全架構設計、經認證安全元件整合、漏洞研究及持續安全保障。此職能負責威脅建模、全技術堆疊安全審查及事故應變準備。
+384	<strong>區塊鏈與協議工程（L1／L2）</strong>
+385	負責協議開發、節點基礎設施、效能與穩定性優化，以及支援生態合作夥伴的開發工具。
+386	<strong>行動裝置與錢包產品工程</strong>
+387	建立面向消費者的作業系統／應用層、錢包及帳戶流程，以及簡化操作複雜度的使用者體驗，同時維持自主託管及安全性。
+388	<strong>硬件項目與合規執行</strong>
+389	領導端到端裝置項目，包括平台選型、供應商整合、驗證及產能爬坡階段（EVT／DVT／PVT），以及各地區認證準備。
+390	<strong>業務拓展與生態營運</strong>
+391	推動合作夥伴加入、交易所與機構協調，以及兼顧合規的營運；支援合作夥伴盡職調查及合規流程（例如適用的 KYC／AML 工作流程），並促進全球社群發展。
+392	<strong>擴展貢獻者與合作夥伴</strong>
+393	除核心團隊外，MAGNE.AI 亦獲製造、元件供應、認證服務及生態發展領域的貢獻者與策略合作夥伴支援，以加快交付並確保量產品質。
+394	<strong>治理與交付紀律</strong>
+395	MAGNE.AI 在產品、工程、安全與營運之間維持清晰職責分工，並以標準化開發流程及受控發布管理作支援。對外溝通遵循披露政策，旨在確保準確性，避免前瞻性上市或價格相關陳述。詳細團隊及認證資料，可透過受控盡職調查流程提供予交易所、合作夥伴及監管機構。
+396	<em>註：基於私隱及安全考量，部分履歷及資歷可能以摘要形式呈現。詳細資料可在保密協議／受控審查下提供。</em>
+397	MAGNE Layer2 指標
+398	與建立在 PoW 或相容以太坊 Layer 1 鏈上的其他 Layer 2 擴容方案相比，<strong>M Hash Layer2</strong> 提供<strong>更低 Gas 費</strong>及<strong>更高區塊 Gas 上限</strong>，讓費用在 Layer 2 流量增加時仍保持穩定。下表以標準 EIP-1559 參數作比較；部分 L2（例如 Arbitrum）採用 ArbOS 等自訂 Gas 機制，不能直接比較。
+399	Gas 參數差異
+400	參數
+401	M Hash Layer2 數值
+402	OP Mainnet 數值
+403	區塊 Gas 上限
+406	區塊 Gas 目標
+409	EIP-1559 彈性倍數
+410	EIP-1559 分母
+411	基本費用最大增幅（每區塊）
+412	基本費用最大降幅（每區塊）
+413	指標差異
+414	指標
+418	Gas 代幣
+422	虛擬機
+426	Gas 費用
+427	區塊 Gas 上限
+428	100M（規劃為 150M）
+429	出塊時間
+430	0.25s（最短）
+431	提款／最終確定性
+432	7 天
+435	TPS（轉帳）
+436	雖然 OP Stack 各實作之間略有差異，M Hash Layer2 採用自有優化，包括<strong>針對 PoW 的快取改進</strong>、<strong>平行執行排程</strong>及<strong>交易納入批次優化</strong>，將吞吐量提高至<strong>每秒 100M Gas</strong>，遠超基礎 MAGNE Layer 1 鏈。
+437	M Hash Layer2、MAGNE Layer1 與 Ethereum Layer1 比較
+450	Gas 定價模型
+452	PoW Gas 競價
+455	出塊時間
+456	交易成本
+457	有別於採用可變出塊時間的 L2（例如 Arbitrum 在低負載下最快可每 0.25s 產生區塊），<strong>M Hash Layer2 維持固定 1 秒出塊時間</strong>，以提供可預測效能及批次效率，確保高網絡負載下仍有穩定吞吐量及低費用。
+458	里程碑（按時間排序）—（更新：2026-04-19）
+459	<strong>MAGNE.AI Phone Gen1 — 認證、安全與生產里程碑</strong>
+460	日期／期間
+461	領域
+462	里程碑
+463	狀態
+464	驗證／備註
+465	安全
+466	UTEE 安全評估（EAL2+）— 對應 OEM／ODM
+467	✅ 已完成
+468	EAL2+ 認證已完成；對應資料可於受控盡職調查中提供。
+470	HyperSeed N60 安全元件認證（EAL6+）— 對應 OEM／ODM
+472	EAL6+ 認證已完成；對應資料可於受控盡職調查中提供。
+474	HyperSeed 72B 安全元件認證（EAL6+）— 對應 OEM／ODM
+477	合規（Google）
+478	Google GMS 批准
+480	已取得版本批准；出貨／最終批准證據可於受控盡職調查中提供。
+482	Google Widevine L1 批准
+484	批准證據可於受控盡職調查中提供。
+485	合規（GSMA）
+486	GSMA TAC 核發
+488	TAC 01681300，市場名稱：MAG1
+489	電池／物流
+490	通過 UN38.3 認證
+492	運輸安全測試已完成。
+493	裝置項目
+494	已簽訂 OEM／ODM 生產合約
+496	生產合作協議已簽署執行。
+497	電池／安全
+498	通過 CB 認證（IEC 62133-2）
+500	電池安全認證已完成。
+502	Pre EVT P0 驗收／聯合研發階段
+504	前期開發及聯合研發階段已完成；證明資料可於保密協議／受控盡職調查下提供。
+506	EVT P1 驗收
+508	EVT P1 驗收已完成；證明資料可於保密協議／受控盡職調查下提供。
+509	2026-03 至 2026-04
+511	PVT P2 驗證與驗收
+512	⏳ 進行中
+513	量產驗證正在進行；階段成果及驗收證據可於保密協議／受控盡職調查下提供。
+514	合規（歐盟）
+517	取決於實驗室排期；證據可於受控盡職調查中提供。
+518	合規（美國）
+521	公開可查，FCC ID：2BVCPGC603606
+523	加州第 65 號提案（CP65）
+525	TÜV Rheinland 報告編號 27220370a 001；鄰苯二甲酸酯及鉛含量測試通過
+526	2026-06 至 2026-07
+528	首次交付期間
+529	🟣 已規劃
+530	目標於 PVT 驗證及認證完成後進行首次交付。
+531	2026-07 至 2026-08
+533	量產爬坡期間
+535	良率驗證、穩定性驗證及首批出貨。
+536	<strong>核心安全、系統、通訊及電池認證已大致完成；生產正推進 PVT 驗證，目標於 2026 年中首次交付。</strong>
+537	<strong>MAGNE L1 與 M Hash L2 — 網絡、開源與基礎設施里程碑</strong>
+543	2025-08-10（時間基準）
+544	網絡（L1）
+545	MAGNE L1 測試網上線
+547	Chain ID = 20250810；已列入官方連接文件。
+548	2025-08-27（時間基準）
+549	網絡（L2）
+550	M Hash L2 測試網上線
+552	Chain ID = 20250827；已列入官方連接文件。
+553	開源（L1）
+554	MAGNE L1 公開 GitHub 儲存庫發布
+556	可公開存取，且可由外部驗證時間戳。
+557	開源（L2）
+558	M Hash L2 公開 GitHub 儲存庫發布
+561	區塊瀏覽器（L2）
+562	L2 測試網瀏覽器公開可用
+564	可透過公開時間戳作外部驗證。
+565	區塊瀏覽器（L1）
+566	L1 測試網瀏覽器公開可用
+569	生態／開發者
+570	測試網水龍頭／Gas 供應（僅限測試網）
+572	僅於測試網提供。
+574	開發者文件 v1（公開）
+576	公開文件涵蓋網絡設定、RPC、工具及快速入門指南。
+577	2026-Q1 至 Q2
+578	安全／準備度
+579	協議安全審查／審計準備
+581	安全審查及審計準備工作正朝主網驗收條件推進。
+582	持續進行（2026-Q1 至 Q2）
+583	營運／基礎設施
+584	穩定性政策（限流 + 監控 + 可用性 SLO）
+586	操作手冊／儀表板可於受控盡職調查中提供。
+588	主網
+589	主網準備清單與創世計劃
+591	測試網強化後推進；須符合安全與營運驗收條件。
+594	主網上線（L1／L2）
+596	取決於準備度驗收、審計及生態成熟度。
+597	<strong>測試網、公開儲存庫、區塊瀏覽器及開發工具已備妥，審計與主網準備工作正朝上線推進。</strong>
+598	<strong>MAGNE.AI — 資本市場與上市準備里程碑</strong>
+599	<strong>（交易所盡職調查／法律／審計／代幣發行準備）</strong>
+605	法律／合規
+606	已出具 $MHA 新加坡法律意見
+608	GS Legal LLC 已就以下事項出具法律意見：
+609	MHA 屬於《支付服務法》（PS Act）下的數碼支付代幣，不構成電子貨幣、債權證或集體投資計劃，因此不會被視為《證券與期貨法》（SFA）下的證券或資本市場產品。
+610	持續進行（2026-Q1）
+611	交易所準備
+612	交易所盡職調查材料迭代（v1／v2／v3）
+614	因應審查需要，涵蓋團隊、安全、合規、營運及代幣相關文件的盡職調查材料，已透過多個受控版本持續更新；公開披露維持摘要層級。
+616	代幣文件
+617	代幣文件／披露材料完善
+619	正完善代幣經濟、釋放時間表、用途設計及披露措辭，供交易所與合作夥伴審查。
+621	安全／審計
+622	智能合約／協議審計
+624	審計工作持續推進；完成後將於受控盡職調查中披露最終報告。
+626	交易所協調
+627	交易所盡職調查／提交準備
+629	正整合提交材料、證明附件及驗證資料，供交易所審查。
+631	市場結構
+632	做市商／流動性協調
+634	相關討論及上市結構規劃，正與上市準備同步推進。
+635	TGE 前
+636	發行準備
+637	TGE 準備清單
+639	最終驗收取決於法律、審計、交易所、流動性及營運準備。
+640	TGE 前／主網
+642	上市／發行執行期間
+644	取決於準備度驗收及外部協調完成。
+645	<strong>法律架構已完成；交易所盡職調查、審計、代幣披露及發行準備正同步推進，以執行上市與 TGE。</strong>
+646	網絡<strong>設定（測試網）</strong>
+647	MAGNE L1 測試網
+648	新增至 MetaMask
+649	<strong>欄位</strong>
+650	<strong>數值</strong>
+651	網絡名稱
+653	RPC URL
+654	Chain ID
+655	貨幣符號
+657	區塊瀏覽器 URL
+658	MHA 測試網水龍頭
+659	M Hash L2 測試網
+671	開發工具<strong>（測試網）</strong>
+672	<strong>錢包設定（MetaMask）</strong>
+673	開啟 MetaMask → 網絡 → 新增網絡
+674	輸入：
+675	取得測試網 Gas：使用公開水龍頭（設有限流）。如需較高限額，請透過受控審查提出申請。
+676	建立智能合約
+677	MAGNE Layer1 區塊鏈
+678	<strong>部署智能合約</strong>
+679	協助您開始在 MAGNE Layer1 區塊鏈部署智能合約的指南。
+680	歡迎使用 MAGNE Layer1 區塊鏈部署快速入門指南！本指南將逐步協助您設定環境，並在 MAGNE Layer1 區塊鏈部署智能合約。無論您是資深開發者或剛入門，都可依照本指南操作。
+681	<strong>您將完成甚麼</strong>
+682	完成本快速入門後，您將能夠：
+683	設定用於 MAGNE Layer1 區塊鏈部署的開發環境
+684	將智能合約部署至 MAGNE Layer1 區塊鏈
+685	將前端連接至智能合約
+686	為何選擇 MAGNE Layer1 區塊鏈？
+687	MAGNE Layer1 區塊鏈以行動裝置為優先，相容 EVM 並採用 PoW，讓智能手機與邊緣裝置參與挖礦及共識，以保障安全性、去中心化與效能。
+688	<strong>設定開發環境</strong>
+689	建立新的項目目錄
+690	安裝功能強大的智能合約開發框架 Foundry
+691	此操作會安裝 Foundry，並更新至最新版本。
+692	初始化新的 Solidity 項目
+693	複製
+694	Foundry 項目已準備就緒。您可在 <span>src</span> 目錄找到範例合約，並將其替換為自己的合約。本指南採用 <span>src/Counter.sol</span> 提供的 Counter 合約。
+695	Foundry 提供一組 EVM 應用開發工具，包括 Forge（測試）、Cast（與鏈互動）及 Anvil（建立本地節點）。您可在<a href="https://book.getfoundry.sh/" target="_blank" rel="noopener noreferrer">此處</a>進一步了解 Foundry。
+696	<strong>設定 Foundry 連接</strong> MAGNE Layer1 區塊鏈
+697	要將智能合約部署至 MAGNE Layer1 區塊鏈，您需要兩項關鍵要素：
+698	用於與 MAGNE Layer1 區塊鏈網絡互動的節點連接
+699	具有足夠資金、可用於部署合約的私鑰
+700	以下逐一設定：
+701	<strong>1. 設定節點連接</strong>
+702	在項目根目錄建立 <span>.env</span> 檔案
+703	將 MagicalHash 網絡 RPC URL 加入 <span>.env</span> 檔案
+704	載入環境變數
+705	Magne L1 Testnet 是 MAGNE Layer1 區塊鏈的測試網，本指南其餘部分均使用該網絡。您可透過<a href="https://faucet.testnet.magicalhash.com" target="_blank" rel="noopener noreferrer">水龍頭</a>免費取得測試用 MHA。
+706	<strong>2. 安全保存私鑰</strong>
+707	將私鑰儲存於 Foundry 安全金鑰庫
+708	依提示輸入私鑰及密碼。
+709	私鑰儲存於 <span>~/.foundry/keystores</span>，此位置不受 Git 追蹤。
+710	切勿分享私鑰或將其提交至版本控制。務必安全保存並謹慎處理。
+711	<strong>部署合約</strong>
+712	環境設定完成後，即可將合約部署至 Magne L1 Testnet。
+713	使用以下指令編譯並部署合約
+714	請注意，部署合約的格式為 <span>&lt;contract-path&gt;:&lt;contract-name&gt;</span>。
+715	部署成功後，主控台會輸出交易雜湊
+716	複製已部署合約地址，並加入 <span>.env</span> 檔案
+717	載入新的環境變數
+718	<strong>驗證部署</strong>
+719	確認合約已成功部署：
+720	在 <a href="http://explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">https://explorer.testnet.magicalhash.com</a> 查閱交易。
+721	使用 <span>cast</span> 指令，從命令列與已部署合約互動
+722	此操作會傳回 Counter 合約 <span>number</span> 儲存變數的初始值，即 <span>0</span>。
+723	<strong>恭喜！您已將智能合約部署至 MAGNE L1 鏈！</strong>
+724	M Hash Layer2 區塊鏈
+726	協助您開始在 M Hash Layer2 區塊鏈部署智能合約的指南
+727	歡迎使用 M Hash Layer2 區塊鏈部署快速入門指南！本指南將逐步協助您設定環境，並在 M Hash Layer2 區塊鏈部署智能合約。無論您是資深開發者或剛入門，都可依照本指南操作。
+730	設定用於 M Hash Layer2 區塊鏈部署的開發環境。
+731	將智能合約部署至 M Hash Layer2 區塊鏈。
+733	為何選擇 M Hash Layer2 區塊鏈？
+734	M Hash Layer2 區塊鏈是基於 opStack 建立的高效能 Layer 2 網絡，採用非同步共識機制，將共識與執行分離，在維持安全性及低交易成本的同時，大幅提高吞吐量與效率。
+742	<strong>設定 Foundry 連接</strong> M Hash Layer2 區塊鏈
+743	要將智能合約部署至 M Hash Layer2 區塊鏈，您需要兩項關鍵要素：
+744	用於與 M Hash Layer2 區塊鏈網絡互動的節點連接
+749	將 M Hash Layer2 區塊鏈網絡 RPC URL 加入 <span>.env</span> 檔案
+751	M Hash L2 Testnet 是 M Hash Layer2 區塊鏈的測試網，本指南其餘部分均使用該網絡。您可透過<a href="https://faucet.testnet.magicalhash.com" target="_blank" rel="noopener noreferrer">水龍頭</a>免費取得測試用 MHA。
+758	環境設定完成後，即可將合約部署至 M Hash L2 Testnet。
+766	在 <a href="http://explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">https://l2-explorer.testnet.magicalhash.com</a> 查閱交易。
+769	<strong>恭喜！您已將智能合約部署至</strong> M Hash L2 <strong>鏈！</strong>
+770	使用 Foundry 發行 ERC-20 代幣
+771	0）先決條件
+772	<strong>Foundry</strong> v1.3.1+
+773	（Etherscan V2 驗證需要 Foundry v1.3.1 或更新版本。）
+774	1）建立項目
+775	此操作會建立標準 Foundry 項目結構。
+776	2）安裝 OpenZeppelin 並設定路徑映射
+777	此設定可確保 IDE 正確解析 OpenZeppelin 匯入路徑。
+778	3）編寫 ERC-20 合約
+779	重新命名預設檔案：
+781	編譯以確認：
+782	4）建立部署腳本
+783	重新命名範例腳本並更新內容：
+785	5）（可選）調整測試
+786	您可留空，或加入自己的代幣測試。
+787	6）建立 Foundry 金鑰庫錢包
+788	此帳戶將用於部署。
+789	7）本地試跑（可選）
+790	您將看到已部署地址及總供應量的日誌。
+791	8）部署至 <strong>MAGNE L1 測試網</strong>
+792	確認錢包持有 <strong>MAGNE L1</strong> 測試網代幣，以支付 Gas。
+793	輸出內容將包括交易雜湊及已部署合約地址。
+794	💡 您可切換至主網 RPC（例如 <a href="https://rpc.magicalhash.com" target="_blank" rel="noopener noreferrer">https://rpc.magicalhash.com</a>），將此流程調整用於主網。
+795	9）在 <a href="https://explorer.testnet.magicalhash.com/contract-verification" target="_blank" rel="noopener noreferrer">MAGNE L1 瀏覽器</a>驗證合約
+796	MAGNE.AI 採用相容 Etherscan 的驗證方式。您需要 API 金鑰：
+797	驗證完成後，可在 <a href="https://explorer.testnet.magicalhash.com/contract-verification" target="_blank" rel="noopener noreferrer">MAGNE L1 瀏覽器</a>檢視合約頁面。
+798	10）快速檢查清單
+799	✅ 代幣名稱／符號（<span>"MAGNE Token"</span>、<span>"MHA"</span>）
+800	✅ 初始供應量使用 <span>ether</span>（18 位小數）
+801	✅ RPC：<span>https://rpc.testnet.magicalhash.com/</span>
+802	✅ 錢包：<span>MyMagneAccount</span>
+803	✅ 驗證用 API 金鑰
+804	✅ 用於 Gas 的測試網 MAGNE 餘額
+806	<strong>建立應用程式</strong>
+807	使用 OnchainKit 在 MAGNE Layer1 區塊鏈建立 Next.js 應用的指南
+808	歡迎使用 MAGNE Layer1 區塊鏈快速入門指南！我們將由零開始建立簡單鏈上應用。無論您是資深開發者或剛入門，都可依照本指南操作。
+810	完成本快速入門後，您將透過以下步驟建立鏈上應用：
+811	設定開發環境
+812	將智能合約部署至 MagicalHash
+813	從前端與已部署合約互動
+814	此範例是一個鏈上計數應用，按下按鈕即可增加儲存於鏈上的累計數值。
+818	OnchainKit 提供現成 React 元件及 TypeScript 工具，用於建立鏈上應用。在終端機執行以下指令，並依提示初始化項目。
+819	完成提示步驟後，您將取得包含基本 OnchainKit 應用的新項目目錄。執行以下指令即可啟動查看。
+820	您應會看到以下畫面。
+821	部署合約後，我們會加入按鈕，以便與合約互動。
+822	在項目根目錄建立新的「contracts」資料夾
+823	安裝並初始化 Foundry
+824	開啟項目，在 <span>/contracts/src</span> 資料夾找到 <span>Counter.sol</span> 合約檔案，其中包含計數應用的簡單邏輯。
+825	由於 <span>contracts</span> 是項目內的資料夾，我們不希望為它初始化獨立 Git 儲存庫，因此加入 <span>--no-git</span> 旗標。
+826	用於與 MAGNE Layer1 測試網互動的節點連接
+829	在 <span>contracts</span> 目錄建立 <span>.env</span> 檔案，並加入 MAGNE Layer1 與 MAGNE Layer1 測試網 RPC URL
+830	載入環境變數
+831	部署合約需要持有測試網資金的私鑰。您可在<a href="https://visualkey.link/" target="_blank" rel="noopener noreferrer">此處</a>產生新私鑰。
+835	環境設定完成後，即可將合約部署至 MAGNE Layer1 測試網。Foundry 項目提供用於部署 Counter.sol 合約的腳本。
+839	在<a href="https://explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">瀏覽器</a>查閱交易。
+842	<span>calls.ts</span> 檔案包含合約互動詳情，包括上一步儲存的合約地址。
+843	我們可再次使用 <span>cast</span> 呼叫合約的 <span>number</span> 函式，確認鏈上計數已執行。
+844	若交易成功，計數應增加一！
+852	用於與 M Hash Layer2 測試網互動的節點連接
+855	在 <span>contracts</span> 目錄建立 <span>.env</span> 檔案，並加入 M Hash Layer2 與 M Hash Layer2 測試網 RPC URL
+861	環境設定完成後，即可將合約部署至 M Hash Layer2 測試網。Foundry 項目提供用於部署 Counter.sol 合約的腳本。
+865	在<a href="https://l2-explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">瀏覽器</a>查閱交易。
+871	連接 MAGNE L1／M Hash L2 測試網
+872	<strong>如何將錢包連接至 MAGNE L1／M Hash L2 測試網</strong>
+873	<strong>測試網 RPC</strong>
+874	將以下數值複製並貼上至任何支援匯入 RPC 的錢包。
+875	<strong>新增 MAGNE Layer1 測試網</strong>
+886	<strong>新增 M Hash Layer2 測試網</strong>
+897	<strong>主網 RPC（<strong>規劃中</strong>）</strong>
+899	<strong>新增 MAGNE Layer1</strong>
+902	網絡
+908	區塊瀏覽器 URL
+909	<strong>新增 M Hash Layer2</strong>
+916	規劃中
+920	<strong>支援的錢包 👛</strong>
+921	目前，任何允許<span>匯入 RPC</span> 的<a href="https://ethereum.org/en/wallets/find-wallet/" target="_blank" rel="noopener noreferrer"><strong>EVM 錢包</strong></a>，均可設定為連接 <strong>MAGNE L1／M Hash L2 測試網</strong>。
+922	以下為部分相容錢包：
+928	<strong>如何設定 MetaMask 錢包連接 MAGNE L1／M Hash L2 測試網</strong>
+929	以下將逐步說明如何設定 MetaMask 錢包，以連接 <strong>MAGNE.AI</strong>。
+930	<strong>注意：</strong>建議透過 Chrome 進行設定。
+931	<strong>安裝 MetaMask</strong>
+932	前往 MetaMask <a href="https://metamask.io/" target="_blank" rel="noopener noreferrer"><strong>網站</strong></a>，下載並安裝適用於所選瀏覽器的擴充功能。請確認擴充功能由 <span>metamask.io</span> 提供。
+933	錢包可連接不同區塊鏈，MetaMask 預設使用以太坊。要連接 MAGNE L1／M Hash L2 測試網，須先將網絡新增至 MetaMask，再選取該網絡。
+934	<strong>一鍵新增 MAGNE L1 測試網</strong>
+935	使用 Chrome 開啟 MAGNE L1 測試網區塊瀏覽器。
+936	按下方按鈕，即可一鍵將網絡新增至 MetaMask。
+937	<strong>一鍵新增 M Hash L2 測試網</strong>
+938	使用 Chrome 開啟 M Hash L2 測試網區塊瀏覽器。
+940	<strong>手動新增 MAGNE L1／M Hash L2 測試網</strong>
+941	如需手動新增網絡，請按 MetaMask 左上方下拉選單。
+942	在 MetaMask 輸入以下資料，設定網絡並連接 MAGNE L1 測試網與 M Hash L2 測試網。
+943	正確輸入資料後，按<span>儲存</span>。
+944	儲存網絡設定後，您應可連接 MAGNE L1 測試網與 M Hash L2 測試網。
+945	為何 M Hash Layer2 建基於 OP Stack
+946	在建立 M Hash Layer2 前，團隊對可用的 Layer 2 框架進行了廣泛研究與評估。最終選擇 OP Stack 作為 M Hash Layer2 Rollup 基礎，原因在於其模組化、高效能潛力，以及與我們目標的一致性。
+947	<strong>我們的目標</strong>
+948	達到最高每秒 100M Gas 吞吐量。我們優化 EVM 執行、狀態儲存及交易處理，推進 Layer 2 效能上限。
+949	提供極低成本的 Rollup 方案。由於 Layer 1 calldata 成本佔 Rollup 費用主要部分，我們設計 M Hash Layer2 支援靈活的資料可用性（DA）層，毋須僅依賴主網發布，從而大幅降低 Gas 開支。
+950	貢獻開放基礎設施。M Hash Layer2 的所有效能優化及研究將開源，並與更廣泛的 OP Stack 生態共享。
+951	<strong>為何選擇 OP Stack</strong>
+952	<strong>模組化執行客戶端</strong>：OP Stack 讓 M Hash Layer2 插入不同執行客戶端，以調校效能或提升去中心化。我們可整合現有相容 BSC 的客戶端，或建立自有執行層。
+953	<strong>靈活資料可用性</strong>：OP Stack 將執行層與 DA 層分離。M Hash Layer2 可在 Ethereum DA、BNB Greenfield 或未來自訂 DA 層之間選擇，以平衡安全性、擴展能力及成本。
+954	<strong>生態互通性</strong>：作為 OP Stack 生態一員，M Hash Layer2 可連接 Optimism 等其他 Rollup，提升網絡效應、可組合性及生態間合作。
+955	為何 MAGNE.AI 需要 Layer2
+956	Layer 1（L1）是負責資料傳播及共識的基礎結算與安全層；在我們的生態中，這就是 <strong>MAGNE（PoW，原生代幣 $MHA）</strong>。當熱門應用（GameFi、SocialFi、迷因幣發行、NFT 鑄造等）短時間內帶來大量互動，L1 在高峰期容易擁塞：Gas 費急升、確認變慢、使用者體驗下降，同鏈其他 dApp 亦可能受影響。
+957	為解決此問題，L1 需要<strong>擴展能力</strong>，即在不犧牲安全性的前提下，每秒處理更多交易。實務上，單純擴大單鏈往往會犧牲去中心化程度或安全邊界。較可行的路徑是引入 <strong>Layer 2（L2）</strong>；我們採用的 <strong>M Hash Layer2</strong> 基於 opStack，利用非同步批次共識提供低成本與高吞吐量。
+958	L1 在高峰負載下的挑戰
+959	<strong>交易擁塞</strong>：當每日交易激增至數百萬筆，L1 區塊空間變得稀缺，排隊及打包延遲明顯。
+960	<strong>費用急升</strong>：Gas 競價推高互動成本，使新使用者與長尾場景難以負擔，阻礙應用增長。
+961	<strong>效能外溢影響</strong>：單一高流量 dApp 的流量高峰，可拖慢鏈上所有其他應用的確認與最終確定時間。
+962	例如，若 Web3 遊戲在高峰期每天產生 8,000,000+ 筆交易，僅在 L1 處理不但造成確認延遲及同步壓力，亦可能令每日 Gas 成本難以持續，抑制真實使用者增長與留存。
+963	M Hash Layer2（L2）如何提供協助
+964	<strong>分擔運算與資料</strong>：先在 L2 執行及聚合交易批次，再將摘要發布至 L1；L1 專注安全及最終結算，L2 處理高頻低成本執行。
+965	<strong>高吞吐量、低費用</strong>：透過 opStack 的執行／共識分離與<strong>非同步批次處理</strong>，大幅提升吞吐量並降低單筆交易邊際成本，適合交易、遊戲、社交及支付等高頻場景。
+966	<strong>可組合且相容</strong>：相容 EVM，開發者與使用者可沿用熟悉的工具鏈及錢包；資產與狀態可在 L1、L2 間順暢橋接。
+967	<strong>維持安全性</strong>：資料與最終確定性錨定於 L1（MAGNE／PoW／$MHA），在擴展時維持去中心化與安全邊界。
+968	對 $MHA 與生態的正面影響
+969	<strong>減輕費用壓力</strong>：將大部分高頻互動遷移至 L2，降低 L1 的 $MHA Gas 壓力，避免高峰期區塊空間競價戰。
+970	<strong>更強網絡效應</strong>：低成本與高效能吸引更多真實使用者及開發者，進而增加 L1 結算與安全需求，推動算力及經濟安全增長。
+971	<strong>可持續增長</strong>：熱門 dApp 可擴展，而不排擠整條鏈的使用體驗，讓生態並行發展，避免「增長等於擁塞」的困局。
+972	<strong>結論：</strong>
+973	<strong>MAGNE（L1／PoW／$MHA）</strong>提供安全性與最終確定性，<strong>M Hash Layer2（L2）</strong>提供高吞吐量及低費用。兩者共同確保生態在極端應用負載下仍可用、可負擔且可持續，毋須犧牲去中心化或安全性。
+974	為何 Magne 需要 Layer2
+975	Layer 1（L1）是負責資料傳播及共識的基礎結算與安全層；在我們的生態中，這就是 <strong>Magne（PoW，原生代幣 $MHA）</strong>。當熱門應用（GameFi、SocialFi、迷因幣發行、NFT 鑄造等）短時間內帶來大量互動，L1 在高峰期容易擁塞：Gas 費急升、確認變慢、使用者體驗下降，同鏈其他 dApp 亦可能受影響。
+976	為解決此問題，L1 需要<strong>擴展能力</strong>，即在不犧牲安全性的前提下，每秒處理更多交易。實務上，單純擴大單鏈往往會犧牲去中心化程度或安全邊界。較可行的路徑是引入 <strong>Layer 2（L2）</strong>；我們採用的 <strong>Magne Layer2</strong> 基於 opStack，利用非同步批次共識提供低成本與高吞吐量。
+982	Magne Layer2（L2）如何提供協助
+986	<strong>維持安全性</strong>：資料與最終確定性錨定於 L1（Magne／PoW／$MHA），在擴展時維持去中心化與安全邊界。
+992	<strong>Magne（L1／PoW／$MHA）</strong>提供安全性與最終確定性，<strong>Magne Layer2（L2）</strong>提供高吞吐量及低費用。兩者共同確保生態在極端應用負載下仍可用、可負擔且可持續，毋須犧牲去中心化或安全性。
+993	高安全性應用
+995	MAGNE Layer1 透過<strong>工作量證明共識</strong>及<strong>鏈上透明審計</strong>提供穩健安全保障。
+996	所有交易、合約執行及資金流向，均可在區塊鏈公開驗證且不可竄改。
+997	因此適合需要最高安全標準的應用，例如金融服務、去中心化治理、供應鏈資料驗證及合規審計。
+998	使用者與機構毋須依賴第三方，即可獨立驗證系統完整性，降低信任成本並提升整體可信度。
+999	M Hash Layer2 在 OP Stack 上的優化
+1000	為提升 M Hash Layer2 Rollup 吞吐量並降低 Gas 費，我們在 OP Stack 的執行層及推導層引入多項效能優化。這些改進建基於針對高吞吐量 Layer 2 網絡的研究及工程工作。
+1001	執行層優化
+1002	<strong>EVM 狀態存取優化</strong>
+1003	M Hash Layer2 透過改進快取層級，優化 EVM 存取狀態的方式。類似 BSC 的 SharedPool 概念，我們引入 Level 1.5（L1.5）快取，提升記憶體與磁碟儲存之間的資料存取效率，降低執行延遲。
+1004	<strong>提高 Diff Layer 的布隆過濾器準確度</strong>
+1005	布隆過濾器用於在狀態查找時檢查鍵值對是否存在，但資料量大會增加誤判。M Hash Layer2 將 Diff Layer 深度由 128 減至 32，縮小過濾器資料佔用，減少不必要的遞迴快取查找，顯著提高 EVM 狀態取得效率。
+1006	<strong>透過共享快取高效預取</strong>
+1007	預取在區塊執行前，將狀態資料預載至快取以加快交易處理。過往主執行緒與預取執行緒使用獨立快取，限制效能。現採用共享世界狀態池（originStorage），讓兩個執行緒直接存取 L1.5 快取，大幅提高區塊處理的快取命中率。
+1008	<strong>L2 區塊產生快取</strong>
+1009	提議區塊時，交易通常執行兩次：產生區塊時一次，提交酬載時再一次。我們引入快取層，儲存首次執行結果。收到最終確認呼叫（<span>engine_newPayloadV1</span>）時，M Hash Layer2 直接從快取取得預先計算的酬載，降低延遲。
+1010	推導層優化
+1011	<strong>非同步批次提交</strong>
+1012	過往批次提交器須等待 L1 的 15 次確認（約 45s），才提交新批次。為提高吞吐量，我們實作非同步提交：批次毋須等待即可送出，背景監察器則監控 L1 重組；若發生重組，受影響批次會重新提交。此升級大幅提升 L2 吞吐量，並計劃於未來主網版本發布。
+1013	硬件賦能：安全與運算的融合
+1014	在 Web3 世界，大多數區塊鏈仍局限於軟件層。MAGNE.AI 將雙鏈架構與硬件緊密結合，突破此限制。透過安全晶片及裝置端 AI 引擎，MAGNE.AI 不僅保障資產安全，亦在效能、私隱及使用者體驗方面帶來突破。
+1015	1. 安全架構
+1016	建基於經認證的安全元件
+1017	MAGNE.AI Phone 採用<strong>分層安全架構</strong>，結合經認證的安全硬件、可信執行環境及系統層防護。
+1018	安全性被視為<strong>核心工程要求</strong>，從硬件設計到系統軟件及應用層均有整合。
+1019	經認證的安全元件
+1020	<strong>HyperSeed N60 安全元件</strong>
+1021	在單一封裝整合<strong>通過 EAL6 認證的安全元件</strong>與 NFC 控制器。
+1022	核心密碼學及金鑰保護能力由經認證的安全元件提供，
+1023	遵循國際認可的安全架構實務。
+1024	私鑰完全離線儲存及簽署
+1025	所有交易均在晶片內簽署，不受惡意軟件攻擊
+1026	支援多重簽名及硬件層復原，提供穩健保護
+1027	HyperSeed 72B 安全元件
+1028	<strong>通過 EAL6 認證的原生安全元件</strong>，提供高保障密碼學運算、安全金鑰儲存及防竄改保護。
+1030	500,000 次重複讀寫
+1031	25 年資料儲存
+1032	可信執行環境（TEE）
+1033	MAGNE.AI Phone Gen1 配備通過 CC <strong>EAL2 認證的 UTEE OS。</strong>
+1034	<strong>為敏感系統操作提供隔離執行環境，支援可信啟動及執行時完整性。</strong>
+1035	系統層安全
+1036	這些元件共同支援：
+1037	安全金鑰產生與儲存
+1038	隔離環境中的密碼學執行
+1039	可信啟動與系統完整性驗證
+1040	保護使用者與應用程式的敏感資料
+1041	安全保障透過<strong>持續審查、測試及營運控制</strong>維持，而非單靠一次性認證。
+1042	透明度與驗證
+1043	詳細認證材料與技術文件，可透過受控盡職調查流程提供予<strong>交易所、合作夥伴及監管機構</strong>。
+1044	公開材料著重<strong>狀態層級透明度</strong>，在確保準確性的同時，避免暴露不必要的實作細節。
+1045	<em>註：認證範圍及實作可能因硬件配置、地區或生產批次而異。</em>
+1046	2. 裝置端 AI 引擎
+1047	有別於依賴雲端伺服器的傳統 Web3 應用，MAGNE.AI 在本地執行 AI 運算：
+1048	即時自然語言翻譯與生成
+1049	行為分析與詐欺偵測
+1050	個人化 Web3 社交推薦
+1051	此方式在保障使用者私隱的同時提升效能。
+1052	3. 原生區塊鏈整合
+1053	有別於傳統智能手機，MAGNE.AI 裝置是區塊鏈原生節點：
+1054	即時發起交易及執行應用
+1055	同時支援 L1、L2 網絡並可順暢切換
+1056	憑藉高效能 AI 晶片，裝置可直接參與 PoW 挖礦或 L2 共識
+1057	4. 擴展應用場景
+1058	<strong>硬件 + 區塊鏈 + AI</strong> 的協同作用，可支援廣泛應用：
+1059	即時執行且具防竄改公平性的 Web3 遊戲
+1060	以完全私密的 AI 輔助防護支援去中心化社交網絡
+1061	交易快速、鏈上所有權安全的 NFT 市場
+1062	低費用、高擴展性的跨境支付與即時結算
+1063	<strong>MAGNE.AI 的硬件賦能標誌著新時代：區塊鏈由純軟件系統，演進為完整軟硬件整合。</strong>
+1064	Gas 與費用
+1065	M Hash Layer2 是建立在 MAGNE Layer 1 區塊鏈之上的擴容方案，旨在為 DeFi、NFT、遊戲及其他高需求應用提供<strong>高吞吐量</strong>與<strong>低成本交易</strong>。
+1066	M Hash Layer2 的交易成本由兩部分組成：
+1067	<strong>Layer 2 Gas 費</strong>：反映在 M Hash L2 處理交易所需的運算複雜度
+1068	<strong>Layer 1 Gas 費</strong>：支付將交易批次提交至 MAGNE 主網作驗證及最終確認的成本
+1069	<strong>Gas 價格公式：</strong> Gas 價格 = 基本價格 + 優先價格
+1070	<strong>交易成本公式：</strong> L2 交易成本 =（L2 Gas 價格 × L2 Gas 用量）+（L1 Gas 價格 × L1 Gas 用量）
+1071	目前設定
+1073	基本價格下限
+1074	最低優先價格
+1078	M Hash L2 主網
+1082	MAGNE L1 主網
+1083	含義
+1084	<strong>基本價格下限</strong>是 M Hash 可設定的最低基本 Gas 價格，此值可隨網絡使用情況動態變更。例如按目前設定，若區塊使用量達到 <strong>100M Gas 上限的 50%</strong>，基本價格將上升 <strong>12.5%</strong>。
+1085	<strong>最低優先價格</strong>預先設定；使用者可選擇高於此最低值的任意優先費。錢包及 dApp 通常呼叫「估算 Gas 價格」API，按最近區塊的平均 Gas 價格取得<strong>建議 Gas 價格</strong>。
+1086	M Hash 的目標是將<strong>基本轉帳成本維持在 $0.001 以下</strong>，促進<strong>大規模採用</strong>，並支援高頻、低金額場景。
+1087	M Hash Layer2 如何維持低成本
+1088	<strong>增強資料壓縮</strong>：採用先進壓縮演算法，在提交至 L1 前盡量縮小 L2 交易資料
+1089	<strong>高效交易批次處理</strong>：優化批次，以提高區塊空間使用率並降低單筆交易成本
+1090	<strong>資料可用性方案</strong>：利用 MAGNE 的資料可用性基礎設施，分擔部分 L1 儲存需求，降低成本
+1091	<strong>零知識證明</strong>：毋須暴露完整交易資料即可驗證交易，減少 L1 資料負載
+1092	<strong>協議層優化</strong>：改進協議執行及網絡通訊，降低 L2 運算開支
+1093	MAGNE／M Hash 區塊瀏覽器
+1094	<strong>測試網</strong>
+1117	主網（規劃中）
+1118	MAGNE L1 主網（即將推出）
+1129	待定
+1143	<strong>POAi 與 DePIN 整合：MAGNE.AI 的邊緣革命</strong>
+1144	<strong>MAGNE.AI Phone Gen1</strong> 不僅是智能手機，更是<strong>全球分散式 AI 與區塊鏈網絡中的節點</strong>。透過整合 <strong>POAi（AI 證明）</strong>與 <strong>DePIN（去中心化實體基礎設施網絡）</strong>，MAGNE.AI 讓每台裝置同時成為區塊鏈驗證者及 AI 運算貢獻者。
+1145	1. AI 運算貢獻（POAi）
+1146	使用者可貢獻裝置閒置算力，執行推論、模型訓練或資料分析等 AI 任務
+1147	貢獻透明、可驗證，並記錄於鏈上
+1148	每次運算產生 AI 證明，據此向使用者發放 $MHA 代幣獎勵
+1149	2. 參與 DePIN 網絡
+1150	每台 MAGNE.AI 裝置均成為 DePIN 生態中的<strong>邊緣節點</strong>，支援去中心化儲存、頻寬共享及物聯網連接
+1151	毋須中心化資料中心，數百萬台裝置共同構成全球基礎設施
+1152	使用者不僅使用手機，亦成為基礎設施層一員並分享獎勵
+1153	3. 區塊鏈與硬件融合
+1154	區塊鏈確保透明結算與激勵
+1155	硬件確保安全運算與可信執行
+1156	AI + DePIN 讓裝置由單純終端變為<strong>核心基礎設施節點</strong>
+1157	4. 全球意義
+1158	透過 POAi + DePIN，MAGNE.AI 將分散的裝置資源整合為<strong>全球規模基礎設施</strong>：
+1159	AI 訓練與推論可在數百萬台裝置上平行執行
+1160	去中心化網絡不再依賴少數大型節點，而由使用者裝置共同建立
+1161	使用者不僅是消費者，也是生產者與貢獻者
+1162	<strong>MAGNE.AI 不僅是手機，更是通往分散式 AI 與去中心化基礎設施的入口。</strong>
+1163	MAGNE.AI Layer2 — M Hash
+1164	Layer2 架構
+1165	<a href="http://MAGNE.AI/" target="_blank" rel="noopener noreferrer">MAGNE.AI</a> 的 M Hash Layer2 架構，旨在滿足現代 Web3 應用的高並行、低延遲及即時互動需求。其建基於優化版 opStack 框架，捨棄傳統共識機制，採用重視速度與回應能力的精簡結構。系統僅包含兩個關鍵角色：執行節點（opgas）及狀態同步器（opnode），在維持資料完整性的同時提高效率。
+1166	opgas 節點批次執行區塊交易，毋須逐項操作確認。批次完成後，opnode 在一次共識步驟中驗證整組結果。此非同步批次處理設計突破傳統同步執行瓶頸，適合交易平台、區塊鏈遊戲、社交應用及支付方案等高效能應用。
+1167	每個鏈上應用均以具有獨立執行邏輯的 Rollup 實作，提供靈活性與隔離性。開發者可透過統一高效能 API 層，順暢存取鏈上及鏈下資料。架構在設計上適合行動裝置，讓使用者直接透過專用應用使用 Web3 功能，毋須依賴瀏覽器或擴充功能。
+1168	儘管移除共識協議，M Hash Layer2 仍透過多層驗證、重放保護及故障復原功能，維持強一致性與安全性。結合 opStack 模組化設計，M Hash Layer2 具備高度可自訂性及擴展能力，支援持續演進的 Web3 生態需求。
+1169	總括而言，M Hash Layer2 代表高效能區塊鏈基礎設施的新模式。透過簡化共識、平行處理及直觀使用者體驗，為下一代 Web3 創新及輕量鏈架構提供技術基礎。
+1170	Layer2 創新
+1171	MAGNE.AI 在 M Hash Layer2 設計中引入新的<strong>非同步共識機制</strong>，將交易執行（<span>opgas</span>）與共識操作（<span>opnode</span>）解耦。此架構大幅提升高效能 Web3 與 AI 整合應用的擴展能力、吞吐量及回應速度。
+1172	傳統 Layer2 Rollup 系統中，執行與排序緊密耦合，所有交易須由同一組驗證者或排序器依序處理。此設計雖簡單，但會限制平行處理能力，並在高交易量或鏈上 AI 推論等複雜工作負載下形成瓶頸。
+1173	M Hash Layer2 透過兩個核心元件分離這些職責：
+1174	<strong><span>opgas</span>（執行層）</strong>：獨立處理交易邏輯、合約執行及 AI 模型推論。
+1175	<strong><span>opnode</span>（共識層）</strong>：負責批次處理、排序，並向 Layer1 提交已驗證結果。
+1176	透過非同步運作，多個 <span>opgas</span> 單元可平行處理交易、預先執行並快取結果，同時由 <span>opnode</span> 完成共識及向基礎鏈發布。此結構盡量減少同步延遲，提升執行效率。
+1177	此架構的主要優點包括：
+1178	<strong>更高吞吐量</strong>：多條執行通道可處理並行交易及高運算量操作。
+1179	<strong>更低延遲</strong>：本地預確認與執行緩衝讓使用者互動更快。
+1180	<strong>模組化擴展</strong>：<span>opgas</span> 與 <span>opnode</span> 可獨立擴展，並部署於分散式網絡。
+1181	<strong>具韌性的驗證</strong>：非同步設計可在最終提交前，靈活合併結果並解決衝突。
+1182	因此，M Hash Layer2 特別適合需要智能合約、即時推論及資料可用性大規模共存的 <strong>AI x Web3</strong> 場景。非同步共識模式實現真正平行處理，為下一代回應迅速且智能化的去中心化應用鋪路。
+1183	MAGNE.AI Layer1 — MAGNE
+1184	Layer1 架構
+1185	<a href="http://MAGNE.AI/" target="_blank" rel="noopener noreferrer">MAGNE.AI</a> 的 MAGNE Layer1 區塊鏈採用工作量證明（PoW）共識機制，優先考量安全性、抗審查能力及完全去中心化。此設計透過無許可運算驗證每筆交易與狀態更新，提供可抵禦女巫攻擊及拜占庭故障的毋須信任基礎。
+1186	MAGNE 完全相容以太坊虛擬機（EVM），讓開發者以極低轉換成本部署現有智能合約，並沿用熟悉工具。EVM 相容性不僅加快加入流程，亦為順暢 Layer2 整合與擴展奠定基礎。
+1187	作為 <a href="http://MAGNE.AI/" target="_blank" rel="noopener noreferrer">MAGNE.AI</a> 生態骨幹，MAGNE 為去中心化 AI 執行及現實世界基礎設施協調提供安全穩定基礎。它不僅是共識層，更是支援全球規模智能應用的信任層。
+1188	Layer1 代幣
+1189	<strong>MHA 代幣</strong>是 MAGNE 網絡的核心功能及治理資產，主要用於支付交易與智能合約執行的 <strong>Gas 費</strong>，同時支援價值累積及去中心化治理。
+1190	MHA 採用<strong>動態減半模式</strong>，發放量按區塊高度及網絡活動自動調整，在提供早期採用激勵的同時維持長期稀缺性，促進可持續價值增長。以 MHA 支付的 Gas 費部分被銷毀或重新分配予驗證者，使代幣用途與實際鏈上使用緊密連結，形成活動越多、價值越高的回饋循環。
+1191	除功能用途外，MHA 讓持有人參與<strong>鏈上治理</strong>，就費用模型、金庫配置及網絡升級等關鍵協議決策提出提案及投票。此機制鞏固去中心化，讓社群共同決定平台未來。
+1192	Layer1 創新
+1193	MAGNE 引入超越傳統區塊鏈設計的架構創新，回應高吞吐量 AI 應用及去中心化實體基礎設施的特定需求。主要改進包括<strong>優化儲存架構</strong>及<strong>強化安全機制</strong>，兩者均對可擴展且安全的去中心化運算至關重要。
+1194	優化儲存架構
+1195	傳統 EVM 鏈高度依賴 Merkle Tree 驗證狀態完整性。此結構雖安全，但中間節點雜湊計算複雜，會產生顯著效能開支，在高頻智能合約執行或 AI 狀態轉換下尤為明顯。
+1196	MAGNE 引入<strong>輕量狀態證明模型</strong>，在不犧牲可驗證性的前提下，減少對 Merkle 中間節點的依賴。結合分片狀態存取與快取層加速，此方式大幅提高讀寫效率、降低 Gas 成本並增加總吞吐量，尤其適合狀態快速頻繁變更的 AI 環境。
+1197	強化安全機制
+1198	透過<strong>多層驗證</strong>進一步強化安全性：除核心 PoW 共識外，加入活躍驗證者子集，負責關鍵合約及互動的執行時驗證。此架構提高對重放、合約重入及未授權資料修改等攻擊的抵抗能力。
+1199	平台亦採用<strong>鏈上信譽追蹤</strong>與<strong>分散式金鑰管理</strong>，減少中心化單點故障，並提升惡意環境下的信任復原能力。未來版本將整合<strong>基於 ZK 的狀態證明</strong>，進一步加強完整性檢查，實現信任最小化 AI 執行。
+1200	這些創新均經模組化，並透過可程式化介面提供予開發者，讓團隊在預設具有效能與安全性的基礎上開發，同時保留靈活性及去中心化。
+1201	常見問題
+1202	MAGNE 常見問題（FAQ）
+1203	<strong>M Hash L2 的效能指標為何？</strong>
+1204	M Hash L2 目前提供：
+1205	出塊時間：約 2 秒
+1206	TPS：每秒數千筆交易，視乎 Gas 用量及區塊大小
+1207	最終確定性：單時隙最終確定性，提供快速安全確認。
+1208	<strong>甚麼是 DEX？</strong>
+1209	DEX（去中心化交易所）是一種完全透過智能合約進行鏈上代幣兌換的協議，毋須依賴中心化中介。
+1210	<strong>甚麼是兌換？</strong>
+1211	兌換是將一種代幣換成另一種代幣的過程，例如將 
+1212	MHA，即表示賣出 USDC 並買入 MHA。
+1213	<strong>兌換需要多少費用？</strong>
+1214	兌換費率視乎資金池而異，一般為 0.05%、0.1%、0.3% 或 1%。執行兌換前應先確認費率。
+1215	<strong>甚麼是流動性？</strong>
+1216	流動性指可供兌換的代幣數量。流動性越高，滑價越低，價格越佳。
+1217	<strong>甚麼是流動性池？</strong>
+1218	流動性池由使用者存入兩種或以上代幣組成，讓 DEX 能夠進行代幣兌換。
+1219	<strong>甚麼是流動性提供者？</strong>
+1220	流動性提供者（LP）是向流動性池存入代幣的使用者，可分享該池產生的交易費用。
+1221	<strong>甚麼是 APY？</strong>
+1222	APY 指年化收益率，即提供流動性的年度回報率，主要來自兌換費用。
+1223	<strong>甚麼是 $MHA？</strong>
+1224	$MHA 是 MAGNE 網絡唯一的原生代幣，用於 Gas、質押、治理及激勵。
+1225	總供應量固定。
+1226	<strong>總供應量的 15%</strong>分配予驗證者及質押獎勵。
+1227	發放遵循
+1228	減半時間表
+1229	第 1 年：釋放 7.5%
+1230	第 2 年：釋放 3.75%
+1231	第 3 年：釋放 1.875%
+1232	依此類推。
+1233	此安排確保長期可持續性，並控制代幣通脹。
+1234	<strong>MAGNE 是否採用雙代幣系統？</strong>
+1235	否。MAGNE 採用<strong>單代幣模式</strong>，由 $MHA 支援 Gas、質押、激勵及治理。
+1236	<strong>任何人都可成為驗證者嗎？</strong>
+1237	可以。任何人均可成為驗證者，但須同時符合質押要求及節點硬件標準，以確保網絡安全與穩定。
+1238	<strong>如何選出驗證者？</strong>
+1239	驗證者並非按固定節點數量決定，而是依據<strong>全網質押 $MHA 總量</strong>。
+1240	活躍驗證者數量將透過治理及社群討論決定。
+1241	獎勵分配依據每名驗證者的<strong>質押代幣佔全網總質押量比例</strong>。
+1242	節點較少時，可動態調整獎勵模式，並在需要時採用排名激勵機制。
+1243	<strong>驗證者的質押要求為何？</strong>
+1244	每名驗證者最低質押：<strong>250,000 $MHA</strong>
+1245	每名驗證者最高質押：<strong>10,000,000 $MHA</strong>（可經治理調整）
+1246	質押越多，加入活躍驗證者集合及取得較大獎勵份額的機會越高。
+1247	<strong>驗證者獎勵如何分配？</strong>
+1248	驗證者獎勵來自 15% 發放池，每年減半。
+1249	每名驗證者獎勵份額 =（驗證者質押量 ÷ 全網總質押量）× 年度發放量。
+1250	驗證者數量較少時，可透過排名激勵調整分配，以獎勵高品質節點。
+1251	<strong>節點硬件要求為何？</strong>
+1252	驗證者須符合最低技術標準，以維持穩定安全運作，包括但不限於：
+1253	可靠伺服器基礎設施
+1254	高可用性及低網絡延遲
+1255	足夠 CPU、RAM、儲存及頻寬
+1256	高在線率，以確保出塊及最終確定性
+1257	只有符合這些標準的節點，方可獲得驗證者獎勵。
+1258	<strong>驗證者數量會隨時間改變嗎？</strong>
+1259	會。驗證者數量是<strong>動態</strong>的，取決於全網質押量、治理決策及網絡增長。早期驗證者較少時，會調整獎勵分配，以維持公平激勵及網絡安全。
+1260	<strong>甚麼是排名激勵機制？</strong>
+1261	當驗證者較少或分配不均時，排名激勵機制確保高效能節點獲得較多獎勵。
+1262	驗證者依在線時間、效能及出塊表現排名。
+1263	排名越高，獎勵權重越高。
+1264	此機制維持網絡穩定，並鼓勵高品質節點營運。
+1265	<strong>提供流動性後，會自動獲得獎勵嗎？</strong>
+1266	不會。您須將 LP 代幣質押至相應獎勵金庫，才可獲得 PoL（流動性證明）獎勵。獎勵會累積，但須手動領取。
+1267	<strong>如何獲得 PoL 獎勵？</strong>
+1268	提供流動性並取得 LP 代幣。
+1269	將 LP 代幣質押至白名單獎勵金庫。
+1270	若驗證者將發放量配置至該金庫，您便會隨時間獲得 $MHA。
+1271	從錢包手動領取獎勵。
+1272	<strong>誰可投票或提交提案？</strong>
+1273	任何 $MHA 持有人均可參與治理投票。
+1274	提交提案可能需要持有最低數量的 $MHA，例如 10,000 枚。
+1275	驗證者集合規模、節點要求及發放參數均可透過治理更新。
+1276	<strong>金庫可將發放量導向特定資金池嗎？</strong>
+1277	可以。每個獎勵金庫對應特定憑證代幣（例如 LP 代幣）。dApp 可為特定池申請金庫，驗證者則可配置發放量以提升目標流動性。
+1278	<strong>整體驗證者激勵模式為何？</strong>
+1279	MAGNE 的驗證者激勵設計基於：
+1280	發放量<strong>每年減半</strong>
+1281	<strong>按質押權重分配獎勵</strong>
+1282	<strong>動態驗證者集合規模</strong>
+1283	<strong>按排名調整以獎勵優質表現</strong>
+1284	此模式確保強勁早期激勵、可持續長期獎勵及網絡穩定性。
+1285	聯絡我們
+1287	術語表
+1290	MagneKit 是 Magne 基於 CometBFT 建立的模組化共識客戶端框架，為行動原生區塊鏈提供相容 EVM 的共識。
+1291	<strong>MHA 代幣</strong>
+1292	$MHA 是 Magne 網絡唯一的原生代幣，用於：
+1293	支付交易 Gas 費
+1294	質押以運行驗證者
+1295	參與治理及 PoL 獎勵
+1296	質押 MHA 越多，取得區塊提議權的機會越高
+1297	<strong>MagneSwap（規劃中）</strong>
+1298	Magne 的原生去中心化交易所（DEX），支援加權、穩定及可組合流動性池。
+1299	<strong>PoW（工作量證明）</strong>
+1300	Magne 的共識機制，由驗證者（礦工）透過運算工作保障網絡安全。出塊權依算力取得；獎勵金庫獎勵等經濟激勵，則由協議層智能合約另行處理。
+1301	<strong>區塊</strong>
+1302	包含交易的資料單位，依序加入區塊鏈。
+1303	<strong>出塊時間</strong>
+1304	Magne 產生區塊的平均時間，目前約 2 秒。
+1306	驅動 MagneKit 的共識引擎，提供高吞吐量及即時最終確定性。
+1307	<strong>共識客戶端</strong>
+1308	負責區塊驗證、排序及節點間共識的軟件，通常與執行客戶端配合。
+1309	<strong>共識機制</strong>
+1310	Magne 網絡就狀態達成一致的協議。Magne 採用基於質押與參與的流動性證明。
+1311	<strong>委託</strong>
+1312	將質押權委派予驗證者，以取得獎勵或治理權的行為。
+1313	<strong>DEX（去中心化交易所）</strong>
+1314	讓使用者毋須中介即可兌換代幣的鏈上平台。
+1316	共識層與執行層之間的通訊介面，支援客戶端模組化。
+1317	<strong>執行客戶端</strong>
+1318	處理交易及智能合約的實際執行。Magne 支援基於 Geth 及 Reth 的分支，完全相容以太坊。
+1319	<strong>最終確定性</strong>
+1320	已確認交易不能逆轉的保障。Magne 實現單時隙最終確定性。
+1321	<strong>治理</strong>
+1322	提出、投票及實施協議變更的流程。治理使用 $MHA 進行。
+1323	<strong>流動性</strong>
+1324	可用於交易的代幣數量。流動性越高，兌換越快、滑價越低。
+1325	<strong>流動性池</strong>
+1326	持有兩種或以上代幣、用於代幣兌換的智能合約。
+1327	<strong>流動性提供者</strong>
+1328	向資金池加入資產，並分享交易費及／或 PoL 獎勵的使用者。
+1329	<strong>主網</strong>
+1330	進行真實資產交易的正式網絡，與測試網相對。
+1331	<strong>單時隙最終確定性</strong>
+1332	交易在提出的同一區塊內取得最終確認、確保不可逆轉的系統。
+1333	<strong>質押</strong>
+1334	鎖定代幣以保障網絡安全或賺取收益的行為，包括驗證者質押及 PoL 收益質押。
+1335	<strong>兌換</strong>
+1336	在 DEX 將一種代幣換成另一種代幣的過程，每次兌換均產生費用。
+1337	<strong>金庫（獎勵金庫）</strong>
+1338	讓使用者質押 LP 或其他憑證代幣，以獲得基於 PoL 的 $MHA 獎勵的智能合約。
+1341	<a href="/learning/tokenomics">← 代幣經濟 v1.1</a><a href="/learning/tokenomics-v1-0">v1.0 歸檔</a>
+1342	修訂紀錄
+1343	版本 1.1 · 2026 年 9 月 · 審核稿
+1344	草稿更新於 2026 年 9 月 29 日。僅替換兩個執行規則章節；所有頂層分配及其他歸屬規則維持不變。目的在於使披露的執行情況與 TGE 後實作保持一致。
+1345	項目
+1346	版本 1.0
+1347	版本 1.1
+1348	頂層變更
+1349	總供應量
+1351	維持不變
+1352	否
+1354	100,000,000 MHA；主要用於活動
+1355	釐清上市、整合及初始流動性執行安排
+1357	交易所分配釋放
+1358	1–12 個月分期
+1359	按執行需求釋放；未使用儲備不會自動解鎖
+1361	做市商
+1362	700,000,000 MHA；LP 鎖定 ≥12 個月
+1363	區分 CEX 與 DEX 規則；完整儲備仍保留
+1365	上市初始流動性
+1366	未披露具體金額
+1367	25,000,000 MHA 來自交易所活動分配
+1368	沒有新增分配
+1369	LBank 測試
+1370	未另行披露
+1371	500 MHA 測試入金
+1373	版本 1.0 歸檔
+1374	原始發布日期尚未確立。原頁面於 2026 年 9 月 29 日（Asia/Shanghai）擷取；v1.0 是本次修訂所採用的歸檔名稱。
+1375	閱讀原始版本
+1377	代幣經濟 v1.1 · 中文修訂說明
+1380	<strong>快照：2026-09-28 17:56:21 UTC · BSC 區塊 <a href="https://bscscan.com/block/124568474">124,568,474</a>。</strong>下列靜態餘額均截至該區塊；最新資料以<a href="https://w3.magne.ai/mha-supply.html">供應量證據</a>及 <a href="https://w3.magne.ai/api/v1/mha/supply">供應量 API</a> 為準。用途分類由項目提供；單憑鏈上轉帳及餘額，不能證明交易所合約條款、成交情況或內部帳戶餘額。
+1381	早期流動性做市儲備
+1391	交易所活動
+1393	交易所上市及相關服務。
+1398	上市及相關服務（MHA）
+1407	早期支持者及活動空投說明
+1418	補充上市、技術整合及初始流動性說明
+1424	<a href="https://bscscan.com/token/0x37c563cdf4606d4302abb395cdb94e79d31233ed">MHA BSC 合約 · 0x37c563cdf4606d4302abb395cdb94e79d31233ed</a>
+1425	<a href="https://w3.magne.ai/mha-supply.html">供應量證據</a> · <a href="https://w3.magne.ai/api/v1/mha/supply">供應量 API</a> · <a href="https://web3.magne.ai/learning/tokenomics">已發布代幣經濟</a> · <a href="https://w3.magne.ai/season-1.html">Season 1</a> · <a href="https://w3.magne.ai/season-2.html">Season 2</a>
+1427	代幣經濟 v1.1 更新
+1428	2026 年 9 月 · 公告草稿
+1429	本次修訂更新交易所活動及早期流動性做市商的執行規則，並加入附日期的 TGE 後披露。10,000,000,000 MHA 總供應量及所有頂層分配均維持不變。
+1430	<a href="/learning/tokenomics">閱讀代幣經濟 v1.1</a> · <a href="/learning/tokenomics-changelog">修訂紀錄</a> · <a href="/learning/tokenomics-zh">中文修訂說明</a>

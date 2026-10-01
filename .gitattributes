@@ -7,3 +7,6 @@
 # Batch files must always use CRLF
 *.bat text eol=crlf
 *.cmd text eol=crlf
+
+# Preserve the original whitepaper archive byte-for-byte across checkouts.
+/src/content/archive-v1/** -text

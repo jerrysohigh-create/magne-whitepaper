@@ -1,0 +1,17 @@
+/learning/governance
+262	Governance
+263	MAGNE’AI’s governance system enables $MHA holders to directly participate in protocol-level decisions, with voting power proportional to their token holdings. Governance acts as the brain of the network—no changes to core protocol behavior can be enacted without passing through the on-chain governance process, ensuring transparency and decentralized control.
+264	Governance Responsibilities
+265	The governance body is responsible for strategic decision-making regarding protocol operations and long-term direction. Responsibilities include:
+266	Setting fees, staking rewards, and protocol parameters
+267	Approving protocol upgrades and core module replacements
+268	Managing privileged roles and access permissions
+269	Shaping long-term growth, incentives, and ecosystem development
+270	All major changes must go through a formal governance proposal and voting cycle before implementation.
+271	Protocol Roles and Permissions
+272	<strong>Manager Role</strong>
+273	The Manager is tasked with handling urgent protocol actions requiring immediate execution—such as pausing pools or the vault in case of threats. Managers are also responsible for executing operational changes already approved through governance, allowing fast action within pre-defined governance boundaries.
+274	<strong>Authorizer Role</strong>
+275	The Authorizer acts as the protocol’s permission controller, connecting governance decisions with executable protocol functions. It ensures secure access control across the system by enforcing authorization logic on every sensitive operation. Working with the governance timelock, it ensures that all changes are vetted and executed securely.
+276	<strong>Coordinator Role</strong>
+277	The Coordinator oversees the final execution phase of governance proposals. It manages staging, sequencing, and timing of upgrades to ensure all actions follow protocol rules. Coordinators also have emergency powers to cancel or delay changes if issues arise during deployment, maintaining the integrity of the governance process.

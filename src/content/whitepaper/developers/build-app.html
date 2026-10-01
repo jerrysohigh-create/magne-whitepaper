@@ -1,0 +1,88 @@
+<h1 id="section-0">Build a testnet web application</h1>
+<p>This small Vite + viem application reads a deployed Counter and can request an increment through the user’s browser wallet. It uses an explicit custom-chain definition; no OnchainKit or hidden provider setup is assumed.</p><p><a href="/whitepaper/examples/app.zip" download="">Download complete web example</a></p><h2 id="section-1">Requirements and files</h2><p>Node.js 24, Vite 8.3.2 and viem 2.57.2. Extract the archive and enter the app folder. Use an EIP-1193 browser wallet configured for the selected testnet, with test gas and the Counter address deployed in the previous chapter.</p><pre><code>npm ci
+npm run build
+npm run dev</code></pre><h2 id="section-2">package.json</h2><pre><code>{
+  "name": "magne-whitepaper-app-example",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "viem": "2.57.2"
+  },
+  "devDependencies": {
+    "vite": "8.3.2"
+  }
+}</code></pre><h2 id="section-3">index.html</h2><pre><code>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;&lt;meta charset="utf-8"&gt;&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;title&gt;MAGNE testnet counter example&lt;/title&gt;
+&lt;body&gt;&lt;main&gt;
+&lt;h1&gt;MAGNE testnet counter&lt;/h1&gt;&lt;p&gt;Demo only. Select your testnet and use a deployed Counter from this tutorial.&lt;/p&gt;
+&lt;label&gt;Network &lt;select id="network"&gt;&lt;option value="20250810"&gt;MAGNE L1 testnet&lt;/option&gt;&lt;option value="20250827"&gt;M Hash L2 testnet&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;
+&lt;label&gt;Counter address &lt;input id="contract" placeholder="0x…" autocomplete="off"&gt;&lt;/label&gt;
+&lt;button id="read"&gt;Read counter&lt;/button&gt;&lt;button id="connect"&gt;Connect wallet&lt;/button&gt;&lt;button id="increment"&gt;Increment (wallet approval)&lt;/button&gt;
+&lt;p id="output" role="status" aria-live="polite"&gt;Ready. No transaction sent.&lt;/p&gt;
+&lt;/main&gt;&lt;script type="module" src="/main.js"&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</code></pre><h2 id="section-4">main.js</h2><pre><code>import { createPublicClient, createWalletClient, custom, defineChain, http, isAddress } from 'viem';
+const networks = {
+  20250810: defineChain({ id: 20250810, name: 'MAGNE L1 Testnet', nativeCurrency: { name: 'Test MHA', symbol: 'MHA', decimals: 18 }, rpcUrls: { default: { http: ['https://rpc.testnet.magicalhash.com'] } }, testnet: true }),
+  20250827: defineChain({ id: 20250827, name: 'M Hash L2 Testnet', nativeCurrency: { name: 'Test MHA', symbol: 'MHA', decimals: 18 }, rpcUrls: { default: { http: ['https://l2-rpc.testnet.magicalhash.com'] } }, testnet: true }),
+};
+const abi = [
+  { type: 'function', name: 'number', inputs: [], outputs: [{ type: 'uint256' }], stateMutability: 'view' },
+  { type: 'function', name: 'increment', inputs: [], outputs: [], stateMutability: 'nonpayable' },
+];
+const output = document.querySelector('#output');
+const select = document.querySelector('#network');
+const field = document.querySelector('#contract');
+function clients() {
+  const chain = networks[Number(select.value)];
+  const publicClient = createPublicClient({ chain, transport: http() });
+  return { chain, publicClient };
+}
+function contractAddress() {
+  const address = field.value.trim();
+  if (!isAddress(address)) throw new Error('Enter the deployed Counter address for the selected network.');
+  return address;
+}
+async function wallet(chain) {
+  if (!window.ethereum) throw new Error('Install an EIP-1193 browser wallet first.');
+  const client = createWalletClient({ chain, transport: custom(window.ethereum) });
+  const [account] = await client.requestAddresses();
+  if (!account) throw new Error('No wallet account selected.');
+  if (await client.getChainId() !== chain.id) throw new Error('Switch the wallet to the selected testnet, then retry.');
+  return { client, account };
+}
+let busy = false;
+async function run(action) {
+  if (busy) return;
+  busy = true;
+  document.querySelectorAll('button, input, select').forEach(e =&gt; e.disabled = true);
+  output.textContent = 'Working…';
+  try { await action(); } catch (error) { output.textContent = error.shortMessage || error.message || String(error); }
+  finally { busy = false; document.querySelectorAll('button, input, select').forEach(e =&gt; e.disabled = false); }
+}
+document.querySelector('#read').onclick = () =&gt; run(async () =&gt; {
+  const { publicClient } = clients();
+  const value = await publicClient.readContract({ address: contractAddress(), abi, functionName: 'number' });
+  output.textContent = 'Counter: ' + value.toString();
+});
+document.querySelector('#connect').onclick = () =&gt; run(async () =&gt; {
+  const { chain } = clients();
+  const { account } = await wallet(chain);
+  output.textContent = 'Connected on ' + chain.name + ': ' + account;
+});
+document.querySelector('#increment').onclick = () =&gt; run(async () =&gt; {
+  const address = contractAddress();
+  const { chain, publicClient } = clients();
+  const { client, account } = await wallet(chain);
+  const { request } = await publicClient.simulateContract({ address, abi, functionName: 'increment', account });
+  const hash = await client.writeContract(request);
+  output.textContent = 'Submitted: ' + hash + '. Waiting for receipt…';
+  const receipt = await publicClient.waitForTransactionReceipt({ hash, timeout: 120_000 });
+  if (receipt.status !== 'success') throw new Error('Transaction reverted: ' + hash);
+  output.textContent = 'Included in a testnet block: ' + hash;
+});
+</code></pre><h2 id="section-5">Exercise the flow</h2><p>Choose L1 or L2, enter its Counter address and read the current value. Connect the wallet, check the account and network, then request Increment. The app simulates the call, asks the wallet to sign, and waits for the transaction receipt. Rejection, a wrong network and RPC errors are shown without recording success.</p><h2 id="section-6">Deployment scope</h2><p>A successful receipt shows inclusion in a testnet block, not production settlement finality. Browser builds contain public configuration only. Private keys remain in the wallet; no key is entered into this app.</p><p><a href="https://viem.sh/docs/clients/wallet">viem Wallet Client</a> · <a href="/developers/net-config">Testnet parameters</a></p>

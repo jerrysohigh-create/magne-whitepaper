@@ -1,0 +1,99 @@
+{
+  "title": "MAGNE.AI | Put ownership back in your hands",
+  "headings": [
+    "\n            Not a smarter phone.\n            Putting ownership,\n            back in your hands.\n          ",
+    "ten doors,leading to the same answer.",
+    "Not a road map.It is a series of scenes with dates left behind.",
+    "Time does not bear witness for promises.Things that get done will happen.",
+    "Three independently verifiable layers.No layer relies on another to vouch for it.",
+    "Applications and on-device AI",
+    "TEE and trusted signature",
+    "Secure Element and NFC Recovery",
+    "A terminal that remembers you.Not a server that remembers you.",
+    "The cloud assists.The device retains local intelligence.",
+    "Google Gemini",
+    "Qwen · ASR · TTS",
+    "IMG AX3596",
+    "The network is started from the terminal.The terminal doesn't have to rely on the network to be yours.",
+    "Capital is just a number.What it really buys is the next period of time.",
+    "Three doors.leading to the same room.",
+    "business",
+    "support",
+    "media"
+  ],
+  "styles": [
+    {
+      "tag": "BODY",
+      "font": "\"DM Serif Display\", Georgia, serif",
+      "color": "rgb(17, 17, 15)",
+      "bg": "rgb(242, 238, 228)"
+    },
+    {
+      "tag": "NAV",
+      "font": "\"IBM Plex Sans\", sans-serif",
+      "color": "rgb(17, 17, 15)",
+      "bg": "rgba(242, 238, 228, 0.94)"
+    },
+    {
+      "tag": "P",
+      "font": "\"JetBrains Mono\", monospace",
+      "color": "rgb(178, 31, 45)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H1",
+      "font": "\"DM Serif Display\", Georgia, serif",
+      "color": "rgb(17, 17, 15)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"DM Serif Display\", Georgia, serif",
+      "color": "rgb(17, 17, 15)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"DM Serif Display\", Georgia, serif",
+      "color": "rgb(17, 17, 15)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"DM Serif Display\", Georgia, serif",
+      "color": "rgb(17, 17, 15)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"DM Serif Display\", Georgia, serif",
+      "color": "rgb(17, 17, 15)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"JetBrains Mono\", monospace",
+      "color": "rgb(178, 31, 45)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "font": "\"DM Serif Display\", Georgia, serif",
+      "color": "rgb(17, 17, 15)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"JetBrains Mono\", monospace",
+      "color": "rgb(226, 80, 91)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "font": "\"DM Serif Display\", Georgia, serif",
+      "color": "rgb(242, 238, 228)",
+      "bg": "rgba(0, 0, 0, 0)"
+    }
+  ],
+  "overflow": false
+}

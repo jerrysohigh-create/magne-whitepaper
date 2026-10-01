@@ -1,0 +1,62 @@
+/learning/metrics
+397	MAGNE Layer2 Metrics
+398	Compared with other Layer 2 scaling solutions on PoW-based or Ethereum-compatible Layer 1 chains, <strong>M Hash Layer2</strong> delivers <strong>lower gas fees</strong> and a <strong>higher block gas limit</strong>, ensuring that gas fees remain stable even as Layer 2 traffic increases. The table below references standard EIP-1559 parameters for comparison, noting that some L2s (e.g., Arbitrum) use custom gas mechanisms like ArbOS, which are not directly comparable.
+399	Gas Parameter Differences
+400	Parameter
+401	M Hash Layer2 value
+402	OP Mainnet value
+403	Block gas limit
+404	100,000,000 gas
+405	30,000,000 gas
+406	Block gas target
+407	50,000,000 gas
+408	5,000,000 gas
+409	EIP-1559 elasticity multiplier
+410	EIP-1559 denominator
+411	Maximum base fee increase (per block)
+412	Maximum base fee decrease (per block)
+413	Metrics Differences
+414	Metric
+415	M Hash Layer2
+416	OP Mainnet
+417	Arbitrum
+418	Gas Token
+419	MHA
+420	ETH
+421	ETH
+422	VM
+423	EVM
+424	EVM
+425	EVM
+426	Gas Fee
+427	Block Gas Limit
+428	100M (planned 150M)
+429	Block time
+430	0.25s (min)
+431	Withdraw / Finality
+432	7 days
+433	7 days
+434	7 days
+435	TPS (Transfer)
+436	While the OP Stack has minor differences between implementations, M Hash Layer2 applies its own set of optimizations — including <strong>PoW-tailored caching improvements</strong>, <strong>parallel execution scheduling</strong>, and <strong>optimized batching for transaction inclusion</strong> — to push throughput to <strong>100M gas per second</strong>, far surpassing the base MAGNE Layer 1 chain.
+437	M Hash Layer2 vs MAGNE Layer1 vs Ethereum Layer1
+438	Metric
+439	M Hash(L2)
+440	MAGNE (L1)
+441	Ethereum (L1)
+442	Gas Token
+443	MHA
+444	MHA
+445	ETH
+446	VM
+447	EVM
+448	EVM
+449	EVM
+450	Gas Price Model
+451	EIP-1559
+452	PoW Gas Auction
+453	EIP-1559
+454	Block Gas Limit
+455	Block Time
+456	Transaction Cost
+457	Unlike L2s with variable blocktimes (such as Arbitrum, where blocks can be mined as fast as 0.25s under low load), <strong>M Hash Layer2 maintains a fixed 1-second blocktime</strong> for predictable performance and batching efficiency, ensuring steady throughput and low fees even under heavy network load.

@@ -1,0 +1,91 @@
+[
+  {
+    "file": "src/content/whitepaper/learning/tokenomics.html",
+    "changes": [
+      "Version 1.1 — September 2026",
+      "40% immediate + 60% in three equal monthly installments, including the earning month",
+      "When Nₘ = 0, both budget and reward are zero.",
+      "A is verified availability as a fraction of the entire settlement month.",
+      "The three-month linear portion includes the earning month: each earned batch releases 60% in that month (40% immediate + the first 20% installment), then 20% in each of the next two months.",
+      "with W = 0 it is 4,000 MHA.",
+      "These two rows isolate vesting of rewards earned through M36."
+    ]
+  },
+  {
+    "file": "src/content/whitepaper/learning/tokenomics-changelog.html",
+    "changes": [
+      "Version 1.1 · September 2026 · Review draft",
+      "This is an execution-rule and disclosure update, not a reallocation, an increase in supply or an ad hoc unlock.",
+      "The 10,000,000,000 MHA supply, all ten top-level allocations and the seven categories outside Mining Nodes, Exchange Campaigns and Early Liquidity Market Makers retain their release rules."
+    ]
+  },
+  {
+    "file": "src/content/whitepaper/learning/tokenomics-announcement.html",
+    "changes": [
+      "September 2026 · Announcement draft",
+      "This revision updates the execution rules for Exchange Campaigns and Early Liquidity Market Makers and adds dated post-TGE disclosures."
+    ]
+  },
+  {
+    "file": "src/content/whitepaper/learning/tokenomics-zh.html",
+    "changes": [
+      "版本 1.1——2026 年 9 月",
+      "同比縮減",
+      "全額預算設備基準",
+      "M37–M38 尾款",
+      "全期可用性與有效任務均達參考能力 100%"
+    ]
+  },
+  {
+    "file": "src/content/whitepaper-tc/learning/tokenomics.html",
+    "changes": [
+      "版本 1.1 —— 2026 年 9 月",
+      "同比縮減",
+      "全額預算設備基準",
+      "本版 GEN1 草案取代舊有按 ECU 權重分完當期預算、自願鎖定／質押加成及重複在線率扣減的設計",
+      "40% 即時＋60% 分三個月等額解鎖，包含賺取當月",
+      "Nₘ = 0 時預算與獎勵均為零。",
+      "A 為經核驗可用時間佔完整結算月的比例。",
+      "未使用的任務獎勵不為發完預算而重新分配。",
+      "三個月線性解鎖包含賺取當月：每批獎勵當月釋放 60%（40% 即時＋首期 20%），其後兩個月各釋放 20%。",
+      "同一批固定 5,000、10,000 或 13,750 台同等 GEN1 設備",
+      "若 W = 0，則為 4,000 MHA。",
+      "尾款釋放",
+      "既有獎勵尾款",
+      "M36 以前已賺取獎勵",
+      "以下兩行僅追蹤"
+    ]
+  },
+  {
+    "file": "src/content/whitepaper-tc/learning/tokenomics-changelog.html",
+    "changes": [
+      "版本 1.1 · 2026 年 9 月 · 審核稿",
+      "同比縮減",
+      "全額預算設備基準",
+      "M37–M38 尾款",
+      "全期可用性與有效任務均達參考能力 100%",
+      "本次屬執行規則與資訊披露更新，不屬重新分配、增發或臨時解鎖。"
+    ]
+  },
+  {
+    "file": "src/content/whitepaper-tc/learning/tokenomics-announcement.html",
+    "changes": [
+      "2026 年 9 月 · 公告草稿",
+      "同比縮減",
+      "全額預算設備基準",
+      "M37–M38 尾款",
+      "全期可用性與有效任務均達參考能力 100%",
+      "本次修訂更新交易所活動及早期流動性做市商的執行規則，並加入附日期的 TGE 後披露。"
+    ]
+  },
+  {
+    "file": "src/content/whitepaper-tc/learning/tokenomics-zh.html",
+    "changes": [
+      "版本 1.1——2026 年 9 月",
+      "同比縮減",
+      "全額預算設備基準",
+      "M37–M38 尾款",
+      "全期可用性與有效任務均達參考能力 100%"
+    ]
+  }
+]

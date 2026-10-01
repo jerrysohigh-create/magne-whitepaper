@@ -1,0 +1,114 @@
+{
+  "checks": [
+    {
+      "route": "/",
+      "width": 320,
+      "footer": true
+    },
+    {
+      "route": "/learning/tokenomics",
+      "width": 320,
+      "footer": true
+    },
+    {
+      "route": "/tc/",
+      "width": 320,
+      "footer": true
+    },
+    {
+      "route": "/tc/learning/tokenomics",
+      "width": 320,
+      "footer": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "footer": true
+    },
+    {
+      "route": "/learning/tokenomics",
+      "width": 390,
+      "footer": true
+    },
+    {
+      "route": "/tc/",
+      "width": 390,
+      "footer": true
+    },
+    {
+      "route": "/tc/learning/tokenomics",
+      "width": 390,
+      "footer": true
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "footer": true
+    },
+    {
+      "route": "/learning/tokenomics",
+      "width": 768,
+      "footer": true
+    },
+    {
+      "route": "/tc/",
+      "width": 768,
+      "footer": true
+    },
+    {
+      "route": "/tc/learning/tokenomics",
+      "width": 768,
+      "footer": true
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "footer": true
+    },
+    {
+      "route": "/learning/tokenomics",
+      "width": 1024,
+      "footer": true
+    },
+    {
+      "route": "/tc/",
+      "width": 1024,
+      "footer": true
+    },
+    {
+      "route": "/tc/learning/tokenomics",
+      "width": 1024,
+      "footer": true
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "footer": true
+    },
+    {
+      "route": "/learning/tokenomics",
+      "width": 1440,
+      "footer": true
+    },
+    {
+      "route": "/tc/",
+      "width": 1440,
+      "footer": true
+    },
+    {
+      "route": "/tc/learning/tokenomics",
+      "width": 1440,
+      "footer": true
+    }
+  ],
+  "interactions": [
+    "official social destinations",
+    "localized privacy links",
+    "cookie dialog open, Escape, focus return and Done",
+    "clear only the whitepaper language record",
+    "blocked storage feedback",
+    "no analytics requests or cookies",
+    "Chinese revision navigation and original archive"
+  ],
+  "errors": []
+}

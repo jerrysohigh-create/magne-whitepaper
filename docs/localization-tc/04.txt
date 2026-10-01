@@ -1,0 +1,229 @@
+/learning/tokenomics
+34	<span>WHITEPAPER / TOKENOMICS</span><span>v1.1 · SEPTEMBER 2026 · REVIEW DRAFT</span>
+35	MHA Tokenomics
+36	Allocation, release rules and post-TGE execution disclosures.
+37	This update aligns the Exchange Campaigns and Early Liquidity Market Makers implementation rules with post-TGE execution and disclosed on-chain records. It does not change the total supply or any top-level allocation percentage.
+38	<span>TOTAL SUPPLY</span><strong>10,000,000,000 MHA</strong>
+39	<span>TGE · UTC</span><strong>17 Sep 2026 · 12:00</strong>
+40	<span>ALLOCATION</span><strong>10 categories · unchanged</strong>
+41	<a href="/learning/tokenomics-changelog">Revision history</a><a href="/learning/tokenomics-v1-0">View v1.0 archive</a><a href="/learning/tokenomics-zh">中文修訂說明</a><a href="/learning/tokenomics-announcement">Update announcement</a>
+42	ON THIS PAGE
+43	<a href="#allocation">Overview</a><a href="#allocation-1">Mining Nodes</a><a href="#allocation-2">Staking Nodes</a><a href="#allocation-3">Ecosystem / DAO Treasury</a><a href="#allocation-4">Team &amp; Advisors</a><a href="#allocation-5">VC (Investors, Institutional/Private Round)</a><a href="#allocation-6">Early Supporters</a><a href="#market-makers">Early Liquidity Market Makers</a><a href="#allocation-8">Subscription / Public Sale（3%）</a><a href="#allocation-9">Equipment-Sale Agents</a><a href="#exchange-campaigns">Exchange Campaigns</a><a href="#execution-snapshot">Execution snapshot</a><a href="#campaign-notes">Campaign clarification</a>
+44	Overview
+45	Property
+46	Details
+47	Token Name
+48	MHA
+49	Total Supply
+50	10,000,000,000 MHA
+51	Decimals
+52	MHA is the native token of the MAGNE Layer1 blockchain. It serves as gas for transactions, staking collateral for validator security, and a base currency for governance and ecosystem incentives via PoL. mBGT is the utility and governance token used to coordinate validator emissions and participate in protocol-level voting.
+53	The 10 billion MHA supply is allocated as follows
+54	The 10 billion MHA supply is allocated as follows
+55	Details
+56	Mining Nodes
+57	3,000,000,000 MHA
+58	Staking Nodes
+59	1,500,000,000 MHA
+60	Ecosystem/DAO
+61	1,500,000,000 MHA
+62	Team &amp; Advisors
+63	1,000,000,000 MHA
+64	VC
+65	1,000,000,000 MHA
+66	Early Supporters
+67	800,000,000 MHA
+68	Early Liquidity Market Makers
+69	700,000,000 MHA
+70	Subscription/Public Sale
+71	300,000,000 MHA
+72	Equipment-Sale Agents
+73	100,000,000 MHA
+74	Exchange Campaigns
+75	100,000,000 MHA
+76	<strong>Mining Nodes</strong>
+77	Refers to nodes that obtain token rewards by providing <strong>valid workloads</strong> across various scenarios, including <strong>PoAI/DePIN computation, bandwidth provisioning, and distributed storage</strong>. Rewards are typically settled based on overall <strong>contribution score</strong>, which factors in compute power, throughput, uptime, and quality metrics.
+78	<strong>1. Objective</strong>
+79	<strong>Objective:</strong>
+80	Without altering the <strong>10-billion token allocation</strong> or the <strong>Mining = 30% (3,000,000,000 MHA)</strong> distribution, establish an <strong>auditable, governable, and scalable issuance mechanism</strong> for <strong>device-based incentives</strong>.
+81	<strong>Scope:</strong>
+82	At this stage, <strong>only the MAGNE.AI Phone GEN1 (8 TOPS)</strong> is activated.
+83	The remaining hardware devices are <strong>reserved for future activation</strong>, pending <strong>mass-production readiness</strong> and fulfillment of <strong>governance requirements</strong>
+84	<strong>2. Sub-pool Structure</strong>
+85	<strong>Sub-pool-1: MAGNE.AI Phone GEN1 (8 TOPS)</strong>
+86	<strong>Ceiling = 400,000,000 MHA (400 million)</strong> <em>(Note: Ceiling ≠ Guaranteed Full Allocation; unused tokens will flow back into the mining pool or the next epoch)</em>
+87	<strong>Issuance Curve:</strong> <strong>Halving annually</strong>, with the <strong>first-year allocation set at 200,000,000 MHA</strong>, distributed <strong>equally on a monthly basis</strong>.
+88	<strong>Initial Market Stabilization (First Quarter):</strong>
+89	Year 1: <strong>M1 = 20%, M2 = 60%, M3–M12 = 100%</strong>
+90	<strong>Sub-pool-2: TBD</strong>
+91	<strong>Sub-pool-3: TBD</strong>
+92	<strong>Sub-pool-4: TBD</strong>
+93	Design Principle: All sub-pools are based on ceiling allocations, not a commitment to fully distribute. Rewards are settled based on valid workloads during each period. Unallocated tokens will automatically revert back to the mining pool or the next epoch, avoiding passive earnings and preventing early-stage hyperinflation
+94	<strong>3. Budget &amp; Allocation Core Formulas (Applicable to All Sub-pools)</strong>
+95	<strong>3.1 Current Year Budget (Example: MAGNE.AI Phone GEN1)</strong>
+96	<strong>Annual Allocation (Halved Yearly):</strong>
+97	<strong>Monthly Base Ceiling for the Year:</strong>
+98	<strong>Initial Year Smoothing (Applicable Only to Year 1, M1–M3):</strong>
+99	Handling Unallocated Tokens: Any unspent portions from M1 and M2 within Q1 will revert back to the main pool.
+100	<strong>3.2 Valid Workload (ECU) &amp; Time-Weighted Distribution</strong>
+101	<strong>ECU Definition</strong> (Prevents raw TOPS from dominating the calculation):
+102	 (MAGNE.AI Phone Gen1 does not use efficiency factor yet)
+103	 (MAGNE.AI Phone Gen1)
+104	<strong>Online Time Differentiation (Time-Weighted Calculation):</strong>
+105	<strong>Current Period Reward Allocation:</strong>
+106	This ensures that machines which are online early, remain online longer, and have higher quality earn more rewards. Machines that go online later or mid-period will only earn rewards for the valid time period they were active.
+107	<strong>3.3 Distribution Splits &amp; Locking Mechanisms</strong>
+108	<strong>Basic Split:</strong>
+109	<strong>40% immediately available</strong> + <strong>60% linear over 3 months</strong>.
+110	<strong>Voluntary Locking → Weighted for Next Period (No additional issuance, only redistribution):</strong>
+111	6/9/12-month voluntary locking, with respective ECU weight increases for the <strong>next settlement period</strong>:
+112	<strong>Circulation Inclusion:</strong>
+113	Only the <strong>immediately available</strong> portion and the <strong>unlocked portion</strong> are included in the circulating supply. The <strong>locked portion</strong> is considered <strong>Allocated (non-circulating)</strong>.
+114	<strong>4. Sub-pool-1: Initial Year Smoothing &amp; Value Table</strong>
+115	<strong>First Year Annual Allocation:</strong>
+116	<strong>Monthly Base Ceiling:</strong>
+117	Month
+118	Smoothing Factor
+119	Monthly Ceiling (MHA)
+120	Execution Recommendation: Unspent portions from M1/M2 will flow back to the main pool.
+121	Combined with the <strong>40% immediately available</strong> and <strong>60% over 3 months linear split</strong>, this smooths out early-stage selling pressure.
+122	<strong>5. Entry Thresholds, SLA, and Penalties (Slash)</strong>
+123	<strong>Minimum Entry Requirements:</strong>
+124	Registration and remote authentication (hardware fingerprint/firmware signature); KYC is optional (toggleable setting).
+125	<strong>Activity Threshold:</strong>
+126	To qualify for allocation, the node must meet the following criteria:
+127	<strong>Monthly Uptime ≥ 240 hours</strong>, <strong>Uptime ≥ 95%</strong>, and <strong>Quality ≥ 98%</strong>.
+128	**Extended Offline Periods:**Reward=Uptime0.5×Uptime0.5×Uptime0.5
+129	Rewards for the current period will be <strong>reduced</strong> based on the formula:
+130	Repeated offenses will lead to <strong>downgrading</strong> to an <strong>observation list</strong> for monitoring.
+131	<strong>Malicious Behavior/Falsification:</strong>
+132	Rewards for the current period will be <strong>zeroed out</strong>, with penalties prioritized from <strong>"unlocked balance"</strong>; historical recovery efforts will be made, and the entity will be blacklisted for <strong>3–12 months</strong>.
+133	<strong>Anti-Sybil Protection:</strong>
+134	Multiple devices from the same entity/ASN will be <strong>merged for weighting</strong>; device fingerprints will be deduplicated; <strong>geographical</strong> and <strong>operator diversity</strong> will be weighted to prevent centralized manipulation.
+135	<strong>Self-Staking (Optional):</strong>
+136	Operators may stake a small amount of <strong>MHA</strong> to earn a <strong>1.05–1.15x</strong> reward multiplier. Violations will result in <strong>Slashing</strong>
+137	<strong>6. Governance &amp; Parameter Changes</strong>
+138	<strong>Governable Parameters:</strong>
+139	 first-quarter smoothing factors, split ratios, locking durations, activity and quality thresholds, quarterly rollover models, etc.
+140	<strong>Process:</strong>
+141	<strong>Proposal → Voting Approval → 48–72h Time Lock</strong> → Contract Parameter Update.
+142	<strong>Risk Anchor Points:</strong>
+143	The <strong>net circulating supply increase in the first 24 months</strong> should not exceed <strong>0.8% per month</strong>. Significant changes must be evaluated for their impact on this metric.
+144	<strong>7. Dashboard &amp; Public Disclosure</strong>
+145	<strong>On-Chain Transparency:</strong>
+146	Sub-pool contract addresses, monthly caps, actual distribution, locked balances, and unlocked balances.
+147	<strong>Operational Data:</strong>
+148	Number of active devices, geographical/ASN distribution, average uptime/quality, blacklist and slash records.
+149	<strong>Transparency:</strong>
+150	Quarterly reports (unused tokens reverted, parameter adjustments, risk management events).
+151	<strong>Staking Nodes</strong>
+152	Staking nodes participate in network security and consensus by <strong>staking MHA</strong> to <strong>validate blocks</strong> and <strong>vote</strong>. Rewards are distributed based on <strong>staking amount × uptime/performance</strong>. Delegators can delegate their tokens to validators to share in the rewards.
+153	<strong>Ecosystem / DAO Treasury</strong>
+154	Allocated for <strong>developer grants, ecosystem partnerships, hackathons, community budgets</strong>, and other ecosystem-driven initiatives, subject to <strong>DAO proposal approval</strong> and <strong>milestone-based disbursements</strong>. <strong>Unmet milestones will revert back</strong> to the treasury.
+155	Annual disbursements will not exceed <strong>10% of the total supply</strong>.
+156	<strong>Implementation Method:</strong>
+157	48-month linear release + multi-signature approval + time lock + quarterly transparency reports.
+158	<strong>Team &amp; Advisors</strong>
+159	Allocated for <strong>long-term incentives for core team members</strong> and <strong>advisor compensation</strong>.
+160	<strong>Implementation Method:</strong>
+161	<strong>18-month cliff</strong> followed by <strong>120-month linear vesting</strong>.
+162	<strong>Clawback</strong> provision applies in case of resignation or failure to meet performance goals, allowing unvested tokens to be reclaimed.
+163	<strong>VC (Investors, Institutional/Private Round)</strong>
+164	Allocated for <strong>early-stage contributions from institutional investors</strong> or <strong>qualified investors</strong>.
+165	<strong>Implementation Method:</strong>
+166	<strong>12-month cliff</strong> followed by <strong>24-month linear vesting</strong>.
+167	<strong>Early Supporters</strong>
+168	Allocated for individuals or groups who were the <strong>earliest to engage in community building</strong>, <strong>beta testing</strong>, <strong>content contribution</strong>, and <strong>node setup</strong>.
+169	<strong>Implementation Method:</strong>
+170	<strong>6-month cliff</strong>, followed by <strong>1/6 release in the 7th month</strong>, and the remaining <strong>5/6 vesting over 24 months</strong>.
+171	Introduce <strong>Proof of Contribution (PoC)</strong> to prevent "airdrop hunters" and ensure rewards are tied to actual contributions.
+172	Early Liquidity Market Makers
+173	<strong>700,000,000 MHA · 7% — unchanged.</strong>
+174	As of the disclosed snapshot, the primary reserve holds the full 700,000,000 MHA. The project reports no outgoing transfers from this reserve. The 25,000,000 MHA initial liquidity deployed at launch was funded from Exchange Campaigns and does not constitute an unlock of the 700,000,000 MHA Early Liquidity Market Makers reserve.
+175	Disclosed reserve: <a href="https://bscscan.com/token/0x37c563cdf4606d4302abb395cdb94e79d31233ed?a=0x3337e8082646Df644179db3834b3ACc19bc55eFf">0x3337e8082646Df644179db3834b3ACc19bc55eFf</a>.
+176	DEX liquidity
+177	Use verifiable on-chain LP addresses.
+178	Use timelocks or multisignature management where technically feasible.
+179	The planned locking period should generally be at least 12 months.
+180	Publicly disclose LP changes, migrations and withdrawals.
+181	CEX market making
+182	Deploy in tranches under the specific exchange and market-making agreements.
+183	Use separate accounts or identifiable deposit paths.
+184	Define inventory, minimum depth, maximum spread and risk limits.
+185	Do not infer internal exchange account balances from pooled public hot-wallet balances.
+186	A transfer does not, by itself, establish a sale.
+187	Publish a separate announcement before activating the 700,000,000 MHA reserve.
+188	Release rules
+189	The reserve does not automatically unlock on fixed dates. Any deployment requires actual liquidity needs, internal authorization, an exchange or DEX execution plan, and public disclosure. Undeployed tokens remain in the disclosed non-circulating reserve wallet.
+190	<strong>Subscription / Public Sale（3%）</strong>
+191	Tokens allocated for <strong>public sale to a wider user base</strong> (e.g., Launchpad, subscription, or whitelist-based public offering).
+192	<strong>Public Sale Intro</strong>
+193	According to the MHA tokenomics, 3% of the total supply is allocated to public sales, which will be completed before listing. All tokens purchased during this period will be listed on global top-10 centralized exchanges. After the listing, these tokens will be locked for six months, with linear vesting beginning in the seventh month.
+194	The current public sale is being conducted on the BSC chain and will later be mapped to the MHA chain.
+195	<strong>Public Sale OG (1%):</strong> Prior to the listing, an early-supporter public sale will be conducted at the lowest public-sale price; at the time of listing the token price will not be below this level. Tokens will be locked for six months after listing and then released continuously over twenty-four months.
+196	**KOL/ECO Sale (0.5%):**The public sale for KOLs and ecosystem partners will be priced higher than the Public Sale OG. Tokens will be locked for six months after listing and then released continuously over twenty-four months.
+197	**Public Sale Session 1 (1.5%):**The formal pre-sale will be open to the public worldwide at a price higher than that of the Public Sale OG. Tokens will be locked for six months after listing and then released continuously over twenty-four months.
+198	<strong>Dimension</strong>
+199	<strong>Typical Practice for Public Sale OG</strong>
+200	<strong>Differences with Regular Public Sale</strong>
+201	<strong>Target Audience</strong>
+202	<strong>Genesis NFT holders, testnet interaction addresses, early Discord roles, Genesis device buyers</strong>, and other <strong>on-chain verifiable OG addresses</strong>
+203	No entry barriers; <strong>open to anyone</strong> for participation.
+204	<strong>Price</strong>
+205	<strong>Lowest price across all sales</strong>, below <strong>future pre-sale, public sale, or exchange launch prices</strong>
+206	<strong>Higher than OG</strong>, but <strong>lower than or equal to initial market price</strong>.
+207	<strong>Allocation</strong>
+208	<strong>Very low individual hard cap</strong> (e.g., 50–200 USD/address), focused on <strong>wide distribution</strong>
+209	<strong>Higher hard cap</strong>, with a focus on <strong>raising significant funds</strong>.
+210	<strong>Lock-up</strong>
+211	Typically, <strong>a portion unlocked at TGE</strong>, with the remainder <strong>released linearly over 3–18 months</strong>, or <strong>fully locked for 6 months before linear release</strong>
+212	May unlock <strong>20-50% at TGE</strong>.
+213	<strong>Marketing Positioning</strong>
+214	<strong>“Community reward”</strong>, <strong>“early bird honor”</strong>, emphasizing <strong>identity recognition</strong>
+215	Focus on <strong>“investment opportunity”</strong> and <strong>“public fundraising”</strong>.
+216	<strong>Implementation Method:</strong>
+217	<strong>6-month cliff</strong>, followed by <strong>1/6 release in the 7th month</strong>, with the remaining <strong>5/6 vesting over 24 months</strong>.
+218	<strong>KYC/compliance checks</strong> will be conducted.
+219	Mechanisms will be in place to <strong>avoid price discrepancies with private sale</strong>.
+220	<strong>Equipment-Sale Agents</strong>
+221	Tokens allocated for <strong>distributor/channel incentives</strong> related to your hardware ecosystem (e.g., MAGNE.AI Phone, PoAI Station), using token discounts or rebates to incentivize sales.
+222	<strong>Implementation Method:</strong>
+223	<strong>3-month cliff</strong>, followed by <strong>24-month linear vesting</strong>.
+224	Incentives are <strong>tied to actual sales/revenue</strong>.
+225	<strong>MHA locking</strong> can be required for <strong>higher rebate percentages</strong>.
+226	Exchange Campaigns
+227	<strong>100,000,000 MHA · 1% — unchanged.</strong>
+228	Permitted purposes
+229	Exchange listing and related services.
+230	Technical integration and wallet connectivity.
+231	Launch, deposit and trading campaigns.
+232	Exchange user incentives.
+233	Initial market liquidity deployment at launch.
+234	Test transfers directly related to exchange launches.
+235	Other approved exchange-market support.
+236	Execution and release
+237	Tokens are released in accordance with signed or actually executed exchange listing, technical integration, market campaign and initial liquidity arrangements. Tokens without a defined execution purpose remain in the disclosed primary reserve wallet and do not automatically unlock through the passage of time. Eligibility, whitelist and anti-Sybil protections apply to relevant user-incentive campaigns.
+238	An outflow from the exchange allocation reserve indicates entry into a specific exchange execution process. It does not mean all those tokens have been sold, traded or become an equivalent amount of public-market float.
+239	Disclosed reserve: <a href="https://bscscan.com/token/0x37c563cdf4606d4302abb395cdb94e79d31233ed?a=0x1117dA6F04376588A94a7B7fDC070607d0ad649C">0x1117dA6F04376588A94a7B7fDC070607d0ad649C</a>.
+240	Post-TGE execution disclosure
+241	<strong>Snapshot: 2026-09-28 17:56:21 UTC · BSC block <a href="https://bscscan.com/block/124568474">124,568,474</a>.</strong> All static balances below are as of this block. Latest data: <a href="https://w3.magne.ai/mha-supply.html">Supply Evidence</a> and <a href="https://w3.magne.ai/api/v1/mha/supply">Supply API</a>. Transfer purposes are project-provided classifications; on-chain transfers and balances alone do not establish exchange contractual terms, trades or internal account balances.
+242	Original allocation: <strong>100,000,000 MHA</strong> − outflows: <strong>76,250,500 MHA</strong> = remaining reserve: <strong>23,749,500 MHA</strong>.
+243	Exchange
+244	Listing / related services (MHA)
+245	Initial liquidity (MHA)
+246	Tests (MHA)
+247	Total (MHA)
+248	Bitget
+249	KuCoin
+250	LBank
+251	MEXC
+252	Total
+253	LBank’s 500 MHA is classified as a test deposit. The first transaction transfers 500 MHA from the reserve to the deposit address; the second forwards the same 500 MHA to the observed LBank custody address. These are two legs of one transfer path, counted once. Transaction records:
+254	Early Supporters and campaign clarification
+255	The 800,000,000 MHA Early Supporters allocation and its original long-term vesting rules are unchanged. As of the snapshot, the 1,635,000 MHA outflow from the community airdrop reserve is classified by the project as pre-listing Check-in and related airdrops; it is neither pending Season 1 rewards nor the Season 2 pool.
+256	Season 1 rewards await eligibility verification and a specific allocation announcement.
+257	The Season 2 pool of 40,000,000 MHA has not been transferred or released.
+258	Season 2 execution follows completion of the 1,600 Phone Gen1 campaign, eligibility verification and the final snapshot.
+259	The untransferred Season 2 pool must not be counted as released tokens.
+260	<a href="https://bscscan.com/token/0x37c563cdf4606d4302abb395cdb94e79d31233ed">MHA contract</a><a href="https://w3.magne.ai/season-1.html">Season 1</a><a href="https://w3.magne.ai/season-2.html">Season 2</a>
+261	Version 1.1 · Draft updated 29 September 2026. Balances are a dated snapshot, not live values. Latest: <a href="https://w3.magne.ai/mha-supply.html">Supply Evidence</a> / <a href="https://w3.magne.ai/api/v1/mha/supply">Supply API</a>. Publication pending review.

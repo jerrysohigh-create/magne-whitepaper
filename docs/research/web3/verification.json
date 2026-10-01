@@ -1,0 +1,1979 @@
+[
+  {
+    "name": "reference",
+    "width": 1440,
+    "errors": [
+      "Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+      "❌ 获取文章失败: TypeError: Failed to fetch\n    at https://web3.magne.ai/_next/static/chunks/app/page-21278450bc837242.js:1:318\n    at https://web3.magne.ai/_next/static/chunks/app/page-21278450bc837242.js:1:466\n    at o1 (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:88952)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104844)\n    at ux (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104728)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104889)\n    at ux (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104728)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104889)\n    at ux (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104728)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104889)"
+    ],
+    "scrollWidth": 1440,
+    "height": 4891,
+    "images": [],
+    "headings": [
+      {
+        "text": "Building the Next Generation High-Performance Blockchain Foundation!",
+        "box": {
+          "x": 296,
+          "y": 227,
+          "width": 848,
+          "height": 180,
+          "top": 227,
+          "right": 1144,
+          "bottom": 407,
+          "left": 296
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a community  of millions.",
+        "box": {
+          "x": 120,
+          "y": 765,
+          "width": 616,
+          "height": 80,
+          "top": 765,
+          "right": 736,
+          "bottom": 845,
+          "left": 120
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Made for mass adoption.",
+        "box": {
+          "x": 112,
+          "y": 1417,
+          "width": 288,
+          "height": 80,
+          "top": 1417,
+          "right": 400,
+          "bottom": 1497,
+          "left": 112
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Fast",
+        "box": {
+          "x": 602,
+          "y": 1573,
+          "width": 41.125,
+          "height": 28,
+          "top": 1573,
+          "right": 643.125,
+          "bottom": 1601,
+          "left": 602
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Scalable",
+        "box": {
+          "x": 602,
+          "y": 1847.5,
+          "width": 81.171875,
+          "height": 28,
+          "top": 1847.5,
+          "right": 683.171875,
+          "bottom": 1875.5,
+          "left": 602
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Decentralized",
+        "box": {
+          "x": 994,
+          "y": 1477,
+          "width": 130.0625,
+          "height": 28,
+          "top": 1477,
+          "right": 1124.0625,
+          "bottom": 1505,
+          "left": 994
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Energy Efficient",
+        "box": {
+          "x": 994,
+          "y": 1779.5,
+          "width": 152.265625,
+          "height": 28,
+          "top": 1779.5,
+          "right": 1146.265625,
+          "bottom": 1807.5,
+          "left": 994
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Build for growth.",
+        "box": {
+          "x": 112,
+          "y": 2217,
+          "width": 1216,
+          "height": 96,
+          "top": 2217,
+          "right": 1328,
+          "bottom": 2313,
+          "left": 112
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a thriving community.",
+        "box": {
+          "x": 112,
+          "y": 2803,
+          "width": 1216,
+          "height": 96,
+          "top": 2803,
+          "right": 1328,
+          "bottom": 2899,
+          "left": 112
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 107.421875,
+          "y": 2986.25,
+          "width": 135.15625,
+          "height": 60,
+          "top": 2986.25,
+          "right": 242.578125,
+          "bottom": 3046.25,
+          "left": 107.421875
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 1188.234375,
+          "y": 2976.25,
+          "width": 183.515625,
+          "height": 60,
+          "top": 2976.25,
+          "right": 1371.75,
+          "bottom": 3036.25,
+          "left": 1188.234375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 1929.40625,
+          "y": 3264.75,
+          "width": 185.1875,
+          "height": 60,
+          "top": 3264.75,
+          "right": 2114.59375,
+          "bottom": 3324.75,
+          "left": 1929.40625
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 3798.421875,
+          "y": 2986.25,
+          "width": 135.15625,
+          "height": 60,
+          "top": 2986.25,
+          "right": 3933.578125,
+          "bottom": 3046.25,
+          "left": 3798.421875
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 4879.234375,
+          "y": 2976.25,
+          "width": 183.515625,
+          "height": 60,
+          "top": 2976.25,
+          "right": 5062.75,
+          "bottom": 3036.25,
+          "left": 4879.234375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 5620.40625,
+          "y": 3264.75,
+          "width": 185.1875,
+          "height": 60,
+          "top": 3264.75,
+          "right": 5805.59375,
+          "bottom": 3324.75,
+          "left": 5620.40625
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "It's time to join the thousands of creators, builders, and developers using Magne.AI.",
+        "box": {
+          "x": 160,
+          "y": 3537,
+          "width": 1120,
+          "height": 144,
+          "top": 3537,
+          "right": 1280,
+          "bottom": 3681,
+          "left": 160
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "LEARNING",
+        "href": "https://web3.magne.ai/learning"
+      },
+      {
+        "text": "DEVELOPERS",
+        "href": "https://web3.magne.ai/developers"
+      },
+      {
+        "text": "SOLUTIONS",
+        "href": "https://web3.magne.ai/solutions"
+      },
+      {
+        "text": "NETWORKS",
+        "href": "https://web3.magne.ai/networks"
+      },
+      {
+        "text": "HELP",
+        "href": "https://web3.magne.ai/help"
+      },
+      {
+        "text": "COMMUNITY",
+        "href": "https://web3.magne.ai/community"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://web3.magne.ai/developers/net-config"
+      },
+      {
+        "text": "RESOURCES",
+        "href": "https://web3.magne.ai/#card"
+      },
+      {
+        "text": "PAYMENTS ON MAGNE.AI↗",
+        "href": "https://payment.magne.ai/buy"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      }
+    ]
+  },
+  {
+    "name": "implementation",
+    "width": 1440,
+    "errors": [],
+    "scrollWidth": 1440,
+    "height": 4891,
+    "images": [],
+    "headings": [
+      {
+        "text": "Building the Next Generation High-Performance Blockchain Foundation!",
+        "box": {
+          "x": 296,
+          "y": 227,
+          "width": 848,
+          "height": 180,
+          "top": 227,
+          "right": 1144,
+          "bottom": 407,
+          "left": 296
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a community  of millions.",
+        "box": {
+          "x": 120,
+          "y": 765,
+          "width": 616,
+          "height": 80,
+          "top": 765,
+          "right": 736,
+          "bottom": 845,
+          "left": 120
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Made for mass adoption.",
+        "box": {
+          "x": 112,
+          "y": 1417,
+          "width": 288,
+          "height": 80,
+          "top": 1417,
+          "right": 400,
+          "bottom": 1497,
+          "left": 112
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Fast",
+        "box": {
+          "x": 602,
+          "y": 1573,
+          "width": 41.125,
+          "height": 28,
+          "top": 1573,
+          "right": 643.125,
+          "bottom": 1601,
+          "left": 602
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Scalable",
+        "box": {
+          "x": 602,
+          "y": 1847.5,
+          "width": 81.171875,
+          "height": 28,
+          "top": 1847.5,
+          "right": 683.171875,
+          "bottom": 1875.5,
+          "left": 602
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Decentralized",
+        "box": {
+          "x": 994,
+          "y": 1477,
+          "width": 130.0625,
+          "height": 28,
+          "top": 1477,
+          "right": 1124.0625,
+          "bottom": 1505,
+          "left": 994
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Energy Efficient",
+        "box": {
+          "x": 994,
+          "y": 1779.5,
+          "width": 152.265625,
+          "height": 28,
+          "top": 1779.5,
+          "right": 1146.265625,
+          "bottom": 1807.5,
+          "left": 994
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Build for growth.",
+        "box": {
+          "x": 112,
+          "y": 2217,
+          "width": 1216,
+          "height": 96,
+          "top": 2217,
+          "right": 1328,
+          "bottom": 2313,
+          "left": 112
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a thriving community.",
+        "box": {
+          "x": 112,
+          "y": 2803,
+          "width": 1216,
+          "height": 96,
+          "top": 2803,
+          "right": 1328,
+          "bottom": 2899,
+          "left": 112
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 107.421875,
+          "y": 2986.25,
+          "width": 135.15625,
+          "height": 60,
+          "top": 2986.25,
+          "right": 242.578125,
+          "bottom": 3046.25,
+          "left": 107.421875
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 1188.234375,
+          "y": 2976.25,
+          "width": 183.515625,
+          "height": 60,
+          "top": 2976.25,
+          "right": 1371.75,
+          "bottom": 3036.25,
+          "left": 1188.234375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 1929.40625,
+          "y": 3264.75,
+          "width": 185.1875,
+          "height": 60,
+          "top": 3264.75,
+          "right": 2114.59375,
+          "bottom": 3324.75,
+          "left": 1929.40625
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 3798.421875,
+          "y": 2986.25,
+          "width": 135.15625,
+          "height": 60,
+          "top": 2986.25,
+          "right": 3933.578125,
+          "bottom": 3046.25,
+          "left": 3798.421875
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 4879.234375,
+          "y": 2976.25,
+          "width": 183.515625,
+          "height": 60,
+          "top": 2976.25,
+          "right": 5062.75,
+          "bottom": 3036.25,
+          "left": 4879.234375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 5620.40625,
+          "y": 3264.75,
+          "width": 185.1875,
+          "height": 60,
+          "top": 3264.75,
+          "right": 5805.59375,
+          "bottom": 3324.75,
+          "left": 5620.40625
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "It's time to join the thousands of creators, builders, and developers using Magne.AI.",
+        "box": {
+          "x": 160,
+          "y": 3537,
+          "width": 1120,
+          "height": 144,
+          "top": 3537,
+          "right": 1280,
+          "bottom": 3681,
+          "left": 160
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "LEARNING",
+        "href": "https://web3.magne.ai/learning"
+      },
+      {
+        "text": "DEVELOPERS",
+        "href": "https://web3.magne.ai/developers"
+      },
+      {
+        "text": "SOLUTIONS",
+        "href": "https://web3.magne.ai/solutions"
+      },
+      {
+        "text": "NETWORKS",
+        "href": "https://web3.magne.ai/networks"
+      },
+      {
+        "text": "HELP",
+        "href": "https://web3.magne.ai/help"
+      },
+      {
+        "text": "COMMUNITY",
+        "href": "https://web3.magne.ai/community"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://web3.magne.ai/developers/net-config"
+      },
+      {
+        "text": "RESOURCES",
+        "href": "http://127.0.0.1:4173/#card"
+      },
+      {
+        "text": "PAYMENTS ON MAGNE.AI↗",
+        "href": "https://payment.magne.ai/buy"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      }
+    ]
+  },
+  {
+    "name": "reference",
+    "width": 768,
+    "errors": [
+      "Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+      "❌ 获取文章失败: TypeError: Failed to fetch\n    at https://web3.magne.ai/_next/static/chunks/app/page-21278450bc837242.js:1:318\n    at https://web3.magne.ai/_next/static/chunks/app/page-21278450bc837242.js:1:466\n    at o1 (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:88952)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104844)\n    at ux (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104728)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104889)\n    at ux (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104728)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104889)\n    at ux (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104728)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104889)"
+    ],
+    "scrollWidth": 1000,
+    "height": 4840,
+    "images": [],
+    "headings": [
+      {
+        "text": "Building the Next Generation High-Performance Blockchain Foundation!",
+        "box": {
+          "x": 24,
+          "y": 227,
+          "width": 720,
+          "height": 180,
+          "top": 227,
+          "right": 744,
+          "bottom": 407,
+          "left": 24
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a community  of millions.",
+        "box": {
+          "x": 120,
+          "y": 765,
+          "width": 280,
+          "height": 120,
+          "top": 765,
+          "right": 400,
+          "bottom": 885,
+          "left": 120
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Made for mass adoption.",
+        "box": {
+          "x": 112,
+          "y": 1473,
+          "width": 288,
+          "height": 80,
+          "top": 1473,
+          "right": 400,
+          "bottom": 1553,
+          "left": 112
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Fast",
+        "box": {
+          "x": 42,
+          "y": 1513,
+          "width": 41.125,
+          "height": 28,
+          "top": 1513,
+          "right": 83.125,
+          "bottom": 1541,
+          "left": 42
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Scalable",
+        "box": {
+          "x": 42,
+          "y": 1815.5,
+          "width": 81.171875,
+          "height": 28,
+          "top": 1815.5,
+          "right": 123.171875,
+          "bottom": 1843.5,
+          "left": 42
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Decentralized",
+        "box": {
+          "x": 378,
+          "y": 1449,
+          "width": 130.0625,
+          "height": 28,
+          "top": 1449,
+          "right": 508.0625,
+          "bottom": 1477,
+          "left": 378
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Energy Efficient",
+        "box": {
+          "x": 378,
+          "y": 1807.5,
+          "width": 152.265625,
+          "height": 28,
+          "top": 1807.5,
+          "right": 530.265625,
+          "bottom": 1835.5,
+          "left": 378
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Build for growth.",
+        "box": {
+          "x": 112,
+          "y": 2273,
+          "width": 544,
+          "height": 96,
+          "top": 2273,
+          "right": 656,
+          "bottom": 2369,
+          "left": 112
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a thriving community.",
+        "box": {
+          "x": 112,
+          "y": 2859,
+          "width": 544,
+          "height": 96,
+          "top": 2859,
+          "right": 656,
+          "bottom": 2955,
+          "left": 112
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 107.421875,
+          "y": 3042.25,
+          "width": 135.15625,
+          "height": 60,
+          "top": 3042.25,
+          "right": 242.578125,
+          "bottom": 3102.25,
+          "left": 107.421875
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 1188.234375,
+          "y": 3032.25,
+          "width": 183.515625,
+          "height": 60,
+          "top": 3032.25,
+          "right": 1371.75,
+          "bottom": 3092.25,
+          "left": 1188.234375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 1929.40625,
+          "y": 3320.75,
+          "width": 185.1875,
+          "height": 60,
+          "top": 3320.75,
+          "right": 2114.59375,
+          "bottom": 3380.75,
+          "left": 1929.40625
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 3798.421875,
+          "y": 3042.25,
+          "width": 135.15625,
+          "height": 60,
+          "top": 3042.25,
+          "right": 3933.578125,
+          "bottom": 3102.25,
+          "left": 3798.421875
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 4879.234375,
+          "y": 3032.25,
+          "width": 183.515625,
+          "height": 60,
+          "top": 3032.25,
+          "right": 5062.75,
+          "bottom": 3092.25,
+          "left": 4879.234375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 5620.40625,
+          "y": 3320.75,
+          "width": 185.1875,
+          "height": 60,
+          "top": 3320.75,
+          "right": 5805.59375,
+          "bottom": 3380.75,
+          "left": 5620.40625
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "It's time to join the thousands of creators, builders, and developers using Magne.AI.",
+        "box": {
+          "x": 48,
+          "y": 3593,
+          "width": 672,
+          "height": 192,
+          "top": 3593,
+          "right": 720,
+          "bottom": 3785,
+          "left": 48
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "LEARNING",
+        "href": "https://web3.magne.ai/learning"
+      },
+      {
+        "text": "DEVELOPERS",
+        "href": "https://web3.magne.ai/developers"
+      },
+      {
+        "text": "SOLUTIONS",
+        "href": "https://web3.magne.ai/solutions"
+      },
+      {
+        "text": "NETWORKS",
+        "href": "https://web3.magne.ai/networks"
+      },
+      {
+        "text": "HELP",
+        "href": "https://web3.magne.ai/help"
+      },
+      {
+        "text": "COMMUNITY",
+        "href": "https://web3.magne.ai/community"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://web3.magne.ai/developers/net-config"
+      },
+      {
+        "text": "RESOURCES",
+        "href": "https://web3.magne.ai/#card"
+      },
+      {
+        "text": "PAYMENTS ON MAGNE.AI↗",
+        "href": "https://payment.magne.ai/buy"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      }
+    ]
+  },
+  {
+    "name": "implementation",
+    "width": 768,
+    "errors": [],
+    "scrollWidth": 768,
+    "height": 4484,
+    "images": [],
+    "headings": [
+      {
+        "text": "Building the Next Generation High-Performance Blockchain Foundation!",
+        "box": {
+          "x": 24,
+          "y": 97,
+          "width": 720,
+          "height": 180,
+          "top": 97,
+          "right": 744,
+          "bottom": 277,
+          "left": 24
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a community  of millions.",
+        "box": {
+          "x": 16,
+          "y": 563,
+          "width": 736,
+          "height": 72,
+          "top": 563,
+          "right": 752,
+          "bottom": 635,
+          "left": 16
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Made for mass adoption.",
+        "box": {
+          "x": 24,
+          "y": 1107,
+          "width": 288,
+          "height": 72,
+          "top": 1107,
+          "right": 312,
+          "bottom": 1179,
+          "left": 24
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Fast",
+        "box": {
+          "x": 54,
+          "y": 1260,
+          "width": 37.015625,
+          "height": 28,
+          "top": 1260,
+          "right": 91.015625,
+          "bottom": 1288,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Scalable",
+        "box": {
+          "x": 54,
+          "y": 1445,
+          "width": 73.046875,
+          "height": 28,
+          "top": 1445,
+          "right": 127.046875,
+          "bottom": 1473,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Decentralized",
+        "box": {
+          "x": 54,
+          "y": 1630,
+          "width": 117.046875,
+          "height": 28,
+          "top": 1630,
+          "right": 171.046875,
+          "bottom": 1658,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Energy Efficient",
+        "box": {
+          "x": 54,
+          "y": 1815,
+          "width": 137.03125,
+          "height": 28,
+          "top": 1815,
+          "right": 191.03125,
+          "bottom": 1843,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Build for growth.",
+        "box": {
+          "x": 16,
+          "y": 2027,
+          "width": 736,
+          "height": 76,
+          "top": 2027,
+          "right": 752,
+          "bottom": 2103,
+          "left": 16
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a thriving community.",
+        "box": {
+          "x": 16,
+          "y": 2725.25,
+          "width": 736,
+          "height": 76,
+          "top": 2725.25,
+          "right": 752,
+          "bottom": 2801.25,
+          "left": 16
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 105.9375,
+          "y": 2883.25,
+          "width": 108.125,
+          "height": 48,
+          "top": 2883.25,
+          "right": 214.0625,
+          "bottom": 2931.25,
+          "left": 105.9375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 902.59375,
+          "y": 2873.25,
+          "width": 146.8125,
+          "height": 48,
+          "top": 2873.25,
+          "right": 1049.40625,
+          "bottom": 2921.25,
+          "left": 902.59375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 1557.921875,
+          "y": 3139.25,
+          "width": 148.15625,
+          "height": 48,
+          "top": 3139.25,
+          "right": 1706.078125,
+          "bottom": 3187.25,
+          "left": 1557.921875
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 2889.9375,
+          "y": 2883.25,
+          "width": 108.125,
+          "height": 48,
+          "top": 2883.25,
+          "right": 2998.0625,
+          "bottom": 2931.25,
+          "left": 2889.9375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 3686.59375,
+          "y": 2873.25,
+          "width": 146.8125,
+          "height": 48,
+          "top": 2873.25,
+          "right": 3833.40625,
+          "bottom": 2921.25,
+          "left": 3686.59375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 4341.921875,
+          "y": 3139.25,
+          "width": 148.15625,
+          "height": 48,
+          "top": 3139.25,
+          "right": 4490.078125,
+          "bottom": 3187.25,
+          "left": 4341.921875
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "It's time to join the thousands of creators, builders, and developers using Magne.AI.",
+        "box": {
+          "x": 40,
+          "y": 3369.25,
+          "width": 688,
+          "height": 108,
+          "top": 3369.25,
+          "right": 728,
+          "bottom": 3477.25,
+          "left": 40
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "LEARNING",
+        "href": "https://web3.magne.ai/learning"
+      },
+      {
+        "text": "DEVELOPERS",
+        "href": "https://web3.magne.ai/developers"
+      },
+      {
+        "text": "SOLUTIONS",
+        "href": "https://web3.magne.ai/solutions"
+      },
+      {
+        "text": "NETWORKS",
+        "href": "https://web3.magne.ai/networks"
+      },
+      {
+        "text": "HELP",
+        "href": "https://web3.magne.ai/help"
+      },
+      {
+        "text": "COMMUNITY",
+        "href": "https://web3.magne.ai/community"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://web3.magne.ai/developers/net-config"
+      },
+      {
+        "text": "RESOURCES",
+        "href": "http://127.0.0.1:4173/#card"
+      },
+      {
+        "text": "PAYMENTS ON MAGNE.AI↗",
+        "href": "https://payment.magne.ai/buy"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      }
+    ]
+  },
+  {
+    "name": "reference",
+    "width": 390,
+    "errors": [
+      "Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+      "❌ 获取文章失败: TypeError: Failed to fetch\n    at https://web3.magne.ai/_next/static/chunks/app/page-21278450bc837242.js:1:318\n    at https://web3.magne.ai/_next/static/chunks/app/page-21278450bc837242.js:1:466\n    at o1 (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:88952)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104844)\n    at ux (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104728)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104889)\n    at ux (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104728)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104889)\n    at ux (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104728)\n    at uE (https://web3.magne.ai/_next/static/chunks/4bd1b696-f785427dddbba9fb.js:1:104889)"
+    ],
+    "scrollWidth": 390,
+    "height": 4547,
+    "images": [],
+    "headings": [
+      {
+        "text": "Building the Next Generation High-Performance Blockchain Foundation!",
+        "box": {
+          "x": 24,
+          "y": 97,
+          "width": 342,
+          "height": 420,
+          "top": 97,
+          "right": 366,
+          "bottom": 517,
+          "left": 24
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a community  of millions.",
+        "box": {
+          "x": 16,
+          "y": 845,
+          "width": 358,
+          "height": 66,
+          "top": 845,
+          "right": 374,
+          "bottom": 911,
+          "left": 16
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Made for mass adoption.",
+        "box": {
+          "x": 24,
+          "y": 1335,
+          "width": 288,
+          "height": 32,
+          "top": 1335,
+          "right": 312,
+          "bottom": 1367,
+          "left": 24
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Fast",
+        "box": {
+          "x": 54,
+          "y": 1448,
+          "width": 37.015625,
+          "height": 28,
+          "top": 1448,
+          "right": 91.015625,
+          "bottom": 1476,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Scalable",
+        "box": {
+          "x": 54,
+          "y": 1681,
+          "width": 73.046875,
+          "height": 28,
+          "top": 1681,
+          "right": 127.046875,
+          "bottom": 1709,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Decentralized",
+        "box": {
+          "x": 54,
+          "y": 1914,
+          "width": 117.046875,
+          "height": 28,
+          "top": 1914,
+          "right": 171.046875,
+          "bottom": 1942,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Energy Efficient",
+        "box": {
+          "x": 54,
+          "y": 2171,
+          "width": 137.03125,
+          "height": 28,
+          "top": 2171,
+          "right": 191.03125,
+          "bottom": 2199,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Build for growth.",
+        "box": {
+          "x": 16,
+          "y": 2479,
+          "width": 358,
+          "height": 72,
+          "top": 2479,
+          "right": 374,
+          "bottom": 2551,
+          "left": 16
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a thriving community.",
+        "box": {
+          "x": 16,
+          "y": 3087.625,
+          "width": 358,
+          "height": 72,
+          "top": 3087.625,
+          "right": 374,
+          "bottom": 3159.625,
+          "left": 16
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 89.453125,
+          "y": 3225.125,
+          "width": 81.09375,
+          "height": 40,
+          "top": 3225.125,
+          "right": 170.546875,
+          "bottom": 3265.125,
+          "left": 89.453125
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 630.9375,
+          "y": 3217.125,
+          "width": 110.109375,
+          "height": 40,
+          "top": 3217.125,
+          "right": 741.046875,
+          "bottom": 3257.125,
+          "left": 630.9375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 1166.4375,
+          "y": 3436.125,
+          "width": 111.125,
+          "height": 40,
+          "top": 3436.125,
+          "right": 1277.5625,
+          "bottom": 3476.125,
+          "left": 1166.4375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 2033.453125,
+          "y": 3225.125,
+          "width": 81.09375,
+          "height": 40,
+          "top": 3225.125,
+          "right": 2114.546875,
+          "bottom": 3265.125,
+          "left": 2033.453125
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 2574.9375,
+          "y": 3217.125,
+          "width": 110.109375,
+          "height": 40,
+          "top": 3217.125,
+          "right": 2685.046875,
+          "bottom": 3257.125,
+          "left": 2574.9375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 3110.4375,
+          "y": 3436.125,
+          "width": 111.125,
+          "height": 40,
+          "top": 3436.125,
+          "right": 3221.5625,
+          "bottom": 3476.125,
+          "left": 3110.4375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "It's time to join the thousands of creators, builders, and developers using Magne.AI.",
+        "box": {
+          "x": 32,
+          "y": 3637.625,
+          "width": 326,
+          "height": 132,
+          "top": 3637.625,
+          "right": 358,
+          "bottom": 3769.625,
+          "left": 32
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "LEARNING",
+        "href": "https://web3.magne.ai/learning"
+      },
+      {
+        "text": "DEVELOPERS",
+        "href": "https://web3.magne.ai/developers"
+      },
+      {
+        "text": "SOLUTIONS",
+        "href": "https://web3.magne.ai/solutions"
+      },
+      {
+        "text": "NETWORKS",
+        "href": "https://web3.magne.ai/networks"
+      },
+      {
+        "text": "HELP",
+        "href": "https://web3.magne.ai/help"
+      },
+      {
+        "text": "COMMUNITY",
+        "href": "https://web3.magne.ai/community"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://web3.magne.ai/developers/net-config"
+      },
+      {
+        "text": "RESOURCES",
+        "href": "https://web3.magne.ai/#card"
+      },
+      {
+        "text": "PAYMENTS ON MAGNE.AI↗",
+        "href": "https://payment.magne.ai/buy"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      }
+    ]
+  },
+  {
+    "name": "implementation",
+    "width": 390,
+    "errors": [],
+    "scrollWidth": 390,
+    "height": 4547,
+    "images": [],
+    "headings": [
+      {
+        "text": "Building the Next Generation High-Performance Blockchain Foundation!",
+        "box": {
+          "x": 24,
+          "y": 97,
+          "width": 342,
+          "height": 420,
+          "top": 97,
+          "right": 366,
+          "bottom": 517,
+          "left": 24
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a community  of millions.",
+        "box": {
+          "x": 16,
+          "y": 845,
+          "width": 358,
+          "height": 66,
+          "top": 845,
+          "right": 374,
+          "bottom": 911,
+          "left": 16
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Made for mass adoption.",
+        "box": {
+          "x": 24,
+          "y": 1335,
+          "width": 288,
+          "height": 32,
+          "top": 1335,
+          "right": 312,
+          "bottom": 1367,
+          "left": 24
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Fast",
+        "box": {
+          "x": 54,
+          "y": 1448,
+          "width": 37.015625,
+          "height": 28,
+          "top": 1448,
+          "right": 91.015625,
+          "bottom": 1476,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Scalable",
+        "box": {
+          "x": 54,
+          "y": 1681,
+          "width": 73.046875,
+          "height": 28,
+          "top": 1681,
+          "right": 127.046875,
+          "bottom": 1709,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Decentralized",
+        "box": {
+          "x": 54,
+          "y": 1914,
+          "width": 117.046875,
+          "height": 28,
+          "top": 1914,
+          "right": 171.046875,
+          "bottom": 1942,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Energy Efficient",
+        "box": {
+          "x": 54,
+          "y": 2171,
+          "width": 137.03125,
+          "height": 28,
+          "top": 2171,
+          "right": 191.03125,
+          "bottom": 2199,
+          "left": 54
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Build for growth.",
+        "box": {
+          "x": 16,
+          "y": 2479,
+          "width": 358,
+          "height": 72,
+          "top": 2479,
+          "right": 374,
+          "bottom": 2551,
+          "left": 16
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "Join a thriving community.",
+        "box": {
+          "x": 16,
+          "y": 3087.625,
+          "width": 358,
+          "height": 72,
+          "top": 3087.625,
+          "right": 374,
+          "bottom": 3159.625,
+          "left": 16
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 89.453125,
+          "y": 3225.125,
+          "width": 81.09375,
+          "height": 40,
+          "top": 3225.125,
+          "right": 170.546875,
+          "bottom": 3265.125,
+          "left": 89.453125
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 630.9375,
+          "y": 3217.125,
+          "width": 110.109375,
+          "height": 40,
+          "top": 3217.125,
+          "right": 741.046875,
+          "bottom": 3257.125,
+          "left": 630.9375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 1166.4375,
+          "y": 3436.125,
+          "width": 111.125,
+          "height": 40,
+          "top": 3436.125,
+          "right": 1277.5625,
+          "bottom": 3476.125,
+          "left": 1166.4375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "800+",
+        "box": {
+          "x": 2033.453125,
+          "y": 3225.125,
+          "width": 81.09375,
+          "height": 40,
+          "top": 3225.125,
+          "right": 2114.546875,
+          "bottom": 3265.125,
+          "left": 2033.453125
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "48,000",
+        "box": {
+          "x": 2574.9375,
+          "y": 3217.125,
+          "width": 110.109375,
+          "height": 40,
+          "top": 3217.125,
+          "right": 2685.046875,
+          "bottom": 3257.125,
+          "left": 2574.9375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "1,000+",
+        "box": {
+          "x": 3110.4375,
+          "y": 3436.125,
+          "width": 111.125,
+          "height": 40,
+          "top": 3436.125,
+          "right": 3221.5625,
+          "bottom": 3476.125,
+          "left": 3110.4375
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "text": "It's time to join the thousands of creators, builders, and developers using Magne.AI.",
+        "box": {
+          "x": 32,
+          "y": 3637.625,
+          "width": 326,
+          "height": 132,
+          "top": 3637.625,
+          "right": 358,
+          "bottom": 3769.625,
+          "left": 32
+        },
+        "font": "Arial, Helvetica, sans-serif"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "LEARNING",
+        "href": "https://web3.magne.ai/learning"
+      },
+      {
+        "text": "DEVELOPERS",
+        "href": "https://web3.magne.ai/developers"
+      },
+      {
+        "text": "SOLUTIONS",
+        "href": "https://web3.magne.ai/solutions"
+      },
+      {
+        "text": "NETWORKS",
+        "href": "https://web3.magne.ai/networks"
+      },
+      {
+        "text": "HELP",
+        "href": "https://web3.magne.ai/help"
+      },
+      {
+        "text": "COMMUNITY",
+        "href": "https://web3.magne.ai/community"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://web3.magne.ai/developers/net-config"
+      },
+      {
+        "text": "RESOURCES",
+        "href": "http://127.0.0.1:4173/#card"
+      },
+      {
+        "text": "PAYMENTS ON MAGNE.AI↗",
+        "href": "https://payment.magne.ai/buy"
+      },
+      {
+        "text": "START BUILDING",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/@Magne_AI"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/Magne_Ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/magne-ai"
+      },
+      {
+        "text": "",
+        "href": "https://t.me/MagneAI"
+      },
+      {
+        "text": "",
+        "href": "https://www.magne.ai/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.magne.ai/legal/privacy-policy"
+      }
+    ]
+  }
+]

@@ -1,0 +1,395 @@
+Skip to main content
+MAGNE.AI
+OWNERSHIP QUARTERLY · INAUGURAL ISSUE
+HONG KONG · GLOBAL
+2026 · VOL. 01
+MAGNE.AI
+INDEX
+PHONE
+AI
+NETWORK
+SECURITY
+COMPLIANCE
+PROGRESS
+PARTNERS
+MEDIA KIT
+CONTACT
+W3 ↗
+EN
+繁中
+PRE-ORDER MAG1 ↗
+COVER STORY
+INTELLIGENT TERMINAL · ON-DEVICE AI · VERIFIABLE SECURITY
+
+AN INTELLIGENT TERMINAL, NOT A SMARTPHONE
+
+Not a smarter phone.
+Putting ownership,
+back in your hands.
+01
+
+The cloud remembers everything about you. MAG1 chooses to remember another thing: your keys, which are supposed to be yours to keep.
+
+product
+MAG1
+category
+Intelligent terminal
+focus
+OWNERSHIP
+PLATE 01
+MAG1 · HOLD THE FUTURE
+BRAND CONCEPT VISION
+
+When we take apart a mobile phone, we see the chip, lens, battery, and a chain of power that never belongs to the user.
+
+So MAGNE.AI started from scratch with hardware: Let the AI ​​stay on the device, the signature stay on the secure element, and the recovery credentials leave the cloud.
+
+It can still make calls, take photos, and connect to the world. Only this time, the world doesn’t have to have you first.
+
+INDEX
+
+READER'S GUIDE · SITE DIRECTORY
+
+ten doors,
+leading to the same answer.
+I
+landing
+LANDING
+Let’s start with a question: Why doesn’t digital life really belong to us?
+↗
+II
+Intelligent terminal
+PHONE
+A piece of hardware that can be held is also a trust boundary that can be verified.
+↗
+III
+intelligent
+AI
+Understand it locally first, then decide what’s worth moving to the cloud.
+↗
+IV
+network
+NETWORK
+Installation, consensus, and application speak for themselves and do not rely on each other's endorsement.
+↗
+V
+Safety
+SECURITY
+Break the promise into layers and give each layer to evidence.
+↗
+VI
+progress
+PROGRESS
+Connect every completed task back to a verifiable record.
+↗
+VII
+partner
+PARTNERS
+Behind a terminal is the name signed by the supply chain, platform and capital.
+↗
+VIII
+image file
+STORIES
+Product operations, public events and on-site images are re-archived according to the location where they occurred.
+↗
+IX
+contact
+CONTACT
+Business, support and media, three doors lead to the same room.
+↗
+X
+media resources
+MEDIA KIT
+The official logo, brand guide, product images and packaging materials are all available for preview and download.
+↗
+I
+
+THE WITNESSES
+
+Not a road map.
+It is a series of scenes with dates left behind.
+FIELD NOTE 01
+KUALA LUMPUR · MAGNE.AI LAUNCH NIGHT
+
+"The first time a product leaves the briefing, it doesn't go into the spotlight; it goes into asking questions."
+
+From Kuala Lumpur to Tokyo, MAGNE.AI brings the same proposition to different scenes: the closer artificial intelligence is to life, the less ownership can be just a sentence in the terms of service.
+
+FIELD NOTE 02
+LIVE DEMO · KUALA LUMPUR
+FIELD NOTE 03
+PRODUCT TABLE · KUALA LUMPUR
+STORIES / PUBLIC ARCHIVE
+Let the scene continue to talk.
+↗
+CHRONOLOGY
+
+TIME AXIS · PUBLIC RECORD
+
+Time does not bear witness for promises.
+Things that get done will happen.
+2025.07.20
+MYBW Launch Night
+For the first time, hardware, AI and ownership are on the same table.
+2025.08.24
+New York · AI Meets RWA
+Product concepts enter the public discussion of physical assets and artificial intelligence.
+2025.08.26
+US$10M strategic financing
+Becker Ventures, TBV, DuckDAO, Castrum Capital participated.
+2025.09.09
+L1 + L2 open source
+Before you write your name on the public ledger, give the source code to the world for inspection.
+2025.10
+Testnet online
+Networks move from concept to a state where they can be connected, observed and verified.
+2025.11.04
+Google GMS
+An intelligent terminal must first complete the fundamentals required to enter global markets.
+2025.12
+UN38.3 · GSMA TAC · CB
+Batteries can go on planes, terminals have names, and safety doesn’t stop at briefings.
+2026.01.22
+Philadelphia · RWA
+Continuing with the same ownership question in another city.
+2026.04.07
+California Proposition 65
+Compliance is not the fine print at the end of the page, it is the path for products to reach the market.
+2026.04.20
+Season 1 starts
+The first users began to bring the product from narrative to real life.
+2026.05.24
+FCC
+Before radio waves cross a border, they cross a test.
+2026.07.06
+Season 1 finale
+The end of a season is not the end; it is the starting line for the next batch of deliveries.
+2026.07.12
+WebX Tokyo
+From hardware to one of the largest Web3 conversation sites in Asia.
+
+The timeline is compiled based on public records and activity information provided by the company; final approval by the MAGNE.AI team is still required before official release.
+
+II
+
+THE RESPONSE
+
+Three independently verifiable layers.
+No layer relies on another to vouch for it.
+L1
+Applications and on-device AI
+
+Everyday experiences happen at the level closest to the user. Comprehension can be done locally without leaving the device first.
+
+L2
+TEE and trusted signature
+
+Sensitive computing is put into an isolated environment. The system does not ask you to believe, but leaves verifiable boundaries.
+
+L3
+Secure Element and NFC Recovery
+
+The key is guarded by a separate secure element; the recovery credential is a card, not a cloud.
+
+NFC / OFFLINE RECOVERY
+PLATE 02
+TRUST, HELD OFFLINE.
+AN OFFLINE CERTIFICATE PRESERVES THE RECOVERY BOUNDARY INDEPENDENT OF THE DEVICE AND THE CLOUD.
+Read the complete security architecture
+↗
+III
+
+THE OBJECT
+
+A terminal that remembers you.
+Not a server that remembers you.
+PLATE 03
+THE HARDWARE IS HERE.
+REAL MOTHERBOARD, TWO SURFACES, A VISIBLE HARDWARE BOUNDARY.
+01
+UNISOC T9100 5G
+mobile computing platform
+02
+IMG AX3596 · 10 TOPS INT8
+On-device AI computing
+03
+Up to 24GB Hyper RAM
+Physical and virtual memory configuration
+04
+512GB UFS 3.1
+local storage
+05
+5000mAh · 33W PD
+Batteries and wired charging
+06
+6.78" FHD+ · 120Hz
+monitor
+07
+MAG1 · TAC 01681300
+product identification
+View the front and back of the EVT motherboard
+↗
+View MAG1 full specs
+↗
+IV
+
+THE INTELLIGENCE
+
+The cloud assists.
+The device retains local intelligence.
+
+MAG1 doesn’t lump all AI into one slogan. The system assistant, client-side language capabilities, and image computing each take their own paths and work together when they need to meet.
+
+THREE PATHS / ONE DEVICE
+01 / CLOUD AI
+Google Gemini
+
+As the default system AI assistant for overseas versions, it integrates side keys for quick access and Google cloud capabilities.
+
+DEFAULT SYSTEM ASSISTANT
+02 / ON-DEVICE AI
+Qwen · ASR · TTS
+
+Local Qwen2.5 1.5B cooperates with end-side speech recognition and synthesis to undertake translation and speech workflow.
+
+LOCAL TRANSLATION
+03 / DEDICATED NPU
+IMG AX3596
+
+A discrete NPU provides hardware acceleration for on-device inference; imaging AI is handled by a dedicated ISP and Vision path.
+
+1.2GHz · 10 TOPS INT8
+
+ADB real machine information is used to confirm the running boundary; the complete service, runtime and SDK / AAR integration path are left on the AI ​​details page.
+
+View MAG1 AI Architecture
+↗
+V
+
+THE NETWORK
+
+The network is started from the terminal.
+The terminal doesn't have to rely on the network to be yours.
+EDGE
+MAG1
+
+The starting point for keys, on-device AI, trusted execution and user behavior.
+
+CONSENSUS
+MAGNE L1
+
+Device identity, public verification and ownership records.
+
+APPLICATION
+MHash L2
+
+Application and ecological layer based on OP Stack.
+
+“The purpose is not to put everything on the chain.
+It gives a place for things that need to be proven. "
+Explore MAGNE Network
+↗
+VI
+
+THE MOMENT
+
+Capital is just a number.
+What it really buys is the next period of time.
+DOCUMENT 01
+US$10M STRATEGIC FINANCING
+ANNOUNCEMENT OF THE FIRST ROUND OF STRATEGIC FINANCING.
+DOCUMENT 02
+US$2.64M ADDITIONAL FINANCING
+ADDITIONAL STRATEGIC FINANCING ANNOUNCEMENT.
+US$12.64M
+
+TOTAL PUBLICLY DISCLOSED FUNDING
+
+The first round of strategic financing of US$10M was participated by Becker Ventures, TBV, DuckDAO and Castrum Capital; additional US$2.64M of financing was participated by Gaea Ventures, Titans Ventures and Go2Mars.
+
+Numbers do not vouch for the product. It just gives the next round of validation time to happen.
+
+View company progress and public records
+↗
+VII
+
+THE OFFICE
+
+Three doors.
+leading to the same room.
+01 / COMMERCE
+business
+
+Cooperation, channels, corporate procurement and market. It is more important to state your needs clearly than to state your promises beautifully.
+
+We stick to the shipping schedule.
+Not adhering to marketing rhetoric.
+info@magne.ai ↗
+02 / SUPPORT
+support
+
+Devices, accounts, orders and after-sales. Issues should be numbered, tracked, and truly closed.
+
+SLA has time,
+Responses have names.
+Go to Support Center ↗
+03 / PRESS
+media
+
+Interviews, materials, brand assets and announcements. The data is on the chain, the story is here, and the commitment is in the public record.
+
+Stories can be told,
+Facts must be checked.
+Open media kit ↗
+※
+
+true intelligence
+doesn't decide everything for you.
+
+It's about letting you still own the decision.
+Pre-order MAG1 ↗
+View compliance information ↗
+MAGNE.AI
+
+Intelligent terminals are not just smartphones.
+
+read
+site directory
+Time axis
+Project progress
+image file
+Media Kit
+verify
+Compliance Overview
+FCC
+GSMA TAC
+connect
+Resources
+Media Kit
+W3 Web3 Portal ↗
+White paper ↗
+Follow
+GitHub
+X
+Telegram
+YouTube
+Discord
+© 2026 MAGNE.AI
+ENGLISH · VOL. 01
+Privacy Policy
+Cookie settings
+PRIVACY CONTROL / MAGNE.AI
+COOKIE PREFERENCES
+×
+
+Choose whether MAGNE.AI may use optional analytics storage. Necessary storage is always active so the site can remember this preference.
+
+NECESSARY
+Consent record and essential site operation. Always active.
+ANALYTICS
+Google Analytics 4 · G-NGKT224G39. No advertising personalization.
+
+Privacy Policy
+
+SAVE PREFERENCES
+ACCEPT ALL

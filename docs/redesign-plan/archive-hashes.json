@@ -1,0 +1,134 @@
+[
+  {
+    "route": "/learning/magne-dapp",
+    "sha256": "2c49fac491704d17c030c9e6b4386db2f4a82c46cdc38d50f7f55a3576743e4a"
+  },
+  {
+    "route": "/learning/what-is-magne",
+    "sha256": "e34d2b739e0de34d27421e0262a080d7dd4f061a826cbee540837e2b4978aa41"
+  },
+  {
+    "route": "/learning/mha",
+    "sha256": "7d5105de746a0720b298b2c3bd33a71b7639c51e1673024fc9cabe3dc9e46683"
+  },
+  {
+    "route": "/learning/pow",
+    "sha256": "79f52741861abba5905466adf7b46474762a6c1fb6d6c121e077e1d2dcc24121"
+  },
+  {
+    "route": "/learning/tokenomics",
+    "sha256": "bf27c056b6632a6c343d44029f82f47cac0a1acfe7ecc4ec767d2fa67a49d81d"
+  },
+  {
+    "route": "/learning/governance",
+    "sha256": "e8a36688b5ea0cc26ed4ac759e58874fdb44cf3568ddaf0a214d9c1b0c72c22c"
+  },
+  {
+    "route": "/learning/gov-overview",
+    "sha256": "3ca4cfbc6fcd14578c64f625a4eba8cbcb8061f61542567b4fe8d3db07189cf3"
+  },
+  {
+    "route": "/learning/incentives",
+    "sha256": "b0186fbd55e0a297bfdc311eb519205cdd1f458dc7e769af870412e90c48924f"
+  },
+  {
+    "route": "/learning/team-execution",
+    "sha256": "4f32974decbcec3cb6769a452d3f952d23b585d1be164db72cb8c4c47d7d152c"
+  },
+  {
+    "route": "/learning/metrics",
+    "sha256": "6cefa4ed178a05d0323c2ee4b90f97efe7ce793ab6d434e2836744849aa15d60"
+  },
+  {
+    "route": "/learning/milestone",
+    "sha256": "0393017238d5547fd758b480b0568f8cff21c522b8a5e00330e723b811b3dd0b"
+  },
+  {
+    "route": "/developers/net-config",
+    "sha256": "07ff25ec68a94cf12b1b41b8d228457a41f6e7174475365ae42a2629282b9fb9"
+  },
+  {
+    "route": "/developers/tools",
+    "sha256": "1d924ee5206497a34f564285b53226fe2d0e5e905dc827abbc20557cdaeab9a0"
+  },
+  {
+    "route": "/developers/build-contract",
+    "sha256": "7ee4c995faa08fe40f3b7f6170436abc9991bc2ed193bbc9af2662c087298b1a"
+  },
+  {
+    "route": "/developers/launch-token",
+    "sha256": "762e18d54b64742ef94c7fc14dc2badf996ce0a8b6ef40f1889979d2aef3ae90"
+  },
+  {
+    "route": "/developers/build-app",
+    "sha256": "f2553ca8952fcd01ea97b4bc7bdd6cf6c3368eeb37ada2f0e315d67748532c21"
+  },
+  {
+    "route": "/solutions/connect",
+    "sha256": "af86eb858b17c0440541319f8c5eeec5856f3f13458e95f38ae93f3b87e109cc"
+  },
+  {
+    "route": "/solutions/opstack",
+    "sha256": "697a7116e015bbf34da854def66409375690d38f3019ac1c12ad544fa8b12e14"
+  },
+  {
+    "route": "/solutions/get-mha",
+    "sha256": "449da9e8fbde29655ae5402d26ac48d9fe5ece940742ff01f42efea0c971a5af"
+  },
+  {
+    "route": "/solutions/why-l2",
+    "sha256": "1ff215526087f7d022c21feea05549bc6037047bf582f7eae808297fff3fdf94"
+  },
+  {
+    "route": "/solutions/security",
+    "sha256": "a91c8952b057cf027b182948e2a29fd05dd4ed932863d60bc75c4539fd6132c2"
+  },
+  {
+    "route": "/solutions/optimizations",
+    "sha256": "68998e323f06af4a416548508763a31cf5f1d88e209bbbee1bf303b7379a207e"
+  },
+  {
+    "route": "/solutions/hardware",
+    "sha256": "b61772a65cdd693c9961f18aec921f462cd0fd733ba317ff71847aadb2fa93fe"
+  },
+  {
+    "route": "/networks/faucet",
+    "sha256": "772b6265d852d533f2da08a840f794fb389e9d642c9213350a737f22a0ef0319"
+  },
+  {
+    "route": "/networks/explorer",
+    "sha256": "a5b0c56d22d250391d4f3140d2d39943759b9639ddb7731fdca6a50906a5f4b8"
+  },
+  {
+    "route": "/solutions/poai-depin",
+    "sha256": "e1e346e757798e744dc59b99cb80ad466b46fa797586ed36ded71232c6425da8"
+  },
+  {
+    "route": "/networks/l2",
+    "sha256": "925a369da651b702e1420889887bab10a42b8422e7b1219deffbf48ed2a208a9"
+  },
+  {
+    "route": "/networks/l1",
+    "sha256": "c60abd674188cad9fc7912a772a957029f81d824b63f29d910ecca52bb661f1d"
+  },
+  {
+    "route": "/help/faqs",
+    "sha256": "769b0c4f6ef84020aa5b827475e3696ce27f01833d4f06989d2a6b36e778ce61"
+  },
+  {
+    "route": "/help/contact",
+    "sha256": "a8483eea50607ec03854c7225cb2732ff37a147679f968ba5b0cea6177be98ee"
+  },
+  {
+    "route": "/help/glossary",
+    "sha256": "ec3334299762dc3c16417ecb3d846724b854ce727d9d75c7752d73bd9142235a"
+  },
+  {
+    "route": "/community/twitter",
+    "sha256": "41f2f1a2fcd5952af9c24075c4d78c3420d8f6f6d3ff331a8db385566b434bc9"
+  },
+  {
+    "route": "/community/telegram",
+    "sha256": "f1aa1b355e69d12def2101569c5d0b1be4e7253a7027125b65e6bc507fd5f587"
+  }
+]

@@ -1,0 +1,41 @@
+<h1 id="section-0" data-tc-unit="0">Incentive Marketplace</h1>
+<p data-tc-unit="1">In the M Hash Layer2 PoW ecosystem, the Incentive Marketplace allows protocols to offer whitelisted incentive tokens to miners, encouraging them to support specific on-chain activities or liquidity pools. This creates a competitive environment where different protocols vie for miner attention and block reward allocation.</p>
+<h3 id="section-1" data-tc-unit="2">How Incentives Work</h3>
+<p data-tc-unit="3">When a miner produces a block, they can choose to allocate part of their earned $MHA rewards toward one or more whitelisted Reward Vaults. These vaults are tied to specific protocols or applications.</p>
+<p data-tc-unit="4">When rewards are distributed:</p>
+<ul>
+<li data-tc-unit="5">The miner receives a commission in incentive tokens from the protocol</li>
+<li data-tc-unit="6">The remaining incentive tokens in the vault are distributed to participants who have staked eligible assets in that vault</li>
+<li data-tc-unit="7">All claims are processed automatically via M Hash Layer2 Hub</li>
+<li data-tc-unit="8">Users can claim their incentives at any time, with no expiration</li>
+</ul>
+<h3 id="section-2" data-tc-unit="9">Roles in the Incentive Marketplace</h3>
+<div class="overflow-x-auto"><table><thead><tr><th data-tc-unit="10">Role</th><th data-tc-unit="11">Description</th></tr></thead><tbody><tr><td data-tc-unit="12">Participant</td><td data-tc-unit="13">Stakes eligible assets (e.g., LP tokens, NFTs) into a Reward Vault to earn incentives</td></tr><tr><td data-tc-unit="14">Miner</td><td data-tc-unit="15">Produces blocks via PoW and directs part of $MHA rewards to selected vaults in exchange for incentives</td></tr><tr><td data-tc-unit="16">Protocol</td><td data-tc-unit="17">Provides incentive tokens to attract miner-directed rewards and increase engagement/liquidity</td></tr></tbody></table></div>
+<h3 id="section-3" data-tc-unit="18">Incentive Token Governance</h3>
+<ul>
+<li data-tc-unit="19">Only whitelisted Reward Vaults may distribute incentive tokens</li>
+<li data-tc-unit="20">Each vault can support up to two different incentive tokens</li>
+<li data-tc-unit="21">Adding a token or changing its manager requires governance approval</li>
+</ul>
+<h3 id="section-4" data-tc-unit="22">Managing Incentives</h3>
+<p data-tc-unit="23">The protocol’s Token Manager must set an <strong>incentive rate</strong>:</p>
+<ul>
+<li><span data-tc-unit="24">Format: “X tokens per </span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mi>H</mi><mi>A</mi><mtext>”</mtext><mo stretchy="false">(</mo><mi>e</mi><mi mathvariant="normal">.</mi><mi>g</mi><mi mathvariant="normal">.</mi><mo separator="true">,</mo><mn>10</mn><mi>U</mi><mi>S</mi><mi>D</mi><mi>C</mi><mi mathvariant="normal">/</mi></mrow><annotation encoding="application/x-tex">MHA” (e.g., 10 USDC/</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal" style="margin-right:0.10903em">M</span><span class="mord mathnormal" style="margin-right:0.08125em">H</span><span class="mord mathnormal">A</span><span class="mord">”</span><span class="mopen">(</span><span class="mord mathnormal">e</span><span class="mord">.</span><span class="mord mathnormal" style="margin-right:0.03588em">g</span><span class="mord">.</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em"></span><span class="mord">10</span><span class="mord mathnormal" style="margin-right:0.10903em">U</span><span class="mord mathnormal" style="margin-right:0.05764em">S</span><span class="mord mathnormal" style="margin-right:0.02778em">D</span><span class="mord mathnormal" style="margin-right:0.07153em">C</span><span class="mord">/</span></span></span></span><span data-tc-unit="25">MHA)</span></li>
+<li data-tc-unit="26">The rate cannot be lowered unless the vault’s token balance is fully depleted</li>
+<li data-tc-unit="27">Additional tokens can be deposited at any time, and the rate can be increased</li>
+<li data-tc-unit="28">Once deposited, incentive tokens cannot be withdrawn</li>
+</ul>
+<p data-tc-unit="29"><strong>Example:</strong></p>
+<div class="overflow-x-auto"><table><thead><tr><th data-tc-unit="30">Incentives</th><th data-tc-unit="31">Rate</th><th data-tc-unit="32">$MHA Coverage</th></tr></thead><tbody><tr><td data-tc-unit="33">2000 USDC</td><td data-tc-unit="34">10/$MHA</td><td data-tc-unit="35">200 $MHA</td></tr></tbody></table></div>
+<p data-tc-unit="36">Later updated:</p>
+<div class="overflow-x-auto"><table><thead><tr><th data-tc-unit="37">New Incentives</th><th data-tc-unit="38">New Rate</th><th data-tc-unit="39">New Coverage</th></tr></thead><tbody><tr><td data-tc-unit="40">2500 USDC</td><td data-tc-unit="41">11/$MHA</td><td data-tc-unit="42">227 $MHA</td></tr></tbody></table></div>
+<h3 id="section-5" data-tc-unit="43">Commission Distribution</h3>
+<ul>
+<li data-tc-unit="44">Miners can set a commission rate (default 5%, max 20%) for incentives captured from vaults</li>
+<li><span data-tc-unit="45">Example: If a vault pays 100 USDC for 10 </span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mi>H</mi><mi>A</mi><mo separator="true">,</mo><mi>a</mi><mi>n</mi><mi>d</mi><mi>a</mi><mi>m</mi><mi>i</mi><mi>n</mi><mi>e</mi><mi>r</mi><mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mn>5</mn></mrow><annotation encoding="application/x-tex">MHA, and a miner with 5% commission directs 1 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em"></span><span class="mord mathnormal" style="margin-right:0.10903em">M</span><span class="mord mathnormal" style="margin-right:0.08125em">H</span><span class="mord mathnormal">A</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em"></span><span class="mord mathnormal">an</span><span class="mord mathnormal">d</span><span class="mord mathnormal">amin</span><span class="mord mathnormal" style="margin-right:0.02778em">er</span><span class="mord mathnormal" style="margin-right:0.02691em">w</span><span class="mord mathnormal">i</span><span class="mord mathnormal">t</span><span class="mord mathnormal">h</span><span class="mord">5</span></span></span></span><span data-tc-unit="46">MHA worth of rewards, the miner earns 5 USDC, and the remaining 95 USDC goes to vault participants</span></li>
+</ul>
+<h3 id="section-6" data-tc-unit="47">Timing vs Rate</h3>
+<ul>
+<li data-tc-unit="48">Distribution timing (e.g., 3-day or 7-day streaming) is set by the Reward Vault</li>
+<li data-tc-unit="49">The exchange rate (e.g., 10 USDC/$MHA) remains fixed regardless of the reward release schedule</li>
+</ul>

@@ -1,0 +1,15 @@
+import { chromium } from 'playwright';
+import fs from 'node:fs/promises';
+const b=await chromium.launch({channel:'msedge',headless:true});
+const p=await b.newPage({viewport:{width:1440,height:900}});
+await p.goto('http://127.0.0.1:4173/',{waitUntil:'networkidle'});
+await p.evaluate(async()=>{for(const i of document.images)i.loading='eager';await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));document.getAnimations().forEach(a=>{a.pause();a.currentTime=0})});
+await p.screenshot({path:'docs/audit-homepage/01-homepage.png',fullPage:true});
+await p.locator('main > div').nth(2).screenshot({path:'docs/audit-homepage/02-performance.png'});
+await p.locator('main > div').nth(3).screenshot({path:'docs/audit-homepage/03-phone.png'});
+await p.locator('main > div').nth(5).screenshot({path:'docs/audit-homepage/04-community.png'});
+await p.locator('main > div').nth(7).screenshot({path:'docs/audit-homepage/05-token.png'});
+await fs.writeFile('docs/audit-homepage/current-text.txt',await p.locator('body').innerText());
+await p.setViewportSize({width:390,height:844});
+await p.screenshot({path:'docs/audit-homepage/06-mobile.png',fullPage:true});
+await b.close();

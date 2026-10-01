@@ -1,0 +1,189 @@
+/learning/milestone
+458	Milestone (Timeline-Ordered) — (Updated: 2026-04-19)
+459	<strong>MAGNE.AI Phone Gen1 — Certification, Security &amp; Production Milestones</strong>
+460	Date / Window
+461	Area
+462	Milestone
+463	Status
+464	Verification / Notes
+465	Security
+466	UTEE security evaluation (EAL2+) — mapped to OEM/ODM
+467	✅ Completed
+468	EAL2+ certification completed; mapping available under controlled due diligence.
+469	Security
+470	HyperSeed N60 secure component certification (EAL6+) — mapped to OEM/ODM
+471	✅ Completed
+472	EAL6+ certification completed; mapping available under controlled due diligence.
+473	Security
+474	HyperSeed 72B secure element certification (EAL6+) — mapped to OEM/ODM
+475	✅ Completed
+476	EAL6+ certification completed; mapping available under controlled due diligence.
+477	Compliance (Google)
+478	Google GMS approval
+479	✅ Completed
+480	Build approval granted; shipment/final approval evidence available under controlled due diligence.
+481	Compliance (Google)
+482	Google Widevine L1 approval
+483	✅ Completed
+484	Approval evidence available under controlled due diligence.
+485	Compliance (GSMA)
+486	GSMA TAC issuance
+487	✅ Completed
+488	TAC 01681300, Marketing Name: MAG1
+489	Battery / Logistics
+490	UN38.3 certification passed
+491	✅ Completed
+492	Transport safety testing completed.
+493	Device Program
+494	OEM/ODM production contract signed
+495	✅ Completed
+496	Production cooperation agreement executed.
+497	Battery / Safety
+498	CB certification passed (IEC 62133-2)
+499	✅ Completed
+500	Battery safety certification completed.
+501	Device Program
+502	Pre EVT P0 acceptance / joint R&amp;D phase
+503	✅ Completed
+504	Pre-development and joint R&amp;D phase completed; supporting materials available under NDA / controlled due diligence.
+505	Device Program
+506	EVT P1 acceptance
+507	✅ Completed
+508	EVT P1 acceptance completed; supporting materials available under NDA / controlled due diligence.
+509	2026-03 to 2026-04
+510	Device Program
+511	PVT P2 validation &amp; acceptance
+512	⏳ In progress
+513	Mass-production validation is in progress; phase artifacts and gating evidence available under NDA / controlled due diligence.
+514	Compliance (EU)
+515	CE
+516	⏳ In progress
+517	Lab schedule dependent; evidence available under controlled due diligence.
+518	Compliance (US)
+519	FCC
+520	✅ Completed
+521	Publicly available, FCC ID: 2BVCPGC603606
+522	Compliance (US)
+523	California Proposition 65 (CP65)
+524	✅ Completed
+525	TÜV Rheinland Report No. 27220370a 001; Phthalates and Lead Content PASS
+526	2026-06 to 2026-07
+527	Device Program
+528	First delivery window
+529	🟣 Planned
+530	First delivery targeted after PVT validation and certification closure.
+531	2026-07 to 2026-08
+532	Device Program
+533	Mass production ramp window
+534	🟣 Planned
+535	Yield validation, stability validation, and first batch shipment.
+536	<strong>Core security, system, communications, and battery certifications have been substantially completed, while production is advancing through PVT validation toward first delivery in mid-2026.</strong>
+537	<strong>MAGNE L1 &amp; M Hash L2 — Network, Open Source &amp; Infrastructure Milestones</strong>
+538	Date / Window
+539	Area
+540	Milestone
+541	Status
+542	Verification / Notes
+543	2025-08-10 (timeline anchor)
+544	Network (L1)
+545	MAGNE L1 Testnet launch
+546	✅ Completed
+547	Chain ID = 20250810; listed in the official connection documentation.
+548	2025-08-27 (timeline anchor)
+549	Network (L2)
+550	M Hash L2 Testnet launch
+551	✅ Completed
+552	Chain ID = 20250827; listed in the official connection documentation.
+553	Open Source (L1)
+554	MAGNE L1 public GitHub repository released
+555	✅ Completed
+556	Publicly accessible and externally timestamp-verifiable.
+557	Open Source (L2)
+558	M Hash L2 public GitHub repository released
+559	✅ Completed
+560	Publicly accessible and externally timestamp-verifiable.
+561	Explorer (L2)
+562	L2 Testnet explorer publicly available
+563	✅ Completed
+564	Externally verifiable via publicly visible timestamps.
+565	Explorer (L1)
+566	L1 Testnet explorer publicly available
+567	✅ Completed
+568	Externally verifiable via publicly visible timestamps.
+569	Ecosystem / Developer
+570	Testnet faucet / gas provisioning (Testnet only)
+571	✅ Completed
+572	Available on testnet only.
+573	Ecosystem / Developer
+574	Developer documentation v1 (public)
+575	✅ Completed
+576	Public docs include net-config / RPC / tools / quickstart guides.
+577	2026-Q1 to Q2
+578	Security / Readiness
+579	Protocol security review / audit readiness
+580	⏳ In progress
+581	Security review and audit readiness workstreams are progressing toward mainnet gating.
+582	Ongoing (2026-Q1 to Q2)
+583	Ops / Infrastructure
+584	Stability policy (rate limiting + monitoring + availability SLO)
+585	⏳ In progress
+586	Runbooks / dashboards available under controlled due diligence.
+587	2026-Q1 to Q2
+588	Mainnet
+589	Mainnet readiness checklist &amp; genesis plan
+590	🟣 Planned
+591	To be progressed after testnet hardening; subject to security and operations gates.
+592	2026-Q1 to Q2
+593	Mainnet
+594	Mainnet launch (L1/L2)
+595	🟣 Planned
+596	Dependent on readiness gates, audits, and ecosystem maturity.
+597	<strong>Network testnets, public repositories, explorers, and developer tooling are already in place, while audit and mainnet-readiness workstreams are advancing toward launch.</strong>
+598	<strong>MAGNE.AI — Capital Markets &amp; Listing Readiness Milestones</strong>
+599	<strong>(Exchange DD / Legal / Audit / Token Launch Preparation)</strong>
+600	Date / Window
+601	Area
+602	Milestone
+603	Status
+604	Verification / Notes
+605	Legal / Compliance
+606	Singapore legal opinion on $MHA issued
+607	✅ Completed
+608	GS Legal LLC issued a legal opinion on 
+609	MHA constitutes a digital payment token under the PS Act, does not constitute e-money, debenture, or a collective investment scheme, and accordingly would not be deemed a security or capital markets product under the SFA.
+610	Ongoing (2026-Q1)
+611	Exchange Readiness
+612	Exchange DD package iterations (v1 / v2 / v3)
+613	⏳ In progress
+614	DD materials covering team, security, compliance, operations, and token-related documentation have been iteratively updated across multiple controlled versions in response to review needs; public disclosure remains summary-level.
+615	Ongoing (2026-Q1)
+616	Token Documentation
+617	Token documentation / disclosure package refinement
+618	⏳ In progress
+619	Tokenomics, release schedule, utility design, and disclosure wording are being refined for exchange and partner review.
+620	Ongoing (2026-Q1)
+621	Security / Audit
+622	Smart contract / protocol audit
+623	⏳ In progress
+624	Audit workstream progressing; final report to be disclosed under controlled due diligence upon completion.
+625	Ongoing (2026-Q1)
+626	Exchange Coordination
+627	Exchange DD / submission preparation
+628	⏳ In progress
+629	Submission materials, supporting annexes, and verification package are being consolidated for exchange-facing review.
+630	Ongoing (2026-Q1)
+631	Market Structure
+632	Market maker / liquidity coordination
+633	⏳ In progress
+634	Discussions and launch-structure planning are being advanced in parallel with listing preparation.
+635	Pre-TGE
+636	Launch Readiness
+637	TGE readiness checklist
+638	🟣 Planned
+639	Final gating subject to legal, audit, exchange, liquidity, and operational readiness.
+640	Pre-TGE / Mainnet
+641	Launch Readiness
+642	Listing / launch execution window
+643	🟣 Planned
+644	Dependent on completion of readiness gates and external coordination.
+645	<strong>Legal structuring has been completed, while exchange DD, audit, token disclosure, and launch-readiness workstreams are advancing in parallel toward listing and TGE execution.</strong>

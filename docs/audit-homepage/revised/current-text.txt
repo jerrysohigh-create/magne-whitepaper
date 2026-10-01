@@ -1,0 +1,83 @@
+Explore MAGNE.AI’s hardware and Web3 ecosystem.
+VIEW DOCUMENTATION
+RESOURCES
+
+EXPLORE PRODUCT INFORMATION, NETWORK DOCUMENTATION, AND DEVELOPER RESOURCES.
+
+Explore the ecosystem.
+Project overview
+↗
+Network configuration
+↗
+Developer repositories
+↗
+Network documentation.
+
+· Developer resources
+
+Network configuration
+
+Review network identifiers and connection settings in the developer documentation. Check the network environment before connecting.
+
+NETWORK SETTINGS
+Transactions and fees
+
+Consult the documentation for transaction setup. Fees and confirmation times depend on the network environment and current conditions.
+
+TRANSACTION INFORMATION
+Validation and security
+
+Review the documented network architecture and security model. No network or application can eliminate every security risk.
+
+NETWORK ARCHITECTURE
+Developer tools
+
+Explore the available developer documentation and check the requirements of each tool before use.
+
+DOCUMENTATION
+Hardware & Web3 resources.
+
+Concept illustration. Not a photograph of a MAGNE.AI device.
+
+Explore MAGNE.AI product information and Web3 documentation. Refer to the relevant device specifications for supported features. Network compatibility depends on the device variant, supported bands, carrier, and region.
+
+EXPLORE DOCUMENTATION↗
+Connect with the community.
+Community
+
+Photo archive
+
+Connect
+
+Explore the MAGNE.AI community
+
+
+Explore
+
+Community moments
+
+Community
+
+Photo archive
+
+Connect
+
+Explore the MAGNE.AI community
+
+
+Explore
+
+Community moments
+
+Explore the documentation
+and connect with the
+Magne.AI community.
+EXPLORE GITHUB
+Token documentation.
+
+Read the token documentation for allocation and distribution information.
+
+VIEW DOCUMENTATION ↗
+Managed by
+MAGNE.AI
+Privacy Policy

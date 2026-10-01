@@ -1,0 +1,51 @@
+/networks/explorer
+1093	MAGNE / M Hash Block Explorer
+1094	<strong>Testnet</strong>
+1095	MAGNE L1 Testnet
+1096	<strong>Key</strong>
+1097	<strong>Value</strong>
+1098	Network Name
+1099	MAGNE L1 Testnet
+1100	RPC URL
+1101	Chain ID
+1102	Currency symbol
+1103	MHA
+1104	Block Explorer URL
+1105	MHA Testnet Faucet
+1106	M Hash L2 Testnet
+1107	<strong>Key</strong>
+1108	<strong>Value</strong>
+1109	Network Name
+1110	M Hash L2 Testnet
+1111	RPC URL
+1112	Chain ID
+1113	Currency symbol
+1114	MHA
+1115	Block Explorer URL
+1116	MHA Testnet Faucet
+1117	Mainnet (In Planning)
+1118	MAGNE L1 Mainnet(Coming Soon)
+1119	<strong>Key</strong>
+1120	<strong>Value</strong>
+1121	Network Name
+1122	MAGNE L1 Mainnet
+1123	RPC URL
+1124	Chain ID
+1125	Currency symbol
+1126	MHA
+1127	Block Explorer URL
+1128	MHA Testnet Faucet
+1129	TBD
+1130	M Hash L2 Mainnet
+1131	<strong>Key</strong>
+1132	<strong>Value</strong>
+1133	Network Name
+1134	M Hash L2 Mainnet
+1135	RPC URL
+1136	Chain ID
+1137	TBD
+1138	Currency symbol
+1139	MHA
+1140	Block Explorer URL
+1141	MHA Testnet Faucet
+1142	TBD

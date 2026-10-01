@@ -1,0 +1,126 @@
+{
+  "title": "W3.MAGNE.AI — Agent Infrastructure Control Layer",
+  "headings": [
+    "\n                Agents canact.\n                W3 makes everyaction provable.\n              ",
+    "W3 is MAGNE.AI’s infrastructure layer beyond Phone Gen1.",
+    "W3 is not an agent.",
+    "Agents need enforceable contracts.",
+    "Testnet + sandbox payment.",
+    "\n              Controlled payments,not unlimited authority.\n            ",
+    "\n                Six-stage sign-off.One receipt issued.\n              ",
+    "\n              Every action needssix layers of proof.\n            ",
+    "IDENTITY",
+    "POLICY",
+    "EXECUTION",
+    "AGENTPAY",
+    "RECEIPT",
+    "SETTLEMENT",
+    "\n              Private intelligence.On your premises.\n            ",
+    "\n              Public evidence.Explicit boundaries.\n            ",
+    "MAGNE HARDWARE",
+    "AGENT SERVICES",
+    "\n              Operating momentum,not a concept claim.\n            ",
+    "SEASON 1 Lottery",
+    "SEASON 2 Activity Center",
+    "\n              Not a news feed.An operating record.\n            ",
+    "WebX Tokyo 2026 · GAEA Ventures Side Event ↗",
+    "Season 1 campaign concluded ↗",
+    "MAG1 FCC certification published ↗",
+    "Season 1 Lottery + Dashboard online ↗",
+    "MAG1 California CP65 certified ↗",
+    "Philadelphia · RWA College Tour ↗",
+    "MAG1 CB certified (IEC 62133-2) ↗",
+    "GSMA TAC issued for MAG1 ↗",
+    "MAG1 UN38.3 certified ↗",
+    "MAG1 Google GMS certification completed ↗",
+    "MAGNE.AI testnet online · second iteration ↗",
+    "MAGNE.AI testnet online · first iteration ↗",
+    "MAGNE L1 and M Hash L2 code released ↗",
+    "Company discloses US$10M strategic financing · US$12.64M cumulative ↗",
+    "New York · AI Meets RWA side event ↗",
+    "MAGNE.AI Launch Night · MYBW 2025 ↗",
+    "\n              Data rooms needclear boundaries.\n            ",
+    "PUBLIC",
+    "VERIFIED",
+    "NDA REQUIRED",
+    "// SYSTEM",
+    "// PROGRAMS",
+    "// EVIDENCE",
+    "// MAGNE NETWORK"
+  ],
+  "styles": [
+    {
+      "tag": "BODY",
+      "font": "\"Inter Tight\", \"Noto Sans SC\", -apple-system, sans-serif",
+      "color": "rgb(245, 245, 247)",
+      "bg": "rgb(10, 10, 12)"
+    },
+    {
+      "tag": "NAV",
+      "font": "\"Inter Tight\", \"Noto Sans SC\", -apple-system, sans-serif",
+      "color": "rgb(245, 245, 247)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, monospace",
+      "color": "rgba(245, 245, 247, 0.65)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H1",
+      "font": "\"Space Grotesk\", \"Noto Sans SC\", sans-serif",
+      "color": "rgb(245, 245, 247)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"Inter Tight\", \"Noto Sans SC\", -apple-system, sans-serif",
+      "color": "rgba(245, 245, 247, 0.65)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "font": "\"Space Grotesk\", \"Noto Sans SC\", sans-serif",
+      "color": "rgb(0, 212, 212)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"Inter Tight\", \"Noto Sans SC\", -apple-system, sans-serif",
+      "color": "rgba(245, 245, 247, 0.65)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"Inter Tight\", \"Noto Sans SC\", -apple-system, sans-serif",
+      "color": "rgba(245, 245, 247, 0.65)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"Inter Tight\", \"Noto Sans SC\", -apple-system, sans-serif",
+      "color": "rgba(245, 245, 247, 0.65)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"Inter Tight\", \"Noto Sans SC\", -apple-system, sans-serif",
+      "color": "rgba(245, 245, 247, 0.65)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "font": "\"Space Grotesk\", \"Noto Sans SC\", sans-serif",
+      "color": "rgb(245, 245, 247)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "font": "\"Inter Tight\", \"Noto Sans SC\", -apple-system, sans-serif",
+      "color": "rgba(245, 245, 247, 0.65)",
+      "bg": "rgba(0, 0, 0, 0)"
+    }
+  ],
+  "overflow": false
+}

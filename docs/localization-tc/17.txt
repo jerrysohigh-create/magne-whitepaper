@@ -1,0 +1,11 @@
+/solutions/opstack
+945	Why M Hash Layer2 is Built on OP Stack
+946	Before building M Hash Layer2, our team conducted extensive research and evaluation of available Layer 2 frameworks. We ultimately chose the OP Stack as the foundation for M Hash Layer2 Rollup because of its modularity, high performance potential, and alignment with our goals.
+947	<strong>Our Goals</strong>
+948	Achieve up to 100M gas per second throughput. We optimized EVM execution, state storage, and transaction handling to push the upper limits of Layer 2 performance.
+949	Deliver an extremely low-cost rollup solution. Since Layer 1 calldata costs dominate rollup fees, we designed M Hash Layer2 to support flexible Data Availability (DA) layers beyond mainnet posting—significantly reducing gas overhead.
+950	Contribute to open infrastructure. All performance optimizations and research from M Hash Layer2 will be open-sourced and shared with the broader OP Stack ecosystem.
+951	<strong>Why OP Stack</strong>
+952	<strong>Modular Execution Clients</strong>: OP Stack allows M Hash Layer2 to plug in different execution clients for performance tuning or decentralization. We can integrate with existing BSC-compatible clients or build our own execution layer.
+953	<strong>Flexible Data Availability</strong>: OP Stack separates execution and DA layers. M Hash Layer2 can choose between Ethereum DA, BNB Greenfield, or future custom DA layers to balance security, scalability, and cost.
+954	<strong>Ecosystem Interoperability</strong>: As part of the OP Stack ecosystem, M Hash Layer2 can connect with other rollups like Optimism. This enhances network effects, increases composability, and fosters collaboration between ecosystems.

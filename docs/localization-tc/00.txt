@@ -1,0 +1,3 @@
+/learning/magne-dapp
+0	MAGNE dApp (In Planning)
+1	<strong>Dapp Hub: Shin Getter Nexus</strong> is an upcoming integrated platform designed to serve as the central entry point for decentralized applications within the M Hash ecosystem. It will provide developers and users with seamless access to a wide range of dApps, tools, and services, all connected through a unified interface. With optimized connectivity to both Layer 1 and Layer 2, Shin Getter Nexus aims to enhance cross-application interoperability, reduce friction for onboarding, and foster a thriving decentralized economy.

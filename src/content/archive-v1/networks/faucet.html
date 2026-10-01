@@ -1,0 +1,29 @@
+<div class="font-sans"><div class="mx-auto max-w-screen-2xl px-4"><div class="flex"><aside class="w-64 shrink-0 border-r border-black/10 hidden lg:block"><div class="px-4 py-6"><div class="mb-6"><div class="font-bold text-xs uppercase tracking-wide mb-2"></div><ul class="space-y-1"><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] text-[#B1B1B1]" href="/networks/explorer">Magne Block Explorer</a></li><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] bg-[#1C2B4F] text-gray-2-- border-l-4 border-[#008CFF]" href="/networks/faucet" aria-current="page">Gas Faucet</a></li></ul></div><div class="mb-6"><div class="font-bold text-xs uppercase tracking-wide mb-2">Layers</div><ul class="space-y-1"><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] text-[#B1B1B1]" href="/networks/l1">MAGNE.AI Layer 1 - Magne</a></li><li><a class="block rounded px-2 py-1.5 text-sm hover:bg-[#1C2B4F] text-[#B1B1B1]" href="/networks/l2">MAGNE.AI Layer 2 - M Hash</a></li></ul></div></div></aside><div class="flex-1 py-8 px-6 overflow-hidden"><h1 class="font-[Reddit Sans] text-[40px] font-semibold leading-[58.8px] mb-[20px]">Gas and Fees</h1>
+<p class="text-[16px] font-[400] leading-[25.6px]">M Hash Layer2 is a chain scaling solution built on top of the MAGNE Layer 1 blockchain, designed to deliver <strong>high throughput</strong> and <strong>low-cost transactions</strong> for DeFi, NFTs, gaming, and other high-demand applications.</p>
+<p class="text-[16px] font-[400] leading-[25.6px]">The cost of an M Hash Layer2  transaction consists of two components:</p>
+<ul class="list-disc list-outside pl-6 space-y-2">
+<li class="leading-relaxed"><strong>Layer 2 gas fee</strong> – reflects the computational complexity of processing the transaction on M Hash L2</li>
+<li class="leading-relaxed"><strong>Layer 1 gas fee</strong> – covers the cost of submitting batched transactions to the MAGNE mainnet for verification and finality</li>
+</ul>
+<p class="text-[16px] font-[400] leading-[25.6px]"><strong>Gas price formula:</strong>
+Gas price = base price + priority price</p>
+<p class="text-[16px] font-[400] leading-[25.6px]"><strong>Transaction cost formula:</strong>
+L2 transaction cost = (L2 gas price × L2 gas consumed) + (L1 gas price × L1 gas consumed)</p>
+<hr class="my-[10px] border-gray-300">
+<h3 class="font-[Reddit Sans] text-[18px] font-semibold leading-[37.2px]">Current Configuration</h3>
+<div class="overflow-x-auto my-6"><table class="min-w-full border border-gray-300 text-left text-sm"><thead class="bg-gray-100 text-gray-700 font-semibold"><tr class="border-b last:border-0"><th class="px-4 py-2 border-r last:border-r-0">Network</th><th class="px-4 py-2 border-r last:border-r-0">Floor Base Price</th><th class="px-4 py-2 border-r last:border-r-0">Minimum Priority Price</th></tr></thead><tbody><tr class="border-b last:border-0"><td class="px-4 py-2 border-r last:border-r-0">M Hash L2 Testnet</td><td class="px-4 py-2 border-r last:border-r-0">0 gwei</td><td class="px-4 py-2 border-r last:border-r-0">1 gwei</td></tr><tr class="border-b last:border-0"><td class="px-4 py-2 border-r last:border-r-0">M Hash L2 Mainnet</td><td class="px-4 py-2 border-r last:border-r-0"></td><td class="px-4 py-2 border-r last:border-r-0"></td></tr><tr class="border-b last:border-0"><td class="px-4 py-2 border-r last:border-r-0">MAGNE L1 Testnet</td><td class="px-4 py-2 border-r last:border-r-0">0 gwei</td><td class="px-4 py-2 border-r last:border-r-0">0.1 gwei</td></tr><tr class="border-b last:border-0"><td class="px-4 py-2 border-r last:border-r-0">MAGNE L1 Mainnet</td><td class="px-4 py-2 border-r last:border-r-0"></td><td class="px-4 py-2 border-r last:border-r-0"></td></tr></tbody></table></div>
+<hr class="my-[10px] border-gray-300">
+<h3 class="font-[Reddit Sans] text-[18px] font-semibold leading-[37.2px]">What This Means</h3>
+<p class="text-[16px] font-[400] leading-[25.6px]">The <strong>floor base price</strong> is the minimum base gas price that M Hash can set. This value can change dynamically depending on network usage.
+For example, with the current configuration, if a block’s usage reaches <strong>50% of the 100M gas limit</strong>, the base price will rise by <strong>12.5%</strong>.</p>
+<p class="text-[16px] font-[400] leading-[25.6px]">The <strong>minimum priority price</strong> is preset. Users can choose any priority fee higher than this minimum.
+Typically, wallets and dApps retrieve the <strong>recommended gas price</strong> by calling the “estimate gas price” API, which calculates it based on the average gas price from recent blocks.</p>
+<p class="text-[16px] font-[400] leading-[25.6px]">M Hash’s goal is to keep <strong>basic transfer transactions under $0.001</strong>, enabling <strong>mass adoption</strong> and supporting high-frequency, low-value use cases.</p>
+<h3 class="font-[Reddit Sans] text-[18px] font-semibold leading-[37.2px]">How M Hash Layer2 Keeps Costs Low</h3>
+<ul class="list-disc list-outside pl-6 space-y-2">
+<li class="leading-relaxed"><strong>Enhanced Data Compression</strong> – Apply advanced compression algorithms to minimize L2 transaction data before submitting to L1</li>
+<li class="leading-relaxed"><strong>Efficient Transaction Batching</strong> – Optimize batching to maximize block space usage and reduce per-transaction costs</li>
+<li class="leading-relaxed"><strong>Data Availability Solutions</strong> – Leverage MAGNE’s data availability infrastructure to offload some storage from L1, lowering costs</li>
+<li class="leading-relaxed"><strong>Zero-Knowledge Proofs</strong> – Validate transactions without exposing full transaction data, reducing L1 data load</li>
+<li class="leading-relaxed"><strong>Protocol-Level Optimizations</strong> – Improve protocol execution and networking to lower computational overhead on L2</li>
+</ul></div></div></div></div><!--$--><!--/$-->

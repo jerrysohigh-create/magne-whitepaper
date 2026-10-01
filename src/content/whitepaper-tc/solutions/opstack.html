@@ -1,0 +1,2 @@
+<h1 id="section-0">為何 M Hash 採用 OP Stack 設計</h1>
+<h2 id="section-1">設計目標</h2><p>此設計旨在重用面向 EVM 的 Rollup 框架，支援應用執行、批次處理及 L1 結算整合。重用框架可減少自行開發工作，但 MAGNE 特定改動仍須獨立測試與審查。</p><h2 id="section-2">重用框架的範圍</h2><ul><li>執行與 Rollup 組件各有職責；部署不只是執行客戶端。</li><li>使用 OP Stack 不自動構成 Superchain 成員身份、已啟用橋接或與所有 Rollup 的互通。</li><li>須按實際網絡列明資料發布、結算合約、證明配置與升級權限。</li></ul><h2 id="section-3">實作依據</h2><p><a href="/tc/networks/l2">L2 角色圖</a> · <a href="/tc/solutions/optimizations">優化方案</a> · <a href="https://specs.optimism.io/protocol/derivation.html">OP Stack derivation specification</a></p>

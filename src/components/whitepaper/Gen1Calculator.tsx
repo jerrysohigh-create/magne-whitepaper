@@ -1,0 +1,55 @@
+"use client";
+
+import { useState } from 'react';
+import { calculateGen1, GEN1_BASELINE } from './gen1-model';
+
+export function Gen1Calculator({ locale }: { locale: 'en' | 'tc' }) {
+  const t = (en: string, tc: string) => locale === 'tc' ? tc : en;
+  const [mode, setMode] = useState('fixed');
+  const [months, setMonths] = useState(24);
+  const [startMonth, setStartMonth] = useState(1);
+  const [count, setCount] = useState('13750');
+  const [counts, setCounts] = useState<string[]>(Array(36).fill('13750'));
+  const [availability, setAvailability] = useState('100');
+  const [work, setWork] = useState('100');
+  const values = mode === 'fixed' ? Array(months).fill(count) as string[] : counts.slice(0, months);
+  let error = '', rows: ReturnType<typeof calculateGen1> = [];
+  if ([...values, availability, work].some(x => x.trim() === '')) error = t('Complete all fields to calculate.', '請填妥所有欄位後再查看結果。');
+  else {
+    try { rows = calculateGen1(values.map(Number), Number(availability) / 100, Number(work) / 100, startMonth); }
+    catch { error = t('Device counts must be whole numbers from 0 to 1,000,000,000. Percentages must be 0–100, with work no higher than availability.', '設備數須為 0 至 1,000,000,000 的整數。比例須介於 0–100%，有效任務比例不可高於可用性。'); }
+  }
+  const end = rows[months - 1];
+  const fmt = (n: number) => n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  return <section className="gen1-calculator" id="gen1-calculator" aria-labelledby="gen1-calculator-title">
+    <p className="wp-eyebrow">GEN1 / {t('REWARD ESTIMATE', '獎勵測算')}</p>
+    <h3 id="gen1-calculator-title">{t('Explore your reward scenario', 'GEN1 獎勵測算')}</h3>
+    <p>{t('At or below 13,750 devices, participation from M1 with full availability and reference work reproduces the standard schedule. Use this tool for higher or changing counts, partial availability/work, or a device joining later. Results follow the program calendar and are conditional estimates, not guaranteed receipts.', '不超過 13,750 台、自 M1 起參與且可用性與有效任務均達 100% 時，結果與標準表一致。設備數超過基準、逐月變化、參與條件未達 100%，或設備較晚加入時，請在此調整情境。結果按計劃日曆計算，屬條件估算，並非保證到帳。')}</p>
+    <p>{t('Amounts use the model’s earning-month vesting schedule and assume timely settlement. Approval is required before claiming; delayed approval can delay actual availability. These are not wallet receipts.', '金額按獎勵所屬月的模型解鎖表計算，假設按期結算；核定前不可領取，核定延後可能推遲實際可領取時間。這些數值不是錢包到帳紀錄。')} <a href="#gen1-settlement-timing">{t('Settlement timing','查看結算時間口徑')}</a></p><div className="gen1-inputs">
+      <label>{t('Device-count mode', '設備數模式')}<select value={mode} onChange={e => setMode(e.target.value)}><option value="fixed">{t('Fixed count', '固定台數')}</option><option value="monthly">{t('Monthly counts', '逐月台數')}</option></select></label>
+      <label>{t('Program end month', '計劃測算截止月份')}<select value={months} onChange={e => { const end = Number(e.target.value); setMonths(end); setStartMonth(prev => Math.min(prev, end)); }}><option value="24">M24</option><option value="36">M36</option></select></label>
+      <label>{t('Device participation starts', '該設備開始參與月份')}<select value={startMonth} onChange={e => setStartMonth(Number(e.target.value))}>{Array.from({length:months},(_,i)=><option key={i+1} value={i+1}>M{i+1}</option>)}</select></label>
+      <label>{t(mode === 'fixed' ? 'Eligible devices' : 'Fill value for all months', mode === 'fixed' ? '合資格設備總數' : '所有月份填入值')}<input type="number" min="0" max="1000000000" step="1" value={count} onChange={e => setCount(e.target.value)} /></label>
+      <label>{t('Verified availability (%)', '經核驗可用性（%）')}<input type="number" min="0" max="100" step="any" value={availability} onChange={e => setAvailability(e.target.value)} /></label>
+      <label>{t('Reference work achieved (%)', '有效任務達參考能力比例（%）')}<input type="number" min="0" max="100" step="any" value={work} onChange={e => setWork(e.target.value)} /></label>
+    </div>
+    {mode === 'monthly' && <fieldset className="gen1-months"><legend>{t('Eligible devices in each program month', '各計劃月份的合資格設備數')}</legend>
+      <button type="button" onClick={() => setCounts(Array(36).fill(count))}>{t('Apply fill value to all months', '將填入值套用至所有月份')}</button>
+      <div className="gen1-month-grid">{counts.slice(0, months).map((value, i) => <label key={i}>M{i + 1}<input aria-label={t(`Month ${i + 1} eligible devices`, `第 ${i + 1} 月合資格設備數`)} type="number" min="0" max="1000000000" step="1" value={value} onChange={e => setCounts(prev => prev.map((v, j) => i === j ? e.target.value : v))} /></label>)}</div>
+    </fieldset>}
+    <p className="gen1-assumptions">{t(`Baseline: ${GEN1_BASELINE.toLocaleString('en-US')} devices · Proposed split: 20% availability / 80% work. This device joins at the start of program M${startMonth}; the estimate ends at program M${months}, not ${months} months after joining. Device counts include this device when participating. No rewards accrue before joining. Annual halving and the initial ramp follow program months and never restart for a new device.`, `基準：13,750 台 · 擬議比例：20% 可用性／80% 有效任務。假設該設備於計劃 M${startMonth} 月初加入，測算截至計劃 M${months}，不是加入後再計 ${months} 個月。參與月份的設備總數須包含該設備。加入前不產生獎勵；年度減半及啟動平滑係數按計劃月份執行，不因新設備加入而重置。`)}</p>
+    <p>{t('Counts are constant within each month. After joining, availability and work percentages apply to each month with a positive count. Zero devices means no new rewards, while earlier batches keep vesting. Joining mid-month requires time-weighted settlement and is not modeled here. If the selected end month precedes the start month when shortened, the start is adjusted to that end month.', '假設各月內設備數不變。加入後，設備數大於零的各月均採用所填可用性與任務比例；設備數為零時不新增獎勵，既有批次仍繼續解鎖。月中加入須按實際時間結算，本工具暫以月初加入測算。若縮短截止月份至原加入月份之前，加入月份將同步調整為該截止月份。')}</p>
+    <p>{t('Work means verified output relative to full-month reference capacity, not the percentage of assigned tasks completed. Month numbers follow the program calendar, not the purchase date. No optional staking boosts, token price or fees are included. No wallet connection is required and inputs are not saved.', '有效任務比例以全月參考任務能力為分母，不是獲派任務的完成率。月份按計劃日曆計算，不從購機日重新起算。不計額外質押加成、代幣價格或費用。無須連接錢包，輸入值不會儲存。')}</p>
+    <p><a href="#section-6">{t('Read the budget formula', '查看預算公式')}</a> · <a href="#section-8">{t('Read the vesting rules', '查看解鎖規則')}</a></p>
+    <p>{t('Considering an optional lock or stake? Use the separate batch estimate below. A voluntary lock changes receipt timing for the selected base reward; do not add its principal again to these totals.', '如考慮自願鎖定或質押，請另用下方單批測算。自願鎖定會改變所選基礎獎勵的領取時間，不能將返還本金再次加到本表合計。')} <a href="#gen1-incentive-calculator">{t('Optional incentive estimate →','鎖定／質押激勵測算 →')}</a></p>
+    <div role="status" aria-live="polite" aria-atomic="true">
+      {error ? <p className="gen1-error">{error}</p> : <dl className="gen1-results">
+        {[[t('Earned through', '累計核定獎勵'), end.earnedTotal, 'earned'], [t('Claimable through', '累計可領取'), end.releasedTotal, 'released'], [t('Still locked at', '期末待解鎖'), end.locked, 'locked']].map(([label, value, key]) => <div key={key}><dt>{label} · M{months}</dt><dd data-gen1-result={key}>{fmt(Number(value))}<small>MHA</small></dd></div>)}
+      </dl>}
+    </div>
+    {!error && <details className="gen1-output"><summary>{t('View monthly results and remaining vesting', '查看逐月結果與剩餘解鎖')}</summary>
+      <p>{t('The final two rows show only remaining vesting from the selected period; new rewards after that period are excluded. Display rounding may cause small differences in displayed sums.', '最後兩行僅展示所選期間已核定獎勵的剩餘解鎖，不計其後新增獎勵。顯示值四捨五入後，相加可能有微小差異。')}</p>
+      <div className="table-wrap" role="region" tabIndex={0} aria-label={t('Calculated monthly rewards', '逐月獎勵測算結果')}><table><caption>{t('Per device · MHA', '每台設備 · MHA')}</caption><thead><tr>{[t('Program month', '計劃月份'), t('Device status', '該設備狀態'), t('Devices', '設備數'), t('Earned', '當月核定'), t('Claimable', '當月可領取'), t('Cumulative claimable', '累計可領取'), t('Locked', '待解鎖')].map(h => <th scope="col" key={h}>{h}</th>)}</tr></thead><tbody>{rows.map(r => <tr key={r.month}><th scope="row">M{r.month}{r.tail ? '*' : ''}</th><td>{r.tail ? t('Vesting only','僅列剩餘解鎖') : r.month < startMonth ? t('Not yet joined','尚未加入') : r.participating ? t('Participating','參與測算') : t('No eligible devices','無合資格設備')}</td><td>{r.tail ? '—' : r.count.toLocaleString('en-US')}</td><td>{fmt(r.earned)}</td><td>{fmt(r.released)}</td><td>{fmt(r.releasedTotal)}</td><td>{fmt(r.locked)}</td></tr>)}</tbody></table></div>
+    </details>}
+  </section>;
+}

@@ -1,0 +1,132 @@
+<h1 id="section-0" data-tc-unit="0">Launch an ERC-20 Token with Foundry</h1>
+<hr>
+<h2 id="section-1" data-tc-unit="1">0) Requirements</h2>
+<ul>
+<li>
+<p data-tc-unit="2"><strong>Foundry</strong> v1.3.1+</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>curl -L https://foundry.paradigm.xyz | bash
+foundryup
+</code></pre></div></pre>
+<p data-tc-unit="3">(Foundry v1.3.1+ is required for Etherscan V2 verification.)</p>
+</li>
+</ul>
+<hr>
+<h2 id="section-2" data-tc-unit="4">1) Create the project</h2>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>mkdir launch-mha-token &amp;&amp; cd launch-mha-token
+forge init
+</code></pre></div></pre>
+<p data-tc-unit="5">This creates the standard Foundry project scaffold.</p>
+<hr>
+<h2 id="section-3" data-tc-unit="6">2) Install OpenZeppelin + set remappings</h2>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>forge install OpenZeppelin/openzeppelin-contracts
+echo 'remappings = ["@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/"]' &gt;&gt; foundry.toml
+
+</code></pre></div></pre>
+<p data-tc-unit="7">This ensures your IDE resolves OpenZeppelin imports correctly.</p>
+<hr>
+<h2 id="section-4" data-tc-unit="8">3) Write the ERC-20 contract</h2>
+<p data-tc-unit="9">Rename the default file:</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>mv src/Counter.sol src/MagnetToken.sol
+</code></pre></div></pre>
+<p data-tc-unit="10"><strong><span>src/MagnetToken.sol</span></strong>:</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
+import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract MagnetToken is ERC20 {
+    constructor(
+        string memory name_,
+        string memory symbol_,
+        uint256 initialSupply
+    ) ERC20(name_, symbol_) {
+        _mint(msg.sender, initialSupply);
+    }
+}
+</code></pre></div></pre>
+<p data-tc-unit="11">Compile to confirm:</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>forge compile
+</code></pre></div></pre>
+<hr>
+<h2 id="section-5" data-tc-unit="12">4) Create a deploy script</h2>
+<p data-tc-unit="13">Rename the sample script and update it:</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>mv script/Counter.s.sol script/DeployMagnetToken.s.sol
+</code></pre></div></pre>
+<p data-tc-unit="14"><strong><span>script/DeployMagnetToken.s.sol</span></strong>:</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
+import {Script, console2} from "forge-std/Script.sol";
+import {MagnetToken} from "../src/MagnetToken.sol";
+
+contract DeployMagnetToken is Script {
+    function run() public {
+        vm.startBroadcast();
+        // Example: 1,000,000 tokens (18 decimals)
+        MagnetToken token = new MagnetToken("MAGNE Token", "MHA", 1_000_000 ether);
+        vm.stopBroadcast();
+
+        console2.log("address:", address(token));
+        console2.log("totalSupply:", token.totalSupply());
+    }
+}
+
+</code></pre></div></pre>
+<hr>
+<h2 id="section-6" data-tc-unit="15">5) (Optional) Adjust tests</h2>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>mv test/Counter.t.sol test/MagnetToken.t.sol
+</code></pre></div></pre>
+<p data-tc-unit="16">You can keep it empty or add your own token tests.</p>
+<hr>
+<h2 id="section-7" data-tc-unit="17">6) Create a Foundry keystore wallet</h2>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>cast wallet import MyMagneAccount --interactive
+# paste private key, set password
+</code></pre></div></pre>
+<p data-tc-unit="18">This account will be used for deployment.</p>
+<hr>
+<h2 id="section-8" data-tc-unit="19">7) Local dry-run (optional)</h2>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>anvil
+# new terminal:
+forge script script/DeployMagnetToken.s.sol \
+  --account MyMagneAccount \
+  --fork-url https://rpc.testnet.magicalhash.com \
+  --broadcast
+
+</code></pre></div></pre>
+<p data-tc-unit="20">You’ll see the deployed address and total supply logs.</p>
+<hr>
+<h2 id="section-9" data-tc-unit="21">8) Deploy to <strong>MAGNE L1 Testnet</strong></h2>
+<p data-tc-unit="22">Make sure the wallet has <strong>MAGNE L1</strong> testnet tokens for gas.</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>forge script script/DeployMagnetToken.s.sol \
+  --account MyMagneAccount \
+  --rpc-url https://rpc.testnet.magicalhash.com \
+  --broadcast
+
+</code></pre></div></pre>
+<p data-tc-unit="23">The output will include the transaction hash and your deployed contract address.</p>
+<blockquote>
+<p data-tc-unit="24">💡 You can adapt this for mainnet by switching to your mainnet RPC (e.g. <a href="https://rpc.magicalhash.com" target="_blank" rel="noopener noreferrer">https://rpc.magicalhash.com</a>).</p>
+</blockquote>
+<hr>
+<h2 id="section-10" data-tc-unit="25">9) Verify the contract on <a href="https://explorer.testnet.magicalhash.com/contract-verification" target="_blank" rel="noopener noreferrer">MAGNE L1  explorer</a></h2>
+<p data-tc-unit="26">MAGNE.AI uses Etherscan-compatible verification. You’ll need an API key:</p>
+<pre class="overflow-x-auto"><div><button data-action="copy" type="button">Copy</button><pre><code>forge verify-contract \
+  --watch \
+  --chain magne-ai-testnet \
+  &lt;0xYOUR_DEPLOYED_CONTRACT_ADDRESS&gt; \
+  src/MagnetToken.sol:MagnetToken \
+  --verifier etherscan \
+  --etherscan-api-key &lt;YOUR_API_KEY&gt;
+
+</code></pre></div></pre>
+<p data-tc-unit="27">Once verified, the contract page will be visible on <a href="https://explorer.testnet.magicalhash.com/contract-verification" target="_blank" rel="noopener noreferrer">MAGNE L1 explorer</a>.</p>
+<hr>
+<h2 id="section-11" data-tc-unit="28">10) Quick Checklist</h2>
+<ul>
+<li data-tc-unit="29">✅ Token name / symbol (<span>"MAGNE Token"</span>, <span>"MHA"</span>)</li>
+<li data-tc-unit="30">✅ Initial supply with <span>ether</span> (18 decimals)</li>
+<li data-tc-unit="31">✅ RPC: <span>https://rpc.testnet.magicalhash.com/</span></li>
+<li data-tc-unit="32">✅ Wallet: <span>MyMagneAccount</span></li>
+<li data-tc-unit="33">✅ API key for verification</li>
+<li data-tc-unit="34">✅ Testnet MAGNE balance for gas</li>
+</ul>

@@ -1,0 +1,20 @@
+<h1 id="section-0">建立與部署測試合約</h1><span id="section-6" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-7" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-8" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-9" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-10" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-11" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-12" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-13" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-14" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-15" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-16" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-17" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-18" class="wp-legacy-anchor" aria-hidden="true"></span>
+<p>範例採 Bash／WSL 指令、Node.js 24、Foundry 1.7.1、Solidity 0.8.30（Paris EVM 目標）及 OpenZeppelin Contracts 5.6.1，請使用下載中的固定版本及 lockfile。Paris 是範例相容性目標，不代表現行網絡分叉設定。</p><p><a href="/whitepaper/examples/contracts.zip" download="">下載完整合約範例</a></p><h2 id="section-1">本地編譯</h2><p>解壓縮後進入 contracts 資料夾並執行：</p><pre><code>npm install
+npm run build
+npm test</code></pre><p>src/Counter.sol</p><pre><code>// SPDX-License-Identifier: MIT
+pragma solidity 0.8.30;
+contract Counter {
+    uint256 public number;
+    function increment() external { number += 1; }
+}
+</code></pre><h2 id="section-2">只在本地執行</h2><p>在一個終端啟動本地節點：</p><pre><code>npm run anvil</code></pre><p>在同一資料夾的第二個終端，使用 Anvil 已解鎖的開發帳戶部署。此步驟只發送至 localhost：</p><pre><code>npx forge create src/Counter.sol:Counter --rpc-url http://127.0.0.1:8545 --unlocked --from 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 --broadcast</code></pre><h2 id="section-3">選擇測試網</h2><pre><code># Select ONE network in Bash / WSL:
+export MAGNE_RPC_URL="https://rpc.testnet.magicalhash.com"
+export MAGNE_CHAIN_ID="20250810"
+# For L2 instead:
+# export MAGNE_RPC_URL="https://l2-rpc.testnet.magicalhash.com"
+# export MAGNE_CHAIN_ID="20250827"
+npx cast chain-id --rpc-url "$MAGNE_RPC_URL"</code></pre><p>確認回傳 Chain ID 與所選值相同；不符時停止。使用專用測試帳戶，向官方水龍頭取得測試 Gas。</p><h2 id="section-4">明確執行測試網部署</h2><p>以互動方式將測試帳戶匯入加密金鑰庫。帶 --broadcast 的指令會提交真正的測試網交易並使用測試 Gas；forge create 沒有該旗標時屬 dry run。不要把金鑰放在前端檔案或版本庫。</p><pre><code>npx cast wallet import magne-test --interactive
+npx forge create src/Counter.sol:Counter --rpc-url "$MAGNE_RPC_URL" --account magne-test --broadcast
+# Replace with the address printed after deployment:
+export COUNTER_ADDRESS="0xYOUR_DEPLOYED_COUNTER_ADDRESS"
+npx cast call "$COUNTER_ADDRESS" "number()(uint256)" --rpc-url "$MAGNE_RPC_URL"</code></pre><h2 id="section-5">核對結果</h2><p>在所選測試網核對回執、Chain ID、已部署 bytecode 及初始計數值。命令範例不是部署證明。瀏覽器原始碼驗證取決於其支援的驗證器及 API，請按該瀏覽器指引操作，不使用虛構的鏈別名。</p><p><a href="https://getfoundry.sh/forge/deploying/">Foundry deployment reference</a> · <a href="/tc/developers/net-config">網絡配置</a></p>

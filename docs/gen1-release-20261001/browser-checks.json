@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "locale": "en",
+      "width": 390,
+      "overflow": false,
+      "open": true,
+      "rows": 38,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "overflow": false,
+      "open": true,
+      "rows": 38,
+      "broken": []
+    },
+    {
+      "locale": "tc",
+      "width": 390,
+      "overflow": false,
+      "open": true,
+      "rows": 38,
+      "broken": []
+    },
+    {
+      "locale": "tc",
+      "width": 1440,
+      "overflow": false,
+      "open": true,
+      "rows": 38,
+      "broken": []
+    }
+  ],
+  "errors": [],
+  "archiveUnchanged": true,
+  "otherNineAllocationRulesUnchanged": true
+}

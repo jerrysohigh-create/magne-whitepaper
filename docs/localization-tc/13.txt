@@ -1,0 +1,95 @@
+/developers/build-contract
+676	Build A Smart Contract
+677	MAGNE Layer1 Blockchain
+678	<strong>Deploy Smart Contracts</strong>
+679	A guide to help you get started with deploying your smart contracts on MAGNE Layer1 Blockchain.
+680	Welcome to the MAGNE Layer1 Blockchain deployment quickstart guide! This comprehensive walkthrough will help you set up your environment and deploy smart contracts on MAGNE Layer1 Blockchain. Whether you're a seasoned developer or just starting out, this guide has got you covered.
+681	<strong>What You'll Achieve</strong>
+682	By the end of this quickstart, you'll be able to:
+683	Set up your development environment to deploy on MAGNE Layer1 Blockchain
+684	Deploy your smart contracts to MAGNE Layer1 Blockchain
+685	Connect your frontend to your smart contracts
+686	Why MAGNE Layer1 Blockchain?
+687	MAGNE Layer1 Blockchain is a mobile-first, EVM-compatible, PoW-based Layer1 chain where smartphones and edge devices can participate in mining and consensus, ensuring security, decentralization, and performance.
+688	<strong>Set Up Your Development Environment</strong>
+689	Create a new project directory
+690	Install Foundry, a powerful framework for smart contract development
+691	This installs Foundry and updates it to the latest version.
+692	Initialize a new Solidity project
+693	Copy
+694	Your Foundry project is now ready. You'll find an example contract in the <span>src</span> directory, which you can replace with your own contracts. For the purposes of this guide, we'll use the Counter contract provided in <span>src/Counter.sol</span>
+695	Foundry provides a suite of tools for EVM application development, including Forge (for testing), Cast (for interacting with the chain), and Anvil (for setting up a local node). You can learn more about Foundry <a href="https://book.getfoundry.sh/" target="_blank" rel="noopener noreferrer">here</a>.
+696	<strong>Configure Foundry with</strong> MAGNE Layer1 Blockchain
+697	To deploy your smart contracts to MAGNE Layer1 Blockchain, you need two key components:
+698	A node connection to interact with the MAGNE Layer1 Blockchain network
+699	A funded private key to deploy the contract
+700	Let's set up both of these:
+701	<strong>1. Set up your node connection</strong>
+702	Create a <span>.env</span> file in your project's root directory
+703	Add the MagicalHash network RPC URL to your <span>.env</span> file
+704	Load your environment variables
+705	Magne L1 Testnet is the test network for MAGNE Layer1 Blockchain, which we will use for the rest of this guide. You can obtain free MHA from one of the <a href="https://faucet.testnet.magicalhash.com" target="_blank" rel="noopener noreferrer">faucets</a> .
+706	<strong>2. Secure your private key</strong>
+707	Store your private key in Foundry's secure keystore
+708	When prompted enter your private key and a password.
+709	Your private key is stored in <span>~/.foundry/keystores</span> which is not tracked by git.
+710	Never share or commit your private key. Always keep it secure and handle with care.
+711	<strong>Deploy Your Contracts</strong>
+712	Now that your environment is set up, let's deploy your contracts to Magne L1 Testnet.
+713	Use the following command to compile and deploy your contract
+714	Note the format of the contract being deployed is <span>&lt;contract-path&gt;:&lt;contract-name&gt;</span>.
+715	After successful deployment, the transaction hash will be printed to the console output
+716	Copy the deployed contract address and add it to your <span>.env</span> file
+717	Load the new environment variable
+718	<strong>Verify Your Deployment</strong>
+719	To ensure your contract was deployed successfully:
+720	Check the transaction on <a href="http://explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">https://explorer.testnet.magicalhash.com</a>.
+721	Use the <span>cast</span> command to interact with your deployed contract from the command line
+722	This will return the initial value of the Counter contract's <span>number</span> storage variable, which will be <span>0</span>.
+723	<strong>Congratulations! You've deployed your smart contracts to MAGNE L1 chain!</strong>
+724	M Hash Layer2 Blockchain
+725	<strong>Deploy Smart Contracts</strong>
+726	A guide to help you get started with deploying your smart contracts on M Hash Layer2 Blockchain
+727	Welcome to the M Hash Layer2 Blockchain deployment quickstart guide! This comprehensive walkthrough will help you set up your environment and deploy smart contracts on M Hash Layer2 Blockchain. Whether you're a seasoned developer or just starting out, this guide has got you covered.
+728	<strong>What You'll Achieve</strong>
+729	By the end of this quickstart, you'll be able to:
+730	Set up your development environment to deploy on M Hash Layer2 Blockchain.
+731	Deploy your smart contracts to M Hash Layer2 Blockchain.
+732	Connect your frontend to your smart contracts
+733	Why M Hash Layer2 Blockchain?
+734	M Hash Layer2 Blockchain is a high-performance Layer 2 network built on opStack with an asynchronous consensus mechanism, separating consensus from execution to significantly boost throughput and efficiency while ensuring security and low-cost transactions.
+735	<strong>Set Up Your Development Environment</strong>
+736	Create a new project directory
+737	Install Foundry, a powerful framework for smart contract development
+738	This installs Foundry and updates it to the latest version.
+739	Initialize a new Solidity project
+740	Your Foundry project is now ready. You'll find an example contract in the <span>src</span> directory, which you can replace with your own contracts. For the purposes of this guide, we'll use the Counter contract provided in <span>src/Counter.sol</span>
+741	Foundry provides a suite of tools for EVM application development, including Forge (for testing), Cast (for interacting with the chain), and Anvil (for setting up a local node). You can learn more about Foundry <a href="https://book.getfoundry.sh/" target="_blank" rel="noopener noreferrer">here</a>.
+742	<strong>Configure Foundry with</strong> M Hash Layer2 Blockchain
+743	To deploy your smart contracts to M Hash Layer2 Blockchain, you need two key components:
+744	A node connection to interact with the M Hash Layer2 Blockchain network
+745	A funded private key to deploy the contract
+746	Let's set up both of these:
+747	<strong>1. Set up your node connection</strong>
+748	Create a <span>.env</span> file in your project's root directory
+749	Add the M Hash Layer2 Blockchain network RPC URL to your <span>.env</span> file
+750	Load your environment variables
+751	M Hash L2 Testnet is the test network for M Hash Layer2 Blockchain, which we will use for the rest of this guide. You can obtain free MHA from one of the <a href="https://faucet.testnet.magicalhash.com" target="_blank" rel="noopener noreferrer">faucets</a> .
+752	<strong>2. Secure your private key</strong>
+753	Store your private key in Foundry's secure keystore
+754	When prompted enter your private key and a password.
+755	Your private key is stored in <span>~/.foundry/keystores</span> which is not tracked by git.
+756	Never share or commit your private key. Always keep it secure and handle with care.
+757	<strong>Deploy Your Contracts</strong>
+758	Now that your environment is set up, let's deploy your contracts to M Hash L2 Testnet.
+759	Use the following command to compile and deploy your contract
+760	Note the format of the contract being deployed is <span>&lt;contract-path&gt;:&lt;contract-name&gt;</span>.
+761	After successful deployment, the transaction hash will be printed to the console output
+762	Copy the deployed contract address and add it to your <span>.env</span> file
+763	Load the new environment variable
+764	<strong>Verify Your Deployment</strong>
+765	To ensure your contract was deployed successfully:
+766	Check the transaction on <a href="http://explorer.testnet.magicalhash.com/" target="_blank" rel="noopener noreferrer">https://l2-explorer.testnet.magicalhash.com</a>.
+767	Use the <span>cast</span> command to interact with your deployed contract from the command line
+768	This will return the initial value of the Counter contract's <span>number</span> storage variable, which will be <span>0</span>.
+769	<strong>Congratulations! You've deployed your smart contracts to</strong> M Hash L2 <strong>chain!</strong>

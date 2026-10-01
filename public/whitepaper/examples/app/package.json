@@ -1,0 +1,16 @@
+{
+  "name": "magne-whitepaper-app-example",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "viem": "2.57.2"
+  },
+  "devDependencies": {
+    "vite": "8.3.2"
+  }
+}

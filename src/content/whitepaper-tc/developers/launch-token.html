@@ -1,0 +1,41 @@
+<h1 id="section-0">建立示範 ERC-20 代幣</h1><span id="section-6" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-7" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-8" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-9" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-10" class="wp-legacy-anchor" aria-hidden="true"></span><span id="section-11" class="wp-legacy-anchor" aria-hidden="true"></span>
+<p>本教學建立初始供應量 1,000,000 枚的 Demo Token（DEMO），不部署、取代或鑄造正式 Magic Hash（MHA）。</p><p>範例採 Bash／WSL 指令、Node.js 24、Foundry 1.7.1、Solidity 0.8.30（Paris EVM 目標）及 OpenZeppelin Contracts 5.6.1，請使用下載中的固定版本及 lockfile。Paris 是範例相容性目標，不代表現行網絡分叉設定。</p><p><a href="/whitepaper/examples/contracts.zip" download="">下載完整合約範例</a></p><h2 id="section-1">完整項目結構</h2><pre><code>contracts/
+  package.json
+  package-lock.json
+  foundry.toml
+  src/Counter.sol
+  src/DemoToken.sol
+  test/Examples.t.sol</code></pre><p>保留 Counter 範例，不透過重新命名檔案留下失效測試匯入。</p><h2 id="section-2">src/DemoToken.sol</h2><pre><code>// SPDX-License-Identifier: MIT
+pragma solidity 0.8.30;
+import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+contract DemoToken is ERC20 {
+    constructor(address recipient) ERC20("Demo Token", "DEMO") {
+        _mint(recipient, 1_000_000 * 10 ** decimals());
+    }
+}
+</code></pre><h2 id="section-3">編譯與測試</h2><pre><code>npm install
+npm run build
+npm test</code></pre><p>隨附測試涵蓋初始供應、接收者配置、轉帳餘額及總供應保持不變。</p><pre><code>// SPDX-License-Identifier: MIT
+pragma solidity 0.8.30;
+import {Counter} from "../src/Counter.sol";
+import {DemoToken} from "../src/DemoToken.sol";
+contract ExamplesTest {
+    function testCounter() public {
+        Counter c = new Counter();
+        require(c.number() == 0, "initial value");
+        c.increment(); c.increment();
+        require(c.number() == 2, "two increments");
+    }
+    function testDemoSupplyAndTransfer() public {
+        DemoToken d = new DemoToken(address(this));
+        uint256 supply = 1_000_000 * 10 ** d.decimals();
+        require(d.totalSupply() == supply, "supply");
+        require(d.balanceOf(address(this)) == supply, "recipient");
+        d.transfer(address(0xBEEF), 100 ether);
+        require(d.balanceOf(address(0xBEEF)) == 100 ether, "transfer");
+        require(d.balanceOf(address(this)) == supply - 100 ether, "sender");
+        require(d.totalSupply() == supply, "no extra issuance");
+    }
+}
+</code></pre><h2 id="section-4">本地部署</h2><p>按上一章啟動 Anvil，再僅向 localhost 執行：</p><pre><code>npx forge create src/DemoToken.sol:DemoToken --rpc-url http://127.0.0.1:8545 --unlocked --from 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 --broadcast --constructor-args 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266</code></pre><h2 id="section-5">可選測試網部署</h2><p>本地測試後，按上一章選擇 RPC 並核對 Chain ID。匯入專用測試帳戶，把接收者佔位文字替換成公開地址；此指令會向所選測試網廣播。</p><pre><code>export DEMO_RECIPIENT="0xYOUR_TEST_RECIPIENT_ADDRESS"
+npx forge create src/DemoToken.sol:DemoToken --rpc-url "$MAGNE_RPC_URL" --account magne-test --broadcast --constructor-args "$DEMO_RECIPIENT"</code></pre><p>在正確網絡記錄合約與交易。此範例不涵蓋主網部署；正式操作指引須待主網配置公布。</p>

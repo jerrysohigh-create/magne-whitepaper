@@ -1,0 +1,67 @@
+{
+  "noProvider": {
+    "appendedText": "",
+    "bodyTail": "taMask\nKey\tValue\nNetwork Name\tMAGNE L1 Testnet\nRPC URL\thttps://rpc.testnet.magicalhash.com\nChain ID\t20250810\nCurrency symbol\tMHA\nBlock Explorer URL\thttps://explorer.testnet.magicalhash.com\nMHA Testnet Faucet\thttps://faucet.testnet.magicalhash.com\nM Hash L2 Testnet\nAdd to MetaMask\nKey\tValue\nNetwork Name\tM Hash L2 Testnet\nRPC URL\thttps://l2-rpc.testnet.magicalhash.com\nChain ID\t20250827\nCurrency symbol\tMHA\nBlock Explorer URL\thttps://l2-explorer.testnet.magicalhash.com\nMHA Testnet Faucet\thttps://faucet.testnet.magicalhash.com\nManaged by\n© 2025 MAGNE.AI. All rights reserved.\nMAGNE.AI\nPrivacy Policy",
+    "alerts": [
+      ""
+    ]
+  },
+  "addNetwork": [
+    {
+      "method": "wallet_switchEthereumChain",
+      "params": [
+        {
+          "chainId": "0x13500ba"
+        }
+      ]
+    },
+    {
+      "method": "wallet_addEthereumChain",
+      "params": [
+        {
+          "chainId": "0x13500ba",
+          "chainName": "MAGNE L1 Testnet",
+          "rpcUrls": [
+            "https://rpc.testnet.magicalhash.com"
+          ],
+          "blockExplorerUrls": [
+            "https://explorer.testnet.magicalhash.com"
+          ],
+          "nativeCurrency": {
+            "name": "MHA",
+            "symbol": "MHA",
+            "decimals": 18
+          }
+        }
+      ]
+    },
+    {
+      "method": "wallet_switchEthereumChain",
+      "params": [
+        {
+          "chainId": "0x13500cb"
+        }
+      ]
+    },
+    {
+      "method": "wallet_addEthereumChain",
+      "params": [
+        {
+          "chainId": "0x13500cb",
+          "chainName": "M Hash L2 Testnet",
+          "rpcUrls": [
+            "https://l2-rpc.testnet.magicalhash.com"
+          ],
+          "blockExplorerUrls": [
+            "https://l2-explorer.testnet.magicalhash.com"
+          ],
+          "nativeCurrency": {
+            "name": "MHA",
+            "symbol": "MHA",
+            "decimals": 18
+          }
+        }
+      ]
+    }
+  ]
+}

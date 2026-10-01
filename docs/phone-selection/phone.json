@@ -1,0 +1,269 @@
+{
+  "text": "跳至主要內容\nMAGNE.AI\n產品檔案 · DOSSIER 01\nMAG1 · GEN 1\nPRODUCT FILE\nMAGNE.AI\nINDEX\nPHONE\nAI\nNETWORK\nSECURITY\nCOMPLIANCE\nPROGRESS\nPARTNERS\nMEDIA KIT\nCONTACT\nW3 ↗\nEN\n繁中\n預購 MAG1 ↗\n\nMAG1 · 3D 技術終端\n\n不是另一支手機。\n是 AI Agent 的交易終端。\n\n身份、支付與 AI Agent 在掌心交會。MAG1 把端側 AI、AgentPay、硬件簽章與離線復原放進同一個可被掌握的安全裝置層。\n\nBUILD 51\n白 / 黑機身\nAGENTPAY\n硬件信任層\nBUILD 51 / 白色 + 黑色機身\n載入安全終端模型\n0%\n拖曳旋轉 · 雙指縮放\n自動旋轉\n機身顏色\n白色機型\n黑色機型\nMAG1 · GEN 1\nAI AGENT 交易入口\n硬件信任層\n硬件決定邊界。\n軟件只能在邊界內承諾。\nFILE 01-A\n52 COMPONENTS\nV51 HYBRID\n\n結構解剖 · ENGINEERING VIEW\n\n從外殼，\n一直看到信任根。\n\n逐層拆開 MAG1，查看影像、供電、主板、安全元件與離線復原架構。每一項承諾，都能被定位到具體硬件。\n\n進入完整工程視圖\n↗\nLIVE STRUCTURE / INTERACTIVE\nOPEN VIEWER ↗\n\nMAG1 SYSTEM STACK\n\n不是五組規格。\n是一套共同工作的系統。\n\n從 Gemini、端側 AI 與 Android 服務，一路落到異構算力、N60 安全元件與真實硬件。每一層都有自己的責任，也有自己的證據邊界。\n\nPRODUCT CONFIRMED\nADB VERIFIED\nIN DEVELOPMENT\n01\n使用者體驗\nUSER EXPERIENCE\nGoogle Gemini\nDEFAULT ASSISTANT\n端側翻譯與語音\nQWEN · ASR · TTS\nAI 影像\nISP · VISION AI\n錢包與身份\nWEB3 ENTRY\n02\n應用與服務\nAPPLICATION & SERVICES\nAndroid 15 + GMS\nSYSTEM SERVICES\nFIH AI Services\nSDK / AAR\n安全服務\nOMAPI · KEYMINT\nWeb3 Services\nIN DEVELOPMENT\n03\n核心平台\nHETEROGENEOUS COMPUTE\nUNISOC T9100\nCPU · GPU · ISP\nIMG AX3596\n1.2GHz · 10 TOPS INT8\nUniAI / NN HAL\nRUNTIME ROUTING\n04\n安全與連接\nTRUST & CONNECTIVITY\nHyperSeed N60\nPRODUCT CONFIRMED\nHED · OMAPI · eSE1\nADB VERIFIED\n5G · Wi-Fi · BT · NFC\nDEVICE CONNECTIVITY\n05\n硬件子系統\nPHYSICAL DEVICE\n6.78\" · 120Hz\nDISPLAY\n50MP + 2MP + 2MP\n16MP FRONT\n最高 12GB + 512GB\nMEMORY & STORAGE\n5000mAh\n33W · 15W WIRELESS\n查看完整系統架構與 3D 工程模型\nFULL ARCHITECTURE →\nI\n\n解剖 · ANATOMY\n\n三塊核心，\n各自負責一件事。\n01\n\nCOMPUTE\n\nUNISOC T9100 + IMG AX3596\n\n5G 應用運算與 10 TOPS INT8 端側 AI 各自就位。智能先在裝置發生，再決定是否需要雲端。\n\n10 TOPS\n02\n\nTRUST\n\nTEE + HyperSeed N60\n\n可信執行環境隔離敏感運算；獨立安全元件保存密鑰並執行簽章。\n\nEAL6+\n03\n\nRECOVERY\n\nHyperSeed 72B NFC\n\n復原材料被放進一張可離線保存的實體卡。裝置可以更換，所有權不必一起遺失。\n\nOFFLINE\nII\n\n規格 · SPECIFICATION\n\n不是規格競賽。\n是每一項都有工作。\n\n一台終端的規格表不應只是數字。處理器承擔日常，NPU 承擔本地模型，記憶體承擔持續推論，安全元件承擔不可外包的部分。\n\n「不是手機預算。\n是終端預算。」\nSOC\nUNISOC T9100 5G\nNPU\nIMG AX3596 · 1.2GHz · 10 TOPS INT8\nMEMORY\n8GB / 12GB + 12GB Virtual\nSTORAGE\n最高 512GB · UFS 3.1\nDISPLAY\n6.78\" · 1080 × 2388 · 最高 120Hz\nCAMERA\n50MP ISOCELL JN1 · 4K30 HDR + EIS\nBATTERY\n5000mAh · 33W PD · 15W Wireless\nSYSTEM\nAndroid 15 + GMS\nSECURITY\nTEE EAL2+ · SE / NFC EAL6+\n查看完整技術規格、WW / EEA 韌體與頻段\nTECH SPECS →\n\n工程證據 · EVT HARDWARE\n\n不是示意圖。\n是真實 EVT 樣機主板。\nEVT SAMPLE\n\n拆機取得的 PCBA 元件面與屏蔽面，保留真實板形、連接器、屏蔽罩與焊接細節。它證明硬件已經存在，也清楚標示目前證據屬於 EVT 階段，而非 PVT 樣機。\n\nPCBA / COMPONENT SIDE\n元件面\nPCBA / SHIELD SIDE\n屏蔽面\n翻轉查看兩個真實表面\nOPEN EVT BOARD VIEW →\nIII\n\n影像 · AI IMAGING\n\n先把世界拍清楚。\n再交給端側計算。\nPLATE 04\n50MP ISOCELL JN1\nMAG1 / MA1\n\n讓每一個瞬間，都清晰出彩。\n\nMAG1 以 Samsung ISOCELL JN1 5000 萬像素主攝負責高解析採集，再由 UNISOC T9100 的 ISP 與端側運算鏈路處理色彩、HDR、暗光與穩定。影像不只是一組鏡頭，而是一條從感光元件到本地計算的完整路徑。\n\n50MP\nJN1 主攝 · ƒ/1.8 · AF\n4K30\nHDR 與 EIS 可同時啟用\n16MP\n前置自拍與視訊通訊\n2 + 2MP\n微距與景深輔助鏡頭\n01\nCapture\n感光元件採集\n02\nProcess\nISP 即時處理\n03\nCompute\nNPU 端側運算\n04\nRender\n照片與影片輸出\n\n本頁只描述已由工程資料或實機驗證的能力；視覺搜尋、即時環境理解與 AI Agent 視覺互動不列作目前交付功能。\n\n展開相機與影片規格\nCAMERA SPECS →\nIV\n\n抵達 · THE ARRIVAL\n\n盒裡不只是一支手機。\n還有離線的退路。\nOFFLINE RECOVERY / 01\n\n裝置、充電與說明，讓產品開始工作；安全元件與 NFC 復原卡，則為所有權保留一條不依賴手機在線的路徑。\n\n可被遺失。\n不必失去其所承載之物。\n圖示為工程包裝方案，最終內容、標示與配件依出貨版本及地區而定。\nPLATE 02\nEXPLODED VIEW\nPACKAGE SYSTEM\nV\n\n兩個空間 · TWO SPACES\n\n日常向世界開放。\n金庫對世界保持沉默。\n01 / EVERYDAY\nAndroid 15 + GMS\n\n通訊、影像、應用與選擇性雲端 AI，維持完整的日常裝置體驗。\n\nGoogle Mobile Services\n選擇性 Gemini 體驗\n一般應用與個人資料\n02 / VAULT\nWeb3 安全空間\n\n錢包、簽章與敏感資產流程由另一道生物辨識與安全元件守住。\n\n硬件簽章\n私鑰不可匯出\nNFC 離線復原\nVI\n\n日常智能 · EVERYDAY INTELLIGENCE\n\n安全空間之外，\n仍是一支完整的 Android 手機。\n\nAndroid 15、Google Mobile Services 與 Gemini 體驗服務日常使用；資產、簽章與復原流程則留在隔離的安全空間。\n\n01 / SYSTEM\n系統基礎\n\n完整 Android 應用環境與官方應用入口。\n\nAndroid 15\n行動作業系統\nGoogle Play\n應用與內容入口\n02 / AI + PRODUCTIVITY\nAI 與生產力\n\n搜尋、郵件、雲端資料與視訊協作。\n\nGemini\n選擇性 AI 體驗\nGmail\n電子郵件\nGoogle Drive\n雲端儲存\nGoogle Meet\n視訊會議\n03 / DAILY EXPERIENCE\n日常體驗\n\n導航、瀏覽、影音與娛樂服務。\n\nGoogle Maps\n導航與位置\nChrome\n網頁瀏覽\nYouTube\n影音串流\nYouTube Music\n音樂串流\nGoogle TV\n娛樂內容\n\nGoogle Gemini 雲端 AI 體驗可經系統助手路徑存取；功能可用性取決於地區、Google 帳戶、軟件版本和適用服務條款。Google、Android、Google Play、Gemini 及相關標誌為其各自權利人的商標；本頁不表示 Google 對 MAGNE.AI 的背書、商業合作或聯合開發。\n\nNEXT FILE\n端側 AI 如何在這台裝置上工作？\nAI →\nMAGNE.AI\n\n智能終端，不只是智能手機。\n\n閱讀\nINDEX\nAI\nNetwork\n驗證\n合規總覽\nFCC\nGSMA TAC\n連接\n預購\n聯絡\n資源\nMedia Kit\nW3 Web3 入口 ↗\n白皮書 ↗\n關注\nGitHub\nX\nTelegram\nYouTube\nDiscord\n© 2026 MAGNE.AI\n產品檔案 · DOSSIER 01\n隱私政策\nCookie 設定\n隱私 / 01\n選用 COOKIE，由您控制。\n\n必要儲存用於網站運作並記住您的選擇。Google Analytics 協助我們了解網站效能；廣告儲存功能始終停用。\n\n隱私政策\n\n接受全部\n僅使用必要 COOKIE\n管理偏好",
+  "images": [
+    {
+      "src": "https://www.magne.ai/assets/images/magne-logo-black-wide.png",
+      "alt": "MAGNE.AI",
+      "width": 1181,
+      "height": 116
+    },
+    {
+      "src": "https://www.magne.ai/assets/images/phone-architecture-preview.webp?v=3",
+      "alt": "MAG1 手機完全拆解的工程視圖",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "src": "https://www.magne.ai/assets/mainboard-3d/images/mainboard-component-side.webp?v=3",
+      "alt": "MAG1 EVT 主板元件面高清實拍",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/mainboard-3d/images/mainboard-shield-side.webp?v=3",
+      "alt": "MAG1 EVT 主板屏蔽面高清實拍",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/media-kit/phone-white.webp",
+      "alt": "MAG1 白色機型正面、背面與側面視圖",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/media-kit/package-exploded.webp",
+      "alt": "MAG1 工程包裝、手機、NFC 復原卡、說明文件及配件的垂直拆解圖",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/google-services/android-icon.png",
+      "alt": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/google-services/play-icon.png",
+      "alt": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/google-services/gemini-icon.png",
+      "alt": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/google-services/gmail-icon.png",
+      "alt": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/google-services/drive-icon.png",
+      "alt": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/google-services/meet-icon.png",
+      "alt": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/google-services/maps-icon.png",
+      "alt": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/google-services/chrome-icon.png",
+      "alt": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/google-services/youtube-icon.jpg",
+      "alt": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/google-services/youtube-music-icon.png",
+      "alt": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://www.magne.ai/assets/google-services/tv-icon.png",
+      "alt": "",
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "links": [
+    {
+      "text": "跳至主要內容",
+      "href": "https://www.magne.ai/phone.html#main"
+    },
+    {
+      "text": "///",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "text": "MAGNE.AI",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "text": "INDEX",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "text": "PHONE",
+      "href": "https://www.magne.ai/phone.html"
+    },
+    {
+      "text": "AI",
+      "href": "https://www.magne.ai/ai.html"
+    },
+    {
+      "text": "NETWORK",
+      "href": "https://www.magne.ai/network.html"
+    },
+    {
+      "text": "SECURITY",
+      "href": "https://www.magne.ai/security.html"
+    },
+    {
+      "text": "COMPLIANCE",
+      "href": "https://www.magne.ai/compliance.html"
+    },
+    {
+      "text": "PROGRESS",
+      "href": "https://www.magne.ai/progress.html"
+    },
+    {
+      "text": "PARTNERS",
+      "href": "https://www.magne.ai/partners.html"
+    },
+    {
+      "text": "MEDIA KIT",
+      "href": "https://www.magne.ai/media-kit.html"
+    },
+    {
+      "text": "CONTACT",
+      "href": "https://www.magne.ai/contact.html"
+    },
+    {
+      "text": "W3 ↗",
+      "href": "https://w3.magne.ai/"
+    },
+    {
+      "text": "預購 MAG1 ↗",
+      "href": "https://payment.magne.ai/buy"
+    },
+    {
+      "text": "進入完整工程視圖↗",
+      "href": "https://www.magne.ai/phone-architecture.html"
+    },
+    {
+      "text": "\n        \n        LIVE STRUCTURE / INTERACTIVE\n        OPEN VIEWER ↗\n      ",
+      "href": "https://www.magne.ai/phone-architecture.html"
+    },
+    {
+      "text": "查看完整系統架構與 3D 工程模型FULL ARCHITECTURE →",
+      "href": "https://www.magne.ai/phone-architecture.html#system-stack"
+    },
+    {
+      "text": "查看完整技術規格、WW / EEA 韌體與頻段TECH SPECS →",
+      "href": "https://www.magne.ai/phone-specs.html"
+    },
+    {
+      "text": "翻轉查看兩個真實表面OPEN EVT BOARD VIEW →",
+      "href": "https://www.magne.ai/mainboard-3d.html"
+    },
+    {
+      "text": "展開相機與影片規格CAMERA SPECS →",
+      "href": "https://www.magne.ai/phone-specs.html#camera"
+    },
+    {
+      "text": "端側 AI 如何在這台裝置上工作？ AI →",
+      "href": "https://www.magne.ai/ai.html"
+    },
+    {
+      "text": "INDEX",
+      "href": "https://www.magne.ai/"
+    },
+    {
+      "text": "AI",
+      "href": "https://www.magne.ai/ai.html"
+    },
+    {
+      "text": "Network",
+      "href": "https://www.magne.ai/network.html"
+    },
+    {
+      "text": "合規總覽",
+      "href": "https://www.magne.ai/compliance.html"
+    },
+    {
+      "text": "FCC",
+      "href": "https://www.magne.ai/fcc-lookup.html"
+    },
+    {
+      "text": "GSMA TAC",
+      "href": "https://www.magne.ai/gsma-tac-lookup.html"
+    },
+    {
+      "text": "預購",
+      "href": "https://payment.magne.ai/buy"
+    },
+    {
+      "text": "聯絡",
+      "href": "https://www.magne.ai/contact.html"
+    },
+    {
+      "text": "Media Kit",
+      "href": "https://www.magne.ai/media-kit.html"
+    },
+    {
+      "text": "W3 Web3 入口 ↗",
+      "href": "https://w3.magne.ai/"
+    },
+    {
+      "text": "白皮書 ↗",
+      "href": "https://web3.magne.ai/"
+    },
+    {
+      "text": "GitHub",
+      "href": "https://github.com/magne-ai"
+    },
+    {
+      "text": "X",
+      "href": "https://x.com/Magne_Ai"
+    },
+    {
+      "text": "Telegram",
+      "href": "https://t.me/MagneAI"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://www.youtube.com/@MagneAI"
+    },
+    {
+      "text": "Discord",
+      "href": "https://discord.gg/tX2xRAkd"
+    },
+    {
+      "text": "隱私政策",
+      "href": "https://www.magne.ai/privacy-policy.html"
+    },
+    {
+      "text": "隱私政策",
+      "href": "https://www.magne.ai/privacy-policy.html"
+    }
+  ]
+}
