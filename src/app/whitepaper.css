@@ -1,5 +1,3 @@
-@import "./whitepaper-figures.css";
-@import "./tokenomics-reader.css";
 /* Tokenomics v1.1 disclosure styles — revision 2026-09-30. */
 /* Option 3 — Open Reference. Scoped so the v1.0 archive retains its original skin. */
 .wp-site{--wp-ink:#101217;--wp-muted:#606776;--wp-line:#e0e2e6;--wp-red:#bf1631;color:var(--wp-ink);background:#fff;font-family:Geist,Arial,sans-serif;min-height:100vh;font-size:15px;line-height:1.5;color-scheme:light}

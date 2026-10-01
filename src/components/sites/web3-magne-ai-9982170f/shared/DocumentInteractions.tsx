@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState, type MouseEvent } from "react
 import { createPortal } from "react-dom";
 import { Gen1Calculator } from "@/components/whitepaper/Gen1Calculator";
 import { Gen1IncentiveCalculator } from "@/components/whitepaper/Gen1IncentiveCalculator";
+import { withDocumentBasePath } from "@/lib/site-path";
 
 type EthereumProvider = {
   request: (request: { method: string; params?: unknown[] }) => Promise<unknown>;
@@ -170,7 +171,7 @@ export function DocumentInteractions({ html, locale = "en" }: { html: string; lo
 
   return (
     <>
-      <div className="site-document" ref={attachRoot} onClick={handleClick} dangerouslySetInnerHTML={{ __html: html }} />
+      <div className="site-document" ref={attachRoot} onClick={handleClick} dangerouslySetInnerHTML={{ __html: withDocumentBasePath(html) }} />
       {widgetHosts.base && createPortal(<Gen1Calculator locale={locale} />, widgetHosts.base)}
       {widgetHosts.incentive && createPortal(<Gen1IncentiveCalculator locale={locale} />, widgetHosts.incentive)}
       <div role="status" aria-live="polite" aria-atomic="true" className="document-status">

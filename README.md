@@ -14,6 +14,10 @@ This is a **review draft**. Proposed rules, governance and mainnet services are 
 
 ## Run
 
+Public review preview: [Traditional Chinese](https://jerrysohigh-create.github.io/magne-whitepaper/tc/) · [English](https://jerrysohigh-create.github.io/magne-whitepaper/) · [v1.0 archive](https://jerrysohigh-create.github.io/magne-whitepaper/v1.0/).
+
+Pushes to `main` build and deploy GitHub Pages through `.github/workflows/pages.yml`. `npm run build:pages` produces the static `out/` directory with the `/magne-whitepaper` base path; `npm run build` retains the standalone server build. The Pages preview is a review draft and does not change the production MAGNE domains.
+
 Requires Node.js 24+. No secrets or environment file are required for this documentation site.
 
 ```sh

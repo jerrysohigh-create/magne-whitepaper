@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import { withBasePath } from "@/lib/site-path";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { ArrowRight, Search, Menu, X, ChevronDown } from "lucide-react";
@@ -72,9 +73,9 @@ export function WhitepaperShell({ children, toc = [], home = false, locale = "en
   return <div className={`wp-site ${locale === "tc" ? "wp-tc" : ""}`} lang={locale === "tc" ? "zh-Hant" : "en"}>
     <a className="wp-skip" href="#wp-main">{t("Skip to content")}</a>
     <header className="wp-header">
-      <Link className="wp-brand" href={href("/")} aria-label={t("MAGNE.AI Whitepaper home")}><Image src="/whitepaper/magne-logo.png" alt="MAGNE.AI" width={228} height={23} unoptimized priority /><span>{t("WHITEPAPER")}</span></Link>
+      <Link className="wp-brand" href={href("/")} aria-label={t("MAGNE.AI Whitepaper home")}><Image src={withBasePath("/whitepaper/magne-logo.png")} alt="MAGNE.AI" width={228} height={23} unoptimized priority /><span>{t("WHITEPAPER")}</span></Link>
       <DocumentSearch locale={locale} />
-      <nav className="wp-language" aria-label={locale === "tc" ? "語言" : "Language"}>{(["en", "tc"] as const).map(lang => <a key={lang} href={localizeHref(pathname,lang)} lang={lang === "tc" ? "zh-Hant" : "en"} hrefLang={lang === "tc" ? "zh-Hant" : "en"} aria-current={locale === lang ? "true" : undefined} onClick={event => { event.currentTarget.href = localizeHref(pathname,lang) + window.location.search + window.location.hash; try {localStorage.setItem("magne-whitepaper-language",lang);} catch { /* Navigation works even if storage is unavailable. */ } }}>{lang === "en" ? "EN" : "繁體中文"}</a>)}</nav>
+      <nav className="wp-language" aria-label={locale === "tc" ? "語言" : "Language"}>{(["en", "tc"] as const).map(lang => <a key={lang} href={withBasePath(localizeHref(pathname,lang))} lang={lang === "tc" ? "zh-Hant" : "en"} hrefLang={lang === "tc" ? "zh-Hant" : "en"} aria-current={locale === lang ? "true" : undefined} onClick={event => { event.currentTarget.href = withBasePath(localizeHref(pathname,lang)) + window.location.search + window.location.hash; try {localStorage.setItem("magne-whitepaper-language",lang);} catch { /* Navigation works even if storage is unavailable. */ } }}>{lang === "en" ? "EN" : "繁體中文"}</a>)}</nav>
       <Link className="wp-archive-link" href="/v1.0">{t("v1.0 Original")} <ArrowRight size={16} aria-hidden="true" /></Link>
       <button className="wp-menu-button" ref={menuButton} type="button" aria-label={t("Open chapter navigation")} aria-controls="wp-mobile-menu" aria-expanded={menuOpen} onClick={() => {menu.current?.showModal();setMenuOpen(true);}}><Menu size={23} /></button>
     </header>

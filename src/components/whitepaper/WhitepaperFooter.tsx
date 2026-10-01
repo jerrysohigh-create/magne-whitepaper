@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { withBasePath } from "@/lib/site-path";
 import Link from "next/link";
 import { useRef, useState } from "react";
 import { ArrowUpRight, X } from "lucide-react";
@@ -36,7 +37,7 @@ export function WhitepaperFooter({locale}: {locale: Locale}) {
   return <footer className="wp-footer wp-footer-expanded" id="site-footer" aria-label={t("Whitepaper footer", "白皮書頁尾")}>
     <div className="wp-footer-heading">
       <Link href={localizeHref("/", locale)} aria-label={t("MAGNE.AI Whitepaper home", "MAGNE.AI 白皮書首頁")}>
-        <Image src="/whitepaper/magne-logo.png" alt="MAGNE.AI" width={183} height={19} unoptimized />
+        <Image src={withBasePath("/whitepaper/magne-logo.png")} alt="MAGNE.AI" width={183} height={19} unoptimized />
       </Link>
       <span className="wp-eyebrow">{t("WHITEPAPER / v1.1 REVIEW DRAFT", "白皮書 / v1.1 審核稿")}</span>
     </div>

@@ -3,6 +3,8 @@ import "../source.css";
 import "../document-fonts.css";
 import "../clone.css";
 import "../documents.css";
+import "../whitepaper-figures.css";
+import "../tokenomics-reader.css";
 import "../whitepaper.css";
 export const metadata: Metadata = {
   title: "MAGNE.AI Whitepaper | v1.1 Review Draft",

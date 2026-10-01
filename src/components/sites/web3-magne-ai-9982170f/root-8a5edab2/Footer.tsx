@@ -1,3 +1,4 @@
+import { withBasePath } from "@/lib/site-path";
 /* eslint-disable @next/next/no-img-element */
 export function Footer() {
   return (
@@ -139,7 +140,7 @@ export function Footer() {
               >
                 <img
                   src={
-                    "/sites/web3-magne-ai-9982170f/root-8a5edab2/ca929fbc-globe.svg"
+                    withBasePath("/sites/web3-magne-ai-9982170f/root-8a5edab2/ca929fbc-globe.svg")
                   }
                   width={"16"}
                   height={"16"}
@@ -299,7 +300,7 @@ export function Footer() {
               >
                 <img
                   src={
-                    "/sites/web3-magne-ai-9982170f/root-8a5edab2/ca929fbc-globe.svg"
+                    withBasePath("/sites/web3-magne-ai-9982170f/root-8a5edab2/ca929fbc-globe.svg")
                   }
                   width={"16"}
                   height={"16"}

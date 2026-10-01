@@ -1,5 +1,6 @@
 "use client";
 
+import { withBasePath } from "@/lib/site-path";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
@@ -222,7 +223,10 @@ const menuSections: { label: string; groups: MenuGroup[] }[] = [
 ];
 
 export function Header() {
-  const pathname = usePathname();
+  const currentPath = usePathname();
+  const isArchive = currentPath.startsWith("/v1.0");
+  const pathname = isArchive ? currentPath.slice(5) : currentPath;
+  const menuHref = (href: string) => withBasePath(isArchive && /^\/(learning|developers|solutions|networks|help|community)(\/|$)/.test(href) ? "/v1.0" + href : href);
   const [isOpen, setIsOpen] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
   const toggleRef = useRef<HTMLButtonElement>(null);
@@ -278,7 +282,7 @@ export function Header() {
               "flex items-center pb-4 pt-4 text-base font-semibold tracking-wide hover:text-[#0088FF]"
             }
             aria-current={pathname.startsWith("/learning") ? "true" : undefined}
-            href={"/learning"}
+            href={menuHref("/learning")}
           >
             <span className={"px-4"}>{"LEARNING"}</span>
           </a>
@@ -287,7 +291,7 @@ export function Header() {
               "flex items-center pb-4 pt-4 text-base font-semibold tracking-wide hover:text-[#0088FF]"
             }
             aria-current={pathname.startsWith("/developers") ? "true" : undefined}
-            href={"/developers"}
+            href={menuHref("/developers")}
           >
             <span>{"DEVELOPERS"}</span>
           </a>
@@ -296,7 +300,7 @@ export function Header() {
               "flex items-center pb-4 pt-4 text-base font-semibold tracking-wide hover:text-[#0088FF]"
             }
             aria-current={pathname.startsWith("/solutions") ? "true" : undefined}
-            href={"/solutions"}
+            href={menuHref("/solutions")}
           >
             <span className={"px-4"}>{"SOLUTIONS"}</span>
           </a>
@@ -305,7 +309,7 @@ export function Header() {
               "flex items-center pb-4 pt-4 text-base font-semibold tracking-wide hover:text-[#0088FF]"
             }
             aria-current={pathname.startsWith("/networks") ? "true" : undefined}
-            href={"/networks"}
+            href={menuHref("/networks")}
           >
             <span className={"px-4"}>{"NETWORKS"}</span>
           </a>
@@ -314,7 +318,7 @@ export function Header() {
               "flex items-center pb-4 pt-4 text-base font-semibold tracking-wide hover:text-[#0088FF]"
             }
             aria-current={pathname.startsWith("/help") ? "true" : undefined}
-            href={"/help"}
+            href={menuHref("/help")}
           >
             <span className={"px-4"}>{"HELP"}</span>
           </a>
@@ -323,7 +327,7 @@ export function Header() {
               "flex items-center pb-4 pt-4 text-base font-semibold tracking-wide hover:text-[#0088FF]"
             }
             aria-current={pathname.startsWith("/community") ? "true" : undefined}
-            href={"/community"}
+            href={menuHref("/community")}
           >
             <span className={"px-4"}>{"COMMUNITY"}</span>
           </a>
@@ -360,12 +364,12 @@ export function Header() {
                     {section.groups.map((group, index) => (
                       <div className="mb-2" key={index}>
                         {group.direct ? (
-                          <a className="block text-sm leading-7 uppercase tracking-wide font-bold mb-2 text-white" href={group.direct.href} target={group.direct.target} rel={group.direct.target === "_blank" ? "noopener noreferrer" : undefined}>{group.direct.text}</a>
+                          <a className="block text-sm leading-7 uppercase tracking-wide font-bold mb-2 text-white" href={menuHref(group.direct.href)} target={group.direct.target} rel={group.direct.target === "_blank" ? "noopener noreferrer" : undefined}>{group.direct.text}</a>
                         ) : (
                           <>
                             {group.title && <div className="text-white text-sm leading-7 uppercase tracking-wide font-bold mb-2">{group.title}</div>}
                             <ul className="space-y-1">
-                              {group.links.map((link) => <li key={link.href}><a className="block px-4 py-2 text-base leading-7 rounded text-white" href={link.href} target={link.target} rel={link.target === "_blank" ? "noopener noreferrer" : undefined}>{link.text}</a></li>)}
+                              {group.links.map((link) => <li key={link.href}><a className="block px-4 py-2 text-base leading-7 rounded text-white" href={menuHref(link.href)} target={link.target} rel={link.target === "_blank" ? "noopener noreferrer" : undefined}>{link.text}</a></li>)}
                             </ul>
                           </>
                         )}

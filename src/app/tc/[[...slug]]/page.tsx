@@ -1,3 +1,4 @@
+import { withBasePath } from "@/lib/site-path";
 import documents from "@/content/whitepaper-tc/manifest.json";
 import routes from "@/content/web3/routes.json";
 import { WhitepaperHome } from "@/components/whitepaper/WhitepaperHome";
@@ -7,7 +8,7 @@ export function generateStaticParams(){return [{slug:[]},...routes.map(r=>({slug
 export async function generateMetadata({params}:Props){
   const {slug}=await params;const route=slug?.length?'/'+slug.join('/'):'/';
   const page=documents.find(d=>d.route===route);
-  return {title:page?`${page.title} | 白皮書 v1.1`:"MAGNE.AI 白皮書 | v1.1 審核稿",alternates:{languages:{en:route,"zh-Hant":route==='/'?'/tc/':'/tc'+route}}};
+  return {title:page?`${page.title} | 白皮書 v1.1`:"MAGNE.AI 白皮書 | v1.1 審核稿",alternates:{languages:{en:withBasePath(route),"zh-Hant":withBasePath(route==='/'?'/tc/':'/tc'+route)}}};
 }
 export default async function ChinesePage({params}:Props){
   const {slug}=await params;
