@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07110e">
+  <meta name="description" content="MHA 链上全量账本与实时数据监控">
+  <title>MHA 全量账本</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#overview" aria-label="MHA 全量账本首页">
+      <span class="brand-mark"><i></i><i></i><i></i></span>
+      <span><strong>MHA</strong><small>LEDGER</small></span>
+    </a>
+
+    <nav aria-label="主要导航">
+      <a class="nav-item active" href="#overview" data-section="overview">
+        <span class="nav-icon">⌂</span><span>数据总览</span>
+      </a>
+      <a class="nav-item" href="#transfers" data-section="transfers">
+        <span class="nav-icon">⇄</span><span>转账流水</span>
+      </a>
+      <a class="nav-item" href="#holders" data-section="holders">
+        <span class="nav-icon">◎</span><span>持币账户</span>
+      </a>
+      <a class="nav-item" href="#system" data-section="system">
+        <span class="nav-icon">◇</span><span>系统状态</span>
+      </a>
+    </nav>
+
+    <div class="side-foot">
+      <div class="network-card">
+        <div><span class="pulse"></span><span>BNB Smart Chain</span></div>
+        <strong>MAINNET</strong>
+      </div>
+      <p>只读审计系统<br>数据直接来自链上事件</p>
+    </div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <button class="menu-button" id="menuButton" aria-label="打开菜单" aria-expanded="false" aria-controls="sidebar">☰</button>
+      <div class="breadcrumb"><span>MHA</span><b>/</b><strong>全量账本</strong></div>
+      <div class="top-actions">
+        <div class="sync-pill" id="syncPill"><span class="pulse"></span><span>正在连接</span></div>
+        <button class="icon-button" id="refreshButton" title="刷新数据" aria-label="刷新数据">↻</button>
+      </div>
+    </header>
+
+    <div class="content">
+      <section class="hero" id="overview">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span>ON-CHAIN INTELLIGENCE</div>
+          <h1>每一枚 MHA，<br><em>都有迹可循。</em></h1>
+          <p>从部署区块重建历史账本，同时采集近期终局事件。历史未追平前，余额仅代表检查点，不代表当前持仓。</p>
+        </div>
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="coin"><span>M</span><small>MHA</small></div>
+          <i class="satellite s1"></i><i class="satellite s2"></i><i class="satellite s3"></i>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="核心数据">
+        <article class="metric-card accent">
+          <div class="metric-label"><span>重建余额总和</span><i>MHA</i></div>
+          <strong id="totalSupply">—</strong>
+          <div class="metric-foot"><span class="mini-up">链上重建</span><small id="supplyRaw">等待数据</small></div>
+        </article>
+        <article class="metric-card">
+          <div class="metric-label"><span>已收录转账</span><i>笔</i></div>
+          <strong id="transferCount">—</strong>
+          <div class="metric-foot"><span>Finalized</span><small id="rawLogCount">— 条原始日志</small></div>
+        </article>
+        <article class="metric-card">
+          <div class="metric-label"><span>历史持币地址</span><i>个</i></div>
+          <strong id="holderCount">—</strong>
+          <div class="metric-foot"><span>余额大于 0</span><small>检查点快照</small></div>
+        </article>
+        <article class="metric-card progress-card">
+          <div class="metric-label"><span>历史同步进度</span><i id="progressText">—</i></div>
+          <strong id="cursorBlock">—</strong>
+          <div class="progress-track"><span id="progressBar"></span></div>
+          <div class="metric-foot"><span>当前游标</span><small id="targetBlock">目标 —</small></div>
+        </article>
+      </section>
+
+      <section class="grid-row">
+        <article class="panel activity-panel">
+          <div class="panel-head">
+            <div><span class="kicker">FLOW SIGNAL</span><h2>历史转账活动</h2></div>
+            <div class="legend"><i></i>已回放最近 100 笔</div>
+          </div>
+          <div class="chart-wrap">
+            <svg id="activityChart" viewBox="0 0 760 220" role="img" aria-label="已回放转账金额，按事件顺序排列，不代表时间趋势"></svg>
+            <div class="chart-empty" id="chartEmpty">正在读取链上数据…</div>
+          </div>
+        </article>
+
+        <article class="panel health-panel" id="system">
+          <div class="panel-head">
+            <div><span class="kicker">INTEGRITY</span><h2>账本就绪状态</h2></div>
+            <span class="health-score" id="healthScore">检查中</span>
+          </div>
+          <div class="health-ring-wrap">
+            <div class="health-ring" id="healthRing"><div><strong id="healthValue">—</strong><small>历史覆盖</small></div></div>
+          </div>
+          <ul class="checks">
+            <li><span>近期采集</span><b id="checkWorker">—</b></li>
+            <li><span>全量历史</span><b id="checkAlerts">—</b></li>
+            <li><span>全地址对账</span><b id="checkHeartbeat">—</b></li>
+          </ul>
+          <p class="readiness-note" id="readinessNote">等待接口数据，不表示账本已就绪。</p>
+        </article>
+      </section>
+
+      <section class="panel table-panel" id="transfers">
+        <div class="panel-head table-head">
+          <div><span class="kicker">IMMUTABLE EVENTS</span><h2>转账流水</h2></div>
+          <form class="search" id="addressSearch">
+            <span>⌕</span>
+            <input id="addressInput" autocomplete="off" spellcheck="false" placeholder="输入钱包地址筛选…" aria-label="按钱包地址筛选">
+            <button type="submit">查询</button>
+          </form>
+        </div>
+        <div class="table-tools"><div class="track-tabs" role="group" aria-label="流水来源"><button id="historyTab" class="selected" aria-pressed="true">历史回放</button><button id="liveTab" aria-pressed="false">近期采集</button></div><span id="transferScope">历史回放中的终局事件</span></div>
+        <div class="active-filter hidden" id="activeFilter"><span></span><button id="clearFilter">清除筛选 ×</button></div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>时间</th><th>转出地址</th><th></th><th>转入地址</th><th>数量</th><th>区块</th><th>交易</th></tr></thead>
+            <tbody id="transferRows"><tr><td colspan="7" class="loading-cell">正在加载转账流水…</td></tr></tbody>
+          </table>
+        </div>
+        <div class="table-footer">
+          <span id="transferRange">—</span>
+          <div><button id="transferPrev">← 上一页</button><button id="transferNext">下一页 →</button></div>
+        </div>
+      </section>
+
+      <section class="panel holders-panel" id="holders">
+        <div class="panel-head">
+          <div><span class="kicker">DISTRIBUTION</span><h2>持币账户排行</h2></div>
+          <small id="holderScope">按历史检查点余额排序</small>
+        </div>
+        <div class="holder-list" id="holderList"><div class="loading-cell">正在加载持仓数据…</div></div>
+        <div class="table-footer">
+          <span id="holderRange">—</span>
+          <div><button id="holderPrev">← 上一页</button><button id="holderNext">下一页 →</button></div>
+        </div>
+      </section>
+
+      <div class="ledger-meta"><a href="/">返回白皮書 / Whitepaper</a><a href="v1/status" target="_blank" rel="noopener">原始状态 JSON</a><a id="contractLink" href="https://bscscan.com/token/0x37c563cdf4606d4302abb395cdb94e79d31233ed" target="_blank" rel="noopener">MHA 合约 · 0x37c5…33ed</a><span id="liveCoverage">近期覆盖：等待数据</span></div>
+      <footer>
+        <div><span class="brand-mark small"><i></i><i></i><i></i></span><strong>MHA LEDGER</strong></div>
+        <p>数据最终性以 BNB Smart Chain 为准 · 本系统不托管任何资产</p>
+        <p id="lastUpdated">最后更新：—</p>
+      </footer>
+    </div>
+  </main>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

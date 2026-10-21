@@ -1,0 +1,6 @@
+*
+!Dockerfile
+!mha/
+!mha/**
+mha/**/__pycache__
+mha/**/*.pyc

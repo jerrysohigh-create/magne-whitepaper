@@ -60,3 +60,11 @@ temp/
 !.env.example
 *.pem
 *.key
+
+# Cloud runtime state never belongs in the source repository.
+**/__pycache__/
+*.pyc
+*.sqlite3*
+/deploy/cloud/runtime/
+/deploy/cloud/backups/
+/deploy/cloud/import/

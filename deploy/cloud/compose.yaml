@@ -1,0 +1,89 @@
+name: magne-whitepaper-cloud
+
+x-ledger: &ledger
+  build: ../../services/mha-ledger
+  image: magne-mha-ledger:cloud
+  restart: unless-stopped
+  init: true
+  env_file: .env
+  environment:
+    MHA_DB_PATH: /data/mha.sqlite3
+    PYTHONDONTWRITEBYTECODE: "1"
+  volumes:
+    - ./runtime/ledger:/data
+  read_only: true
+  tmpfs:
+    - /tmp
+  security_opt:
+    - no-new-privileges:true
+  cap_drop:
+    - ALL
+  logging:
+    driver: json-file
+    options:
+      max-size: 10m
+      max-file: "3"
+
+services:
+  whitepaper:
+    build:
+      context: ../..
+      target: runner
+      args:
+        NEXT_PUBLIC_LEDGER_ENABLED: "true"
+    image: magne-whitepaper:cloud
+    restart: unless-stopped
+    init: true
+    environment:
+      NODE_ENV: production
+      NEXT_TELEMETRY_DISABLED: "1"
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+
+  ledger-worker:
+    <<: *ledger
+    command: [python, -m, mha, public-run]
+    stop_grace_period: 60s
+
+  ledger-api:
+    <<: *ledger
+    command: [python, -m, mha, serve, --host, 0.0.0.0, --port, "8787"]
+
+  gateway:
+    image: nginx:stable-alpine
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${CLOUD_HTTP_PORT:-8080}:8080"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - whitepaper
+      - ledger-api
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+
+  backup:
+    <<: *ledger
+    profiles: [tools]
+    restart: "no"
+    command: [python, /ops/snapshot.py, backup, /data/mha.sqlite3, /backups]
+    volumes:
+      - ./runtime/ledger:/data
+      - ./backups:/backups
+      - ./snapshot.py:/ops/snapshot.py:ro
+
+  restore:
+    <<: *ledger
+    profiles: [tools]
+    restart: "no"
+    command: [python, /ops/snapshot.py, restore, /import/mha.sqlite3, /data/mha.sqlite3]
+    volumes:
+      - ./runtime/ledger:/data
+      - ./import:/import:ro
+      - ./snapshot.py:/ops/snapshot.py:ro

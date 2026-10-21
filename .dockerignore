@@ -37,7 +37,14 @@ CLAUDE.md
 
 # Docs / research (large, not needed at runtime)
 docs
-scripts
+temp
+services
+deploy
+**/.env
+**/.env.*
+**/*.sqlite3*
+**/*.db
+**/__pycache__
 
 # Docker files themselves (no need to copy into image)
 Dockerfile

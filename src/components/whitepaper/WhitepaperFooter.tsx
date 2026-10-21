@@ -50,6 +50,9 @@ export function WhitepaperFooter({locale}: {locale: Locale}) {
       </nav>
       <nav aria-label={t("Official resources", "官方資源")}>
         <h2 className="wp-eyebrow">{t("Resources", "資源")}</h2>
+        {/* Separate service behind the gateway: a full navigation is required. */}
+        {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+        {process.env.NEXT_PUBLIC_LEDGER_ENABLED === "true" && <a href="/mha/">{t("MHA on-chain ledger", "MHA 鏈上帳本")} <ArrowUpRight size={13} aria-hidden="true" /></a>}
         <a href={mainSite} target="_blank" rel="noopener noreferrer">MAGNE.AI <ArrowUpRight size={13} aria-hidden="true" /></a>
         <a href={locale === "tc" ? "https://w3.magne.ai/tc/" : "https://w3.magne.ai/"} target="_blank" rel="noopener noreferrer">{t("W3 ecosystem", "W3 生態")} <ArrowUpRight size={13} aria-hidden="true" /></a>
         <a href={mainSite + "media-kit.html"} target="_blank" rel="noopener noreferrer">{t("Media Kit", "媒體資源")} <ArrowUpRight size={13} aria-hidden="true" /></a>
