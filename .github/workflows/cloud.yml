@@ -1,0 +1,73 @@
+name: Cloud package
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  cloud:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Existing ledger tests
+        working-directory: services/mha-ledger
+        run: |
+          python3 -m unittest discover -s tests -q
+          node tests/test_web_logic.cjs
+      - name: Snapshot safety tests
+        run: python3 -m unittest discover -s deploy/cloud -p 'test_*.py' -v
+      - name: Validate Compose and build both applications
+        working-directory: deploy/cloud
+        run: |
+          cp .env.example .env
+          docker compose config --quiet
+          docker compose build
+      - name: Synthetic local-only database for route smoke checks
+        run: |
+          mkdir -p deploy/cloud/runtime/ledger deploy/cloud/backups
+          PYTHONPATH=services/mha-ledger python3 - <<'PY'
+          from mha.store import Store
+          from mha.config import CONTRACT
+          store = Store('deploy/cloud/runtime/ledger/mha.sqlite3')
+          with store.db:
+              store.set_meta('token', {'chain_id': 56, 'contract': CONTRACT, 'symbol': 'MHA', 'name': 'CI fixture', 'decimals': 18, 'deployment_block': 1})
+              store.set_meta('cursor', {'number': 1, 'hash': '0x' + '0' * 64})
+          store.close()
+          PY
+          sudo chown -R 10001:10001 deploy/cloud/runtime/ledger deploy/cloud/backups
+      - name: Gateway, subpath assets, read-only API and backup smoke checks
+        working-directory: deploy/cloud
+        run: |
+          docker compose up -d whitepaper ledger-api gateway
+          docker compose exec -T gateway nginx -t
+          for attempt in $(seq 1 30); do
+            curl -fsS http://127.0.0.1:8080/ -o /tmp/whitepaper.html && break
+            sleep 2
+          done
+          curl -fsS http://127.0.0.1:8080/ -o /tmp/whitepaper.html
+          grep -q 'href="/mha/"' /tmp/whitepaper.html
+          curl -fsS http://127.0.0.1:8080/mha/ -o /tmp/ledger.html
+          grep -q 'src="assets/app.js"' /tmp/ledger.html
+          curl -fsS http://127.0.0.1:8080/mha/assets/app.js -o /tmp/ledger.js
+          curl -fsS 'http://127.0.0.1:8080/mha/v1/transfers?limit=1' -o /tmp/transfers.json
+          python3 -c 'import json; assert json.load(open("/tmp/transfers.json"))["items"] == []'
+          test "$(curl -s -o /dev/null -w '%{http_code}' -X POST http://127.0.0.1:8080/mha/v1/status)" = 403
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8080/mha/healthz)" = 503
+          docker compose --profile tools run --rm backup
+      - name: Logs
+        if: always()
+        working-directory: deploy/cloud
+        run: docker compose logs --tail 80
+      - name: Stop test services
+        if: always()
+        working-directory: deploy/cloud
+        run: docker compose down

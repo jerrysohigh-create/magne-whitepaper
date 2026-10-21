@@ -37,6 +37,9 @@ RUN --mount=type=cache,target=/root/.npm \
 
 FROM node:${NODE_VERSION} AS builder
 
+ARG NEXT_PUBLIC_LEDGER_ENABLED=false
+ENV NEXT_PUBLIC_LEDGER_ENABLED=${NEXT_PUBLIC_LEDGER_ENABLED}
+
 # Set working directory
 WORKDIR /app
 

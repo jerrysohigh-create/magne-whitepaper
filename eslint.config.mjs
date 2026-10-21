@@ -15,6 +15,8 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     "docs/**",
     "public/**",
+    "temp/**",
+    "services/mha-ledger/**", // Imported service has its own Python and JS tests.
   ]),
 ]);
 

@@ -1,0 +1,82 @@
+{
+  "importedAt": "2026-10-21T13:04:12.946Z",
+  "source": "Existing project-maintained MHA ledger, Windows source synchronized with HW-03; local-only fcntl compatibility retained.",
+  "files": [
+    {
+      "file": "mha/config.py",
+      "sha256": "fe343b23022097d827747b9ba40d99044648265ebbc13f97b8c2c2ad033d5d10"
+    },
+    {
+      "file": "mha/indexer.py",
+      "sha256": "8e127bed6f5336b3c55fe7199638f22f60ce5488b5d50ead6a0a9319cd3976b7"
+    },
+    {
+      "file": "mha/pool.py",
+      "sha256": "efe541a6d4064d835f6fc7b659df123a62245c324ed48c6b6750a033d078afed"
+    },
+    {
+      "file": "mha/preflight.py",
+      "sha256": "8c3c9c9b14d6e07ff3125a3e3035feef938056409037e87db32d3959dd4fec83"
+    },
+    {
+      "file": "mha/public_follower.py",
+      "sha256": "baa1fcb1ef9a54b3320f1e5c7e86563c63ff53e91a0bced737c551359a7a491d"
+    },
+    {
+      "file": "mha/rpc.py",
+      "sha256": "63b3b3b02e583dd7bab5878d99e5970be2e5e49d6a218c582684d14fa1ff7dde"
+    },
+    {
+      "file": "mha/schema.sql",
+      "sha256": "f0c6f7a3b0bbebd82355fce2f2ac93cabba78aa31963e25278307689881155ad"
+    },
+    {
+      "file": "mha/store.py",
+      "sha256": "60a548a653326cf46feb91f9e71684794451186376916bc144b4fb1dfc6d790a"
+    },
+    {
+      "file": "mha/web/app.js",
+      "sha256": "b5980aa4d5dbe3be635c7a9dc6d337bc79abb4b8e7e69337fa539710e7503f2c"
+    },
+    {
+      "file": "mha/web/index.html",
+      "sha256": "9733ab613c94234ae1da595c5d06f89276c8a5fbeb6bea4bfb1cba22e016d27a"
+    },
+    {
+      "file": "mha/web/styles.css",
+      "sha256": "5cc85bccc561e78ba3da817878e10dec10455fc61b039f9d45d983287a1ec2e9"
+    },
+    {
+      "file": "mha/_win_fcntl.py",
+      "sha256": "57b8817d0b707508e111f5f52f192f113ea4b0fe2820440807c9a8bd0c476cd5"
+    },
+    {
+      "file": "mha/__init__.py",
+      "sha256": "962cce56659697c8cbb2149103a0cc41517eca97540f66a2dffe41c6065a20d1"
+    },
+    {
+      "file": "mha/__main__.py",
+      "sha256": "985f56e7f7a01dbf8e7da0504d4b7bb4cb7c00d1e73e9f5b9af7096bb19330b8"
+    },
+    {
+      "file": "tests/test_audit.py",
+      "sha256": "697d529c660eb381262af1445437184082961069d004b6b595d638e29ea27fd2"
+    },
+    {
+      "file": "tests/test_ledger.py",
+      "sha256": "dc59510b50744c84d6b1354d7661967f497b3675ed918d45f4332f5c035715fe"
+    },
+    {
+      "file": "tests/test_public.py",
+      "sha256": "b7c7868fab32482f98b3415cd270e786bf00462f20921c1cfe203e5d2ca54071"
+    },
+    {
+      "file": "tests/test_web.py",
+      "sha256": "e26a1ed9c6c3875af36cdbb83ad2309594d2e763b82d5ab3f26316200602592c"
+    },
+    {
+      "file": "tests/test_web_logic.cjs",
+      "sha256": "8124fe927b840b61d3e8aabc643a3b2cd1c27b0a65de42533e173cece5df9940"
+    }
+  ]
+}
